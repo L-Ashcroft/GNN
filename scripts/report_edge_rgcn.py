@@ -1,0 +1,77 @@
+"""Render a reproducible construction report from measured smoke-test output."""
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from src.common import read
+
+
+def main():
+    r=read(ROOT/'reports/edge_rgcn_build.json')
+    lines=['# 边中心 RGCN 构建与验证','',
+        '**网络实现与真实小批次前向/反向验证已完成。没有进行 50 万条正式训练，没有报告泛化精度。**',
+        '实现依据 `background/讲义4.md` 第 24、25 章，并接入 `data/fusion_v2/`。全部代码、环境安装、缓存和输出均位于 EDA，使用原生 Windows / CPU PyTorch；没有修改官方仓库、数据样本或划分。','',
+        '```mermaid','flowchart LR','  A[网表图与 SI 器件参数] --> B[结构特征与确定性对数变换]',
+        '  B --> C[节点投影 h 与端口边投影 z]','  C --> D[4 层边中心 RGCN]',
+        '  D --> E[节点注意力与边注意力池化]','  E --> F[共享图表示与物理指标族特征层]',
+        '  F --> G[按监督契约隔离的最终输出头]','  G --> H[最多 16 维 symlog 性能向量与缺失 Mask]',
+        '```','',
+        '## 对照讲义的实现','',
+        '| 项目 | 实现 |','| --- | --- |',
+        '| 节点状态更新 | 按关系计算 W_r [h_source, z_edge]，按目标节点及该关系的入边数归一化，加根节点变换与残差，再 LayerNorm |',
+        '| 边状态更新 | 每层使用更新后的两端节点和上一层边状态，经 MLP、残差和 LayerNorm 更新；边状态跨层持续存在 |',
+        '| 层数/隐藏维 | 默认 4 层 / 128，可通过构造参数修改；Dropout=0.1，ReLU |',
+        '| 池化 | 节点注意力池化，加边注意力分支后融合；返回两类注意力权重 |',
+        '| 输出头 | 共享表示层与物理指标族 MLP；最终回归读出按监督契约独立，最多 16 槽 |',
+        '| 损失 | 各契约内部 masked MSE，分母为有效权重和；各组损失等权平均 |',
+        '| 缺失值 | tensor 中以零占位，并携带 Mask；只索引已知位置计算误差，缺失 NaN 不进入算术 |',
+        '| 优化验证 | AdamW，lr=2e-4，wd=1e-2，梯度裁剪范数 5 |','',
+        '节点更新先于边更新。额外边注意力分支是相对讲义单节点池化的明确扩展：若只读出最终节点，最后一层更新后的边状态不会参与损失；本实现直接读出它们，并检查每层边更新参数均收到非零梯度。',
+        '同一器件的多条端口边共享原始器件参数，隐藏状态按有向端口关系分别演化；不是每条边重新采样尺寸。','',
+        '## 与讲义配置示例不同的实际维度','',
+        f"- 节点输入：{r['node_input_features']} 维，使用已经审计的节点结构和角色特征。",
+        f"- 边输入：{r['edge_input_features']} 维，即 30 维数值、30 维已知性标志、30 维零值标志。",
+        f"- 关系：{r['relations']} 类 = 原图 {r['physical_relations']} 类有向端口关系 + {r['auxiliary_coupling_relations']} 类互感引用辅助关系。",
+        f"- 默认模型总参数：**{r['total_parameters']:,}**；固定边状态消融：{r['fixed_edge_ablation_parameters']:,}。",
+        '互感器件 K 本身没有普通端口，参数原本只在 device_references 中。适配器依据 ind1/ind2 指向的两只电感及其端口，派生带端口方向的引用消息，携带 K 的耦合系数。它们不是额外物理导线；原图 JSON 没有改变。',
+        '不能机械使用讲义示例的 R=18、节点维数 10、边维数 5。采用现有真实词表后，参数量和内存均按实际结构报告。','',
+        '## 标签语义与数值尺度','',
+        '保持当前 142 个保守监督契约；模型允许一个批次包含多组，但为每组选择独立最终读出，并先分别计算损失。物理指标族共享的是中间特征提取参数，不代表 Gain、Power 或其他同名标签被认定相等。未自动启用 11 个已审核 LOADBench 合并集合。',
+        '讲义的五类指标族扩展为七类：增益/频率、稳定性、摆幅/失调、速度、功率、RF 品质、解析几何面积，以覆盖现有 RF 指标及面积。完整显式分组在 `config/gnn_targets.json`，没有依据标签相关性自动聚类。',
+        '输出采用 symlog(y/reference_scale)。参考尺度是配置中的固定工程单位，如功率 1 mW、频率 1 MHz、失调 1 mV；它们不是由全数据或测试集拟合的统计量，也不提供语义兼容证据。负压摆率和负 dB 值保留符号，最终输出层没有 ReLU。',
+        '输入采用已有 W/L/R/C/L 对数变换；其余有量纲标量补充 symlog，结构计数采用 log1p，未知 nf 和零电容有独立标志。没有 BatchNorm、没有根据全体样本拟合的均值/标准差。后续若加入标准化，必须只在训练集拟合。','',
+        '## 本机实测','',
+        f"环境：{r['os']}，Python {r['python']}，PyTorch {r['torch']}，CPU 线程 {r['cpu_threads']}。",
+        f"从既有 ID 划分的 **train** 部分选取 {r['real_training_samples']} 条真实样本，覆盖三个来源、{r['source_topologies']} 个拓扑；没有使用验证/测试样本优化参数。",
+        f"本次验证批次共 {r['batch_nodes']} 个节点、{r['batch_message_edges']} 条消息边，其中 {r['batch_coupling_messages']} 条互感引用消息。配置默认正式训练 batch_size=16，本次构建验证将 36 条样本放入一个诊断批次。",
+        f"执行 {r['optimizer_steps']} 个优化步骤，实测共 {r['seconds_for_optimizer_steps']:.3f} 秒，平均 {r['seconds_per_step']:.3f} 秒/步。",
+        f"在同一诊断批次上，eval 模式损失由 {r['initial_eval_loss']:.6f} 降至 {r['final_eval_loss']:.6f}。**这仅检查可优化性，不是验证集性能或泛化结果。**",
+        f"注册 {r['supervision_heads_registered']} 个契约读出，本次只优化了 {r['heads_exercised']} 组。其余读出仍未训练。",
+        '已验证：有限数值/梯度、各层边状态更新参与损失、节点重编号不变性、批次间图隔离、关系内归一化、边顺序不变性、注意力按图归一、Mask 分母、缺失 NaN 不污染损失、负值 symlog 往返、保存加载输出逐位一致、互感参数可影响梯度。','',
+        '## 使用与交付','',
+        '```powershell',r'.\.venv\Scripts\python.exe -m pip install --cache-dir .cache/pip -r requirements-gnn.txt',
+        r'.\.venv\Scripts\python.exe -B -m unittest discover -s tests',
+        r'.\.venv\Scripts\python.exe -B scripts/check_edge_rgcn.py --steps 12 --threads 4',
+        r'.\.venv\Scripts\python.exe -B scripts/report_edge_rgcn.py','```','',
+        '```python','from itertools import islice','from src.dataset_fusion import FusionDataset',
+        'from src.gnn.data import task_registry, input_schema, tensorize','from src.gnn.model import EdgeCentricRGCN',
+        'from src.gnn.losses import supervision_loss','',
+        'dataset = FusionDataset()','tasks, schema = task_registry(dataset), input_schema(dataset)',
+        'rows = list(islice(dataset.samples(',
+        '    split="data/fusion_v2/splits/id.parquet", role="train", materialize=False), 16))',
+        'batch = tensorize(rows, dataset, tasks, schema)','model = EdgeCentricRGCN(schema, tasks)',
+        'prediction = model(batch)','loss, per_group_loss = supervision_loss(prediction, batch)',
+        'loss.backward()','```','',
+        '实现已按讲义 5 拆分到 `src/graph/`、`src/model/`、`src/train/`；`src/gnn/model.py`、`data.py`、`losses.py` 保留兼容导入，预测检查仍在 `src/gnn/inference.py`。',
+        '构建报告机器记录：`reports/edge_rgcn_build.json`。诊断 checkpoint、预测和注意力在 `artifacts/edge_rgcn_smoke/`，checkpoint 显式标记 smoke_only，不可当作已训练性能预测器。`load_predictor()` 默认拒绝 smoke checkpoint，并拒绝未优化的目标头。','',
+        '训练覆盖还按指标槽位记录：即使某个组参与优化，若其中 CMRR/PSRR 等指标始终缺失，也不能声称这些输出已训练。预测接口用独立的 prediction_available 标志表示覆盖，未训练输出为 NaN；这是模型可用性标记，不会更改原始数据的缺失 Mask。','',
+        '## 实验边界与下一步','',
+        '本报告记录基础无域模型的构建验证。后续已经补充的分层学习率、验证/早停、余弦调度和 FiLM 实现，见 [讲义 5 落地报告](lecture5_implementation.md)。尚未进行全量正式训练、五随机种子对照或完整论文基线；没有根据小批次结果宣称 128 最优。',
+        '固定边状态开关 update_edges=False 提供明确消融，仍保留边输入和相同读出结构，不将它误称为完全不使用边参数的普通 RGCN。',
+        '当前严格逐拓扑契约不能直接支撑未知拓扑公共输出头预测。LOTO 文件仅保证数据留出；正式评估前应先批准共享目标、检查训练/测试读出覆盖，再拟合训练集变换并训练。跨来源同名 Gain 不直接共享，跨来源可比标签协议仍未就绪。',
+        '本报告中的数值属于无 FiLM 基础主干。FiLM 版本已有独立的小样本实现检查，见讲义 5 报告；仍未证明其能提升泛化，不能把接线测试当作创新有效性的结果。','',
+        '设计来源：[FALCON 官方前向模型](https://github.com/AsalMehradfar/FALCON/blob/845145c0091fd10c3eaa0bc3d32ca95bfc519550/models/circuit_gnn.py)。边持续状态按讲义 4 公式独立实现，未复制第三方模型代码，也不将当前实现称为 FALCON 原模型的逐行复现。',
+        '框架安装依据：[PyTorch 官方安装说明](https://pytorch.org/get-started/locally/)；实际固定使用官方 CPU 索引中存在的 Windows/Python 3.12 wheel，版本和运行结果以上述机器报告为准。']
+    (ROOT/'reports/edge_rgcn_build.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+
+
+if __name__=='__main__':main()

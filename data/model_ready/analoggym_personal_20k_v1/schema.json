@@ -1,0 +1,228 @@
+{
+  "node_features": [
+    "connected_device_count",
+    "is_supply",
+    "is_positive_supply",
+    "is_negative_supply",
+    "is_ground",
+    "is_input",
+    "is_output",
+    "is_bias",
+    "role_unassigned",
+    "has_verified_role_evidence",
+    "role_evidence_convention_only",
+    "terminal_count:balun:P1",
+    "terminal_count:balun:P2",
+    "terminal_count:balun:P3",
+    "terminal_count:capacitor:N",
+    "terminal_count:capacitor:P",
+    "terminal_count:inductor:N",
+    "terminal_count:inductor:P",
+    "terminal_count:isource:N",
+    "terminal_count:isource:P",
+    "terminal_count:nmos:B",
+    "terminal_count:nmos:D",
+    "terminal_count:nmos:G",
+    "terminal_count:nmos:S",
+    "terminal_count:pmos:B",
+    "terminal_count:pmos:D",
+    "terminal_count:pmos:G",
+    "terminal_count:pmos:S",
+    "terminal_count:port:N",
+    "terminal_count:port:P",
+    "terminal_count:resistor:B",
+    "terminal_count:resistor:N",
+    "terminal_count:resistor:P",
+    "terminal_count:vsource:N",
+    "terminal_count:vsource:P"
+  ],
+  "device_features": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient",
+    "finger_count",
+    "width_length_ratio",
+    "hierarchy_depth",
+    "device_type:balun",
+    "device_type:capacitor",
+    "device_type:inductor",
+    "device_type:isource",
+    "device_type:mutual_inductor",
+    "device_type:nmos",
+    "device_type:pmos",
+    "device_type:port",
+    "device_type:resistor",
+    "device_type:vsource"
+  ],
+  "relations": [
+    "balun:P1>P2",
+    "balun:P1>P3",
+    "balun:P2>P1",
+    "balun:P3>P1",
+    "capacitor:N>P",
+    "capacitor:P>N",
+    "inductor:N>P",
+    "inductor:P>N",
+    "isource:N>P",
+    "isource:P>N",
+    "nmos:B>D",
+    "nmos:B>G",
+    "nmos:B>S",
+    "nmos:D>B",
+    "nmos:D>G",
+    "nmos:D>S",
+    "nmos:G>B",
+    "nmos:G>D",
+    "nmos:G>S",
+    "nmos:S>B",
+    "nmos:S>D",
+    "nmos:S>G",
+    "pmos:B>D",
+    "pmos:B>G",
+    "pmos:B>S",
+    "pmos:D>B",
+    "pmos:D>G",
+    "pmos:D>S",
+    "pmos:G>B",
+    "pmos:G>D",
+    "pmos:G>S",
+    "pmos:S>B",
+    "pmos:S>D",
+    "pmos:S>G",
+    "port:N>P",
+    "port:P>N",
+    "resistor:B>N",
+    "resistor:B>P",
+    "resistor:N>B",
+    "resistor:N>P",
+    "resistor:P>B",
+    "resistor:P>N",
+    "vsource:N>P",
+    "vsource:P>N",
+    "mutual_reference:L1.P>L2.P",
+    "mutual_reference:L1.P>L2.N",
+    "mutual_reference:L1.N>L2.P",
+    "mutual_reference:L1.N>L2.N",
+    "mutual_reference:L2.P>L1.P",
+    "mutual_reference:L2.N>L1.P",
+    "mutual_reference:L2.P>L1.N",
+    "mutual_reference:L2.N>L1.N"
+  ],
+  "physical_relations": 44,
+  "domains": [
+    {
+      "id": 0,
+      "source_dataset": "AnalogGym_generated",
+      "process": "SKY130"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "supply_voltage_V",
+      "scale": 1.0
+    },
+    {
+      "name": "temperature_C",
+      "scale": 100.0
+    },
+    {
+      "name": "power_offset_temperature_C",
+      "scale": 100.0
+    },
+    {
+      "name": "dc_temperature_min_C",
+      "scale": 100.0
+    },
+    {
+      "name": "dc_temperature_max_C",
+      "scale": 100.0
+    },
+    {
+      "name": "load_capacitance_F",
+      "scale": 1e-09
+    },
+    {
+      "name": "common_mode_V",
+      "scale": 1.0
+    },
+    {
+      "name": "reference_voltage_V",
+      "scale": 1.0
+    },
+    {
+      "name": "target_output_V",
+      "scale": 1.0
+    },
+    {
+      "name": "load_light_A",
+      "scale": 0.001
+    },
+    {
+      "name": "load_heavy_A",
+      "scale": 0.001
+    },
+    {
+      "name": "ac_min_Hz",
+      "scale": 1.0
+    },
+    {
+      "name": "ac_max_Hz",
+      "scale": 1000000.0
+    },
+    {
+      "name": "transient_maxstep_s",
+      "scale": 1e-08
+    },
+    {
+      "name": "transient_stop_s",
+      "scale": 0.0001
+    },
+    {
+      "name": "transient_input_transition_s",
+      "scale": 1e-09
+    },
+    {
+      "name": "load_step_transition_s",
+      "scale": 1e-07
+    },
+    {
+      "name": "input_low_V",
+      "scale": 1.0
+    },
+    {
+      "name": "input_high_V",
+      "scale": 1.0
+    },
+    {
+      "name": "vb",
+      "scale": 1.0
+    },
+    {
+      "name": "vb1",
+      "scale": 1.0
+    },
+    {
+      "name": "vb2",
+      "scale": 1.0
+    },
+    {
+      "name": "current_0_bias",
+      "scale": 1e-06
+    }
+  ],
+  "condition_input_dim": 46
+}

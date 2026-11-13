@@ -1,0 +1,20 @@
+{
+  "parent": "scratch_k100_seed42",
+  "parent_checkpoint_sha256": "25dbf7847dd0f820e00c398934a9020455aeeee78d1032b73dafe50f4c33b1b3",
+  "training_ids_sha256": "12c2229593c0c7060ca47cc952091106e63060e7867f3ac71166a52cb2755872",
+  "budget_per_topology": 100,
+  "role_policy": "Declared adaptation train rows and validation only; test embeddings remain NaN",
+  "files": {
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Alfio_RAFFC_Pin_3/embedding.npy": "ffecfc001a9fc0e272d38351207c1f355b1bee6030c66ddffb3aa9dfc9262343",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Fan_SMC_Pin_3/embedding.npy": "c37f88ec5cdcdfb73e7737cd0c4aa116119210495e028310181cadd7335020bc",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/HoiLee_AFFC_Pin_3/embedding.npy": "291aab561147f712dbaf593f0c3cbb3a98d65a108426d5592892c30d485fee15",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Leung_DFCFC1_Pin_3/embedding.npy": "e125a2569d6b5720a5c446577aac96bbcb7505713a863c321df5b01307125c0d",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Leung_NMCNR_Pin_3/embedding.npy": "77aebdbfcbbb07b8c4c7944b133bbb30a627c02f7c5d89e76c123236e7cfee3b",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Peng_TCFC_Pin_3/embedding.npy": "6191b40c98c30dcbee1f797d7b77a66e8159820ab95edc852bb14554d45bf4f4",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Qu2017_AZC_Pin_3/embedding.npy": "9307eb04d39310418d95900e7f9f8c44c38584ba1d534630a775ebd8c29889fd",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/Song_DACFC_Pin_3/embedding.npy": "939a52625adcd10a686ada952f12c54c28108a23442a38d6473e2781c1ecc493",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/ldo_folded_cascode/embedding.npy": "8b682c0e00d52c5f1367790e4fc6933ce35f2f6e55c2f2f38ff9d3e0a013e492",
+    "data/model_ready/personal_refinement_v2/scratch_k100_seed42/ldo_simple/embedding.npy": "a71e745cf86aaaf6db9414ccec7deab15484ef1f144d55cb4b50ce7960a5901e"
+  },
+  "at": "2026-11-05T11:59:27.739745+00:00"
+}

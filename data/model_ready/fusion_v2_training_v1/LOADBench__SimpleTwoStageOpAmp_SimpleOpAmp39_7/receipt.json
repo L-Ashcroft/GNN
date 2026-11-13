@@ -1,0 +1,72 @@
+{
+  "rows": 6,
+  "folder": "data/model_ready/fusion_v2_training_v1/LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp39_7",
+  "inputs": {
+    "source": "3b329ea4d6eb164a32230a82cc69bb59ae12705e40fdedf8fbf64c485ad7a53d",
+    "graph": "1e857074876d6df52e76a8396def269bbd9288dfe426834d656b3682b3aa3ec9",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "ef4124f45ffb0c3b58bbed1f5331087ba1c42b3fed33de923323d0d80d1a9435",
+    "group.npy": "20f51e4d59ce9fe8d41c30a56a34caa4d5b959eebdcad4c3de716ebf5220844a",
+    "known.npy": "465dbebc2ef5f6c6bec8b73636899957a35ef6d6305316a7a4fcfc2db5b9577e",
+    "mask.npy": "a2f3d1bf3236fcf0f812005aacc47aabcc7aabe3c4a2886de8b104cad4b2cb2c",
+    "role.npy": "62e8bd51bfd50ff855fb16f15705a08f86e3d23e8036e94460191715f1e54215",
+    "sample_ids.npy": "7697974635a776c67f7d2b1df8aa60946c535cdbda89e20bede8c6ddf0113a1c",
+    "target.npy": "7397feb9d94525cef92362b513e72beeb2536eb6e95060e4fbdd14325d87f29c",
+    "values.npy": "0796c9c4729253da8b62b5066e11d586fe0a1e81bf94cc6ea82e0bbebde7b3df",
+    "zero.npy": "82122c053b22c2e0d03f3ae469fe9087d9f91d9da4824de24bffbd865fb32915"
+  },
+  "coverage": {
+    "0": {
+      "beb88047518ef88532a55688fb5cb32c60c6fa64678596f39f40927ed5cf94a0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "1": {
+      "beb88047518ef88532a55688fb5cb32c60c6fa64678596f39f40927ed5cf94a0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "2": {
+      "beb88047518ef88532a55688fb5cb32c60c6fa64678596f39f40927ed5cf94a0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "reference_checks": 3
+}

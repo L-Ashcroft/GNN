@@ -1,0 +1,18 @@
+{
+  "parent_sha256": "a306eeb48b5161b28bff0c4430c392bfe56089f21ef2d62e22bc457355c074dc",
+  "files": {
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Alfio_RAFFC_Pin_3.npy": "eb29f6d770bf9b93005f4cd07105fab114da66aba5c2537f5afa6d485777d6d3",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Fan_SMC_Pin_3.npy": "919deb41ca6fc8e56954d4611254e5049dfab5b3b336f476e8b18a348dd96204",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/HoiLee_AFFC_Pin_3.npy": "5413ed22c4cd2af63beab1816f8749e1d816691334cb23122138010a9cd2650a",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Leung_DFCFC1_Pin_3.npy": "9a2248bc3dbdaca0fbaf4919bd0fd721c79b3aab84a7d2091fa4dcc557d6d0e6",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Leung_NMCNR_Pin_3.npy": "659885934b397d7d373c4f571335e6af37ca5bd0af118cd132adc0f0f6b07b3a",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Peng_TCFC_Pin_3.npy": "b1562530705830a49b60755a9242d43de1cfdfc8a64c9c5d1c0ad79c6894f06b",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Qu2017_AZC_Pin_3.npy": "112066b241fd7f9576532bfa91e1d21bf1dbd085c435603a84e534c77eed5b6b",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/Song_DACFC_Pin_3.npy": "7376a5cc14cf893f3c1148758afc0ddced871bf9839523c21026f2c407f2be33",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/ldo_folded_cascode.npy": "f8b093a67075c8477e2982b3e4d4d53f58f7b3d01dfe9b2bf3260b616780ba41",
+    "artifacts/research_repair_v1/personal_test/embeddings/scratch_k20_seed42/ldo_simple.npy": "25945202bbee767e1b0d2f8f14e98b475f6e813af19808df64228c952256ce07"
+  },
+  "validation_embedding_max_absolute_error": 1.9073486328125e-06,
+  "role": "test_only",
+  "rows": 2000
+}

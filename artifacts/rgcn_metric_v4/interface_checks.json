@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "real_validation_rows": 20653,
+  "max_absolute_error": 8.0108642578125e-05,
+  "rtol": 1e-09,
+  "atol": 1e-07,
+  "test_used_for_check": false
+}

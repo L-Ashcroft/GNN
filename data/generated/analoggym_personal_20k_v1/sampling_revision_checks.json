@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "old_rows_identical_except_added_trace_fields": 293,
+  "base_recipe_and_frozen_code_unchanged": true,
+  "new_folded_attempts_verified": 258,
+  "new_folded_exported_rows_verified": 245,
+  "new_folded_raw_labels_recomputed": 3,
+  "candidate_boundary": 83
+}

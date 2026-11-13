@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "real_train_samples": 5,
+  "relations_in_batch": 48,
+  "sources": 3,
+  "dropout": 0.1,
+  "deterministic": true,
+  "test_labels_accessed": false,
+  "checkpoint_or_official_results_modified": false,
+  "qualification_only_not_experiment_scores": true,
+  "jobs": [
+    {
+      "id": "rgcn_memory_safe_id_control_v2",
+      "parameters": 8146624,
+      "finite_two_training_steps": true,
+      "losses": [
+        1.3763166315129094,
+        1.3395392725047834
+      ],
+      "seconds": 0.735586200025864
+    },
+    {
+      "id": "rgcn_memory_safe_no_film_v2",
+      "parameters": 8014528,
+      "finite_two_training_steps": true,
+      "losses": [
+        1.3763166315129094,
+        1.3391348050490486
+      ],
+      "seconds": 0.6095477000344545
+    },
+    {
+      "id": "rgcn_memory_safe_static_edges_v2",
+      "parameters": 7883456,
+      "finite_two_training_steps": true,
+      "losses": [
+        1.3763166315129094,
+        1.3398937530777049
+      ],
+      "seconds": 0.5704233000287786
+    },
+    {
+      "id": "rgcn_memory_safe_collapsed_relations_v2",
+      "parameters": 1980224,
+      "finite_two_training_steps": true,
+      "losses": [
+        1.3763166315129094,
+        1.3337101950914305
+      ],
+      "seconds": 0.14583489997312427
+    }
+  ],
+  "RSS_MiB": 351.3671875,
+  "queue_sha256": "75b3248b49f46b94029ee54318310202ebb602fd5b4ab323e56728a502e7f819",
+  "loto_cpu_microbatch_benchmark": {
+    "rows": [
+      {
+        "threads": 1,
+        "microbatch": 16,
+        "mean_step_seconds": 0.14761206666662474,
+        "range_seconds": [
+          0.1122862999982317,
+          0.1801603999992949
+        ],
+        "finite_loss": true
+      },
+      {
+        "threads": 2,
+        "microbatch": 16,
+        "mean_step_seconds": 0.10027813333363156,
+        "range_seconds": [
+          0.0835451999992074,
+          0.11609619999944698
+        ],
+        "finite_loss": true
+      },
+      {
+        "threads": 4,
+        "microbatch": 16,
+        "mean_step_seconds": 0.07525496666615557,
+        "range_seconds": [
+          0.06113239999831421,
+          0.08595820000118692
+        ],
+        "finite_loss": true
+      },
+      {
+        "threads": 8,
+        "microbatch": 16,
+        "mean_step_seconds": 0.07821109999955904,
+        "range_seconds": [
+          0.06486470000163536,
+          0.09576139999990119
+        ],
+        "finite_loss": true
+      }
+    ],
+    "TRAIN_only": true,
+    "private_samples_used": false,
+    "heldout_test_used": false,
+    "scope": "Small real train-only microsteps; not full effective-batch or epoch throughput",
+    "host_RSS_MiB": 447.890625
+  },
+  "schedule_revision": {
+    "old_queue_sha256": "668f280d3e4180b61b76b7dc9defcce45d8ffb7db45d6bc83eab2d1e39f1e186",
+    "reason": "User requests LOTO first; same five jobs, ID configurations and existing preflight outcomes unchanged",
+    "LOTO_cpu_threads_changed_before_first_recipe": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": "controlled_single_rgcn_lb_v1",
+      "config": "worktrees/controlled_evidence_v1/configs/single_rgcn.json",
+      "output": "artifacts/controlled_single_rgcn_lb_v1"
+    },
+    {
+      "id": "controlled_multi_rgcn_lb_v1",
+      "config": "worktrees/controlled_evidence_v1/configs/multi_rgcn.json",
+      "output": "artifacts/controlled_multi_rgcn_lb_v1"
+    },
+    {
+      "id": "controlled_single_mlp_lb_v1",
+      "config": "worktrees/controlled_evidence_v1/configs/single_mlp.json",
+      "output": "artifacts/controlled_single_mlp_lb_v1"
+    },
+    {
+      "id": "controlled_single_gcn_lb_v1",
+      "config": "worktrees/controlled_evidence_v1/configs/single_gcn.json",
+      "output": "artifacts/controlled_single_gcn_lb_v1"
+    }
+  ],
+  "requires_previous_queue": "worktrees/public_evidence_queue_v1/queue.json",
+  "serial_only": true,
+  "new_test_tuning": false,
+  "extra_FewShot_or_LOTO_runs": false
+}

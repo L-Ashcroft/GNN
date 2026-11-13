@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-31T23:14:42.572371+08:00",
+  "state": "running_verified",
+  "pid": 38876,
+  "create_time": 1793458855.4487903,
+  "head_epoch": 11,
+  "batch": 280,
+  "device": "cpu",
+  "CPU_threads": 2,
+  "torch": "2.9.1+cpu",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "source_fingerprints_match": true,
+  "stderr_empty": true,
+  "no_test_evaluation": true,
+  "original_tested_model_preserved": true,
+  "optimizer_and_cursor_migrated": true
+}

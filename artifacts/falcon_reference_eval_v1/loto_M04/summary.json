@@ -1,0 +1,102 @@
+{
+  "profile": "falcon_stage2_reference_v1",
+  "epsilon_in_native_label_units": 1e-08,
+  "relative_validity": "original Mask AND nonzero native target; no Mask mutation",
+  "main_scalar": "Untrimmed mean of per-sample mean relative errors, all native labels including log units",
+  "log_unit_interpretation": "Relative error of reported log-label numbers, not error of linear voltage/power ratios",
+  "constant_target_r2": "Reference matches sklearn force_finite=True; mathematical R2 retained separately",
+  "canonical_task_key": "source + topology + supervision group + semantic_id",
+  "overall": {
+    "samples": 2404,
+    "undefined_sample_mre": 0,
+    "untrimmed_sample_mre": {
+      "count": 2404,
+      "mean_pct": 295.5631165792568,
+      "median_pct": 26.89912570615827,
+      "std_across_samples_pct": 3940.826060050668,
+      "p90_pct": 180.22315131339414,
+      "p95_pct": 403.6602571086828,
+      "p99_pct": 2673.2283534615763,
+      "max_pct": 142200.4080481069
+    },
+    "plot_only_95th_percentile_view": {
+      "count": 2283,
+      "mean_pct": 49.03746403780994,
+      "median_pct": 25.76597071623732,
+      "std_across_samples_pct": 63.79739154388751,
+      "p90_pct": 119.21848624544603,
+      "p95_pct": 184.07292985436658,
+      "p99_pct": 328.60839007869697,
+      "max_pct": 400.14867061237436,
+      "removed_samples": 121
+    }
+  },
+  "by_source": {
+    "LOADBench": {
+      "samples": 2404,
+      "undefined_sample_mre": 0,
+      "untrimmed_sample_mre": {
+        "count": 2404,
+        "mean_pct": 295.5631165792568,
+        "median_pct": 26.89912570615827,
+        "std_across_samples_pct": 3940.826060050668,
+        "p90_pct": 180.22315131339414,
+        "p95_pct": 403.6602571086828,
+        "p99_pct": 2673.2283534615763,
+        "max_pct": 142200.4080481069
+      },
+      "plot_only_95th_percentile_view": {
+        "count": 2283,
+        "mean_pct": 49.03746403780994,
+        "median_pct": 25.76597071623732,
+        "std_across_samples_pct": 63.79739154388751,
+        "p90_pct": 119.21848624544603,
+        "p95_pct": 184.07292985436658,
+        "p99_pct": 328.60839007869697,
+        "max_pct": 400.14867061237436,
+        "removed_samples": 121
+      }
+    }
+  },
+  "by_topology": {
+    "LOADBench__SimpleOpAmp4": {
+      "samples": 2404,
+      "undefined_sample_mre": 0,
+      "untrimmed_sample_mre": {
+        "count": 2404,
+        "mean_pct": 295.5631165792568,
+        "median_pct": 26.89912570615827,
+        "std_across_samples_pct": 3940.826060050668,
+        "p90_pct": 180.22315131339414,
+        "p95_pct": 403.6602571086828,
+        "p99_pct": 2673.2283534615763,
+        "max_pct": 142200.4080481069
+      },
+      "plot_only_95th_percentile_view": {
+        "count": 2283,
+        "mean_pct": 49.03746403780994,
+        "median_pct": 25.76597071623732,
+        "std_across_samples_pct": 63.79739154388751,
+        "p90_pct": 119.21848624544603,
+        "p95_pct": 184.07292985436658,
+        "p99_pct": 328.60839007869697,
+        "max_pct": 400.14867061237436,
+        "removed_samples": 121
+      }
+    }
+  },
+  "target_tasks": 14,
+  "falcon_native_fields": 0,
+  "observed_scalars": 31882,
+  "reference_nonzero_scalars": 31882,
+  "zero_observations_retained_in_physical_diagnostics": 0,
+  "job_id": "loto_M04",
+  "model_description": "LOTO: SimpleOpAmp4",
+  "at": "2026-11-12T10:09:27.748859+00:00",
+  "analysis_scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+  "selection_used_this_analysis": false,
+  "split_changed": false,
+  "masks_changed": false,
+  "training_recipe_changed": false,
+  "source_unit_restorations": []
+}

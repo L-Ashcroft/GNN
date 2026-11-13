@@ -1,0 +1,255 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1006,
+        "mae": 0.0014724272393049776,
+        "r2": 0.17781024839591075,
+        "relative_count": 1006,
+        "hit5": 0.11332007952286283,
+        "hit10": 0.2753479125248509
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.8567600644408646,
+        "r2": 0.23171793173721977,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.6434428040804961,
+        "r2": 0.549550373213896,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1006,
+        "mae": 0.0012257544267504604,
+        "r2": 0.9650951001146532,
+        "relative_count": 1006,
+        "hit5": 0.1848906560636183,
+        "hit10": 0.36779324055666
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1006,
+        "mae": 2.641389435863848e-05,
+        "r2": 0.9996929130017916,
+        "relative_count": 1006,
+        "hit5": 0.9990059642147118,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.07769408830098308,
+        "r2": 0.9921359986950927,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.0669872486642927,
+        "r2": 0.9950783179922913,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1006,
+        "mae": 0.00017798900202335263,
+        "r2": 0.9993041587710192,
+        "relative_count": 1006,
+        "hit5": 0.8429423459244533,
+        "hit10": 0.9711729622266402
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1006,
+        "mae": 0.0017615435570212988,
+        "r2": -0.22576045129798894,
+        "relative_count": 1006,
+        "hit5": 0.09244532803180915,
+        "hit10": 0.2216699801192843
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 1.0395573306328794,
+        "r2": -0.10412508862026715,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.7586614381703325,
+        "r2": 0.3479908689810458,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1006,
+        "mae": 0.0009475807319321725,
+        "r2": 0.9700327939338798,
+        "relative_count": 1006,
+        "hit5": 0.2912524850894632,
+        "hit10": 0.5656063618290258
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1006,
+        "mae": 0.0002591306698899813,
+        "r2": 0.9690123374416101,
+        "relative_count": 1006,
+        "hit5": 0.7246520874751491,
+        "hit10": 0.9353876739562624
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.23289047690206077,
+        "r2": 0.9058214181528412,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.16528162893262718,
+        "r2": 0.9575889490696291,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1006,
+        "mae": 0.00046148304181449474,
+        "r2": 0.995151481225842,
+        "relative_count": 1006,
+        "hit5": 0.4662027833001988,
+        "hit10": 0.7286282306163022
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1006,
+        "mae": 0.0003855849530339963,
+        "r2": 0.9304231310373798,
+        "relative_count": 1006,
+        "hit5": 0.5566600397614314,
+        "hit10": 0.8300198807157058
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.31543507481562644,
+        "r2": 0.8256196496080883,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1006,
+        "mae": 0.21610842766736443,
+        "r2": 0.919936660166973,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38",
+        "semantic_id": "FALCON__SBAMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1006,
+        "mae": 0.0006068782163313575,
+        "r2": 0.9898362759459987,
+        "relative_count": 1006,
+        "hit5": 0.3926441351888668,
+        "hit10": 0.6570576540755467
+      }
+    ]
+  },
+  "topology": "FALCON__SBAMixer"
+}

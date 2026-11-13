@@ -1,0 +1,83 @@
+{
+  "FALCON": {
+    "url": "https://github.com/AsalMehradfar/FALCON.git",
+    "commit": "845145c0091fd10c3eaa0bc3d32ca95bfc519550"
+  },
+  "AICircuit": {
+    "url": "https://github.com/AvestimehrResearchGroup/AICircuit.git",
+    "commit": "eaf803a6b17151bd44b7ec1bbcc36a8a8897d751"
+  },
+  "LOADBench": {
+    "record": "https://zenodo.org/records/21759759",
+    "doi": "10.5281/zenodo.21759759",
+    "record_json_sha256": "0260c82829baf1148e9aa09567386014670da06244c8e0ab89a7eda60bb5c807",
+    "license": "CC-BY-4.0",
+    "files": [
+      {
+        "id": "865fcfd7-9225-47d8-b1fb-1204ee305fb4",
+        "key": "SymmetricalOpAmps.zip",
+        "size": 3315268696,
+        "checksum": "md5:588a33392dad0d96fb0e42ca5665a52e",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/SymmetricalOpAmps.zip/content"
+        }
+      },
+      {
+        "id": "9f7179b4-b46c-4780-bee6-75c394a1bff5",
+        "key": "reduced_sky130_combined.zip",
+        "size": 634564,
+        "checksum": "md5:afc78b96c130d2830b86ccebdf6573e7",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/reduced_sky130_combined.zip/content"
+        }
+      },
+      {
+        "id": "d4752889-dc75-49c8-b4c2-c3fe7942eb06",
+        "key": "ThreeStageOpAmps.zip",
+        "size": 7337596228,
+        "checksum": "md5:613d0a26024b8160e1ae1ca577f724df",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/ThreeStageOpAmps.zip/content"
+        }
+      },
+      {
+        "id": "faff9721-ef59-4c3a-ab51-df70fd930898",
+        "key": "TwoStageOpAmps.zip",
+        "size": 14974874749,
+        "checksum": "md5:57e9a214cb9c29b002765482b7f63963",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/TwoStageOpAmps.zip/content"
+        }
+      },
+      {
+        "id": "2017691e-8ede-4d0f-aa97-de801d16f9a8",
+        "key": "AllCombinedTestbenches.zip",
+        "size": 329506,
+        "checksum": "md5:044fda40ae82fd4f0c766e4360989fee",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/AllCombinedTestbenches.zip/content"
+        }
+      },
+      {
+        "id": "29cd63b5-50cf-42db-be64-4031a112d751",
+        "key": "TopologySelectionAndInverseSizingBenchmark.zip",
+        "size": 5109691613,
+        "checksum": "md5:fdef6d018cac8ea5319e4497884514a0",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/TopologySelectionAndInverseSizingBenchmark.zip/content"
+        }
+      },
+      {
+        "id": "55adccae-711a-4ba1-910b-3a55da3c2f0e",
+        "key": "OneStageOpAmps.zip",
+        "size": 8203436621,
+        "checksum": "md5:43cca22429905359df829f3dbf866c7b",
+        "links": {
+          "self": "https://zenodo.org/api/records/21759759/files/OneStageOpAmps.zip/content"
+        }
+      }
+    ],
+    "official_code": "https://github.com/FilipeAz/LOADBench-Scripts.git",
+    "official_code_commit": "03cc45620afbbbee19652d83d625f26f3368d951"
+  }
+}

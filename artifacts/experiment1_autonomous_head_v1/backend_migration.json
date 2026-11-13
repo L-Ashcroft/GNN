@@ -1,0 +1,10 @@
+{
+  "source": "artifacts/experiment1_cached_head_cpu_continue_v1",
+  "source_last_sha256": "696229b5ee4a8946707ad24b97a047979e841c902ed80f948cacd21588a2d40a",
+  "weights_and_AdamW_moments_exactly_inherited": true,
+  "next_additional_epoch": 20,
+  "next_batch": 0,
+  "partial_samples": 0,
+  "backend": "CPU FP32",
+  "test_data_or_scores_used": false
+}

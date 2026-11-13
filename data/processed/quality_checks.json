@@ -1,0 +1,219 @@
+{
+  "status": "passed",
+  "sampled_ids_checked": 500000,
+  "graphs_checked": 29,
+  "tables": [
+    {
+      "topology_id": "FALCON__CGLNA",
+      "converted_rows_checked": 51852,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "FALCON__CLNA",
+      "converted_rows_checked": 541,
+      "sampled_rows_checked": 541
+    },
+    {
+      "topology_id": "FALCON__CSLNA",
+      "converted_rows_checked": 38613,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "FALCON__DLNA",
+      "converted_rows_checked": 92145,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__DBAMixer",
+      "converted_rows_checked": 41687,
+      "sampled_rows_checked": 10147
+    },
+    {
+      "topology_id": "FALCON__DBPMixer",
+      "converted_rows_checked": 42046,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__SBAMixer",
+      "converted_rows_checked": 52365,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__SBPMixer",
+      "converted_rows_checked": 43662,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__ClassBPA",
+      "converted_rows_checked": 34903,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "FALCON__ClassEPA",
+      "converted_rows_checked": 46367,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__DohPA",
+      "converted_rows_checked": 120333,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__DPA",
+      "converted_rows_checked": 79568,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__CGVA",
+      "converted_rows_checked": 33383,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "FALCON__CSVA",
+      "converted_rows_checked": 20722,
+      "sampled_rows_checked": 12456
+    },
+    {
+      "topology_id": "FALCON__CVA",
+      "converted_rows_checked": 22455,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "FALCON__SFVA",
+      "converted_rows_checked": 28282,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__CCVCO",
+      "converted_rows_checked": 54281,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "FALCON__ColVCO",
+      "converted_rows_checked": 90424,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__IFVCO",
+      "converted_rows_checked": 42868,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "FALCON__RVCO",
+      "converted_rows_checked": 45527,
+      "sampled_rows_checked": 20295
+    },
+    {
+      "topology_id": "AICircuit__CSVA",
+      "converted_rows_checked": 7840,
+      "sampled_rows_checked": 7840
+    },
+    {
+      "topology_id": "AICircuit__CVA",
+      "converted_rows_checked": 15079,
+      "sampled_rows_checked": 15079
+    },
+    {
+      "topology_id": "AICircuit__LNA",
+      "converted_rows_checked": 31993,
+      "sampled_rows_checked": 19755
+    },
+    {
+      "topology_id": "AICircuit__Mixer",
+      "converted_rows_checked": 17149,
+      "sampled_rows_checked": 10148
+    },
+    {
+      "topology_id": "AICircuit__PA",
+      "converted_rows_checked": 5584,
+      "sampled_rows_checked": 5584
+    },
+    {
+      "topology_id": "AICircuit__Receiver",
+      "converted_rows_checked": 155368,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "AICircuit__Transmitter",
+      "converted_rows_checked": 95346,
+      "sampled_rows_checked": 20296
+    },
+    {
+      "topology_id": "AICircuit__TSVA",
+      "converted_rows_checked": 19290,
+      "sampled_rows_checked": 19290
+    },
+    {
+      "topology_id": "AICircuit__VCO",
+      "converted_rows_checked": 13547,
+      "sampled_rows_checked": 13547
+    }
+  ],
+  "protocols": {
+    "id": {
+      "status": "ready",
+      "roles": {
+        "train": 400012,
+        "test": 50012,
+        "validation": 49976
+      },
+      "leakage_checks": "passed"
+    },
+    "loto_00": {
+      "status": "ready",
+      "roles": {
+        "train": 413502,
+        "validation": 45906,
+        "test": 40592
+      },
+      "leakage_checks": "passed"
+    },
+    "loto_01": {
+      "status": "ready",
+      "roles": {
+        "train": 431752,
+        "validation": 47953,
+        "test": 20295
+      },
+      "leakage_checks": "passed"
+    },
+    "loto_02": {
+      "status": "ready",
+      "roles": {
+        "train": 431748,
+        "validation": 47956,
+        "test": 20296
+      },
+      "leakage_checks": "passed"
+    },
+    "cross_falcon": {
+      "status": "blocked_incompatible_or_unverified",
+      "roles": {
+        "test": 368165,
+        "train": 116976,
+        "validation": 12999,
+        "excluded_duplicate_design": 1860
+      },
+      "leakage_checks": "passed"
+    },
+    "cross_aicircuit": {
+      "status": "blocked_incompatible_or_unverified",
+      "roles": {
+        "train": 329676,
+        "test": 131835,
+        "validation": 36629,
+        "excluded_duplicate_design": 1860
+      },
+      "leakage_checks": "passed"
+    },
+    "cross_analoggym": {
+      "status": "blocked_incompatible_or_unverified",
+      "roles": {
+        "train": 450024,
+        "validation": 49976
+      },
+      "leakage_checks": "passed"
+    }
+  },
+  "limits": "Graph templates and all accepted rows checked; materialized numeric features spot-checked at 3 rows per topology. Convergence cannot be reverified without original simulator logs."
+}

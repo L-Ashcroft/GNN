@@ -1,0 +1,20 @@
+{
+  "parent": "pretrained_k50_seed42",
+  "parent_checkpoint_sha256": "cb83e0462d2635895b404d56617f3ac30d11f12a75a46c44047fcbc404b8bd39",
+  "training_ids_sha256": "189b2999a665c6acfb9e4bd3817fc1e76dda51bf5c25261daef05aac0eb6b8e4",
+  "budget_per_topology": 50,
+  "role_policy": "Declared adaptation train rows and validation only; test embeddings remain NaN",
+  "files": {
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Alfio_RAFFC_Pin_3/embedding.npy": "0669b16e7aa44ffd7a74e40ef0fc414ea1ae06ba787fcd710cdf2e8ba3a8820e",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Fan_SMC_Pin_3/embedding.npy": "f527c5823e4314a746cb6566ae9d9c24b21ed195ef460fb7bfa7f763cbfd14e1",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/HoiLee_AFFC_Pin_3/embedding.npy": "7cbb2d455f1c8494b1701468916549189cb4e94a2e8de381e9a3c8e9bfa1f578",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Leung_DFCFC1_Pin_3/embedding.npy": "6849aab1534f4bf983b1c85dce63f809822b75c9c4ff786d5bd0a86948822387",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Leung_NMCNR_Pin_3/embedding.npy": "413da2f2f2aed775cd18888af85c2a57c77bc364ebd2c0e51dc82f5bcf344cdf",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Peng_TCFC_Pin_3/embedding.npy": "39aa41838db06574c60255e0a7b17423fa46855c5aacc69f3438fc833194157d",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Qu2017_AZC_Pin_3/embedding.npy": "2cd2085364a26615330d6621eccef170aa78e99c54c105f1ba2447f72822439d",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/Song_DACFC_Pin_3/embedding.npy": "0554b4e3bb2e714a8561025daf9b55b1c2c4bb7a1bcb22d60ca2a08158f81f93",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/ldo_folded_cascode/embedding.npy": "93490af1325a49b93a717b3bcc94a9c4429e73348d615d30f23067be515670ed",
+    "data/model_ready/personal_refinement_v2/pretrained_k50_seed42/ldo_simple/embedding.npy": "091092c192431a8a0e45234de86300cf7465008f726184992769cd556d9ebb8b"
+  },
+  "at": "2026-11-05T12:00:19.626071+00:00"
+}

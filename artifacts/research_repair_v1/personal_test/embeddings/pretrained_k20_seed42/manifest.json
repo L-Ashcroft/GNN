@@ -1,0 +1,18 @@
+{
+  "parent_sha256": "80dd38d11db8790787bf56fe4445d64f13c13e93b67c03dfd536d1787ff9c2fe",
+  "files": {
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Alfio_RAFFC_Pin_3.npy": "2bfa6119c2da04a4f54b6c5009968c78084f70bfaaa6f0ece898a16594ef6903",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Fan_SMC_Pin_3.npy": "b491286b4d786e1bc9d693cc49c00e2e857cb5a7c61d20583427d178c334d3ac",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/HoiLee_AFFC_Pin_3.npy": "a1116a86e4b1355931d3da3b1f92ae4a09c784b069f7fc09f311c05a5aa1d11e",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Leung_DFCFC1_Pin_3.npy": "81beaa139d3f695af859dfd3cefa080700872b963f5963ff7e6a4a58ab353fd6",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Leung_NMCNR_Pin_3.npy": "65a38e828dce6963ca2ef19c4cbbdc4defcacafd2dfe96e67c7efb819775d277",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Peng_TCFC_Pin_3.npy": "d881731f1c4b1ea7bc4b8531dc7cdc3abde19b6f46810f687fdcbe6e38f872da",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Qu2017_AZC_Pin_3.npy": "9c126b2e83e115b53ddae5e138b6930f6c245687a64d806e6cd4f8e6a162054f",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/Song_DACFC_Pin_3.npy": "5281b0c9519a0f15c6511deb6db2eb5b3966565e6f32cf0445d73d7a1e5f27d2",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/ldo_folded_cascode.npy": "d86a85dfb6eca691c7ca09998cb3e8fe3b1dd774c40f52a4914cb21a0e60d81d",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k20_seed42/ldo_simple.npy": "8c43230acc444aef3baf421f55511580ebc676da3bfa2600238c0dc6fd1faab9"
+  },
+  "validation_embedding_max_absolute_error": 2.86102294921875e-06,
+  "role": "test_only",
+  "rows": 2000
+}

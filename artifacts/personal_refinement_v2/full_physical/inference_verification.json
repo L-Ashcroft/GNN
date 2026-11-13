@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-05T11:47:15.618477+00:00",
+  "passed": true,
+  "validation_samples": 2000,
+  "test_samples_used": 0,
+  "predictor_vs_training_max_abs_error": 0.0,
+  "recomputed_selected_validation_exact": true,
+  "selected_validation_hit5": 0.6637962962962963,
+  "selected_validation_median_r2": 0.9574283148603571,
+  "negative_r2_targets": 0
+}

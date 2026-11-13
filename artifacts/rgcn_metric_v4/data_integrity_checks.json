@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "source_training_validation_cache_files_sha256_verified": 10,
+  "test_samples": 19301,
+  "sample_ids_unique": true,
+  "targets_masks_order_exactly_preserved": true,
+  "original_cache_manifest_hash_match": true
+}

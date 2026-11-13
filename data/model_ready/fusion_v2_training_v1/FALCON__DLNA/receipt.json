@@ -1,0 +1,51 @@
+{
+  "rows": 13153,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__DLNA",
+  "inputs": {
+    "source": "6efc0f32efd767203027aa242df896679dc55de05990fac1d71078550ab0ab51",
+    "graph": "24bf0584a75c0fb0087f24a14033d70c75e4902af682126c7da7f7b1101ed352",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "40e3479c6a6fd91141d34cdc3fe33a1113894b360c0a53bfba7bb3f91b8edc5c",
+    "group.npy": "d9ed010a35a53c2405ac11153c1013f01ce8fa368a4b9d2fe235694a90d662e9",
+    "known.npy": "c2f9e8150eee3aad80dfa1acf90c20fd6932c630e26d00e1889edf3681396043",
+    "mask.npy": "12699e8a49554b5eb415f83ce6471f2229feff650ec8a03c63d9045d0d76ca69",
+    "role.npy": "52224ebf6d287600ae56118c3df3055281b2ebb293b25defbb8733440e253b00",
+    "sample_ids.npy": "6675598e321e90af0f81e2f6dcc81beaff0b67de00f42216ab6f19c557dc1c21",
+    "target.npy": "5df2e028086fd2ed301be3795e9285631a5514fba3d3dc1e1fc97405e6b8e3b0",
+    "values.npy": "4e1c3f610d99049c809034f2c30c48da13674cc7f98b6e1dad2f23d29a936b2d",
+    "zero.npy": "d3667249766d619b903c0ef3ea0cbdece4df1b97ae89bdb8ea605b4ac810ed8d"
+  },
+  "coverage": {
+    "0": {
+      "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "1": {
+      "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2": {
+      "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "reference_checks": 3
+}

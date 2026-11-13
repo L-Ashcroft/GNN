@@ -1,0 +1,39 @@
+{
+  "label": "worst_22567",
+  "source_path": "data/raw/LOADBench/subset/SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2/intermediate_prefix.csv.gz",
+  "source_row": 22567,
+  "source_sha256": "00ab66534a31e9202e14d822ce50ca4d35ee46ae5641fcd79f22293d1102e3b1",
+  "original_testbench_sha256": "3f5b1409c5ec5f8c034835b3d50b61acbac8ac01e6192e0a68762010bfecc193",
+  "audit_netlist_sha256": "5bf4fe39dc8c520f11b456344aa58d9057bee4b563c9d6040ca0996cb625067f",
+  "params_sha256": "ec858aebea44023aea1042841e604ffb10673977c651d6dd9a8fbf341a31af7a",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "changes": "Paths localized; AC-only OP/offset/1Hz..1GHz sweep; original DUT/fixture/models and physical sizing retained. CSV micron widths fed to wrapper with global scale1e-6; graph-SI parameters are not passed directly. DC range/transient omitted.",
+  "replay_variant": "native_wrapper_units_v2",
+  "qualification": "Native-unit replay requires normal CSV controls to match; not a claim of bit-identical historical simulator/environment.",
+  "scope": "Diagnostic only; original labels not replaced, no dataset sample added.",
+  "state": "simulated",
+  "seconds": 7.17200000000048,
+  "returncode": 0,
+  "analysis": {
+    "archived": {
+      "dc_gain": -7.677,
+      "ft": 0.008057,
+      "phasemargin": 165.3
+    },
+    "official_function_on_replayed_waveform": {
+      "dc_gain": -8.641071849340493,
+      "ft": -9.4196555814152,
+      "phasemargin": 2.467930306129034
+    },
+    "frequency_min_Hz": 1.0,
+    "frequency_max_Hz": 999999999.9999859,
+    "points": 181,
+    "gain_min_dB": -39.982550262944024,
+    "gain_max_dB": -8.641071849340493,
+    "descending_unity_crossings": [],
+    "ascending_unity_crossing_count": 0,
+    "gain_at_1Hz_difference_dB": -0.9640718493404936,
+    "no_measured_unity_crossing": true,
+    "interpretation": "Independent crossing calculation never extrapolates and does not overwrite official labels."
+  }
+}

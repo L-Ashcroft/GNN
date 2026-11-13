@@ -1,0 +1,39 @@
+{
+  "state": "frozen_fixed_test_evaluated_ID_only",
+  "bundle_sha256": "514cdc204190681790cd3388cde4cc4b820d24fdefa6f6b3d90be562aadae4b0",
+  "test_rows": 19301,
+  "old": {
+    "macro_hit5": 0.4939763848470389,
+    "median_r2": 0.797469732131894,
+    "macro_r2": -3138.935187846867,
+    "negative_r2_targets": 38,
+    "target_pairs": 1286,
+    "relative_target_pairs": 1012,
+    "observed_scalars": 258290
+  },
+  "new": {
+    "macro_hit5": 0.519199564592033,
+    "median_r2": 0.812974853992253,
+    "macro_r2": -3138.92865905308,
+    "negative_r2_targets": 38,
+    "target_pairs": 1286,
+    "relative_target_pairs": 1012,
+    "observed_scalars": 258290
+  },
+  "paired_topology_cluster_bootstrap": {
+    "seed": 42,
+    "replicates": 5000,
+    "unit": "source topology (92 clusters)",
+    "macro_hit5_difference_CI95": [
+      0.020713931754382207,
+      0.03003562045086115
+    ],
+    "interpretation": "Same fixed holdout; conditional uncertainty, not multiple seeds or an independent external dataset"
+  },
+  "no_post_test_retuning": true,
+  "followup_ID_readout_accepted": true,
+  "LOTO_supported": false,
+  "physically_certified": false,
+  "old_model_overwritten": false,
+  "frozen_at_publication_state": "bundle validation_accepted_test_pending is historical; this receipt records subsequent test status"
+}

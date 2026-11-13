@@ -1,0 +1,5341 @@
+{
+  "representation": "net_device_multigraph_v2",
+  "directed": false,
+  "port_policy": "MOS all six port pairs including bulk; balun first-port star; other devices all port pairs; tied ports retain self-loops",
+  "nets": [
+    "firststageyinneroutputload2",
+    "firststageyinnertransistorstack1load2",
+    "firststageyinnertransistorstack2load2",
+    "firststageysourcegcc1",
+    "firststageysourcegcc2",
+    "ibias",
+    "in1",
+    "in2",
+    "out",
+    "outvoltagebiasxxnxx1",
+    "outvoltagebiasxxpxx0",
+    "sourcenmos",
+    "sourcepmos",
+    "sourcetransconductance"
+  ],
+  "devices": [
+    {
+      "name": "xdiodetransistornmos1",
+      "nets": [
+        "ibias",
+        "ibias",
+        "sourcenmos",
+        "sourcenmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wdiodetransistornmos1",
+        "l": "param_ldiodetransistornmos1",
+        "m": "param_mdiodetransistornmos1",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xdiodetransistornmos2",
+      "nets": [
+        "outvoltagebiasxxnxx1",
+        "outvoltagebiasxxnxx1",
+        "sourcetransconductance",
+        "sourcetransconductance"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wdiodetransistornmos2",
+        "l": "param_ldiodetransistornmos2",
+        "m": "param_mdiodetransistornmos2",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xdiodetransistorpmos3",
+      "nets": [
+        "outvoltagebiasxxpxx0",
+        "outvoltagebiasxxpxx0",
+        "sourcepmos",
+        "sourcepmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wdiodetransistorpmos3",
+        "l": "param_ldiodetransistorpmos3",
+        "m": "param_mdiodetransistorpmos3",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xdiodetransistorpmos4",
+      "nets": [
+        "firststageyinneroutputload2",
+        "firststageyinneroutputload2",
+        "firststageyinnertransistorstack1load2",
+        "firststageyinnertransistorstack1load2"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wdiodetransistorpmos4",
+        "l": "param_ldiodetransistorpmos4",
+        "m": "param_mdiodetransistorpmos4",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xdiodetransistorpmos5",
+      "nets": [
+        "firststageyinnertransistorstack1load2",
+        "firststageyinnertransistorstack1load2",
+        "sourcepmos",
+        "sourcepmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wdiodetransistorpmos5",
+        "l": "param_ldiodetransistorpmos5",
+        "m": "param_mdiodetransistorpmos5",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistornmos6",
+      "nets": [
+        "out",
+        "outvoltagebiasxxnxx1",
+        "firststageysourcegcc2",
+        "firststageysourcegcc2"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistornmos6",
+        "l": "param_lnormaltransistornmos6",
+        "m": "param_mnormaltransistornmos6",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistornmos7",
+      "nets": [
+        "outvoltagebiasxxpxx0",
+        "ibias",
+        "sourcenmos",
+        "sourcenmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistornmos7",
+        "l": "param_lnormaltransistornmos7",
+        "m": "param_mnormaltransistornmos7",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistornmos8",
+      "nets": [
+        "sourcetransconductance",
+        "ibias",
+        "sourcenmos",
+        "sourcenmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistornmos8",
+        "l": "param_lnormaltransistornmos8",
+        "m": "param_mnormaltransistornmos8",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistornmos9",
+      "nets": [
+        "firststageyinneroutputload2",
+        "outvoltagebiasxxnxx1",
+        "firststageysourcegcc1",
+        "firststageysourcegcc1"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistornmos9",
+        "l": "param_lnormaltransistornmos9",
+        "m": "param_mnormaltransistornmos9",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistornmos10",
+      "nets": [
+        "firststageysourcegcc1",
+        "in1",
+        "sourcetransconductance",
+        "sourcetransconductance"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistornmos10",
+        "l": "param_lnormaltransistornmos10",
+        "m": "param_mnormaltransistornmos10",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistornmos11",
+      "nets": [
+        "firststageysourcegcc2",
+        "in2",
+        "sourcetransconductance",
+        "sourcetransconductance"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistornmos11",
+        "l": "param_lnormaltransistornmos11",
+        "m": "param_mnormaltransistornmos11",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistorpmos12",
+      "nets": [
+        "out",
+        "firststageyinneroutputload2",
+        "firststageyinnertransistorstack2load2",
+        "firststageyinnertransistorstack2load2"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistorpmos12",
+        "l": "param_lnormaltransistorpmos12",
+        "m": "param_mnormaltransistorpmos12",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistorpmos13",
+      "nets": [
+        "outvoltagebiasxxnxx1",
+        "outvoltagebiasxxpxx0",
+        "sourcepmos",
+        "sourcepmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistorpmos13",
+        "l": "param_lnormaltransistorpmos13",
+        "m": "param_mnormaltransistorpmos13",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xnormaltransistorpmos14",
+      "nets": [
+        "firststageyinnertransistorstack2load2",
+        "firststageyinnertransistorstack1load2",
+        "sourcepmos",
+        "sourcepmos"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8_lvt",
+      "attributes": {
+        "w": "param_wnormaltransistorpmos14",
+        "l": "param_lnormaltransistorpmos14",
+        "m": "param_mnormaltransistorpmos14",
+        "nf": "1"
+      },
+      "source_advanced_attributes": {
+        "ad": "'int((nf+1)/2) * w/nf * 0.29'",
+        "as": "'int((nf+2)/2) * w/nf * 0.29'",
+        "pd": "'2*int((nf+1)/2) * (w/nf + 0.29)'",
+        "ps": "'2*int((nf+2)/2) * (w/nf + 0.29)'",
+        "nrd": "'0.29 / w'",
+        "nrs": "'0.29 / w'",
+        "sa": "0",
+        "sb": "0",
+        "sd": "0",
+        "mult": "1"
+      },
+      "device_references": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": 5,
+      "target": 5,
+      "device": 0,
+      "name": "xdiodetransistornmos1",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 0,
+      "name": "xdiodetransistornmos1",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 0,
+      "name": "xdiodetransistornmos1",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 0,
+      "name": "xdiodetransistornmos1",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 0,
+      "name": "xdiodetransistornmos1",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 0,
+      "name": "xdiodetransistornmos1",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 9,
+      "target": 9,
+      "device": 1,
+      "name": "xdiodetransistornmos2",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "device": 1,
+      "name": "xdiodetransistornmos2",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "device": 1,
+      "name": "xdiodetransistornmos2",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "device": 1,
+      "name": "xdiodetransistornmos2",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "device": 1,
+      "name": "xdiodetransistornmos2",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 13,
+      "target": 13,
+      "device": 1,
+      "name": "xdiodetransistornmos2",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 10,
+      "target": 10,
+      "device": 2,
+      "name": "xdiodetransistorpmos3",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "device": 2,
+      "name": "xdiodetransistorpmos3",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "device": 2,
+      "name": "xdiodetransistorpmos3",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "device": 2,
+      "name": "xdiodetransistorpmos3",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "device": 2,
+      "name": "xdiodetransistorpmos3",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 12,
+      "target": 12,
+      "device": 2,
+      "name": "xdiodetransistorpmos3",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 0,
+      "target": 0,
+      "device": 3,
+      "name": "xdiodetransistorpmos4",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 3,
+      "name": "xdiodetransistorpmos4",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 3,
+      "name": "xdiodetransistorpmos4",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 3,
+      "name": "xdiodetransistorpmos4",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 3,
+      "name": "xdiodetransistorpmos4",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 1,
+      "target": 1,
+      "device": 3,
+      "name": "xdiodetransistorpmos4",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 1,
+      "target": 1,
+      "device": 4,
+      "name": "xdiodetransistorpmos5",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "device": 4,
+      "name": "xdiodetransistorpmos5",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "device": 4,
+      "name": "xdiodetransistorpmos5",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "device": 4,
+      "name": "xdiodetransistorpmos5",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "device": 4,
+      "name": "xdiodetransistorpmos5",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 12,
+      "target": 12,
+      "device": 4,
+      "name": "xdiodetransistorpmos5",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "device": 5,
+      "name": "xnormaltransistornmos6",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 8,
+      "target": 4,
+      "device": 5,
+      "name": "xnormaltransistornmos6",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 8,
+      "target": 4,
+      "device": 5,
+      "name": "xnormaltransistornmos6",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "device": 5,
+      "name": "xnormaltransistornmos6",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "device": 5,
+      "name": "xnormaltransistornmos6",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 4,
+      "target": 4,
+      "device": 5,
+      "name": "xnormaltransistornmos6",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "device": 6,
+      "name": "xnormaltransistornmos7",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "device": 6,
+      "name": "xnormaltransistornmos7",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "device": 6,
+      "name": "xnormaltransistornmos7",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 6,
+      "name": "xnormaltransistornmos7",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 6,
+      "name": "xnormaltransistornmos7",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 6,
+      "name": "xnormaltransistornmos7",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 13,
+      "target": 5,
+      "device": 7,
+      "name": "xnormaltransistornmos8",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "device": 7,
+      "name": "xnormaltransistornmos8",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "device": 7,
+      "name": "xnormaltransistornmos8",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 7,
+      "name": "xnormaltransistornmos8",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "device": 7,
+      "name": "xnormaltransistornmos8",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 7,
+      "name": "xnormaltransistornmos8",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "device": 8,
+      "name": "xnormaltransistornmos9",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "device": 8,
+      "name": "xnormaltransistornmos9",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "device": 8,
+      "name": "xnormaltransistornmos9",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "device": 8,
+      "name": "xnormaltransistornmos9",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "device": 8,
+      "name": "xnormaltransistornmos9",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 3,
+      "target": 3,
+      "device": 8,
+      "name": "xnormaltransistornmos9",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "device": 9,
+      "name": "xnormaltransistornmos10",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "device": 9,
+      "name": "xnormaltransistornmos10",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "device": 9,
+      "name": "xnormaltransistornmos10",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 6,
+      "target": 13,
+      "device": 9,
+      "name": "xnormaltransistornmos10",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 6,
+      "target": 13,
+      "device": 9,
+      "name": "xnormaltransistornmos10",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 13,
+      "target": 13,
+      "device": 9,
+      "name": "xnormaltransistornmos10",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "device": 10,
+      "name": "xnormaltransistornmos11",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 4,
+      "target": 13,
+      "device": 10,
+      "name": "xnormaltransistornmos11",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 4,
+      "target": 13,
+      "device": 10,
+      "name": "xnormaltransistornmos11",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "device": 10,
+      "name": "xnormaltransistornmos11",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "device": 10,
+      "name": "xnormaltransistornmos11",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 13,
+      "target": 13,
+      "device": 10,
+      "name": "xnormaltransistornmos11",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "device": 11,
+      "name": "xnormaltransistorpmos12",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 8,
+      "target": 2,
+      "device": 11,
+      "name": "xnormaltransistorpmos12",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 8,
+      "target": 2,
+      "device": 11,
+      "name": "xnormaltransistorpmos12",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "device": 11,
+      "name": "xnormaltransistorpmos12",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "device": 11,
+      "name": "xnormaltransistorpmos12",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 11,
+      "name": "xnormaltransistorpmos12",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "device": 12,
+      "name": "xnormaltransistorpmos13",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 9,
+      "target": 12,
+      "device": 12,
+      "name": "xnormaltransistorpmos13",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 9,
+      "target": 12,
+      "device": 12,
+      "name": "xnormaltransistorpmos13",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "device": 12,
+      "name": "xnormaltransistorpmos13",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "device": 12,
+      "name": "xnormaltransistorpmos13",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 12,
+      "target": 12,
+      "device": 12,
+      "name": "xnormaltransistorpmos13",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "device": 13,
+      "name": "xnormaltransistorpmos14",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "device": 13,
+      "name": "xnormaltransistorpmos14",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "device": 13,
+      "name": "xnormaltransistorpmos14",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "device": 13,
+      "name": "xnormaltransistorpmos14",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "device": 13,
+      "name": "xnormaltransistorpmos14",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 12,
+      "target": 12,
+      "device": 13,
+      "name": "xnormaltransistorpmos14",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    }
+  ],
+  "edge_index": [
+    [
+      5,
+      5,
+      5,
+      5,
+      5,
+      11,
+      9,
+      9,
+      9,
+      9,
+      9,
+      13,
+      10,
+      10,
+      10,
+      10,
+      10,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      12,
+      8,
+      8,
+      8,
+      9,
+      9,
+      4,
+      10,
+      10,
+      10,
+      5,
+      5,
+      11,
+      13,
+      13,
+      13,
+      5,
+      5,
+      11,
+      0,
+      0,
+      0,
+      9,
+      9,
+      3,
+      3,
+      3,
+      3,
+      6,
+      6,
+      13,
+      4,
+      4,
+      4,
+      7,
+      7,
+      13,
+      8,
+      8,
+      8,
+      0,
+      0,
+      2,
+      9,
+      9,
+      9,
+      10,
+      10,
+      12,
+      2,
+      2,
+      2,
+      1,
+      1,
+      12
+    ],
+    [
+      5,
+      11,
+      11,
+      11,
+      11,
+      11,
+      9,
+      13,
+      13,
+      13,
+      13,
+      13,
+      10,
+      12,
+      12,
+      12,
+      12,
+      12,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      12,
+      12,
+      12,
+      12,
+      12,
+      9,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      11,
+      11,
+      11,
+      11,
+      11,
+      5,
+      11,
+      11,
+      11,
+      11,
+      11,
+      9,
+      3,
+      3,
+      3,
+      3,
+      3,
+      6,
+      13,
+      13,
+      13,
+      13,
+      13,
+      7,
+      13,
+      13,
+      13,
+      13,
+      13,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      10,
+      12,
+      12,
+      12,
+      12,
+      12,
+      1,
+      12,
+      12,
+      12,
+      12,
+      12
+    ]
+  ],
+  "edge_device_index": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13
+  ],
+  "device_terminals": [
+    {
+      "device": 0,
+      "net": 5,
+      "port": "D"
+    },
+    {
+      "device": 0,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 0,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 0,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 1,
+      "net": 9,
+      "port": "D"
+    },
+    {
+      "device": 1,
+      "net": 9,
+      "port": "G"
+    },
+    {
+      "device": 1,
+      "net": 13,
+      "port": "S"
+    },
+    {
+      "device": 1,
+      "net": 13,
+      "port": "B"
+    },
+    {
+      "device": 2,
+      "net": 10,
+      "port": "D"
+    },
+    {
+      "device": 2,
+      "net": 10,
+      "port": "G"
+    },
+    {
+      "device": 2,
+      "net": 12,
+      "port": "S"
+    },
+    {
+      "device": 2,
+      "net": 12,
+      "port": "B"
+    },
+    {
+      "device": 3,
+      "net": 0,
+      "port": "D"
+    },
+    {
+      "device": 3,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 3,
+      "net": 1,
+      "port": "S"
+    },
+    {
+      "device": 3,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 4,
+      "net": 1,
+      "port": "D"
+    },
+    {
+      "device": 4,
+      "net": 1,
+      "port": "G"
+    },
+    {
+      "device": 4,
+      "net": 12,
+      "port": "S"
+    },
+    {
+      "device": 4,
+      "net": 12,
+      "port": "B"
+    },
+    {
+      "device": 5,
+      "net": 8,
+      "port": "D"
+    },
+    {
+      "device": 5,
+      "net": 9,
+      "port": "G"
+    },
+    {
+      "device": 5,
+      "net": 4,
+      "port": "S"
+    },
+    {
+      "device": 5,
+      "net": 4,
+      "port": "B"
+    },
+    {
+      "device": 6,
+      "net": 10,
+      "port": "D"
+    },
+    {
+      "device": 6,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 6,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 6,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 7,
+      "net": 13,
+      "port": "D"
+    },
+    {
+      "device": 7,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 7,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 7,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 8,
+      "net": 0,
+      "port": "D"
+    },
+    {
+      "device": 8,
+      "net": 9,
+      "port": "G"
+    },
+    {
+      "device": 8,
+      "net": 3,
+      "port": "S"
+    },
+    {
+      "device": 8,
+      "net": 3,
+      "port": "B"
+    },
+    {
+      "device": 9,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 9,
+      "net": 6,
+      "port": "G"
+    },
+    {
+      "device": 9,
+      "net": 13,
+      "port": "S"
+    },
+    {
+      "device": 9,
+      "net": 13,
+      "port": "B"
+    },
+    {
+      "device": 10,
+      "net": 4,
+      "port": "D"
+    },
+    {
+      "device": 10,
+      "net": 7,
+      "port": "G"
+    },
+    {
+      "device": 10,
+      "net": 13,
+      "port": "S"
+    },
+    {
+      "device": 10,
+      "net": 13,
+      "port": "B"
+    },
+    {
+      "device": 11,
+      "net": 8,
+      "port": "D"
+    },
+    {
+      "device": 11,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 11,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 11,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 12,
+      "net": 9,
+      "port": "D"
+    },
+    {
+      "device": 12,
+      "net": 10,
+      "port": "G"
+    },
+    {
+      "device": 12,
+      "net": 12,
+      "port": "S"
+    },
+    {
+      "device": 12,
+      "net": 12,
+      "port": "B"
+    },
+    {
+      "device": 13,
+      "net": 2,
+      "port": "D"
+    },
+    {
+      "device": 13,
+      "net": 1,
+      "port": "G"
+    },
+    {
+      "device": 13,
+      "net": 12,
+      "port": "S"
+    },
+    {
+      "device": 13,
+      "net": 12,
+      "port": "B"
+    }
+  ],
+  "device_references": [],
+  "num_nets": 14,
+  "num_devices": 14,
+  "num_nodes": 14,
+  "num_terminals": 56,
+  "num_edges": 84,
+  "num_device_references": 0,
+  "feature_names": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient",
+    "finger_count",
+    "width_length_ratio",
+    "hierarchy_depth",
+    "device_type:balun",
+    "device_type:capacitor",
+    "device_type:inductor",
+    "device_type:isource",
+    "device_type:mutual_inductor",
+    "device_type:nmos",
+    "device_type:pmos",
+    "device_type:port",
+    "device_type:resistor",
+    "device_type:vsource"
+  ],
+  "feature_expressions": [
+    [
+      "param_wdiodetransistornmos1",
+      "param_ldiodetransistornmos1",
+      "param_mdiodetransistornmos1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wdiodetransistornmos1)/(param_ldiodetransistornmos1)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wdiodetransistornmos2",
+      "param_ldiodetransistornmos2",
+      "param_mdiodetransistornmos2",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wdiodetransistornmos2)/(param_ldiodetransistornmos2)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wdiodetransistorpmos3",
+      "param_ldiodetransistorpmos3",
+      "param_mdiodetransistorpmos3",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wdiodetransistorpmos3)/(param_ldiodetransistorpmos3)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wdiodetransistorpmos4",
+      "param_ldiodetransistorpmos4",
+      "param_mdiodetransistorpmos4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wdiodetransistorpmos4)/(param_ldiodetransistorpmos4)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wdiodetransistorpmos5",
+      "param_ldiodetransistorpmos5",
+      "param_mdiodetransistorpmos5",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wdiodetransistorpmos5)/(param_ldiodetransistorpmos5)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistornmos6",
+      "param_lnormaltransistornmos6",
+      "param_mnormaltransistornmos6",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistornmos6)/(param_lnormaltransistornmos6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistornmos7",
+      "param_lnormaltransistornmos7",
+      "param_mnormaltransistornmos7",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistornmos7)/(param_lnormaltransistornmos7)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistornmos8",
+      "param_lnormaltransistornmos8",
+      "param_mnormaltransistornmos8",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistornmos8)/(param_lnormaltransistornmos8)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistornmos9",
+      "param_lnormaltransistornmos9",
+      "param_mnormaltransistornmos9",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistornmos9)/(param_lnormaltransistornmos9)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistornmos10",
+      "param_lnormaltransistornmos10",
+      "param_mnormaltransistornmos10",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistornmos10)/(param_lnormaltransistornmos10)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistornmos11",
+      "param_lnormaltransistornmos11",
+      "param_mnormaltransistornmos11",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistornmos11)/(param_lnormaltransistornmos11)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistorpmos12",
+      "param_lnormaltransistorpmos12",
+      "param_mnormaltransistorpmos12",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistorpmos12)/(param_lnormaltransistorpmos12)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistorpmos13",
+      "param_lnormaltransistorpmos13",
+      "param_mnormaltransistorpmos13",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistorpmos13)/(param_lnormaltransistorpmos13)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "param_wnormaltransistorpmos14",
+      "param_lnormaltransistorpmos14",
+      "param_mnormaltransistorpmos14",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "(param_wnormaltransistorpmos14)/(param_lnormaltransistorpmos14)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "subcircuit_name": "SimpleOpAmp95",
+  "external_ports": [
+    "ibias",
+    "in1",
+    "in2",
+    "out",
+    "sourcenmos",
+    "sourcepmos"
+  ],
+  "graph_scope": "DUT; measurement fixtures kept as conditions",
+  "source_netlist": "data/raw/LOADBench/subset/SimpleOpAmp95/CombinedTestBench.cir",
+  "netlist_sha256": "7807e92ddca5a7073e20953d5a0354efe5729b08b38a50a43ef0b1e0b35155f5",
+  "device_hierarchy_depth": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "node_feature_names": [
+    "connected_device_count",
+    "is_supply",
+    "is_positive_supply",
+    "is_negative_supply",
+    "is_ground",
+    "is_input",
+    "is_output",
+    "is_bias",
+    "role_unassigned",
+    "has_verified_role_evidence",
+    "role_evidence_convention_only",
+    "terminal_count:balun:P1",
+    "terminal_count:balun:P2",
+    "terminal_count:balun:P3",
+    "terminal_count:capacitor:N",
+    "terminal_count:capacitor:P",
+    "terminal_count:inductor:N",
+    "terminal_count:inductor:P",
+    "terminal_count:isource:N",
+    "terminal_count:isource:P",
+    "terminal_count:nmos:B",
+    "terminal_count:nmos:D",
+    "terminal_count:nmos:G",
+    "terminal_count:nmos:S",
+    "terminal_count:pmos:B",
+    "terminal_count:pmos:D",
+    "terminal_count:pmos:G",
+    "terminal_count:pmos:S",
+    "terminal_count:port:N",
+    "terminal_count:port:P",
+    "terminal_count:resistor:N",
+    "terminal_count:resistor:P",
+    "terminal_count:vsource:N",
+    "terminal_count:vsource:P"
+  ],
+  "node_features": [
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "node_annotations": [
+    {
+      "net": "firststageyinneroutputload2",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "firststageyinnertransistorstack1load2",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "firststageyinnertransistorstack2load2",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "firststageysourcegcc1",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "firststageysourcegcc2",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "ibias",
+      "node_type": "bias",
+      "roles": [
+        "bias"
+      ],
+      "evidence": [
+        {
+          "role": "bias",
+          "basis": "DUT_port_and_testbench",
+          "detail": "ibias -> net_ibias"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "in1",
+      "node_type": "input",
+      "roles": [
+        "input"
+      ],
+      "evidence": [
+        {
+          "role": "input",
+          "basis": "DUT_port_and_testbench",
+          "detail": "in1 -> inp"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "in2",
+      "node_type": "input",
+      "roles": [
+        "input"
+      ],
+      "evidence": [
+        {
+          "role": "input",
+          "basis": "DUT_port_and_testbench",
+          "detail": "in2 -> inn"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "out",
+      "node_type": "output",
+      "roles": [
+        "output"
+      ],
+      "evidence": [
+        {
+          "role": "output",
+          "basis": "DUT_port_and_testbench",
+          "detail": "out -> out; output load and feedback in fixture"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "outvoltagebiasxxnxx1",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "outvoltagebiasxxpxx0",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "sourcenmos",
+      "node_type": "ground",
+      "roles": [
+        "ground"
+      ],
+      "evidence": [
+        {
+          "role": "ground",
+          "basis": "testbench_binding",
+          "detail": "XOpAmp net_ibias inp inn out 0 vdd! SimpleOpAmp95; SPICE node 0"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "sourcepmos",
+      "node_type": "positive_supply",
+      "roles": [
+        "positive_supply"
+      ],
+      "evidence": [
+        {
+          "role": "positive_supply",
+          "basis": "testbench_binding",
+          "detail": "XOpAmp net_ibias inp inn out 0 vdd! SimpleOpAmp95; Vdd referenced to node 0"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "sourcetransconductance",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    }
+  ],
+  "annotation_version": "lecture12_features_v1",
+  "feature_vocabulary": {
+    "relations": [
+      "balun:P1>P2",
+      "balun:P1>P3",
+      "balun:P2>P1",
+      "balun:P3>P1",
+      "capacitor:N>P",
+      "capacitor:P>N",
+      "inductor:N>P",
+      "inductor:P>N",
+      "isource:N>P",
+      "isource:P>N",
+      "nmos:B>D",
+      "nmos:B>G",
+      "nmos:B>S",
+      "nmos:D>B",
+      "nmos:D>G",
+      "nmos:D>S",
+      "nmos:G>B",
+      "nmos:G>D",
+      "nmos:G>S",
+      "nmos:S>B",
+      "nmos:S>D",
+      "nmos:S>G",
+      "pmos:B>D",
+      "pmos:B>G",
+      "pmos:B>S",
+      "pmos:D>B",
+      "pmos:D>G",
+      "pmos:D>S",
+      "pmos:G>B",
+      "pmos:G>D",
+      "pmos:G>S",
+      "pmos:S>B",
+      "pmos:S>D",
+      "pmos:S>G",
+      "port:N>P",
+      "port:P>N",
+      "resistor:N>P",
+      "resistor:P>N",
+      "vsource:N>P",
+      "vsource:P>N"
+    ],
+    "terminal_types": [
+      "balun:P1",
+      "balun:P2",
+      "balun:P3",
+      "capacitor:N",
+      "capacitor:P",
+      "inductor:N",
+      "inductor:P",
+      "isource:N",
+      "isource:P",
+      "nmos:B",
+      "nmos:D",
+      "nmos:G",
+      "nmos:S",
+      "pmos:B",
+      "pmos:D",
+      "pmos:G",
+      "pmos:S",
+      "port:N",
+      "port:P",
+      "resistor:N",
+      "resistor:P",
+      "vsource:N",
+      "vsource:P"
+    ],
+    "device_types": [
+      "balun",
+      "capacitor",
+      "inductor",
+      "isource",
+      "mutual_inductor",
+      "nmos",
+      "pmos",
+      "port",
+      "resistor",
+      "vsource"
+    ]
+  },
+  "message_passing": {
+    "edge_index": [
+      [
+        5,
+        5,
+        5,
+        11,
+        5,
+        11,
+        5,
+        11,
+        5,
+        11,
+        11,
+        11,
+        9,
+        9,
+        9,
+        13,
+        9,
+        13,
+        9,
+        13,
+        9,
+        13,
+        13,
+        13,
+        10,
+        10,
+        10,
+        12,
+        10,
+        12,
+        10,
+        12,
+        10,
+        12,
+        12,
+        12,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        12,
+        1,
+        12,
+        1,
+        12,
+        1,
+        12,
+        12,
+        12,
+        8,
+        9,
+        8,
+        4,
+        8,
+        4,
+        9,
+        4,
+        9,
+        4,
+        4,
+        4,
+        10,
+        5,
+        10,
+        11,
+        10,
+        11,
+        5,
+        11,
+        5,
+        11,
+        11,
+        11,
+        13,
+        5,
+        13,
+        11,
+        13,
+        11,
+        5,
+        11,
+        5,
+        11,
+        11,
+        11,
+        0,
+        9,
+        0,
+        3,
+        0,
+        3,
+        9,
+        3,
+        9,
+        3,
+        3,
+        3,
+        3,
+        6,
+        3,
+        13,
+        3,
+        13,
+        6,
+        13,
+        6,
+        13,
+        13,
+        13,
+        4,
+        7,
+        4,
+        13,
+        4,
+        13,
+        7,
+        13,
+        7,
+        13,
+        13,
+        13,
+        8,
+        0,
+        8,
+        2,
+        8,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        9,
+        10,
+        9,
+        12,
+        9,
+        12,
+        10,
+        12,
+        10,
+        12,
+        12,
+        12,
+        2,
+        1,
+        2,
+        12,
+        2,
+        12,
+        1,
+        12,
+        1,
+        12,
+        12,
+        12
+      ],
+      [
+        5,
+        5,
+        11,
+        5,
+        11,
+        5,
+        11,
+        5,
+        11,
+        5,
+        11,
+        11,
+        9,
+        9,
+        13,
+        9,
+        13,
+        9,
+        13,
+        9,
+        13,
+        9,
+        13,
+        13,
+        10,
+        10,
+        12,
+        10,
+        12,
+        10,
+        12,
+        10,
+        12,
+        10,
+        12,
+        12,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        12,
+        1,
+        12,
+        1,
+        12,
+        1,
+        12,
+        1,
+        12,
+        12,
+        9,
+        8,
+        4,
+        8,
+        4,
+        8,
+        4,
+        9,
+        4,
+        9,
+        4,
+        4,
+        5,
+        10,
+        11,
+        10,
+        11,
+        10,
+        11,
+        5,
+        11,
+        5,
+        11,
+        11,
+        5,
+        13,
+        11,
+        13,
+        11,
+        13,
+        11,
+        5,
+        11,
+        5,
+        11,
+        11,
+        9,
+        0,
+        3,
+        0,
+        3,
+        0,
+        3,
+        9,
+        3,
+        9,
+        3,
+        3,
+        6,
+        3,
+        13,
+        3,
+        13,
+        3,
+        13,
+        6,
+        13,
+        6,
+        13,
+        13,
+        7,
+        4,
+        13,
+        4,
+        13,
+        4,
+        13,
+        7,
+        13,
+        7,
+        13,
+        13,
+        0,
+        8,
+        2,
+        8,
+        2,
+        8,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        10,
+        9,
+        12,
+        9,
+        12,
+        9,
+        12,
+        10,
+        12,
+        10,
+        12,
+        12,
+        1,
+        2,
+        12,
+        2,
+        12,
+        2,
+        12,
+        1,
+        12,
+        1,
+        12,
+        12
+      ]
+    ],
+    "edge_device_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13
+    ],
+    "edge_base_index": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22,
+      22,
+      23,
+      23,
+      24,
+      24,
+      25,
+      25,
+      26,
+      26,
+      27,
+      27,
+      28,
+      28,
+      29,
+      29,
+      30,
+      30,
+      31,
+      31,
+      32,
+      32,
+      33,
+      33,
+      34,
+      34,
+      35,
+      35,
+      36,
+      36,
+      37,
+      37,
+      38,
+      38,
+      39,
+      39,
+      40,
+      40,
+      41,
+      41,
+      42,
+      42,
+      43,
+      43,
+      44,
+      44,
+      45,
+      45,
+      46,
+      46,
+      47,
+      47,
+      48,
+      48,
+      49,
+      49,
+      50,
+      50,
+      51,
+      51,
+      52,
+      52,
+      53,
+      53,
+      54,
+      54,
+      55,
+      55,
+      56,
+      56,
+      57,
+      57,
+      58,
+      58,
+      59,
+      59,
+      60,
+      60,
+      61,
+      61,
+      62,
+      62,
+      63,
+      63,
+      64,
+      64,
+      65,
+      65,
+      66,
+      66,
+      67,
+      67,
+      68,
+      68,
+      69,
+      69,
+      70,
+      70,
+      71,
+      71,
+      72,
+      72,
+      73,
+      73,
+      74,
+      74,
+      75,
+      75,
+      76,
+      76,
+      77,
+      77,
+      78,
+      78,
+      79,
+      79,
+      80,
+      80,
+      81,
+      81,
+      82,
+      82,
+      83,
+      83
+    ],
+    "edge_port_pairs": [
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ]
+    ],
+    "edge_type": [
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24
+    ],
+    "reverse_edge_index": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8,
+      11,
+      10,
+      13,
+      12,
+      15,
+      14,
+      17,
+      16,
+      19,
+      18,
+      21,
+      20,
+      23,
+      22,
+      25,
+      24,
+      27,
+      26,
+      29,
+      28,
+      31,
+      30,
+      33,
+      32,
+      35,
+      34,
+      37,
+      36,
+      39,
+      38,
+      41,
+      40,
+      43,
+      42,
+      45,
+      44,
+      47,
+      46,
+      49,
+      48,
+      51,
+      50,
+      53,
+      52,
+      55,
+      54,
+      57,
+      56,
+      59,
+      58,
+      61,
+      60,
+      63,
+      62,
+      65,
+      64,
+      67,
+      66,
+      69,
+      68,
+      71,
+      70,
+      73,
+      72,
+      75,
+      74,
+      77,
+      76,
+      79,
+      78,
+      81,
+      80,
+      83,
+      82,
+      85,
+      84,
+      87,
+      86,
+      89,
+      88,
+      91,
+      90,
+      93,
+      92,
+      95,
+      94,
+      97,
+      96,
+      99,
+      98,
+      101,
+      100,
+      103,
+      102,
+      105,
+      104,
+      107,
+      106,
+      109,
+      108,
+      111,
+      110,
+      113,
+      112,
+      115,
+      114,
+      117,
+      116,
+      119,
+      118,
+      121,
+      120,
+      123,
+      122,
+      125,
+      124,
+      127,
+      126,
+      129,
+      128,
+      131,
+      130,
+      133,
+      132,
+      135,
+      134,
+      137,
+      136,
+      139,
+      138,
+      141,
+      140,
+      143,
+      142,
+      145,
+      144,
+      147,
+      146,
+      149,
+      148,
+      151,
+      150,
+      153,
+      152,
+      155,
+      154,
+      157,
+      156,
+      159,
+      158,
+      161,
+      160,
+      163,
+      162,
+      165,
+      164,
+      167,
+      166
+    ],
+    "edge_direction": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "symmetric_norm_weight": [
+      0.08333333333333333,
+      0.08333333333333333,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.05555555555555555,
+      0.05555555555555555,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.0563436169819011,
+      0.047619047619047616,
+      0.047619047619047616,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.041666666666666664,
+      0.041666666666666664,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.041666666666666664,
+      0.041666666666666664,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.05555555555555555,
+      0.05555555555555555,
+      0.0629940788348712,
+      0.0629940788348712,
+      0.05143444998736397,
+      0.05143444998736397,
+      0.05143444998736397,
+      0.05143444998736397,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.05555555555555555,
+      0.05555555555555555,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.19245008972987526,
+      0.19245008972987526,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.1259881576697424,
+      0.1259881576697424,
+      0.1259881576697424,
+      0.1259881576697424,
+      0.047619047619047616,
+      0.047619047619047616,
+      0.19245008972987526,
+      0.19245008972987526,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.1259881576697424,
+      0.1259881576697424,
+      0.1259881576697424,
+      0.1259881576697424,
+      0.047619047619047616,
+      0.047619047619047616,
+      0.11785113019775793,
+      0.11785113019775793,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.05892556509887897,
+      0.041666666666666664,
+      0.041666666666666664,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.05270462766947299,
+      0.041666666666666664,
+      0.041666666666666664
+    ],
+    "normalization_note": "Optional structural weights, including retained typed self-loops. Not automatically applied by a model."
+  },
+  "hierarchy_scope": "DUT primitives; PDK wrappers treated as primitive devices",
+  "num_message_edges": 168,
+  "message_edge_policy": "Two typed orientations per physical port pair, including tied-port self-loops; not an inferred signal-flow direction",
+  "feature_transform_policy": "Raw SI retained; log10 positive W/L/R/C/L/ratio, log2 positive m/nf; zero gets a separate flag; no fitted normalization"
+}

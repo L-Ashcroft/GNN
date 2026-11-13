@@ -1,0 +1,325 @@
+[
+  {
+    "topology_id": "FALCON__CGLNA",
+    "fingerprint": "cef484c4cddcdabfdf90c935cbff46bbbdd2b2a28b170bc8e6637e96d07f3823",
+    "raw_rows": 51852,
+    "processed_rows": 51852,
+    "accepted_rows": 51852,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__CLNA",
+    "fingerprint": "e33e9e2fea42ff680775b19affbf4a185bbc743b95aa2486f35b344f70154e05",
+    "raw_rows": 62231,
+    "processed_rows": 62231,
+    "accepted_rows": 541,
+    "rejected_rows": 61690,
+    "input_complete": true,
+    "reasons": {
+      "ambiguous_recorded_input_labels": 61690
+    },
+    "source_ambiguous_input_rows": 61690
+  },
+  {
+    "topology_id": "FALCON__CSLNA",
+    "fingerprint": "aeb6fbff7c18d1d79e3490ddeebb1e2f5f4836d710bb3ead51ca7532d600eb17",
+    "raw_rows": 38699,
+    "processed_rows": 38699,
+    "accepted_rows": 38613,
+    "rejected_rows": 86,
+    "input_complete": true,
+    "reasons": {
+      "nonphysical_Bandwidth": 86
+    },
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__DLNA",
+    "fingerprint": "f26eb2f3c85b32c305a2c4caf193268ebe706dd25ce15693ad646db0367d306d",
+    "raw_rows": 92145,
+    "processed_rows": 92145,
+    "accepted_rows": 92145,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__DBAMixer",
+    "fingerprint": "5a608c0ffd0672518a7cfbe163818684b0352469b6f3c7449004cc4522988d30",
+    "raw_rows": 41687,
+    "processed_rows": 41687,
+    "accepted_rows": 41687,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__DBPMixer",
+    "fingerprint": "4b8028a9e58f77ff1b687e5c36675313dad8935991030308e5332546e32bd56a",
+    "raw_rows": 42046,
+    "processed_rows": 42046,
+    "accepted_rows": 42046,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__SBAMixer",
+    "fingerprint": "ed346b582af4776dca428d68ad68bcc95b8a232b846cbaf09bae9c4f32099a41",
+    "raw_rows": 52365,
+    "processed_rows": 52365,
+    "accepted_rows": 52365,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__SBPMixer",
+    "fingerprint": "0757ff9c353c17e5962bfa68f6ec9b6727591917ee4896737511b30122c46265",
+    "raw_rows": 43662,
+    "processed_rows": 43662,
+    "accepted_rows": 43662,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__ClassBPA",
+    "fingerprint": "e319bbeaf67ff35a67e2f12285350b4542ec67bf88e2c7b9bd5fcabb3cb5c471",
+    "raw_rows": 34903,
+    "processed_rows": 34903,
+    "accepted_rows": 34903,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__ClassEPA",
+    "fingerprint": "c2d2dc3fdbcd7e2110e434984e4139ddcb0bfeb0afee79d32a0b43d32fcc027a",
+    "raw_rows": 46367,
+    "processed_rows": 46367,
+    "accepted_rows": 46367,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__DohPA",
+    "fingerprint": "2ed6a762b8b9e0ad0ae40b41864fa12d6ec44cd12b820710119905d2ee81011b",
+    "raw_rows": 120333,
+    "processed_rows": 120333,
+    "accepted_rows": 120333,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__DPA",
+    "fingerprint": "ea748614b258abbd84bed3a02dd3e5ac6e4a5bcff5363dce117f1a30e4716f31",
+    "raw_rows": 79568,
+    "processed_rows": 79568,
+    "accepted_rows": 79568,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__CGVA",
+    "fingerprint": "9ec6f6cf6de1575db4f5c05de81b14639e3c8baa8bfb7b8af281950458925fe6",
+    "raw_rows": 33383,
+    "processed_rows": 33383,
+    "accepted_rows": 33383,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__CSVA",
+    "fingerprint": "55583c3e3ce7e89fd68d85e6aedf9d92a261d53d323c177890a2c9dda4083f89",
+    "raw_rows": 20722,
+    "processed_rows": 20722,
+    "accepted_rows": 20722,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__CVA",
+    "fingerprint": "efe5e5f8a555a6580a876d68b18fce618a4be59f5640bbe69dff78698ebc18bf",
+    "raw_rows": 22455,
+    "processed_rows": 22455,
+    "accepted_rows": 22455,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__SFVA",
+    "fingerprint": "a614e4e67c501191ecb5f875f4fd3b126c524037268df3df6b3ef5cde5f0d3ff",
+    "raw_rows": 28282,
+    "processed_rows": 28282,
+    "accepted_rows": 28282,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__CCVCO",
+    "fingerprint": "c32ce6d668704ae08b9de0d485a642666bb1e7aa332588b1e4f8d0abfb536082",
+    "raw_rows": 54281,
+    "processed_rows": 54281,
+    "accepted_rows": 54281,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__ColVCO",
+    "fingerprint": "79e432320b538b16abffedf35db0da9f2171143196957968d21183173d24a706",
+    "raw_rows": 90424,
+    "processed_rows": 90424,
+    "accepted_rows": 90424,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__IFVCO",
+    "fingerprint": "243e66614bbd56ebde363ddf0d6ede89a1f0afad4a4eca0298f0678b4dd4f51f",
+    "raw_rows": 42868,
+    "processed_rows": 42868,
+    "accepted_rows": 42868,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "FALCON__RVCO",
+    "fingerprint": "174a1772541578441d779ca7ac053c2be37a8062586639a37998a6701834a880",
+    "raw_rows": 45527,
+    "processed_rows": 45527,
+    "accepted_rows": 45527,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__CSVA",
+    "fingerprint": "ca966cb30e3db413564372e223c733029ad1d99c80a82a22f16fa1f054d003f9",
+    "raw_rows": 7840,
+    "processed_rows": 7840,
+    "accepted_rows": 7840,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__CVA",
+    "fingerprint": "9f221ea936b84f2c03ebe52fa016076690c4a7152aba09b77d81d4b2f18eb278",
+    "raw_rows": 15079,
+    "processed_rows": 15079,
+    "accepted_rows": 15079,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__LNA",
+    "fingerprint": "5d0c95e38189a4e6007aad00dd9dc2e2ece242fa6b9afb84f0615ffaaeae3d23",
+    "raw_rows": 31993,
+    "processed_rows": 31993,
+    "accepted_rows": 31993,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__Mixer",
+    "fingerprint": "d813641ac029068b9d755931808fd504966d3b64ed644926e8df6c1796ddd49b",
+    "raw_rows": 17149,
+    "processed_rows": 17149,
+    "accepted_rows": 17149,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__PA",
+    "fingerprint": "61d3fad4e7b4570cdbba48ab6dff81906858f6b26b16251eba48937907257f23",
+    "raw_rows": 5584,
+    "processed_rows": 5584,
+    "accepted_rows": 5584,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__Receiver",
+    "fingerprint": "e16596e32ba7f61976771f77a93cd7f81a70bd7dff8d361df165e2f458b48418",
+    "raw_rows": 155368,
+    "processed_rows": 155368,
+    "accepted_rows": 155368,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__Transmitter",
+    "fingerprint": "a2d38b8fd0dfbdb88c52783bf751dbff90fa7dd81386e50154128be60bbc499b",
+    "raw_rows": 95346,
+    "processed_rows": 95346,
+    "accepted_rows": 95346,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__TSVA",
+    "fingerprint": "26671456c3d843b26637b0a35a0cebd28b98d4e1e43311d156eecef2309a63a8",
+    "raw_rows": 19290,
+    "processed_rows": 19290,
+    "accepted_rows": 19290,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  },
+  {
+    "topology_id": "AICircuit__VCO",
+    "fingerprint": "b74a3b19c5349d3693787082ee76f07304ed9e28ca19e4b5b144989f8b35efed",
+    "raw_rows": 13547,
+    "processed_rows": 13547,
+    "accepted_rows": 13547,
+    "rejected_rows": 0,
+    "input_complete": true,
+    "reasons": {},
+    "source_ambiguous_input_rows": 0
+  }
+]

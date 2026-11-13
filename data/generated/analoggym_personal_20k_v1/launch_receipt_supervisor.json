@@ -1,0 +1,8 @@
+﻿{
+    "workers":  8,
+    "target":  20000,
+    "launcher_pid":  15164,
+    "started_UTC":  "2026-10-28T06:48:18.8302660Z",
+    "reason":  "Resume after memory guard; original worker fully exited",
+    "command":  "scripts/supervise_analoggym_personal.py"
+}

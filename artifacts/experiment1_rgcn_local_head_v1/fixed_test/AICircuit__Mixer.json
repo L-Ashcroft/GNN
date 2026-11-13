@@ -1,0 +1,81 @@
+{
+  "topology": "AICircuit__Mixer",
+  "rows": 1614,
+  "bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "prediction_sha256": "c0679df0151a62fc37146f6af72984474d14f99f25c5c05a3937d2d814ea44c7",
+  "metrics": {
+    "per_target": [
+      {
+        "supervision_group": "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25",
+        "semantic_id": "AICircuit__Mixer::ConversionGain",
+        "unit": "dB",
+        "original_name": "ConversionGain",
+        "count": 1614,
+        "mae": 0.01513714647023587,
+        "r2": 0.9991056485812426,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 1.0,
+        "relative_policy": "not applicable to log units"
+      },
+      {
+        "supervision_group": "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25",
+        "semantic_id": "AICircuit__Mixer::IFVoltageSwing",
+        "unit": "V",
+        "original_name": "IFVoltageSwing",
+        "count": 1614,
+        "mae": 1.795014606661256e-05,
+        "r2": 0.991447441284826,
+        "mre": 0.005295610769242056,
+        "hit5": 1.0,
+        "hit10": 1.0,
+        "relative_count": 1614,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      },
+      {
+        "supervision_group": "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25",
+        "semantic_id": "AICircuit__Mixer::NoiseFigure",
+        "unit": "dB",
+        "original_name": "NoiseFigure",
+        "count": 1614,
+        "mae": 0.0032720230922789876,
+        "r2": 0.9985928057370713,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 1.0,
+        "relative_policy": "not applicable to log units"
+      },
+      {
+        "supervision_group": "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25",
+        "semantic_id": "AICircuit__Mixer::PowerConsumption",
+        "unit": "W",
+        "original_name": "PowerConsumption",
+        "count": 1614,
+        "mae": 2.825293077830602e-05,
+        "r2": 0.9975137341150208,
+        "mre": 0.004276058835035818,
+        "hit5": 1.0,
+        "hit10": 1.0,
+        "relative_count": 1614,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      }
+    ],
+    "macro_hit5": 1.0,
+    "macro_hit10": 1.0,
+    "macro_r2": 0.9966649074295402,
+    "macro_mre": 0.004785834802138938,
+    "target_groups": 4
+  },
+  "seconds": 3.4182190999999875,
+  "train_test_ids_disjoint": true
+}

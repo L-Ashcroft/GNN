@@ -1,0 +1,440 @@
+{
+  "representation": "net_device_multigraph_v2",
+  "directed": false,
+  "port_policy": "MOS all six port pairs including bulk; balun first-port star; other devices all port pairs; tied ports retain self-loops",
+  "nets": [
+    "0",
+    "VDD",
+    "Vin",
+    "Vout"
+  ],
+  "devices": [
+    {
+      "name": "N0",
+      "nets": [
+        "Vout",
+        "Vin",
+        "0",
+        "0"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wn",
+        "l": "45n",
+        "m": "1",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "C0",
+      "nets": [
+        "Vout",
+        "0"
+      ],
+      "model": "capacitor",
+      "attributes": {
+        "c": "1p"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "R0",
+      "nets": [
+        "VDD",
+        "Vout"
+      ],
+      "model": "resistor",
+      "attributes": {
+        "r": "Rd"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "V1",
+      "nets": [
+        "Vin",
+        "0"
+      ],
+      "model": "vsource",
+      "attributes": {
+        "dc": "Vgate",
+        "mag": "1",
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "V0",
+      "nets": [
+        "VDD",
+        "0"
+      ],
+      "model": "vsource",
+      "attributes": {
+        "dc": "VDD",
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": 3,
+      "target": 2,
+      "device": 0,
+      "name": "N0",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "device": 0,
+      "name": "N0",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "device": 0,
+      "name": "N0",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "device": 0,
+      "name": "N0",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "device": 0,
+      "name": "N0",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 0,
+      "target": 0,
+      "device": 0,
+      "name": "N0",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "device": 1,
+      "name": "C0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "device": 2,
+      "name": "R0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "resistor_PN"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "device": 3,
+      "name": "V1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "vsource_PN"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "device": 4,
+      "name": "V0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "vsource_PN"
+    }
+  ],
+  "edge_index": [
+    [
+      3,
+      3,
+      3,
+      2,
+      2,
+      0,
+      3,
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ]
+  ],
+  "edge_device_index": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "device_terminals": [
+    {
+      "device": 0,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 0,
+      "net": 2,
+      "port": "G"
+    },
+    {
+      "device": 0,
+      "net": 0,
+      "port": "S"
+    },
+    {
+      "device": 0,
+      "net": 0,
+      "port": "B"
+    },
+    {
+      "device": 1,
+      "net": 3,
+      "port": "P"
+    },
+    {
+      "device": 1,
+      "net": 0,
+      "port": "N"
+    },
+    {
+      "device": 2,
+      "net": 1,
+      "port": "P"
+    },
+    {
+      "device": 2,
+      "net": 3,
+      "port": "N"
+    },
+    {
+      "device": 3,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 3,
+      "net": 0,
+      "port": "N"
+    },
+    {
+      "device": 4,
+      "net": 1,
+      "port": "P"
+    },
+    {
+      "device": 4,
+      "net": 0,
+      "port": "N"
+    }
+  ],
+  "device_references": [],
+  "num_nets": 4,
+  "num_devices": 5,
+  "num_nodes": 4,
+  "num_terminals": 12,
+  "num_edges": 10,
+  "num_device_references": 0,
+  "source_netlist": "third_party/AICircuit/Simulation/Netlists/CSVA/netlist",
+  "feature_names": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient"
+  ],
+  "feature_expressions": [
+    [
+      "Wn",
+      "45n",
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "1p",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "Rd",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Vgate",
+      null,
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "VDD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "netlist_sha256": "7e59f407f9067a6a085b7cb89e0feeb9ec9323fb1eb92c4197e1a557978e485b"
+}

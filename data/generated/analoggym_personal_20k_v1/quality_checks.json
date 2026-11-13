@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "samples_checked": 20000,
+  "topologies": {
+    "Alfio_RAFFC_Pin_3": 2000,
+    "Fan_SMC_Pin_3": 2000,
+    "HoiLee_AFFC_Pin_3": 2000,
+    "Leung_DFCFC1_Pin_3": 2000,
+    "Leung_NMCNR_Pin_3": 2000,
+    "Peng_TCFC_Pin_3": 2000,
+    "Qu2017_AZC_Pin_3": 2000,
+    "Song_DACFC_Pin_3": 2000,
+    "ldo_simple": 2000,
+    "ldo_folded_cascode": 2000
+  },
+  "raw_waveforms_recomputed": {
+    "Alfio_RAFFC_Pin_3": 2000,
+    "Fan_SMC_Pin_3": 2000,
+    "HoiLee_AFFC_Pin_3": 2000,
+    "Leung_DFCFC1_Pin_3": 2000,
+    "Leung_NMCNR_Pin_3": 2000,
+    "Peng_TCFC_Pin_3": 2000,
+    "Qu2017_AZC_Pin_3": 2000,
+    "Song_DACFC_Pin_3": 2000,
+    "ldo_simple": 2000,
+    "ldo_folded_cascode": 2000
+  },
+  "sample_and_design_ids_unique": true,
+  "ports_and_connectivity_checked": true,
+  "mask_only_missing": true,
+  "not_merged_with_historical": true,
+  "scope": "export snapshot; running campaign may have additional unexported ledger rows"
+}

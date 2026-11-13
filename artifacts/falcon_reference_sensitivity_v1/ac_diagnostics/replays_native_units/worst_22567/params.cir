@@ -1,0 +1,145 @@
+.param param_lDiodeTransistorNmos1=6e-6
+.param param_wDiodeTransistorNmos1=31e-6
+.param param_mDiodeTransistorNmos1=1
+
+.param param_lDiodeTransistorNmos2=6e-6
+.param param_wDiodeTransistorNmos2=6e-6
+.param param_mDiodeTransistorNmos2=1
+
+.param param_lDiodeTransistorPmos3=1e-6
+.param param_wDiodeTransistorPmos3=76e-6
+.param param_mDiodeTransistorPmos3=1
+
+.param param_lDiodeTransistorPmos4=10e-6
+.param param_wDiodeTransistorPmos4=12e-6
+.param param_mDiodeTransistorPmos4=1
+
+.param param_lNormalTransistorNmos5=param_lDiodeTransistorNmos1
+.param param_wNormalTransistorNmos5=167e-6
+.param param_mNormalTransistorNmos5=1
+
+.param param_lNormalTransistorNmos6=param_lDiodeTransistorNmos1
+.param param_wNormalTransistorNmos6=38e-6
+.param param_mNormalTransistorNmos6=1
+
+.param param_lNormalTransistorNmos8=param_lDiodeTransistorNmos2
+.param param_wNormalTransistorNmos8=7e-6
+.param param_mNormalTransistorNmos8=1
+
+.param param_lNormalTransistorNmos9=param_lDiodeTransistorNmos2
+.param param_wNormalTransistorNmos9=param_wNormalTransistorNmos8
+.param param_mNormalTransistorNmos9=param_mNormalTransistorNmos8
+
+.param param_lNormalTransistorNmos10=param_lDiodeTransistorNmos1
+.param param_wNormalTransistorNmos10=72e-6
+.param param_mNormalTransistorNmos10=1
+
+.param param_lNormalTransistorNmos11=param_lDiodeTransistorNmos1
+.param param_wNormalTransistorNmos11=param_wNormalTransistorNmos10
+.param param_mNormalTransistorNmos11=param_mNormalTransistorNmos10
+
+.param param_lNormalTransistorPmos13=10e-6
+.param param_wNormalTransistorPmos13=125e-6
+.param param_mNormalTransistorPmos13=1
+
+.param param_lNormalTransistorPmos14=param_lNormalTransistorPmos13
+.param param_wNormalTransistorPmos14=param_wNormalTransistorPmos13
+.param param_mNormalTransistorPmos14=param_mNormalTransistorPmos13
+
+.param param_lNormalTransistorPmos15=9e-6
+.param param_wNormalTransistorPmos15=167e-6
+.param param_mNormalTransistorPmos15=1
+
+.param param_lNormalTransistorPmos16=param_lNormalTransistorPmos15
+.param param_wNormalTransistorPmos16=param_wNormalTransistorPmos15
+.param param_mNormalTransistorPmos16=param_mNormalTransistorPmos15
+
+.param param_lNormalTransistorPmos17=5e-6
+.param param_wNormalTransistorPmos17=76e-6
+.param param_mNormalTransistorPmos17=1
+
+.param param_lNormalTransistorPmos18=param_lNormalTransistorPmos17
+.param param_wNormalTransistorPmos18=param_wNormalTransistorPmos17
+.param param_mNormalTransistorPmos18=param_mNormalTransistorPmos17
+
+.param param_lNormalTransistorPmos19=param_lDiodeTransistorPmos3
+.param param_wNormalTransistorPmos19=22e-6
+.param param_mNormalTransistorPmos19=1
+
+.param param_lNormalTransistorNmos20=error
+.param param_wNormalTransistorNmos20=error
+.param param_mNormalTransistorNmos20=1
+
+.param param_lNormalTransistorPmos21=error
+.param param_wNormalTransistorPmos21=error
+.param param_mNormalTransistorPmos21=1
+
+.param param_lNormalTransistorPmos22=param_lDiodeTransistorPmos3
+.param param_wNormalTransistorPmos22=error
+.param param_mNormalTransistorPmos22=1
+
+.param param_lNormalTransistorNmos23=param_lNormalTransistorNmos20
+.param param_wNormalTransistorNmos23=error
+.param param_mNormalTransistorNmos23=1
+
+.param param_lNormalTransistorNmos7=8e-6
+.param param_wNormalTransistorNmos7=74e-6
+.param param_mNormalTransistorNmos7=1
+
+.param param_lNormalTransistorPmos12=1e-6
+.param param_wNormalTransistorPmos12=534e-6
+.param param_mNormalTransistorPmos12=1
+
+.param param_ccapacitor2=3.20001e-12
+.param param_ccapacitor3=0
+
+* Exact archived CSV overrides in SKY130 wrapper-native micrometres.
+.param param_lDiodeTransistorNmos1=9.4900000000000002
+.param param_wDiodeTransistorNmos1=722.73000000000002
+.param param_mDiodeTransistorNmos1=1
+.param param_lDiodeTransistorNmos2=17.789999999999999
+.param param_wDiodeTransistorNmos2=887.31999999999994
+.param param_mDiodeTransistorNmos2=1
+.param param_lDiodeTransistorPmos3=3.9399999999999999
+.param param_wDiodeTransistorPmos3=646.65999999999997
+.param param_mDiodeTransistorPmos3=1
+.param param_lDiodeTransistorPmos4=19.170000000000002
+.param param_wDiodeTransistorPmos4=600.36000000000001
+.param param_mDiodeTransistorPmos4=1
+.param param_wNormalTransistorNmos5=469.12
+.param param_mNormalTransistorNmos5=1
+.param param_wNormalTransistorNmos6=404.54000000000002
+.param param_mNormalTransistorNmos6=1
+.param param_wNormalTransistorNmos8=844.28999999999996
+.param param_mNormalTransistorNmos8=1
+.param param_wNormalTransistorNmos10=273.49000000000001
+.param param_mNormalTransistorNmos10=1
+.param param_lNormalTransistorPmos13=18.860000000000003
+.param param_wNormalTransistorPmos13=343.98000000000002
+.param param_mNormalTransistorPmos13=1
+.param param_lNormalTransistorPmos15=9.2599999999999998
+.param param_wNormalTransistorPmos15=830.22000000000003
+.param param_mNormalTransistorPmos15=1
+.param param_lNormalTransistorPmos17=7.2699999999999996
+.param param_wNormalTransistorPmos17=705.93999999999994
+.param param_mNormalTransistorPmos17=1
+.param param_wNormalTransistorPmos19=1009.0799999999999
+.param param_mNormalTransistorPmos19=1
+.param param_lNormalTransistorNmos20=14.99
+.param param_wNormalTransistorNmos20=618.57999999999993
+.param param_mNormalTransistorNmos20=1
+.param param_lNormalTransistorPmos21=1.6499999999999999
+.param param_wNormalTransistorPmos21=322.57000000000005
+.param param_mNormalTransistorPmos21=1
+.param param_wNormalTransistorPmos22=892.48000000000002
+.param param_mNormalTransistorPmos22=1
+.param param_wNormalTransistorNmos23=506.96000000000004
+.param param_mNormalTransistorNmos23=1
+.param param_lNormalTransistorNmos7=0.68000000000000005
+.param param_wNormalTransistorNmos7=513.49000000000001
+.param param_mNormalTransistorNmos7=1
+.param param_lNormalTransistorPmos12=9.4100000000000001
+.param param_wNormalTransistorPmos12=8.6600000000000001
+.param param_mNormalTransistorPmos12=1
+.param param_ccapacitor2=1.2999999999999999e-12
+.param param_ccapacitor3=2.3999999999999999e-12

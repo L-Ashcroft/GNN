@@ -1,0 +1,195 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 548,
+        "mae": 3081793.090662708,
+        "r2": 0.9958716209848336,
+        "relative_count": 548,
+        "hit5": 0.9507299270072993,
+        "hit10": 0.9927007299270073
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 548,
+        "mae": 6.871266741676341e-06,
+        "r2": 0.997930231222288,
+        "relative_count": 548,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 548,
+        "mae": 0.319091832576602,
+        "r2": 0.9831570347989643,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 548,
+        "mae": 2438668.899100043,
+        "r2": 0.997604046664496,
+        "relative_count": 548,
+        "hit5": 0.9671532846715328,
+        "hit10": 0.9981751824817519
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 548,
+        "mae": 2.62815324798832e-06,
+        "r2": 0.9996607498561091,
+        "relative_count": 548,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 548,
+        "mae": 0.27248454315496856,
+        "r2": 0.9891975394271844,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 548,
+        "mae": 2371821.096806405,
+        "r2": 0.9950103616681383,
+        "relative_count": 548,
+        "hit5": 0.9525547445255474,
+        "hit10": 0.9963503649635036
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 548,
+        "mae": 1.5471344029048743e-05,
+        "r2": 0.9877601777603731,
+        "relative_count": 548,
+        "hit5": 0.9744525547445255,
+        "hit10": 0.9963503649635036
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 548,
+        "mae": 0.20642411113026005,
+        "r2": 0.991380390717159,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 548,
+        "mae": 11209871.83150865,
+        "r2": 0.9221644124058036,
+        "relative_count": 548,
+        "hit5": 0.677007299270073,
+        "hit10": 0.8558394160583942
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 548,
+        "mae": 1.2821354084533417e-05,
+        "r2": 0.9920226268256107,
+        "relative_count": 548,
+        "hit5": 0.9945255474452555,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 548,
+        "mae": 0.5887155143804881,
+        "r2": 0.9297402641109822,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 548,
+        "mae": 3799861.9284889717,
+        "r2": 0.9908652563066778,
+        "relative_count": 548,
+        "hit5": 0.9178832116788321,
+        "hit10": 0.9781021897810219
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 548,
+        "mae": 1.59126779588787e-05,
+        "r2": 0.987612795016596,
+        "relative_count": 548,
+        "hit5": 0.9762773722627737,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5",
+        "semantic_id": "AICircuit__CVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 548,
+        "mae": 0.23205258426468411,
+        "r2": 0.9894057436129369,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ]
+  },
+  "topology": "AICircuit__CVA"
+}

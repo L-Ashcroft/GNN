@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "policy_sha256": "551fb4359233246015b5d4ca0f8ce5b3c5d1d42f63f4352e035214c7e439683c",
+  "accepted_checked": 20000,
+  "topology_counts": {
+    "HoiLee_AFFC_Pin_3": 2000,
+    "Fan_SMC_Pin_3": 2000,
+    "ldo_simple": 2000,
+    "Alfio_RAFFC_Pin_3": 2000,
+    "ldo_folded_cascode": 2000,
+    "Leung_NMCNR_Pin_3": 2000,
+    "Leung_DFCFC1_Pin_3": 2000,
+    "Peng_TCFC_Pin_3": 2000,
+    "Song_DACFC_Pin_3": 2000,
+    "Qu2017_AZC_Pin_3": 2000
+  },
+  "all_accepted_pass_ac_gate": true,
+  "scope": "Snapshot of accepted ledger; no new simulations"
+}

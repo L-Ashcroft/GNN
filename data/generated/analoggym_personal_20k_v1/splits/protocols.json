@@ -1,0 +1,21 @@
+{
+  "id": {
+    "status": "data_ready",
+    "file": "id.parquet",
+    "rule": "1600 train / 200 validation / 200 test per topology"
+  },
+  "cross_source_zero_shot": {
+    "status": "blocked_pending_verified_shared_targets",
+    "public_training": "fusion_v2 training partition only",
+    "external_test": "id.parquet role=test; no target-domain fitting or tuning",
+    "reason": "Existing 500pF/0.1Hz AnalogGym-derived fixture is not automatically comparable to LOADBench 1pF/1Hz or unpublished FALCON/AICircuit benches; no untrained target head or domain embedding may be counted as a zero-shot predictor."
+  },
+  "few_shot": {
+    "status": "data_ready_model_adapter_and_new_heads_required",
+    "budget_files": [
+      "few_shot_global.json",
+      "few_shot_per_topology.json"
+    ],
+    "constraints": "Separate target-domain head/semantics and actual testbench inputs; fit all learned statistics only on the declared training/adaptation rows. Validation labels are an additional declared target-domain budget, never claimed as part of k without disclosure."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "state": "complete",
+  "pid": 43384,
+  "create_time": 1793554732.2579536,
+  "updated_at": "2026-11-01T21:50:01.183642+00:00",
+  "protocol": "streamed_joint_finetune_validation_only",
+  "body_frozen": false,
+  "test_used": false,
+  "device": "cpu",
+  "role": "validation",
+  "epoch": 3,
+  "batch": 1563,
+  "batches_per_epoch": 1563,
+  "samples_done": 50304,
+  "role_samples": 50861,
+  "training_loss": 0.28623437321365297,
+  "samples_per_second": 77.52041190974106,
+  "learning_rates": {
+    "backbone": 2e-06,
+    "adaptation": 1e-05
+  },
+  "gradient_norm": 9.571514129638672,
+  "completed_epochs": 3,
+  "best_validation_score": 0.24100722037923997,
+  "best_joint_epoch": -1,
+  "bad_epochs": 3,
+  "validation_hit5": 0.23952411569523266,
+  "validation_median_r2": 0.6187807430923862,
+  "completion_reason": "validation_window_plateau"
+}

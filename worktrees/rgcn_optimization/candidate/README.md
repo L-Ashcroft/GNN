@@ -1,0 +1,1 @@
+Candidate only. Not released or trained. Requires full GPU equivalence and measured speedup before deployment. Original loss, data, batch size, deterministic settings and optimizer remain unchanged. New recipe and migrated checkpoint lineage required.

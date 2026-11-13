@@ -1,0 +1,31 @@
+{
+  "parent_checkpoint": "artifacts/experiment1_autonomous_head_v1/best.pt",
+  "parent_checkpoint_sha256": "87b4a59a38cad932095cf58ac57a2df1715fa04636c0d9c67c2c45d2f80a5fdc",
+  "metadata_cache": "data/model_ready/fusion_v2_frozen_e19_bf0d71ad",
+  "output": "artifacts/experiment1_joint_cpu_v1",
+  "effective_batch_size": 256,
+  "training_microbatch": 128,
+  "validation_microbatch": 128,
+  "lru_topologies": 2,
+  "cpu_threads": 4,
+  "minimum_start_RAM_GiB": 1.5,
+  "head_lr": 2.5e-05,
+  "backbone_lr": 1e-05,
+  "minimum_lr": 1e-06,
+  "max_epochs": 48,
+  "patience": 6,
+  "checkpoint_every_updates": 25,
+  "window_epochs": 4,
+  "minimum_window_gain": 0.002,
+  "window_stop_backbone_lr": 2.5e-06,
+  "pilot_train_samples": 5120,
+  "pilot_validation_samples": 5120,
+  "pilot_lr_scales": [
+    1.0,
+    0.5
+  ],
+  "pilot_min_hit_gain": 0.0001,
+  "pilot_min_loss_gain": 0.005,
+  "pilot_max_median_drop": 0.01,
+  "test_policy": "No test evaluation"
+}

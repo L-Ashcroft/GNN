@@ -1,0 +1,248 @@
+{
+  "changed_files": [
+    "src\\graph\\builder.py",
+    "src\\model\\heads.py",
+    "src\\model\\layers.py",
+    "src\\model\\network.py",
+    "src\\train\\loop.py",
+    "src\\train\\losses.py",
+    "src/model/execution.py"
+  ],
+  "CPU_batch16": {
+    "reference": {
+      "mean_step_seconds": 0.5855907666652153,
+      "range_seconds": [
+        0.5362025999929756,
+        0.6414868000429124
+      ],
+      "throughput_samples_per_second": 27.322835179106004,
+      "CPU_RSS_peak_MiB": 528.4921875,
+      "mean_stage_ms": {
+        "data_and_graph_build": 3.6024332512170076,
+        "prepare_and_transfer": 0.03856668869654337,
+        "zero_grad": 4.635366766403119,
+        "forward": 105.99103344914813,
+        "loss": 4.376966583852966,
+        "backward": 414.4373000599444,
+        "gradient_clip": 8.357166623075804,
+        "optimizer_step": 42.56059997715056,
+        "coverage_statistics": 0.34226663410663605,
+        "loss_statistics": 1.1909333212922018
+      },
+      "forward_operator_counts": {
+        "aten::nonzero": 224,
+        "aten::bincount": 192,
+        "aten::_local_scalar_dense": 2,
+        "aten::mm": 192,
+        "aten::addmm": 97,
+        "aten::index_add_": 192
+      }
+    },
+    "optimized": {
+      "mean_step_seconds": 0.4645796667318791,
+      "range_seconds": [
+        0.4450358001049608,
+        0.48601130000315607
+      ],
+      "throughput_samples_per_second": 34.43973368992494,
+      "CPU_RSS_peak_MiB": 491.5,
+      "mean_stage_ms": {
+        "data_and_graph_build": 2.35916666376094,
+        "prepare_and_transfer": 5.292333429679275,
+        "zero_grad": 4.555999922255675,
+        "forward": 72.26546675277253,
+        "loss": 0.41263333211342496,
+        "backward": 334.65180002773803,
+        "gradient_clip": 10.519600085293254,
+        "optimizer_step": 34.17333339651426,
+        "coverage_statistics": 0.06943327995638053,
+        "loss_statistics": 0.20720002551873526
+      },
+      "forward_operator_counts": {
+        "aten::nonzero": 0,
+        "aten::bincount": 0,
+        "aten::_local_scalar_dense": 2,
+        "aten::mm": 192,
+        "aten::addmm": 90,
+        "aten::index_add_": 192
+      }
+    }
+  },
+  "CPU_batch16_measured_speedup": 1.260474378451812,
+  "correctness_maxima": {
+    "states": {
+      "max_abs": 1.4901161193847656e-08,
+      "max_relative_floor_1e8": 4.705335426893909e-07,
+      "max_acceptance_ratio": 0.0020819022640780806
+    },
+    "loss": {
+      "max_abs": 3.814697265625e-06,
+      "max_relative_floor_1e8": 1.7792573290945492e-07,
+      "max_acceptance_ratio": 0.008814066785206463
+    },
+    "gradient": {
+      "max_abs": 2.2351741790771484e-08,
+      "max_relative_floor_1e8": 0.27939677238464355,
+      "max_acceptance_ratio": 0.0005390186144519578
+    },
+    "adamw": {
+      "max_abs": 1.950189471244812e-05,
+      "max_relative_floor_1e8": 0.012106699970116491,
+      "max_acceptance_ratio": 0.6317836548003044
+    },
+    "statistics": {
+      "max_abs": 1.52587890625e-05,
+      "max_relative_floor_1e8": 1.0167185125326824e-07,
+      "max_acceptance_ratio": 0.0050499444556609315
+    }
+  },
+  "edge_case_tests": {
+    "tests_run": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  },
+  "production_sources_and_config_unchanged": true,
+  "frozen_reference_unchanged": true,
+  "production_before": {
+    "state": "training",
+    "pid": 27996,
+    "updated_at": "2026-10-30T05:54:25.460626+00:00",
+    "test_used": false,
+    "epoch": 2,
+    "max_epochs": 100,
+    "batch": 437,
+    "batches_per_epoch": 1563,
+    "train_samples": 400083,
+    "validation_samples": 50861,
+    "test_samples": 49056,
+    "device": "cuda",
+    "GPU": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "batch_size": 256,
+    "best_epoch": 1,
+    "samples_processed_in_epoch": 111872,
+    "epoch_training_seconds": 1570.049224899849,
+    "training_loss": 1.2609212307099789,
+    "samples_per_second": 71.25381690318413,
+    "estimated_training_seconds_per_epoch": 5614.899206643363,
+    "gradient_norm": 2.040231943130493,
+    "GPU_peak_GiB": 1.0395464897155762,
+    "best_validation_score": 0.07252401951706784,
+    "completed_epochs": 1
+  },
+  "production_after": {
+    "state": "training",
+    "pid": 27996,
+    "updated_at": "2026-10-30T06:42:11.615215+00:00",
+    "test_used": false,
+    "epoch": 2,
+    "max_epochs": 100,
+    "batch": 1227,
+    "batches_per_epoch": 1563,
+    "train_samples": 400083,
+    "validation_samples": 50861,
+    "test_samples": 49056,
+    "device": "cuda",
+    "GPU": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "batch_size": 256,
+    "best_epoch": 1,
+    "samples_processed_in_epoch": 314112,
+    "epoch_training_seconds": 4436.210289299954,
+    "training_loss": 1.2245660124504525,
+    "samples_per_second": 70.80638191512958,
+    "estimated_training_seconds_per_epoch": 5650.380504959993,
+    "gradient_norm": 4.619088649749756,
+    "GPU_peak_GiB": 1.039616584777832,
+    "best_validation_score": 0.07252401951706784,
+    "completed_epochs": 1
+  },
+  "production_same_process_alive": true,
+  "CPU_batch256": {
+    "reference": {
+      "status": "aborted_for_memory",
+      "phase": "forward",
+      "variant": "reference",
+      "reason": "Only diagnostic exits below 640 MiB available RAM",
+      "production_pid": 27996
+    },
+    "optimized": {
+      "status": "aborted_for_memory",
+      "phase": "forward",
+      "variant": "optimized",
+      "reason": "Only diagnostic exits below 640 MiB available RAM",
+      "production_pid": 27996
+    }
+  },
+  "GPU_batch256": {
+    "reference": {
+      "status": "deferred",
+      "reason": "Production PID alive or available host RAM below 4 GiB",
+      "production": {
+        "state": "training",
+        "pid": 27996,
+        "updated_at": "2026-10-30T06:26:18.478780+00:00",
+        "test_used": false,
+        "epoch": 2,
+        "max_epochs": 100,
+        "batch": 957,
+        "batches_per_epoch": 1563,
+        "train_samples": 400083,
+        "validation_samples": 50861,
+        "test_samples": 49056,
+        "device": "cuda",
+        "GPU": "NVIDIA GeForce RTX 4050 Laptop GPU",
+        "batch_size": 256,
+        "best_epoch": 1,
+        "samples_processed_in_epoch": 244992,
+        "epoch_training_seconds": 3483.067651499994,
+        "training_loss": 1.233025935338691,
+        "samples_per_second": 70.33799641947621,
+        "estimated_training_seconds_per_epoch": 5688.00677252756,
+        "gradient_norm": 5.226314544677734,
+        "GPU_peak_GiB": 1.0395464897155762,
+        "best_validation_score": 0.07252401951706784,
+        "completed_epochs": 1
+      },
+      "available_RAM_bytes": 1952153600,
+      "GPU_speedup": null
+    },
+    "optimized": {
+      "status": "deferred",
+      "reason": "Production PID alive or available host RAM below 4 GiB",
+      "production": {
+        "state": "training",
+        "pid": 27996,
+        "updated_at": "2026-10-30T06:26:18.478780+00:00",
+        "test_used": false,
+        "epoch": 2,
+        "max_epochs": 100,
+        "batch": 957,
+        "batches_per_epoch": 1563,
+        "train_samples": 400083,
+        "validation_samples": 50861,
+        "test_samples": 49056,
+        "device": "cuda",
+        "GPU": "NVIDIA GeForce RTX 4050 Laptop GPU",
+        "batch_size": 256,
+        "best_epoch": 1,
+        "samples_processed_in_epoch": 244992,
+        "epoch_training_seconds": 3483.067651499994,
+        "training_loss": 1.233025935338691,
+        "samples_per_second": 70.33799641947621,
+        "estimated_training_seconds_per_epoch": 5688.00677252756,
+        "gradient_norm": 5.226314544677734,
+        "GPU_peak_GiB": 1.0395464897155762,
+        "best_validation_score": 0.07252401951706784,
+        "completed_epochs": 1
+      },
+      "available_RAM_bytes": 1953427456,
+      "GPU_speedup": null
+    }
+  },
+  "GPU_speedup": null,
+  "GPU_peak_memory": null,
+  "GPU_kernel_count": null,
+  "GPU_sync_count": null,
+  "acceptance": "CPU small-real-batch equivalence passed; CUDA and full Batch=256 acceptance deferred for memory/live-process safety."
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "scratch_k5_seed42",
+  "parent_checkpoint_sha256": "9864ada685e7fe410049fce8a7e275b71b4ac153af75b01acd63979ac7e63e84",
+  "training_ids_sha256": "d0b64a86effa8ba702a85edbb74851aabdead37910255740122d46bd043c4935",
+  "budget_per_topology": 5,
+  "role_policy": "Declared adaptation train rows and validation only; test embeddings remain NaN",
+  "files": {
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Alfio_RAFFC_Pin_3/embedding.npy": "f4769042eb41d07b69cd87dbcc3ae7f4a02de2fea2638fafda478577dc23c984",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Fan_SMC_Pin_3/embedding.npy": "d104f4d4962d58b06595fa3e50f5dafea43d0bc58a73747d325a96b0c2a155b5",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/HoiLee_AFFC_Pin_3/embedding.npy": "472dcbc4d085c37f9105e9939283a55462f57d132158dd464172306e1524a9e0",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Leung_DFCFC1_Pin_3/embedding.npy": "c662affc1aca1a33adaae07dfb724c88e5d3c3c726b2c83e018964f8ac29cf99",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Leung_NMCNR_Pin_3/embedding.npy": "d1e9ec8b02641acdbf8263c2cb255a0ae1e422c0561d921d777228c47ef92cd7",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Peng_TCFC_Pin_3/embedding.npy": "f2e2b1250af7656379667ab9e4fee845dec35018817a93583e7835b9febfc568",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Qu2017_AZC_Pin_3/embedding.npy": "be4152abdcf274eadd93f663ecc9bbe3a3e7a57767244a020ea831bba2f28aee",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/Song_DACFC_Pin_3/embedding.npy": "e6baffc2b6de910da61cf630eb76344cc693e637affb3a2420fb547c593a2343",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/ldo_folded_cascode/embedding.npy": "7a2c223e78959e5452f7728f0138eb70f29cc9051987d9fdf0f890f333e6c37c",
+    "data/model_ready/personal_refinement_v2/scratch_k5_seed42/ldo_simple/embedding.npy": "45af5f72e50c0525d14b4a94c31673eb47d6cb9cdccea11aa659d49b1b8be9de"
+  },
+  "at": "2026-11-05T12:03:12.890188+00:00"
+}

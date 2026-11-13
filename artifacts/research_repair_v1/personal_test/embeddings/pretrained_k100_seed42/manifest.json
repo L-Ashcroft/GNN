@@ -1,0 +1,18 @@
+{
+  "parent_sha256": "8cd1e3342647812c21ca459d71acb756ab4be97c36b60be2e2550ab0be2eb67b",
+  "files": {
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Alfio_RAFFC_Pin_3.npy": "15d877afad464d235ea0215c1df156127630efda4bef61a6844efe4a19f6c853",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Fan_SMC_Pin_3.npy": "2487c56086696c0bb7e61ab221673a9759282f37b6cfe1f4dc848fe35512aab1",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/HoiLee_AFFC_Pin_3.npy": "790fc013abec3577dd7151ba046b3e0e97843ac3b15f68748f55c95a97a8f769",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Leung_DFCFC1_Pin_3.npy": "11b101ff77b6268d12659e22846a16a5fbb1c322b958174db37a9d6722ed52da",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Leung_NMCNR_Pin_3.npy": "645f18a8a63363796d5b8062aad02b60c2718ec48a7ed6daf0724066bcffd460",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Peng_TCFC_Pin_3.npy": "8d67f91a4e214995c3141b9761d0dd654829888a5ec434873a22b2cdeff60388",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Qu2017_AZC_Pin_3.npy": "10d1be76d48f50f4c684d56089b61a675df334b5527a87c0f81add81ac2aa8d6",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/Song_DACFC_Pin_3.npy": "e8861b108caf74b7a32469b24547af2853fac0a41cc3f23861cf5f5d767fc101",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/ldo_folded_cascode.npy": "2b382ba24966caebb9af547ae0bf4422b4bb32a53f4d032338c4c1dc97f5f67a",
+    "artifacts/research_repair_v1/personal_test/embeddings/pretrained_k100_seed42/ldo_simple.npy": "dc2f256f4644f496584d36819917fcf5770a759e284537103d51f97d5b1edc26"
+  },
+  "validation_embedding_max_absolute_error": 2.1457672119140625e-06,
+  "role": "test_only",
+  "rows": 2000
+}

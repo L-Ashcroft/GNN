@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-05T11:46:35.720122+00:00",
+  "recipe_hash": "b346b530ca7d009e9941167e9dc231dc5a535e4926799f37158d8aacf152ff01",
+  "best_epoch": 0,
+  "best_checkpoint_sha256": "4ee41f2d34059940c374c154efa592f40fa8fcbfb977228218360f62b8755382",
+  "validation_hit5": 0.24949074074074074,
+  "validation_median_r2": -0.07736569558780793,
+  "test_used": false
+}

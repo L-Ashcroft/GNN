@@ -1,0 +1,104 @@
+[
+  {
+    "epoch": 1,
+    "validation_hit5": 0.14574074074074075,
+    "validation_median_r2": -2.208087642462825,
+    "updates": 16
+  },
+  {
+    "epoch": 2,
+    "validation_hit5": 0.16337962962962962,
+    "validation_median_r2": -1.0779249290380815,
+    "updates": 32
+  },
+  {
+    "epoch": 3,
+    "validation_hit5": 0.19055555555555556,
+    "validation_median_r2": -0.5283132202077678,
+    "updates": 48
+  },
+  {
+    "epoch": 4,
+    "validation_hit5": 0.20828703703703705,
+    "validation_median_r2": -0.1817293528786521,
+    "updates": 64
+  },
+  {
+    "epoch": 5,
+    "validation_hit5": 0.22157407407407406,
+    "validation_median_r2": -0.09288596712532604,
+    "updates": 80
+  },
+  {
+    "epoch": 6,
+    "validation_hit5": 0.23523148148148149,
+    "validation_median_r2": -0.06392854794224756,
+    "updates": 96
+  },
+  {
+    "epoch": 7,
+    "validation_hit5": 0.22916666666666666,
+    "validation_median_r2": -0.06791854739850633,
+    "updates": 112
+  },
+  {
+    "epoch": 8,
+    "validation_hit5": 0.23921296296296296,
+    "validation_median_r2": -0.04644239940175121,
+    "updates": 128
+  },
+  {
+    "epoch": 9,
+    "validation_hit5": 0.2413888888888889,
+    "validation_median_r2": -0.02572174385404946,
+    "updates": 144
+  },
+  {
+    "epoch": 10,
+    "validation_hit5": 0.24092592592592593,
+    "validation_median_r2": -0.024448787405748074,
+    "updates": 160
+  },
+  {
+    "epoch": 11,
+    "validation_hit5": 0.2449074074074074,
+    "validation_median_r2": -0.03346777378727872,
+    "updates": 176
+  },
+  {
+    "epoch": 12,
+    "validation_hit5": 0.24828703703703706,
+    "validation_median_r2": -0.012649478282681037,
+    "updates": 192
+  },
+  {
+    "epoch": 13,
+    "validation_hit5": 0.2475925925925926,
+    "validation_median_r2": -0.03015488242825448,
+    "updates": 208
+  },
+  {
+    "epoch": 14,
+    "validation_hit5": 0.23675925925925925,
+    "validation_median_r2": -0.02710574158681045,
+    "updates": 224
+  },
+  {
+    "epoch": 15,
+    "validation_hit5": 0.23425925925925928,
+    "validation_median_r2": -0.0037406950206176903,
+    "updates": 240
+  },
+  {
+    "epoch": 16,
+    "validation_hit5": 0.2423611111111111,
+    "validation_median_r2": -0.002594898014729674,
+    "updates": 256
+  },
+  {
+    "epoch": 17,
+    "validation_hit5": 0.24087962962962964,
+    "validation_median_r2": 0.00430909016813491,
+    "updates": 272
+  }
+]

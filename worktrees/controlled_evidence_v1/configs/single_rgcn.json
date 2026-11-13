@@ -1,0 +1,58 @@
+{
+  "fold_id": "controlled_single_rgcn_lb_v1",
+  "output": "artifacts/controlled_single_rgcn_lb_v1",
+  "protocol": "data/fusion_v2/splits/verified_loto_full_v2/paired_ID_reference.json",
+  "source_population": "public_fusion_500000_only",
+  "private_AnalogGym_used": false,
+  "initialization": "random_seed42_no_ID_weights_or_embeddings",
+  "hidden_dim": 128,
+  "num_layers": 4,
+  "dropout": 0.1,
+  "use_domain_emb": true,
+  "use_film": true,
+  "update_edges": true,
+  "collapse_relations": false,
+  "head": "portable_semantic_direct_residual",
+  "backbone_lr": 0.0002,
+  "adaptation_lr": 0.0003,
+  "weight_decay": 0.01,
+  "minimum_lr": 2e-06,
+  "warmup_updates": 100,
+  "effective_batch_size": 256,
+  "training_microbatch": 16,
+  "validation_microbatch": 16,
+  "lru_topologies": 1,
+  "cpu_threads": 2,
+  "max_epochs": 20,
+  "minimum_epochs": 4,
+  "patience": 5,
+  "minimum_gain": 0.0001,
+  "seed": 42,
+  "checkpoint_every_updates": 10,
+  "selection_metric": "LOADBench_validation_macro_hit5",
+  "test_policy": "Fixed test labels are evaluated only after validation selection is frozen",
+  "backend_policy": "CPU fallback; CUDA only after >=4GiB actual available host RAM and per-implementation numerical qualification",
+  "supported_torch_builds": [
+    "2.9.1+cpu",
+    "2.9.1+cu128"
+  ],
+  "minimum_CPU_start_RAM_GiB": 1.4,
+  "minimum_CUDA_start_RAM_GiB": 4.0,
+  "experiment_kind": "ID_LOADBench_control",
+  "id": "controlled_single_rgcn_lb_v1",
+  "model_kind": "rgcn",
+  "train_sources": [
+    "LOADBench"
+  ],
+  "epoch_presentations": 400083,
+  "validation_sources": [
+    "LOADBench"
+  ],
+  "test_sources": [
+    "LOADBench"
+  ],
+  "conditions": "Shared8: fixed symlog temperature/100, supply/1, load/1e-12, bias/1e-5 plus known flags",
+  "condition_unknown_policy": "Unknown stays zero with known=false; no inferred values",
+  "budget": "Same LOADBench train IDs, same400083 presentations per epoch and1563 maximum updates; single-source cycles TRAIN only",
+  "CPU_only": true
+}

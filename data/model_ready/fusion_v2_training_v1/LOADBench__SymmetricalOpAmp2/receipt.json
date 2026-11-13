@@ -1,0 +1,78 @@
+{
+  "rows": 2403,
+  "folder": "data/model_ready/fusion_v2_training_v1/LOADBench__SymmetricalOpAmp2",
+  "inputs": {
+    "source": "26d5412ec98ab64585bf81bdceebe52d1e757c4d74ad2775ee62fc1b0520975b",
+    "graph": "58c7dff09a163b38e2502ec5447a16fb5d4d9a6071df512dbef7ac5a98e18da9",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "39d452d75262eb87095ec5bb18b2da3f6b0102cbdb64ac77dc0d20d54620ec05",
+    "group.npy": "dec03a1806589fea152844bd717db48e21f2e8ef2c8ee94bef45e27ca1ebb6d5",
+    "known.npy": "8a45ff813f8b880bf10d13863ba36459213157ebc092758671056f5dbcaffc12",
+    "mask.npy": "f95a746f6bced4f4ce0490a8b66840985e0c66319e0e3885e232315aa533b7cd",
+    "role.npy": "9072a2d9efc9cd9c1ff6fdea9720381a7dbe2698939814f936d7073916901845",
+    "sample_ids.npy": "1b0f17ef43645971b6e51b04a07ec2f2cc45404fc403b6b0ccaae68749e49a48",
+    "target.npy": "fc19e01ebfc7d8bb584f84518adb8fa92b38517213f427d6d436a8aa83e135d7",
+    "values.npy": "d82317a1142e6671e7708844f3e33911dab6210f528519ca3894f8eeea3b7d8e",
+    "zero.npy": "383056e93a87896af8f55783c9e5cf0249b9584c9973c3664466b74d016c7b3f"
+  },
+  "coverage": {
+    "0": {
+      "7bc2dce7568c393107d6485220f9656b22f5ca07d0fa43f919b47877045bb147": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "1": {
+      "7bc2dce7568c393107d6485220f9656b22f5ca07d0fa43f919b47877045bb147": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "2": {
+      "7bc2dce7568c393107d6485220f9656b22f5ca07d0fa43f919b47877045bb147": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  "reference_checks": 3
+}

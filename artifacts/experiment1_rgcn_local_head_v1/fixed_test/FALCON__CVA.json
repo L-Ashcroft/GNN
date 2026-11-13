@@ -1,0 +1,65 @@
+{
+  "topology": "FALCON__CVA",
+  "rows": 989,
+  "bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "prediction_sha256": "418a1b239b59e64805e2c46e8ece679f5586993ab70cf25115ab6b6a3916b921",
+  "metrics": {
+    "per_target": [
+      {
+        "supervision_group": "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c",
+        "semantic_id": "FALCON__CVA::Bandwidth",
+        "unit": "Hz",
+        "original_name": "Bandwidth",
+        "count": 989,
+        "mae": 788445.9859692543,
+        "r2": 0.9954065434094514,
+        "mre": 0.001955971282661249,
+        "hit5": 1.0,
+        "hit10": 1.0,
+        "relative_count": 989,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      },
+      {
+        "supervision_group": "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c",
+        "semantic_id": "FALCON__CVA::DCPowerConsumption",
+        "unit": "W",
+        "original_name": "DCPowerConsumption",
+        "count": 989,
+        "mae": 6.021145647639991e-06,
+        "r2": 0.9978803450287227,
+        "mre": 0.012908481817127532,
+        "hit5": 0.9686552072800809,
+        "hit10": 0.9979777553083923,
+        "relative_count": 989,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      },
+      {
+        "supervision_group": "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c",
+        "semantic_id": "FALCON__CVA::VoltageGain",
+        "unit": "dB",
+        "original_name": "VoltageGain",
+        "count": 989,
+        "mae": 0.22332174748141562,
+        "r2": 0.9903165010301366,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 0.9767441860465116,
+        "relative_policy": "not applicable to log units"
+      }
+    ],
+    "macro_hit5": 0.9843276036400405,
+    "macro_hit10": 0.9989888776541962,
+    "macro_r2": 0.9945344631561035,
+    "macro_mre": 0.0074322265498943905,
+    "target_groups": 3
+  },
+  "seconds": 1.1863281999976607,
+  "train_test_ids_disjoint": true
+}

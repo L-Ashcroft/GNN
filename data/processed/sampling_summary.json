@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "target": 500000,
+  "sampled": 500000,
+  "input_complete_sampled": 500000,
+  "unique_candidates": 1343220,
+  "exact_duplicate_records_removed": 0,
+  "source_topologies": 29,
+  "connectivity_classes": 26,
+  "conservative_mos_core_classes": 23,
+  "sources": {
+    "FALCON": 368165,
+    "AICircuit": 131835
+  },
+  "same_design_multiple_rows": 3720
+}

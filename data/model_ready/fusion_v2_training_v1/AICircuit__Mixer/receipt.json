@@ -1,0 +1,48 @@
+{
+  "rows": 16174,
+  "folder": "data/model_ready/fusion_v2_training_v1/AICircuit__Mixer",
+  "inputs": {
+    "source": "a3af2a60ebdab5f6e5c379f4084f8edbd294a85357b01f67458b6507d872ab60",
+    "graph": "0d9b4c068a21f18e34c7fd87f541656f4b912a229939f522e7f2c3811a385313",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "23aab8c691200eb759616c12f4d10bf7a7007c3152cb7207651649c3a58223e3",
+    "group.npy": "a4cfd93394e54323f0cf1810def079d78af0f1450ccfd366382d668537fa92c1",
+    "known.npy": "059969443381d4dcadddd2a920d2cd76e6cdde7a4e6efe62811ece57631f1e1b",
+    "mask.npy": "358d791ddb7e293f0b1ffeffaa688717edf0699f01cdcc85574d6e00957384fd",
+    "role.npy": "6909509986371e4f912111186a3d33d5fdff224fddb886f92d0c180620286e63",
+    "sample_ids.npy": "d428645bfc9fa8b977493efd5da712eabebfae92183de8db319ba2b48f0408bb",
+    "target.npy": "aac66aecce5f8d2120b7100a90e80e9c5484c3e94d09d2f73ff95235c60a60fb",
+    "values.npy": "edc740604350fb700f0b3b147d8a5b9f471ad0da98d66ef6fa3f51f6ac416f57",
+    "zero.npy": "b0db8e602072718f6e1e74d603b23bde5bf3be6e5f3774a2b270722f5e4a61cb"
+  },
+  "coverage": {
+    "0": {
+      "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "1": {
+      "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "2": {
+      "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "reference_checks": 3
+}

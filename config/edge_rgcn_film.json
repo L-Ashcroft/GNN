@@ -1,0 +1,9 @@
+{
+  "base_config": "config/edge_rgcn.json",
+  "use_domain_emb": true,
+  "use_film": true,
+  "collapse_relations": false,
+  "stage": "pretrain",
+  "domain_policy": "source_dataset x actual catalog process; unknown process stays unknown",
+  "large_training_authorized_by_this_config": false
+}

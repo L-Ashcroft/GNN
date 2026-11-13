@@ -1,0 +1,31 @@
+{
+  "state": "paused",
+  "pid": 31364,
+  "create_time": 1794487037.5213685,
+  "updated_at": "2026-11-12T13:57:25.535632+00:00",
+  "device": "cpu",
+  "experiment": "ID",
+  "fold_id": "paired_ID_same_neural_architecture_seed42",
+  "body_frozen": false,
+  "private_AnalogGym_used": false,
+  "heldout_test_used": false,
+  "role": "train",
+  "epoch": 12,
+  "batch": 593,
+  "batches_per_epoch": 1563,
+  "samples_done": 151040,
+  "role_samples": 400083,
+  "best_compatible_validation_hit5": 0.3010254340145783,
+  "best_epoch": 10,
+  "model_parameters": 8146624,
+  "heldout_topologies": [],
+  "training_loss": 0.14989955958745355,
+  "samples_per_second": 28.409718784519207,
+  "gradient_norm": 5.053520202636719,
+  "updates": 17783,
+  "learning_rates": {
+    "backbone": 0.0002,
+    "adaptation": 0.0003
+  },
+  "reason": "supervisor_or_memory_stop"
+}

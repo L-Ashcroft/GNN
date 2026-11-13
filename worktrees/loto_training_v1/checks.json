@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "fold_id": "LB_M04__hold_SimpleOpAmp4",
+  "counts": {
+    "train": 446984,
+    "validation": 50612,
+    "test": 2404,
+    "unused": 0
+  },
+  "sources": [
+    "FALCON",
+    "AICircuit",
+    "LOADBench"
+  ],
+  "private_data_used": false,
+  "heldout_training_guard_passed": true,
+  "alias_contracts": 129,
+  "normalization_training_rows": 446984,
+  "no_ID_weights_or_embeddings_loaded": true,
+  "micro_loss_equal": true,
+  "micro_gradient_max_absolute_error": 1.043081283569336e-07,
+  "micro_gradient_max_tolerance_ratio": 0.002425384009256959,
+  "gradient_tolerance": {
+    "atol": 2e-05,
+    "rtol": 0.002
+  },
+  "nonzero_graph_backbone_gradient": 0.23689522594213486,
+  "full_model_parameters": 8146624,
+  "all_parameters_trainable": true,
+  "CPU_effective_batch": 256,
+  "microbatch": 128,
+  "steps": [
+    {
+      "seconds": 3.1122238999960246,
+      "normalized_loss": 1.0607236927615213,
+      "gradient_norm": 0.888138473033905
+    },
+    {
+      "seconds": 3.2806503000028897,
+      "normalized_loss": 0.8376183556150626,
+      "gradient_norm": 0.6062737107276917
+    },
+    {
+      "seconds": 3.164691699996183,
+      "normalized_loss": 1.0331472753304345,
+      "gradient_norm": 0.7377873063087463
+    }
+  ],
+  "samples_per_second": 80.35518750651711,
+  "estimated_training_epoch_minutes": 92.71004852958785,
+  "relations_observed_in_probe": 48,
+  "peak_RSS_MiB": 981.8984375,
+  "minimum_available_RAM_MiB": 2051.23828125,
+  "heldout_test_labels_used": false
+}

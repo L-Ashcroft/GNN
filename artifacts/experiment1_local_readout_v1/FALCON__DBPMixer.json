@@ -1,0 +1,195 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 1.2798299758227738,
+        "r2": 0.9561473428299951,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.03279187294714131,
+        "r2": 0.9969360929222502,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1003,
+        "mae": 7.0802385014030295e-06,
+        "r2": 0.9949140937828975,
+        "relative_count": 1003,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 1.2147379552720865,
+        "r2": 0.9595520332330855,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.0033494200001007563,
+        "r2": 0.9999235144148316,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1003,
+        "mae": 2.032831978731935e-06,
+        "r2": 0.9995799796610562,
+        "relative_count": 1003,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.5787446460868493,
+        "r2": 0.9711980293556344,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.03247488223007834,
+        "r2": 0.9954275574836987,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1003,
+        "mae": 6.573977786906151e-06,
+        "r2": 0.9939214080559369,
+        "relative_count": 1003,
+        "hit5": 0.9970089730807578,
+        "hit10": 1.0
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.4779134876213398,
+        "r2": 0.9772691025154051,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.02441582376031799,
+        "r2": 0.9977885421344637,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1003,
+        "mae": 4.23003048787673e-06,
+        "r2": 0.9979733816751033,
+        "relative_count": 1003,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "original_name": "ConversionGain",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.48622347097336616,
+        "r2": 0.9774150276031623,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1003,
+        "mae": 0.025811747782093376,
+        "r2": 0.9971167442005573,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "original_name": "VoltageSwing",
+        "unit": "V",
+        "count": 1003,
+        "mae": 4.8005356030074544e-06,
+        "r2": 0.9969231911009055,
+        "relative_count": 1003,
+        "hit5": 0.9990029910269193,
+        "hit10": 1.0
+      }
+    ]
+  },
+  "topology": "FALCON__DBPMixer"
+}

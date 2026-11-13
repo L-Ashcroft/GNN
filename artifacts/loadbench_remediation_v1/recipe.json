@@ -1,0 +1,25 @@
+{
+  "version": "LOADBench_ID_readout_remediation_v1",
+  "script_sha256": "b47c65242c251017b136b7db67ac617a7f29f98cf5c1a632920920c54a7001da",
+  "readout_sha256": "4786b33a3c2c85fa337c2283eb89c466b4894c26df0df6615adbcd6d9feb8a97",
+  "original_bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "split_sha256": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+  "cache_manifest_sha256": "c1bc8f65d85fe4dd0e2e65d8d02bb310ea0a57a1e1524dc9e242c28a6b611535",
+  "quality_manifest_sha256": "6d2c680f8059e621f28bd3ca84cfa2356eeb29fe4115b4b69c36cd143c5b8e66",
+  "modes": [
+    "published",
+    "design_knn8",
+    "design_affine32",
+    "graph_design_affine32",
+    "graph_design_review_sensitivity"
+  ],
+  "ridge": 0.01,
+  "k_affine": 32,
+  "k_knn": 8,
+  "test_access": false,
+  "selection": "On all-original same validation targets: highest macro_hit5 among non-review variants with median_R2>=published, macro_R2>=published and negative_R2_count<=published. No per-target selection.",
+  "quality": "Sensitivity only: exclude review TRAIN neighbors for ft/phasemargin, not other targets; no claim all review records invalid; mask unchanged.",
+  "feature_transform": "SI design parameters signed log1p(unit reference); mean/std/active fitted to TRAIN only. Frozen GNN embedding uses its existing TRAIN transforms.",
+  "fallback": "All variants retain published readout for contracts with fewer than256 TRAIN rows; no source label changes.",
+  "scope": "Known-topology ID only; new readout, not an end-to-end GNN or LOTO improvement."
+}

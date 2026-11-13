@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "comparisons": [
+    {
+      "name": "raw_graph_vs_cache_embedding",
+      "max_absolute_error": 4.291534423828125e-06,
+      "max_tolerance_ratio": 0.3165431022644043,
+      "atol": 5e-06,
+      "rtol": 5e-05,
+      "passed": true
+    },
+    {
+      "name": "raw_graph_vs_cached_head_prediction",
+      "max_absolute_error": 1.5029013207046305e-05,
+      "max_tolerance_ratio": 0.5577934156286749,
+      "atol": 5e-06,
+      "rtol": 5e-05,
+      "passed": true
+    }
+  ],
+  "real_graph_batch": 32,
+  "sources": [],
+  "relations_observed": 48,
+  "checkpoint_epoch": 3,
+  "full_model_parameters": 8243430,
+  "head_parameters": 1416164,
+  "head_precision": "FP32 normalized network/FP64 target affine",
+  "no_training_labels_needed_to_load_model": true,
+  "test_read": false,
+  "device": "cpu"
+}

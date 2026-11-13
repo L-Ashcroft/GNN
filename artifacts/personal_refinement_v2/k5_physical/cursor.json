@@ -1,0 +1,205 @@
+{
+  "recipe_hash": "b346b530ca7d009e9941167e9dc231dc5a535e4926799f37158d8aacf152ff01",
+  "next_epoch": 20,
+  "history": [
+    {
+      "epoch": 1,
+      "training_loss": 0.02458256664309372,
+      "validation_hit5": 0.24888888888888888,
+      "validation_median_r2": -0.07815404528810632,
+      "validation_macro_r2": -0.12744877453836342,
+      "negative_r2_targets": 96,
+      "admissible": true
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.021610400782227833,
+      "validation_hit5": 0.24837962962962962,
+      "validation_median_r2": -0.08062408419451372,
+      "validation_macro_r2": -0.13165343742405874,
+      "negative_r2_targets": 95,
+      "admissible": true
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.019210413822835882,
+      "validation_hit5": 0.2478240740740741,
+      "validation_median_r2": -0.08440185564268887,
+      "validation_macro_r2": -0.13528697238718093,
+      "negative_r2_targets": 95,
+      "admissible": true
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.017498087104190964,
+      "validation_hit5": 0.2477314814814815,
+      "validation_median_r2": -0.08794975437596664,
+      "validation_macro_r2": -0.13796171576746255,
+      "negative_r2_targets": 95,
+      "admissible": true
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.015963527861531535,
+      "validation_hit5": 0.2477777777777778,
+      "validation_median_r2": -0.09051229940156302,
+      "validation_macro_r2": -0.13966326411091431,
+      "negative_r2_targets": 95,
+      "admissible": true
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.014516588227705707,
+      "validation_hit5": 0.24824074074074073,
+      "validation_median_r2": -0.0892657223787926,
+      "validation_macro_r2": -0.14060212296129698,
+      "negative_r2_targets": 95,
+      "admissible": true
+    },
+    {
+      "epoch": 7,
+      "training_loss": 0.013287806397642007,
+      "validation_hit5": 0.24814814814814815,
+      "validation_median_r2": -0.08770784052138181,
+      "validation_macro_r2": -0.14109000466350993,
+      "negative_r2_targets": 95,
+      "admissible": true
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.012259880522668673,
+      "validation_hit5": 0.2477777777777778,
+      "validation_median_r2": -0.08643368143713892,
+      "validation_macro_r2": -0.14143217455626447,
+      "negative_r2_targets": 94,
+      "admissible": true
+    },
+    {
+      "epoch": 9,
+      "training_loss": 0.011401867191915332,
+      "validation_hit5": 0.2477314814814815,
+      "validation_median_r2": -0.08640438017475438,
+      "validation_macro_r2": -0.14199855912459716,
+      "negative_r2_targets": 94,
+      "admissible": true
+    },
+    {
+      "epoch": 10,
+      "training_loss": 0.01059585717358084,
+      "validation_hit5": 0.24819444444444447,
+      "validation_median_r2": -0.0854537347849853,
+      "validation_macro_r2": -0.1427769993559387,
+      "negative_r2_targets": 94,
+      "admissible": true
+    },
+    {
+      "epoch": 11,
+      "training_loss": 0.00991763565521116,
+      "validation_hit5": 0.24828703703703706,
+      "validation_median_r2": -0.08497143238977078,
+      "validation_macro_r2": -0.1437108791220195,
+      "negative_r2_targets": 95,
+      "admissible": false
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.008740258603994295,
+      "validation_hit5": 0.24824074074074073,
+      "validation_median_r2": -0.08451103884710554,
+      "validation_macro_r2": -0.14425018902995415,
+      "negative_r2_targets": 95,
+      "admissible": false
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.008460675710160225,
+      "validation_hit5": 0.24824074074074073,
+      "validation_median_r2": -0.08394852261494112,
+      "validation_macro_r2": -0.14479279443751472,
+      "negative_r2_targets": 95,
+      "admissible": false
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.007994551985912597,
+      "validation_hit5": 0.24805555555555558,
+      "validation_median_r2": -0.08357227084525787,
+      "validation_macro_r2": -0.14533135434483133,
+      "negative_r2_targets": 95,
+      "admissible": false
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.007569853295662067,
+      "validation_hit5": 0.24787037037037038,
+      "validation_median_r2": -0.08355743096388912,
+      "validation_macro_r2": -0.14584009335902554,
+      "negative_r2_targets": 96,
+      "admissible": false
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.007320555032213736,
+      "validation_hit5": 0.2478240740740741,
+      "validation_median_r2": -0.08427076144508494,
+      "validation_macro_r2": -0.14628162853554685,
+      "negative_r2_targets": 96,
+      "admissible": false
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.006882916658290414,
+      "validation_hit5": 0.2478240740740741,
+      "validation_median_r2": -0.08473962556086645,
+      "validation_macro_r2": -0.14672116397608828,
+      "negative_r2_targets": 97,
+      "admissible": false
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.006720546958156564,
+      "validation_hit5": 0.2475,
+      "validation_median_r2": -0.0845868673556418,
+      "validation_macro_r2": -0.1471233416353025,
+      "negative_r2_targets": 97,
+      "admissible": false
+    },
+    {
+      "epoch": 19,
+      "training_loss": 0.006154430146379304,
+      "validation_hit5": 0.24759259259259261,
+      "validation_median_r2": -0.08435050812345868,
+      "validation_macro_r2": -0.14745568556944547,
+      "negative_r2_targets": 97,
+      "admissible": false
+    },
+    {
+      "epoch": 20,
+      "training_loss": 0.005891840819955133,
+      "validation_hit5": 0.2476388888888889,
+      "validation_median_r2": -0.08397804273067133,
+      "validation_macro_r2": -0.14769873557583144,
+      "negative_r2_targets": 97,
+      "admissible": false
+    }
+  ],
+  "best_score": 0.24949074074074074,
+  "best_epoch": 0,
+  "bad": 20,
+  "updates": 20,
+  "factor": 0.5,
+  "schedule_bad": 9,
+  "rng": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 45083207071350726670626242534759040445,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 0,
+    "uinteger": 2208826072
+  },
+  "state_file": "state_epoch_0020_1793879195633107100.npz",
+  "state_sha256": "e6b497678ad1ae206350c8a1c333021dbd1a4c149eecc1d63af38cfe6d49c62e",
+  "best_file": "selected_at_epoch_0020_1793879195633107100.npz",
+  "best_sha256": "4ee41f2d34059940c374c154efa592f40fa8fcbfb977228218360f62b8755382"
+}

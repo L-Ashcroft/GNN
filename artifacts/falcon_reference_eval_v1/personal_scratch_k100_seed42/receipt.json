@@ -1,0 +1,28 @@
+{
+  "input_sha256": {
+    "artifacts/experiment4_personal_transfer_v1/scratch_k100_seed42/selection_frozen.json": "811f24b2ba8cb987ed25c74a3d21dc04e6f231327fa454697180466c8f19d368",
+    "artifacts/experiment4_personal_transfer_v1/scratch_k100_seed42/test_metrics.json": "0032898138ea04a3d0561f734bc304e30656c8a672ca6a7fb5cff389c5553675",
+    "artifacts/experiment4_personal_transfer_v1/scratch_k100_seed42/test_predictions.parquet": "0900cb3a6ee1452eab2edb14967ca0dcde62109dd7a19c704f763fe75680dc92",
+    "config/falcon_reference_eval_v1.json": "bbd1621a730e52219fdb59f76e82305765a789a45fef5198f94625be437bf10b",
+    "data/fusion_v2/performance_mapping.json": "8ab577f916624ab95409b42e12b77e6d14ab0cd31557c5f214336dc49d72929a",
+    "data/model_ready/personal_transfer_v1/structures.json": "0c771453ab115fed039df769200a4d988c65fbd6b02e963af2d2be01d6c4fc64",
+    "data/model_ready/personal_transfer_v1/tasks.json": "ff664208e103d20dfe8cfb17da4de6393daed31bf470819abec7b26c82498e08",
+    "scripts/evaluate_falcon_reference.py": "ed64f2631092973774476dfe0a698fddb1ed094c6416cf079574a22c38486191",
+    "scripts/render_error_distribution.ps1": "67b03f647237a5ce57af995e3da2cd0eb3b49288cd677d9d7366e035d86555a6",
+    "src/falcon_reference_metrics.py": "d9873bafadf865df5424843b3bccc7595d4fdb1574e621dceed924d7b949c2b3"
+  },
+  "seconds": 2.0203135000001566,
+  "process_RSS_MiB": 140.3828125,
+  "no_torch_or_model_inference": true,
+  "parent_outputs_unchanged": true,
+  "plots_are_not_scalar_metric_trimming": true,
+  "presentation_revisions": [
+    {
+      "at": "2026-11-12T10:18:41.301154+00:00",
+      "old_renderer_sha256": "6562aeb814e6dc18a345c860edd5f9d1db47c7e9b3ed67d85152aa0f68ca9879",
+      "new_renderer_sha256": "67b03f647237a5ce57af995e3da2cd0eb3b49288cd677d9d7366e035d86555a6",
+      "change": "Explicit native chart Y ticks, CDF percentages and nonnegative histogram axis",
+      "all_scalar_and_parquet_sha256_unchanged": true
+    }
+  ]
+}

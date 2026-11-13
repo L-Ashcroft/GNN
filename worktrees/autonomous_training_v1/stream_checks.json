@@ -1,0 +1,10 @@
+{
+  "batch256_original_tensors_exact": true,
+  "all_48_relations": true,
+  "eviction_count": 507,
+  "owned_target_mask_views_safe_after_eviction": true,
+  "ragged_mask_effective_loss_and_gradients_exact": true,
+  "real_4layer128dim_full_vs_micro_gradient_max_abs": 3.730349362740526e-14,
+  "real_graph_micro_accumulation_passed": true,
+  "grouped_head_and_backbone_gradients_checked": true
+}

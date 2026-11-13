@@ -1,0 +1,305 @@
+{
+  "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": {
+    "contract": {
+      "source": "AnalogGym_generated",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "family": "Amplifier"
+    },
+    "slots": {
+      "0": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::temperature_coefficient_per_K",
+        "unit": "1/K",
+        "original_name": "temperature_coefficient_per_K",
+        "definition": "peak-to-peak follower output / mean output / 165 K; -40..125 C",
+        "family": "temperature",
+        "scale": 1e-05
+      },
+      "1": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::supply_power_25C_W",
+        "unit": "W",
+        "original_name": "supply_power_25C_W",
+        "definition": "-I(VVDDdc)*1.8 at 25 C in DC follower fixture",
+        "family": "power",
+        "scale": 0.001
+      },
+      "2": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::follower_output_offset_25C_V",
+        "unit": "V",
+        "original_name": "follower_output_offset_25C_V",
+        "definition": "V(vout6)-0.45 at 25 C; signed output error, not input offset",
+        "family": "swing_offset",
+        "scale": 0.001
+      },
+      "3": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::gain_at_0p1Hz_dB",
+        "unit": "dB",
+        "original_name": "gain_at_0p1Hz_dB",
+        "definition": "20*log10(abs(V(opout))) at 0.1 Hz, 1 V AC in inverting fixture, 27 C",
+        "family": "gain_frequency",
+        "scale": 1.0
+      },
+      "4": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::common_mode_transfer_at_0p1Hz_dB",
+        "unit": "dB",
+        "original_name": "common_mode_transfer_at_0p1Hz_dB",
+        "definition": "20*log10(abs(V(cm3))) at 0.1 Hz; not generic positive CMRR",
+        "family": "rf_quality",
+        "scale": 1.0
+      },
+      "5": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::positive_supply_transfer_at_0p1Hz_dB",
+        "unit": "dB",
+        "original_name": "positive_supply_transfer_at_0p1Hz_dB",
+        "definition": "20*log10(abs(V(ppsr1))) at 0.1 Hz; 1 V supply excitation",
+        "family": "rf_quality",
+        "scale": 1.0
+      },
+      "6": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::negative_supply_transfer_at_0p1Hz_dB",
+        "unit": "dB",
+        "original_name": "negative_supply_transfer_at_0p1Hz_dB",
+        "definition": "20*log10(abs(V(npsr1))) at 0.1 Hz; 1 V ground excitation",
+        "family": "rf_quality",
+        "scale": 1.0
+      },
+      "7": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::unity_gain_frequency_Hz",
+        "unit": "Hz",
+        "original_name": "unity_gain_frequency_Hz",
+        "definition": "first descending 0 dB crossing; log-frequency interpolation",
+        "family": "gain_frequency",
+        "scale": 1000000.0
+      },
+      "8": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::phase_at_unity_deg",
+        "unit": "degree",
+        "original_name": "phase_at_unity_deg",
+        "definition": "unwrapped phase of V(opout) at that crossing; not automatically phase margin",
+        "family": "stability",
+        "scale": 45.0
+      },
+      "9": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::rising_slew_observed_10_90_V_per_s",
+        "unit": "V/s",
+        "original_name": "rising_slew_observed_10_90_V_per_s",
+        "definition": "80% of observed output transition / interpolated 10-to-90% interval",
+        "family": "speed",
+        "scale": 1000000.0
+      },
+      "10": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::falling_slew_observed_90_10_V_per_s",
+        "unit": "V/s",
+        "original_name": "falling_slew_observed_90_10_V_per_s",
+        "definition": "Positive 80% of observed output transition / interpolated 90-to-10% interval",
+        "family": "speed",
+        "scale": 1000000.0
+      },
+      "11": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::rising_settling_observed_1pct_s",
+        "unit": "s",
+        "original_name": "rising_settling_observed_1pct_s",
+        "definition": "First time after last exit of 1% observed amplitude band about final measured high output; finite window",
+        "family": "speed",
+        "scale": 1e-06
+      },
+      "12": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::falling_settling_observed_1pct_s",
+        "unit": "s",
+        "original_name": "falling_settling_observed_1pct_s",
+        "definition": "First time after last exit of 1% observed amplitude band about final measured low output; finite window",
+        "family": "speed",
+        "scale": 1e-06
+      },
+      "13": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::high_final_tracking_error_V",
+        "unit": "V",
+        "original_name": "high_final_tracking_error_V",
+        "definition": "Time-weighted final output mean over 180..200 us minus ideal 0.5 V",
+        "family": "swing_offset",
+        "scale": 0.001
+      },
+      "14": {
+        "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::low_final_tracking_error_V",
+        "unit": "V",
+        "original_name": "low_final_tracking_error_V",
+        "definition": "Time-weighted final output mean over 380..400 us minus ideal 0.3 V",
+        "family": "swing_offset",
+        "scale": 0.001
+      }
+    }
+  },
+  "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": {
+    "contract": {
+      "source": "AnalogGym_generated",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "family": "LDO"
+    },
+    "slots": {
+      "0": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::output_light_V",
+        "unit": "V",
+        "original_name": "output_light_V",
+        "definition": "Output at 1 mA load, VDD=1.8 V, 27 C",
+        "family": "swing_offset",
+        "scale": 1.0
+      },
+      "1": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::output_heavy_V",
+        "unit": "V",
+        "original_name": "output_heavy_V",
+        "definition": "Output at 10 mA load, VDD=1.8 V, 27 C",
+        "family": "swing_offset",
+        "scale": 1.0
+      },
+      "2": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::input_power_light_W",
+        "unit": "W",
+        "original_name": "input_power_light_W",
+        "definition": "-1.8*I(VDD), including current bias fed from supply, at 1 mA",
+        "family": "power",
+        "scale": 0.001
+      },
+      "3": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::input_power_heavy_W",
+        "unit": "W",
+        "original_name": "input_power_heavy_W",
+        "definition": "-1.8*I(VDD), including current bias fed from supply, at 10 mA",
+        "family": "power",
+        "scale": 0.001
+      },
+      "4": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::load_regulation_V_per_A",
+        "unit": "V/A",
+        "original_name": "load_regulation_V_per_A",
+        "definition": "Signed (output_10mA-output_1mA)/0.009 A",
+        "family": "regulation",
+        "scale": 1.0
+      },
+      "5": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::line_regulation_V_per_V",
+        "unit": "V/V",
+        "original_name": "line_regulation_V_per_V",
+        "definition": "Signed endpoint slope of output vs VDD=1.62..1.8 V at 1 mA",
+        "family": "regulation",
+        "scale": 1.0
+      },
+      "6": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::supply_transfer_10Hz_dB",
+        "unit": "dB",
+        "original_name": "supply_transfer_10Hz_dB",
+        "definition": "20log10(abs(Vout/Vsupply_ac)), 1 mA; not positive PSRR",
+        "family": "rf_quality",
+        "scale": 1.0
+      },
+      "7": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::supply_transfer_1kHz_dB",
+        "unit": "dB",
+        "original_name": "supply_transfer_1kHz_dB",
+        "definition": "20log10(abs(Vout/Vsupply_ac)), 1 mA",
+        "family": "rf_quality",
+        "scale": 1.0
+      },
+      "8": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::supply_transfer_100kHz_dB",
+        "unit": "dB",
+        "original_name": "supply_transfer_100kHz_dB",
+        "definition": "20log10(abs(Vout/Vsupply_ac)), 1 mA",
+        "family": "rf_quality",
+        "scale": 1.0
+      },
+      "9": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::load_step_output_min_V",
+        "unit": "V",
+        "original_name": "load_step_output_min_V",
+        "definition": "Minimum output after 1-to-10 mA step, 10..110 us",
+        "family": "swing_offset",
+        "scale": 1.0
+      },
+      "10": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::load_step_output_max_V",
+        "unit": "V",
+        "original_name": "load_step_output_max_V",
+        "definition": "Maximum output after 10-to-1 mA step, 110..210 us",
+        "family": "swing_offset",
+        "scale": 1.0
+      },
+      "11": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::heavy_window_final_output_V",
+        "unit": "V",
+        "original_name": "heavy_window_final_output_V",
+        "definition": "Time-weighted mean output over 100..109 us",
+        "family": "swing_offset",
+        "scale": 1.0
+      },
+      "12": {
+        "semantic_id": "AnalogGym_generated::624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461::light_window_final_output_V",
+        "unit": "V",
+        "original_name": "light_window_final_output_V",
+        "definition": "Time-weighted mean output over 200..209 us",
+        "family": "swing_offset",
+        "scale": 1.0
+      }
+    }
+  }
+}

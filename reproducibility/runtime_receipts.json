@@ -1,0 +1,10 @@
+{
+  ".venv/Lib/site-packages/torch/version.py": {
+    "utf8_text": "from typing import Optional\r\n\r\n__all__ = ['__version__', 'debug', 'cuda', 'git_version', 'hip', 'xpu']\r\n__version__ = '2.9.1+cpu'\r\ndebug = False\r\ncuda: Optional[str] = None\r\ngit_version = '5811a8d7da873dd699ff6687092c225caffcf1bb'\r\nhip: Optional[str] = None\r\nxpu: Optional[str] = None\r\n",
+    "sha256": "e36e47c0c6f724eb946d448a1d5e37c6a10400bff628d9860bda1785a6e10f23"
+  },
+  ".venv-gpu/Lib/site-packages/torch/version.py": {
+    "utf8_text": "from typing import Optional\r\n\r\n__all__ = ['__version__', 'debug', 'cuda', 'git_version', 'hip', 'xpu']\r\n__version__ = '2.9.1+cu128'\r\ndebug = False\r\ncuda: Optional[str] = '12.8'\r\ngit_version = '5811a8d7da873dd699ff6687092c225caffcf1bb'\r\nhip: Optional[str] = None\r\nxpu: Optional[str] = None\r\n",
+    "sha256": "b497c96624b15eeb7a16901d501d0b193f0bd9ac31c77ec4cb449f7492a73713"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "parent_source": "worktrees\\autonomous_training_v1\\joint_train.py",
+  "parent_source_SHA256": "bb901dee81853dfe1f14418c07b4b9b27debf548be7122aba48b989af213b640",
+  "changes": [
+    [
+      "Validation-only joint RGCN refinement with streaming graphs and microbatches.",
+      "CPU joint RGCN refinement with streaming graphs; original CUDA admission gate stays unchanged."
+    ],
+    [
+      "if psutil.virtual_memory().available<4*2**30:raise SystemExit(75)",
+      "if psutil.virtual_memory().available<cfg['minimum_start_RAM_GiB']*2**30:raise SystemExit(75)"
+    ],
+    [
+      "'cached_head_continue_v1/train_cpu.py'",
+      "'cached_head_continue_v1/train_cpu.py','joint_cpu_v1/train.py'"
+    ],
+    [
+      "'device':'cuda'",
+      "'device':'cpu'"
+    ],
+    [
+      "torch.set_num_threads(2)",
+      "torch.set_num_threads(cfg['cpu_threads']);psutil.Process().nice(psutil.BELOW_NORMAL_PRIORITY_CLASS)"
+    ],
+    [
+      "torch.backends.cuda.matmul.allow_tf32=False;torch.cuda.set_per_process_memory_fraction(.8)",
+      "# CPU-only run: no CUDA context or CUDA memory allocation."
+    ],
+    [
+      ".to('cuda')",
+      ".to('cpu')"
+    ],
+    [
+      "map_location='cuda'",
+      "map_location='cpu'"
+    ],
+    [
+      "'streamed_joint_refinement_v1'",
+      "'streamed_joint_CPU_v1'"
+    ],
+    [
+      "torch.cuda.set_rng_state_all([x.cpu() for x in saved['rng_cuda']])",
+      "assert saved['rng_cuda']==[]"
+    ],
+    [
+      "'rng_cuda':torch.cuda.get_rng_state_all()",
+      "'rng_cuda':[]"
+    ],
+    [
+      "telemetry=[]",
+      "telemetry={'peak_RSS':0,'minimum_available':psutil.virtual_memory().available}"
+    ],
+    [
+      "telemetry.append((psutil.Process().memory_info().rss,available))",
+      "telemetry.update(peak_RSS=max(telemetry['peak_RSS'],psutil.Process().memory_info().rss),minimum_available=min(telemetry['minimum_available'],available))"
+    ],
+    [
+      "stop.set()\n        if reader",
+      "stop.set()\n        atomic(output/'resource_summary.json',{'peak_RSS_MiB':telemetry['peak_RSS']/2**20,'minimum_available_RAM_MiB':telemetry['minimum_available']/2**20,'CUDA_used':False})\n        if reader"
+    ]
+  ],
+  "CPU_probe_evidence": [
+    "probe_result.json",
+    "probe_t1_m128.json",
+    "probe_t2_m128.json"
+  ],
+  "policy": "Bounded CPU fallback only; original CUDA gate remains4GiB; no shared production file edits"
+}

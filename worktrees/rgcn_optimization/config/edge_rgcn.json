@@ -1,0 +1,17 @@
+{
+  "hidden_dim": 128,
+  "num_layers": 4,
+  "dropout": 0.1,
+  "update_edges": true,
+  "relation_normalization": "destination_relation_mean",
+  "pooling": "node_attention",
+  "normalization": "LayerNorm",
+  "output_dimensions": 16,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "gradient_clip_norm": 5.0,
+  "batch_size": 16,
+  "cpu_threads": 4,
+  "full_training_started": false
+}

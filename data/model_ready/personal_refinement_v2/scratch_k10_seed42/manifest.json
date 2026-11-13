@@ -1,0 +1,20 @@
+{
+  "parent": "scratch_k10_seed42",
+  "parent_checkpoint_sha256": "3a6a7cb4337c5383089f848a14a27da167f2db4e7fd0bf88595f1d4c6a4fc18e",
+  "training_ids_sha256": "5cb202957f94c9936e795bff7befe41c0c8b7c00b1bf2f62bc12cb7a85de8ec0",
+  "budget_per_topology": 10,
+  "role_policy": "Declared adaptation train rows and validation only; test embeddings remain NaN",
+  "files": {
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Alfio_RAFFC_Pin_3/embedding.npy": "27d4297f723c612a5697bc4a9702af88c015ef3b9de93441046d1c1c4f2f3f83",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Fan_SMC_Pin_3/embedding.npy": "1d6d604e3a9ec8318e0e03bfbcadf43f18050fafaadeb71f2d3a44dec5ef6bed",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/HoiLee_AFFC_Pin_3/embedding.npy": "ab4243b0c2228c976d90fe8021816db0121febf0a9d41a8aa51e35eebfbc4d9d",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Leung_DFCFC1_Pin_3/embedding.npy": "0b9024e4dc434c8fa68fb8546da892447d4f86fa362fb33aab1548b4b15c4bea",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Leung_NMCNR_Pin_3/embedding.npy": "61f2c39d6d346af43462df60800cbe89672390b25b44b20b94b9a010d623245b",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Peng_TCFC_Pin_3/embedding.npy": "ca32c70a9b0514bc18a058f000a8b4d829b9fc6adc9146bd5923f7f6c803e291",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Qu2017_AZC_Pin_3/embedding.npy": "3311f9e77ac5e9528fd12e37dc3c52159b4286c16dcb0a31f6ecb72fafe56ece",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/Song_DACFC_Pin_3/embedding.npy": "b71b67ffb4987bfe469c1d6c7b04bfa0ef6c4418efecf3d3bd22db762da8a43a",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/ldo_folded_cascode/embedding.npy": "6931949d3e2da5261375e86e302da8ab4ff6cf01c58a3eadb0443da5e314bbf6",
+    "data/model_ready/personal_refinement_v2/scratch_k10_seed42/ldo_simple/embedding.npy": "df970fd98448cd48b7a578c3cdf0a967b70d500f141a604523db0df62a298add"
+  },
+  "at": "2026-11-05T12:02:22.729824+00:00"
+}

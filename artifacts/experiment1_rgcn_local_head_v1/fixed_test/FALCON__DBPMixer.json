@@ -1,0 +1,65 @@
+{
+  "topology": "FALCON__DBPMixer",
+  "rows": 996,
+  "bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "prediction_sha256": "b96d0e94f5d1244e00fc3ee15b087b7ab1d94ccfd56b7e6ae4b38e4b872f66b1",
+  "metrics": {
+    "per_target": [
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "unit": "dB",
+        "original_name": "ConversionGain",
+        "count": 996,
+        "mae": 0.548989185669599,
+        "r2": 0.9660801855211464,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 0.8945783132530121,
+        "relative_policy": "not applicable to log units"
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "unit": "dB",
+        "original_name": "NoiseFigure",
+        "count": 996,
+        "mae": 0.027252035598866416,
+        "r2": 0.9972307538127132,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 1.0,
+        "relative_policy": "not applicable to log units"
+      },
+      {
+        "supervision_group": "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "unit": "V",
+        "original_name": "VoltageSwing",
+        "count": 996,
+        "mae": 4.855171597380895e-06,
+        "r2": 0.9971554185939626,
+        "mre": 0.003516317932962623,
+        "hit5": 0.9979919678714859,
+        "hit10": 1.0,
+        "relative_count": 996,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      }
+    ],
+    "macro_hit5": 0.9979919678714859,
+    "macro_hit10": 1.0,
+    "macro_r2": 0.9868221193092741,
+    "macro_mre": 0.003516317932962623,
+    "target_groups": 3
+  },
+  "seconds": 1.603087499999674,
+  "train_test_ids_disjoint": true
+}

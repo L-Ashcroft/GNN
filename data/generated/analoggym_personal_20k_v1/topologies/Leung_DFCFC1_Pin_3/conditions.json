@@ -1,0 +1,31 @@
+{
+  "PDK": "SKY130 AnalogGym pinned bundle",
+  "corner": "tt",
+  "supply_voltage_V": 1.8,
+  "temperature_C": 27,
+  "normalization_fitted": false,
+  "load_capacitance_F": 5e-10,
+  "common_mode_V": 0.45,
+  "dc_temperature_sweep_C": [
+    -40,
+    125,
+    1
+  ],
+  "power_offset_temperature_C": 25,
+  "ac_frequency_Hz": [
+    0.1,
+    1000000000.0
+  ],
+  "ac_points_per_decade": 100,
+  "transient_levels_V": [
+    0.3,
+    0.5
+  ],
+  "transient_edges_s": [
+    1e-06,
+    0.000201001
+  ],
+  "transient_input_transition_s": 1e-09,
+  "transient_stop_s": 0.000401,
+  "transient_maxstep_s": 2.5e-08
+}

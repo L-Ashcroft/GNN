@@ -1,0 +1,20 @@
+{
+  "output": "artifacts/experiment1_rgcn_direct_head_v3",
+  "feature_cache": "data/model_ready/fusion_v2_frozen_e19_bf0d71ad",
+  "graph_checkpoint": "artifacts/experiment1_autonomous_head_v1/best.pt",
+  "target_calibration": "data/model_ready/fusion_v2_accuracy_v2/target_calibration.json",
+  "hidden": 64,
+  "minimum_residual_training_rows": 256,
+  "direct_learning_rate": 0.0001,
+  "residual_learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "batch_size": 512,
+  "cpu_threads": 2,
+  "max_epochs": 40,
+  "patience": 8,
+  "minimum_gain": 0.0001,
+  "minimum_start_RAM_GiB": 1.25,
+  "seed": 42,
+  "checkpoint_every_batches": 100,
+  "test_policy": "Training and validation only. Existing test results remain unchanged."
+}

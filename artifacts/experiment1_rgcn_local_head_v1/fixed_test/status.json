@@ -1,0 +1,55 @@
+{
+  "state": "complete",
+  "pid": 5792,
+  "create_time": 1793640058.62075,
+  "updated_at": "2026-11-02T17:22:59.344460+00:00",
+  "stage": "frozen_fixed_test_evaluation",
+  "train_or_model_updates": false,
+  "test_set_reused_from_previous_experiments": true,
+  "selection_was_validation_only": true,
+  "bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "topology": "LOADBench__SymmetricalOpAmp8",
+  "completed_topologies": 120,
+  "total_topologies": 121,
+  "samples_done": 49056,
+  "total_test_samples": 49056,
+  "elapsed_seconds": 119.10568010000134,
+  "metrics": {
+    "macro_hit5": 0.5205106223931415,
+    "macro_hit10": 0.6435726715077718,
+    "macro_r2": -2703.7272996102183,
+    "macro_mre": 1961.1883970123286,
+    "median_r2": 0.836757205822372,
+    "negative_r2_targets": 38,
+    "target_groups": 1491,
+    "by_source": {
+      "FALCON": {
+        "macro_hit5": 0.7800489714485442,
+        "macro_hit10": 0.9006927828841809,
+        "macro_r2": 0.9459638623531427,
+        "macro_mre": 0.04282834880562302,
+        "median_r2": 0.9867633684085192,
+        "negative_r2_targets": 0,
+        "target_groups": 139
+      },
+      "AICircuit": {
+        "macro_hit5": 0.7185032298499562,
+        "macro_hit10": 0.8532809069940613,
+        "macro_r2": 0.9121920680649728,
+        "macro_mre": 0.07077417695659106,
+        "median_r2": 0.9564900499674396,
+        "negative_r2_targets": 0,
+        "target_groups": 66
+      },
+      "LOADBench": {
+        "macro_hit5": 0.4939763848470389,
+        "macro_hit10": 0.6168032792724818,
+        "macro_r2": -3138.9359260415013,
+        "macro_mre": 2178.2311812420726,
+        "median_r2": 0.7974697315072387,
+        "negative_r2_targets": 38,
+        "target_groups": 1286
+      }
+    }
+  }
+}

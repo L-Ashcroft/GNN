@@ -1,0 +1,11 @@
+{
+  "source_recipe_digest": "22ded3c8eeba5bc1837e158512bd52374c02286f3be342b5c706c1e0a281d345",
+  "new_recipe_digest": "32f873f1da46c7b156dd9019c2d1db47cf84bacbb127084f7383263597350748",
+  "head_exact": true,
+  "optimizer_restored": true,
+  "scheduler_restored": true,
+  "RNG_restored": true,
+  "next_epoch": 6,
+  "next_batch": 0,
+  "old_artifacts_unchanged": true
+}

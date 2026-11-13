@@ -1,0 +1,1392 @@
+{
+  "representation": "net_device_multigraph_v2",
+  "directed": false,
+  "port_policy": "MOS all six port pairs including bulk; balun first-port star; other devices all port pairs; tied ports retain self-loops",
+  "nets": [
+    "0",
+    "GND",
+    "IF\\+",
+    "IF\\-",
+    "IF_out",
+    "LO\\+",
+    "LO\\-",
+    "RF\\+",
+    "RF\\-",
+    "net1",
+    "net2"
+  ],
+  "devices": [
+    {
+      "name": "I2",
+      "nets": [
+        "IF_out",
+        "IF\\-",
+        "IF\\+"
+      ],
+      "model": "balun",
+      "attributes": {
+        "rin": "50",
+        "rout": "100",
+        "loss": "0"
+      },
+      "ports": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I1",
+      "nets": [
+        "net1",
+        "LO\\+",
+        "LO\\-"
+      ],
+      "model": "balun",
+      "attributes": {
+        "rin": "50",
+        "rout": "100",
+        "loss": "0"
+      },
+      "ports": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0",
+      "nets": [
+        "net2",
+        "RF\\+",
+        "RF\\-"
+      ],
+      "model": "balun",
+      "attributes": {
+        "rin": "50",
+        "rout": "100",
+        "loss": "0"
+      },
+      "ports": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "N3",
+      "nets": [
+        "IF\\-",
+        "LO\\+",
+        "RF\\-",
+        "GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "W",
+        "l": "45.0n",
+        "as": "W * 2.5 * (45.0n)",
+        "ad": "W * 2.5 * (45.0n)",
+        "ps": "(2 * W) + (5 * (45.0n))",
+        "pd": "(2 * W) + (5 * (45.0n))",
+        "m": "1",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "N2",
+      "nets": [
+        "IF\\+",
+        "LO\\-",
+        "RF\\-",
+        "GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "W",
+        "l": "45.0n",
+        "as": "W * 2.5 * (45.0n)",
+        "ad": "W * 2.5 * (45.0n)",
+        "ps": "(2 * W) + (5 * (45.0n))",
+        "pd": "(2 * W) + (5 * (45.0n))",
+        "m": "1",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "N1",
+      "nets": [
+        "IF\\-",
+        "LO\\-",
+        "RF\\+",
+        "GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "W",
+        "l": "45.0n",
+        "as": "W * 2.5 * (45.0n)",
+        "ad": "W * 2.5 * (45.0n)",
+        "ps": "(2 * W) + (5 * (45.0n))",
+        "pd": "(2 * W) + (5 * (45.0n))",
+        "m": "1",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "N0",
+      "nets": [
+        "IF\\+",
+        "LO\\+",
+        "RF\\+",
+        "GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "W",
+        "l": "45.0n",
+        "as": "W * 2.5 * (45.0n)",
+        "ad": "W * 2.5 * (45.0n)",
+        "ps": "(2 * W) + (5 * (45.0n))",
+        "pd": "(2 * W) + (5 * (45.0n))",
+        "m": "1",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "PORT1",
+      "nets": [
+        "net2",
+        "GND"
+      ],
+      "model": "port",
+      "attributes": {
+        "r": "50",
+        "type": "sine",
+        "freq": "frf",
+        "dbm": "prf",
+        "pacmag": "pacmag"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "PORT2",
+      "nets": [
+        "IF_out",
+        "GND"
+      ],
+      "model": "port",
+      "attributes": {
+        "r": "50",
+        "type": "sine"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "PORT0",
+      "nets": [
+        "net1",
+        "GND"
+      ],
+      "model": "port",
+      "attributes": {
+        "r": "50",
+        "type": "sine",
+        "freq": "flo",
+        "dbm": "plo"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "C1",
+      "nets": [
+        "IF\\-",
+        "GND"
+      ],
+      "model": "capacitor",
+      "attributes": {
+        "c": "C",
+        "m": "1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "C0",
+      "nets": [
+        "IF\\+",
+        "GND"
+      ],
+      "model": "capacitor",
+      "attributes": {
+        "c": "C",
+        "m": "1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "V0",
+      "nets": [
+        "GND",
+        "0"
+      ],
+      "model": "vsource",
+      "attributes": {
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "R0",
+      "nets": [
+        "IF\\+",
+        "GND"
+      ],
+      "model": "resistor",
+      "attributes": {
+        "r": "R",
+        "m": "1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "R1",
+      "nets": [
+        "IF\\-",
+        "GND"
+      ],
+      "model": "resistor",
+      "attributes": {
+        "r": "R",
+        "m": "1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": 4,
+      "target": 3,
+      "device": 0,
+      "name": "I2",
+      "ports": [
+        "P1",
+        "P2"
+      ],
+      "component": "balun_P1P2"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 0,
+      "name": "I2",
+      "ports": [
+        "P1",
+        "P3"
+      ],
+      "component": "balun_P1P3"
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "device": 1,
+      "name": "I1",
+      "ports": [
+        "P1",
+        "P2"
+      ],
+      "component": "balun_P1P2"
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "device": 1,
+      "name": "I1",
+      "ports": [
+        "P1",
+        "P3"
+      ],
+      "component": "balun_P1P3"
+    },
+    {
+      "source": 10,
+      "target": 7,
+      "device": 2,
+      "name": "I0",
+      "ports": [
+        "P1",
+        "P2"
+      ],
+      "component": "balun_P1P2"
+    },
+    {
+      "source": 10,
+      "target": 8,
+      "device": 2,
+      "name": "I0",
+      "ports": [
+        "P1",
+        "P3"
+      ],
+      "component": "balun_P1P3"
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "device": 3,
+      "name": "N3",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "device": 3,
+      "name": "N3",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 3,
+      "name": "N3",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "device": 3,
+      "name": "N3",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "device": 3,
+      "name": "N3",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "device": 3,
+      "name": "N3",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 4,
+      "name": "N2",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "device": 4,
+      "name": "N2",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "device": 4,
+      "name": "N2",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "device": 4,
+      "name": "N2",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "device": 4,
+      "name": "N2",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "device": 4,
+      "name": "N2",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "device": 5,
+      "name": "N1",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "device": 5,
+      "name": "N1",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 5,
+      "name": "N1",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "device": 5,
+      "name": "N1",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "device": 5,
+      "name": "N1",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "device": 5,
+      "name": "N1",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "device": 6,
+      "name": "N0",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "device": 6,
+      "name": "N0",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "device": 6,
+      "name": "N0",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "device": 6,
+      "name": "N0",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "device": 6,
+      "name": "N0",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "device": 6,
+      "name": "N0",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 10,
+      "target": 1,
+      "device": 7,
+      "name": "PORT1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "port_PN"
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "device": 8,
+      "name": "PORT2",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "port_PN"
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "device": 9,
+      "name": "PORT0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "port_PN"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 10,
+      "name": "C1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "device": 11,
+      "name": "C0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "device": 12,
+      "name": "V0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "vsource_PN"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "device": 13,
+      "name": "R0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "resistor_PN"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 14,
+      "name": "R1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "resistor_PN"
+    }
+  ],
+  "edge_index": [
+    [
+      4,
+      4,
+      9,
+      9,
+      10,
+      10,
+      3,
+      3,
+      3,
+      5,
+      5,
+      8,
+      2,
+      2,
+      2,
+      6,
+      6,
+      8,
+      3,
+      3,
+      3,
+      6,
+      6,
+      7,
+      2,
+      2,
+      2,
+      5,
+      5,
+      7,
+      10,
+      4,
+      9,
+      3,
+      2,
+      1,
+      2,
+      3
+    ],
+    [
+      3,
+      2,
+      5,
+      6,
+      7,
+      8,
+      5,
+      8,
+      1,
+      8,
+      1,
+      1,
+      6,
+      8,
+      1,
+      8,
+      1,
+      1,
+      6,
+      7,
+      1,
+      7,
+      1,
+      1,
+      5,
+      7,
+      1,
+      7,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  ],
+  "edge_device_index": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "device_terminals": [
+    {
+      "device": 0,
+      "net": 4,
+      "port": "P1"
+    },
+    {
+      "device": 0,
+      "net": 3,
+      "port": "P2"
+    },
+    {
+      "device": 0,
+      "net": 2,
+      "port": "P3"
+    },
+    {
+      "device": 1,
+      "net": 9,
+      "port": "P1"
+    },
+    {
+      "device": 1,
+      "net": 5,
+      "port": "P2"
+    },
+    {
+      "device": 1,
+      "net": 6,
+      "port": "P3"
+    },
+    {
+      "device": 2,
+      "net": 10,
+      "port": "P1"
+    },
+    {
+      "device": 2,
+      "net": 7,
+      "port": "P2"
+    },
+    {
+      "device": 2,
+      "net": 8,
+      "port": "P3"
+    },
+    {
+      "device": 3,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 3,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 3,
+      "net": 8,
+      "port": "S"
+    },
+    {
+      "device": 3,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 4,
+      "net": 2,
+      "port": "D"
+    },
+    {
+      "device": 4,
+      "net": 6,
+      "port": "G"
+    },
+    {
+      "device": 4,
+      "net": 8,
+      "port": "S"
+    },
+    {
+      "device": 4,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 5,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 5,
+      "net": 6,
+      "port": "G"
+    },
+    {
+      "device": 5,
+      "net": 7,
+      "port": "S"
+    },
+    {
+      "device": 5,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 6,
+      "net": 2,
+      "port": "D"
+    },
+    {
+      "device": 6,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 6,
+      "net": 7,
+      "port": "S"
+    },
+    {
+      "device": 6,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 7,
+      "net": 10,
+      "port": "P"
+    },
+    {
+      "device": 7,
+      "net": 1,
+      "port": "N"
+    },
+    {
+      "device": 8,
+      "net": 4,
+      "port": "P"
+    },
+    {
+      "device": 8,
+      "net": 1,
+      "port": "N"
+    },
+    {
+      "device": 9,
+      "net": 9,
+      "port": "P"
+    },
+    {
+      "device": 9,
+      "net": 1,
+      "port": "N"
+    },
+    {
+      "device": 10,
+      "net": 3,
+      "port": "P"
+    },
+    {
+      "device": 10,
+      "net": 1,
+      "port": "N"
+    },
+    {
+      "device": 11,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 11,
+      "net": 1,
+      "port": "N"
+    },
+    {
+      "device": 12,
+      "net": 1,
+      "port": "P"
+    },
+    {
+      "device": 12,
+      "net": 0,
+      "port": "N"
+    },
+    {
+      "device": 13,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 13,
+      "net": 1,
+      "port": "N"
+    },
+    {
+      "device": 14,
+      "net": 3,
+      "port": "P"
+    },
+    {
+      "device": 14,
+      "net": 1,
+      "port": "N"
+    }
+  ],
+  "device_references": [],
+  "num_nets": 11,
+  "num_devices": 15,
+  "num_nodes": 11,
+  "num_terminals": 41,
+  "num_edges": 38,
+  "num_device_references": 0,
+  "source_netlist": "third_party/FALCON/dataset/Mixer/DBPMixer/netlist",
+  "feature_names": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient"
+  ],
+  "feature_expressions": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "W",
+      "45.0n",
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "W * 2.5 * (45.0n)",
+      "W * 2.5 * (45.0n)",
+      "(2 * W) + (5 * (45.0n))",
+      "(2 * W) + (5 * (45.0n))",
+      null,
+      null,
+      null
+    ],
+    [
+      "W",
+      "45.0n",
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "W * 2.5 * (45.0n)",
+      "W * 2.5 * (45.0n)",
+      "(2 * W) + (5 * (45.0n))",
+      "(2 * W) + (5 * (45.0n))",
+      null,
+      null,
+      null
+    ],
+    [
+      "W",
+      "45.0n",
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "W * 2.5 * (45.0n)",
+      "W * 2.5 * (45.0n)",
+      "(2 * W) + (5 * (45.0n))",
+      "(2 * W) + (5 * (45.0n))",
+      null,
+      null,
+      null
+    ],
+    [
+      "W",
+      "45.0n",
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "W * 2.5 * (45.0n)",
+      "W * 2.5 * (45.0n)",
+      "(2 * W) + (5 * (45.0n))",
+      "(2 * W) + (5 * (45.0n))",
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "50",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "frf",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "50",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "50",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "flo",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      "1",
+      null,
+      "C",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      "1",
+      null,
+      "C",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      "1",
+      "R",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      "1",
+      "R",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "netlist_sha256": "412d8db387790626878c15e7285d8672447c93a40688432ff3fcc34ffe76f2be"
+}

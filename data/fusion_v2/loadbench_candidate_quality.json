@@ -1,0 +1,1012 @@
+[
+  {
+    "fingerprint": "eff76df67ce0c9a26c28884734b8c10d133d7404e4d712661f078bafb9fd3ffa",
+    "topology_id": "LOADBench__SimpleOpAmp1",
+    "raw_rows_in_downloaded_pool": 3077,
+    "invalid_rows": 696,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 5,
+    "unique_accepted_candidates": 2376,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "14575c2cf7de0f773fd09f544f465098c5e6eb862c8a73d266a5ba87e70392ff",
+    "topology_id": "LOADBench__SimpleOpAmp115",
+    "raw_rows_in_downloaded_pool": 12114,
+    "invalid_rows": 7105,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2270,
+    "unique_accepted_candidates": 2739,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "60c54f4ff50403beb0dc73d4d773525ed65a6da476ea57ce486f1b6cf6baf041",
+    "topology_id": "LOADBench__SimpleOpAmp116",
+    "raw_rows_in_downloaded_pool": 11578,
+    "invalid_rows": 5540,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3464,
+    "unique_accepted_candidates": 2574,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "19bbfa7a97e86afa3fc7857f1195006c7eb22efa073e3baea5070969dc1821d3",
+    "topology_id": "LOADBench__SimpleOpAmp119",
+    "raw_rows_in_downloaded_pool": 6996,
+    "invalid_rows": 3254,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1327,
+    "unique_accepted_candidates": 2415,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "ab91d416764b606b611097fbbb64051c85280fe7f9887d2734c77a7f70265ad8",
+    "topology_id": "LOADBench__SimpleOpAmp12",
+    "raw_rows_in_downloaded_pool": 14831,
+    "invalid_rows": 8650,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2893,
+    "unique_accepted_candidates": 3288,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "519e3599e59c164b3f26930a8e18a640e6757995e444eed2bff8900945539944",
+    "topology_id": "LOADBench__SimpleOpAmp13",
+    "raw_rows_in_downloaded_pool": 10374,
+    "invalid_rows": 4195,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2724,
+    "unique_accepted_candidates": 3455,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2ce71db43d27840f881211889476fde1bcae281c2d3c923367849c2db275bba9",
+    "topology_id": "LOADBench__SimpleOpAmp130",
+    "raw_rows_in_downloaded_pool": 7266,
+    "invalid_rows": 3202,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1421,
+    "unique_accepted_candidates": 2643,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "622846637191dd777292c42f281fa5ea701fb0eaa133e6e1080470c8dc1d70f0",
+    "topology_id": "LOADBench__SimpleOpAmp2",
+    "raw_rows_in_downloaded_pool": 5033,
+    "invalid_rows": 1154,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1064,
+    "unique_accepted_candidates": 2815,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "e7f58e488b5b84e2aea4415e7ccc621bc7cbc700dd2f51096da6d60c7988bcc6",
+    "topology_id": "LOADBench__SimpleOpAmp30",
+    "raw_rows_in_downloaded_pool": 10596,
+    "invalid_rows": 4412,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2686,
+    "unique_accepted_candidates": 3498,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "4f95ec8e876c8e4376ebd160441c334b35aef27f5460a04425478d2dc55346c2",
+    "topology_id": "LOADBench__SimpleOpAmp31",
+    "raw_rows_in_downloaded_pool": 9406,
+    "invalid_rows": 2762,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2659,
+    "unique_accepted_candidates": 3985,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a91ff9f4828b7d3afaf40109d18bef823b951495f12b1e72052f7ed7b2400602",
+    "topology_id": "LOADBench__SimpleOpAmp32",
+    "raw_rows_in_downloaded_pool": 10014,
+    "invalid_rows": 5123,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2043,
+    "unique_accepted_candidates": 2848,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "0d39e936db213003ba149bae4a00f67517c0dfa286ac4ab7fe24c5716dd8a6c5",
+    "topology_id": "LOADBench__SimpleOpAmp33",
+    "raw_rows_in_downloaded_pool": 7228,
+    "invalid_rows": 2774,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1673,
+    "unique_accepted_candidates": 2781,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "4f142e16342046ac37a3f383cb17b8f8ea26bb359391d33dc66dae0ed4829cc1",
+    "topology_id": "LOADBench__SimpleOpAmp34",
+    "raw_rows_in_downloaded_pool": 14821,
+    "invalid_rows": 10905,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1603,
+    "unique_accepted_candidates": 2313,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a047305398ca3fa62ccdf69cfaef0c0b60270ce26fdf232d779f7d530d4b4b0b",
+    "topology_id": "LOADBench__SimpleOpAmp36",
+    "raw_rows_in_downloaded_pool": 22126,
+    "invalid_rows": 14219,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3862,
+    "unique_accepted_candidates": 4045,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "3143bdaa42c0c37deb02e0e3c7f97215bf110375352c6dc7eb01fbd4e58e8a1f",
+    "topology_id": "LOADBench__SimpleOpAmp4",
+    "raw_rows_in_downloaded_pool": 5483,
+    "invalid_rows": 1717,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1008,
+    "unique_accepted_candidates": 2758,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "c1f2db202923126cedee4b211c2305f440e741bd5a8f5c931f8b87c9372ba18a",
+    "topology_id": "LOADBench__SimpleOpAmp40",
+    "raw_rows_in_downloaded_pool": 11425,
+    "invalid_rows": 6375,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2138,
+    "unique_accepted_candidates": 2912,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "7f1ef6c9be7fcf79bafd6e29f0aea0c72bba12d85ba17aed0fe285b6e83734c3",
+    "topology_id": "LOADBench__SimpleOpAmp44",
+    "raw_rows_in_downloaded_pool": 7134,
+    "invalid_rows": 3006,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1450,
+    "unique_accepted_candidates": 2678,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "6e9679e98734c21753de5cd7b84408c8103dcebe179442933798d2f85b8b8b42",
+    "topology_id": "LOADBench__SimpleOpAmp46",
+    "raw_rows_in_downloaded_pool": 8368,
+    "invalid_rows": 3363,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1852,
+    "unique_accepted_candidates": 3153,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "96c7833d3a68dbb06b662a104715ef5af08fbffc8f8ec24c1f818ed135800b69",
+    "topology_id": "LOADBench__SimpleOpAmp5",
+    "raw_rows_in_downloaded_pool": 4215,
+    "invalid_rows": 1225,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 522,
+    "unique_accepted_candidates": 2468,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "d4232d0b4372c24dd5203c67d70419c5c279d30493a6a32da063e4e1fee86a81",
+    "topology_id": "LOADBench__SimpleOpAmp53",
+    "raw_rows_in_downloaded_pool": 7775,
+    "invalid_rows": 2533,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1896,
+    "unique_accepted_candidates": 3346,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "21722931722d068fbcc96ec6717308727aecde74bf9afda9a91e7b3f481457a5",
+    "topology_id": "LOADBench__SimpleOpAmp55",
+    "raw_rows_in_downloaded_pool": 4360,
+    "invalid_rows": 1170,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 658,
+    "unique_accepted_candidates": 2532,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "f4c5b91e2f32b8ebb6ac35867b557ca44b09f91a43d5709fd37b637182de60c9",
+    "topology_id": "LOADBench__SimpleOpAmp6",
+    "raw_rows_in_downloaded_pool": 5597,
+    "invalid_rows": 1066,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1264,
+    "unique_accepted_candidates": 3267,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "8a00971da99983d68478618dab8dc6e64dacc74e24cd5c46ed5e9602496fdd81",
+    "topology_id": "LOADBench__SimpleOpAmp74",
+    "raw_rows_in_downloaded_pool": 13521,
+    "invalid_rows": 6795,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3458,
+    "unique_accepted_candidates": 3268,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "11f60dd5eed383b9d27f8ffbc69bb375fc7ce1704064f8cfcaaffe2f707fe7ca",
+    "topology_id": "LOADBench__SimpleOpAmp75",
+    "raw_rows_in_downloaded_pool": 11767,
+    "invalid_rows": 6510,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2428,
+    "unique_accepted_candidates": 2829,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "c5976dea600a2e06b1e61432b45f4960e41185a73c3798a85fef9b2afe8f83be",
+    "topology_id": "LOADBench__SimpleOpAmp76",
+    "raw_rows_in_downloaded_pool": 12100,
+    "invalid_rows": 5794,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3431,
+    "unique_accepted_candidates": 2875,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "f8c49c6369bf3c9fc9087540113ee39997cfdc8ae3b84cec6e80dc91bb857de2",
+    "topology_id": "LOADBench__SimpleOpAmp77",
+    "raw_rows_in_downloaded_pool": 7392,
+    "invalid_rows": 2424,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1810,
+    "unique_accepted_candidates": 3158,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2412731636d67d7ca2397b994ac88d13111b6d39080d351cbc6e2b0b2f6cba5c",
+    "topology_id": "LOADBench__SimpleOpAmp8",
+    "raw_rows_in_downloaded_pool": 9873,
+    "invalid_rows": 4790,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1990,
+    "unique_accepted_candidates": 3093,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "4010c24b2607016d11d634589b8b29155e9fce9729903f425ea024f0fd87723e",
+    "topology_id": "LOADBench__SimpleOpAmp82",
+    "raw_rows_in_downloaded_pool": 15066,
+    "invalid_rows": 5836,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 4439,
+    "unique_accepted_candidates": 4791,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "6bd80c5fa5970b1be9d492579138f58fbc7fc96bfcf7f40143a6ca0c0800163e",
+    "topology_id": "LOADBench__SimpleOpAmp85",
+    "raw_rows_in_downloaded_pool": 52439,
+    "invalid_rows": 29708,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 19346,
+    "unique_accepted_candidates": 3385,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "1b04522745d686fa5bdfd3a1e871b6d54f3a4df1606b8891a5b6814eb89b8806",
+    "topology_id": "LOADBench__SimpleOpAmp93",
+    "raw_rows_in_downloaded_pool": 6574,
+    "invalid_rows": 1702,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1850,
+    "unique_accepted_candidates": 3022,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "cb8040ed78293608dc1825aff5e096b7e3fa83e348c7df5bb2ef3ae8fa6d8e66",
+    "topology_id": "LOADBench__SimpleOpAmp95",
+    "raw_rows_in_downloaded_pool": 7310,
+    "invalid_rows": 2608,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1808,
+    "unique_accepted_candidates": 2894,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "b26d8aaf3fc59b72e68151d770707ab72dd70ba9730efea5e42d231dc88f4cc9",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_10",
+    "raw_rows_in_downloaded_pool": 43040,
+    "invalid_rows": 25493,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 12559,
+    "unique_accepted_candidates": 4988,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "8d3e31781b9003cbcb50f0b7e4ed99c2cb13a2c5194985e53ee9803af90b1f31",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_3",
+    "raw_rows_in_downloaded_pool": 43473,
+    "invalid_rows": 33687,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6626,
+    "unique_accepted_candidates": 3160,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a4e777e882a32d4a18ecf3939f4a7b9cb21f2e4d96a259aa1f92871a8929e8a5",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_4",
+    "raw_rows_in_downloaded_pool": 39073,
+    "invalid_rows": 35256,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2299,
+    "unique_accepted_candidates": 1518,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "cec4bbb2a276e987195d74836ddf264e03adbf2220b7d334ea77776666d5f4b8",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_5",
+    "raw_rows_in_downloaded_pool": 42333,
+    "invalid_rows": 30641,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 8828,
+    "unique_accepted_candidates": 2864,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "92249be1b0c6bc979409d2d7687105633eab3b3a3adfb1e067f91c6b34a2f28e",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_6",
+    "raw_rows_in_downloaded_pool": 39274,
+    "invalid_rows": 31691,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 5139,
+    "unique_accepted_candidates": 2444,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "73b110e5dfab2faab4844fd2f7750797097bf494a9ef19bae9ece29b799ce51b",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_7",
+    "raw_rows_in_downloaded_pool": 48488,
+    "invalid_rows": 28358,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 15268,
+    "unique_accepted_candidates": 4862,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "3ad4b618e53d721ca5d1eaea125f9c06b8394709503de3c85d0517f1604fc4d9",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_8",
+    "raw_rows_in_downloaded_pool": 42504,
+    "invalid_rows": 30324,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 9488,
+    "unique_accepted_candidates": 2692,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "bb8a95928cd7560538aa22f6608fa6c9174a15b90730c1fc3fe304cb8b785be2",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_9",
+    "raw_rows_in_downloaded_pool": 42547,
+    "invalid_rows": 23272,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 12364,
+    "unique_accepted_candidates": 6911,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "61ab42fedd36b5ad671ef9db706b4c1b2d6025f470e901c5c7141a03e314ecde",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_2_1",
+    "raw_rows_in_downloaded_pool": 56821,
+    "invalid_rows": 32566,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 17108,
+    "unique_accepted_candidates": 7147,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "66aa78d809e07065124be8824ed8df36825326fbe76af03ba0d6cab0904bbdc8",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_1_1",
+    "raw_rows_in_downloaded_pool": 38705,
+    "invalid_rows": 37290,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1094,
+    "unique_accepted_candidates": 321,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "82976479c8eb541b9c0f2fb4724beb4b607b40f8359549fa929279a9c1567f8b",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_1_10",
+    "raw_rows_in_downloaded_pool": 34206,
+    "invalid_rows": 31060,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2605,
+    "unique_accepted_candidates": 541,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "8831468e2ebca6f2e66a81aaf669d6d40df436dea36ab20eb052a64e98eed09e",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_1_2",
+    "raw_rows_in_downloaded_pool": 34527,
+    "invalid_rows": 25434,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 7489,
+    "unique_accepted_candidates": 1604,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "acb6291f4e96291a1df4faa6f5453c0473e6836c5c62693d76cf4fe10b2c7795",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_1",
+    "raw_rows_in_downloaded_pool": 37076,
+    "invalid_rows": 30600,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 4514,
+    "unique_accepted_candidates": 1962,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "4ad468459104be8d28d80e11f8b81dda22a2b4644fe09eb0700a7fb7fea46665",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc1",
+    "raw_rows_in_downloaded_pool": 37728,
+    "invalid_rows": 27711,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6358,
+    "unique_accepted_candidates": 3659,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2811a3780d950568784c211904741a26e35a7a39d3eef2e3be4a5924acab6db7",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+    "raw_rows_in_downloaded_pool": 36738,
+    "invalid_rows": 32035,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3263,
+    "unique_accepted_candidates": 1440,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "dda258e71721ac22f8dd6958382da99f082bf362df4e5249dd731ec8f71910b5",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp54_1_1",
+    "raw_rows_in_downloaded_pool": 35207,
+    "invalid_rows": 33913,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1078,
+    "unique_accepted_candidates": 216,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "86754e6fe7373b1e0d303a0f840de8457ea102c7b3a36e2fe576d5ed8358a477",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp54_2_1",
+    "raw_rows_in_downloaded_pool": 35841,
+    "invalid_rows": 33117,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1385,
+    "unique_accepted_candidates": 1339,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "9b3e9bd928d050782aaa0d00b80100ff27897cd168ee050eef4e234ea2715988",
+    "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp8_1_7",
+    "raw_rows_in_downloaded_pool": 55706,
+    "invalid_rows": 40140,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 11435,
+    "unique_accepted_candidates": 4131,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "21d0a44c336e05e16e83f5f0760c6c485cd58cf86f2129b677697b83364a5ad5",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp10_10",
+    "raw_rows_in_downloaded_pool": 51263,
+    "invalid_rows": 34424,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 9314,
+    "unique_accepted_candidates": 7525,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a36a3710ca692237953db082a95076ef717c0ba7c7d1ea4ecaac3870f00033c1",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp10_8",
+    "raw_rows_in_downloaded_pool": 41626,
+    "invalid_rows": 38567,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1317,
+    "unique_accepted_candidates": 1742,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "4d4dd4ecdf5ab1ee8f667e39d78745f31476bc14578a11ba67371d03e69bc196",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp114_7",
+    "raw_rows_in_downloaded_pool": 43059,
+    "invalid_rows": 42995,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 43,
+    "unique_accepted_candidates": 21,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "204b97067cc5b3898b3012d1e104548ce187869ad5d33949397f9b2e05ae289e",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp11_7",
+    "raw_rows_in_downloaded_pool": 67528,
+    "invalid_rows": 67528,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "ab081b7944065492d9ad12a47bd520006dbf4771dcbacf05e7086f3d180cc4bd",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp11_8",
+    "raw_rows_in_downloaded_pool": 49722,
+    "invalid_rows": 49722,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a3048d221681b37d7061632de114f077b4226c54bcb35154a6f6e83c42e1045a",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp12_10",
+    "raw_rows_in_downloaded_pool": 50049,
+    "invalid_rows": 50049,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "3981f63cc74dfa496408ba5be72e5a83f0fbf76f3e92f1cb682f7efa1d59108d",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp12_9",
+    "raw_rows_in_downloaded_pool": 21953,
+    "invalid_rows": 12226,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 5112,
+    "unique_accepted_candidates": 4615,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "5bbc2e80acbbafabfa486396a3bc80da5c5d6cd4c9553a529a620e57f6cd0cd4",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp13_7",
+    "raw_rows_in_downloaded_pool": 68877,
+    "invalid_rows": 68877,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "8f5dcd06759ee6cf7a4f3456dbf362cd44231e623fc52e604e8fafd05649023e",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp1_1",
+    "raw_rows_in_downloaded_pool": 17231,
+    "invalid_rows": 10051,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3596,
+    "unique_accepted_candidates": 3584,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "c2cd91a38f827dcaede3df06a2a2cca02b62786b6664dd28eb3fed0f91525b5e",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp1_5",
+    "raw_rows_in_downloaded_pool": 13008,
+    "invalid_rows": 5159,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3890,
+    "unique_accepted_candidates": 3959,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "9c965fca8b988cdc24d6b3d4a22d97c452b1f05101d323c90e1d6e7b6a2dae1c",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp29_7",
+    "raw_rows_in_downloaded_pool": 47300,
+    "invalid_rows": 47300,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "eb149d359ef60a8c01e9b52c61449a4713d8821a42f61cd14f1efd52e94f207e",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp30_8",
+    "raw_rows_in_downloaded_pool": 47013,
+    "invalid_rows": 47013,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "b99f429bd60917ba0ade4ed21b04c4008a4e1b8d89da989bd9987041cdb46616",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp31_9",
+    "raw_rows_in_downloaded_pool": 5985,
+    "invalid_rows": 2418,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1155,
+    "unique_accepted_candidates": 2412,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "b9fcf0620b832847b0e431956c427e34d4d3ab9cd459a8313058edd6c92fd67d",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp33_7",
+    "raw_rows_in_downloaded_pool": 41070,
+    "invalid_rows": 37601,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1616,
+    "unique_accepted_candidates": 1853,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "c96ab2b2c34afbb272deeba989b34a234a99e15151a8da7c29ce0f07df2ca90f",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp34_7",
+    "raw_rows_in_downloaded_pool": 41120,
+    "invalid_rows": 40639,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 335,
+    "unique_accepted_candidates": 146,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "0c904d3d6fb9162f580fc62aeb736de555c083eda055f7e2db129d67373950cc",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp34_8",
+    "raw_rows_in_downloaded_pool": 40467,
+    "invalid_rows": 40359,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 85,
+    "unique_accepted_candidates": 23,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "34e1c58ff5434b156fb05e37dc7036a1a11c688c9ac62f49f60e92d662517134",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp35_7",
+    "raw_rows_in_downloaded_pool": 48053,
+    "invalid_rows": 48053,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "68212c2932719a14431d51e926b3bebab0672355c27ae7dfef1b3473c68f060d",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp39_7",
+    "raw_rows_in_downloaded_pool": 47138,
+    "invalid_rows": 47132,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 6,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "7e02021cce8d595d77e19d3e13954e4502905312d4ee384e69865bac4c37037c",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp39_9",
+    "raw_rows_in_downloaded_pool": 12388,
+    "invalid_rows": 7785,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1989,
+    "unique_accepted_candidates": 2614,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2f613066e7d0beea9b862ea3af87d57289efe86f6fc9e5f290c12b7610093c59",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp3_2",
+    "raw_rows_in_downloaded_pool": 13453,
+    "invalid_rows": 5758,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3844,
+    "unique_accepted_candidates": 3851,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "7dd21b68396d8f01a8b6e47581a98776c2e2c607478ea41334df1c849f14831d",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp3_6",
+    "raw_rows_in_downloaded_pool": 10633,
+    "invalid_rows": 3477,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3243,
+    "unique_accepted_candidates": 3913,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "52703c16dd85ce283fc043850194884549315b37dc7ff8914f98fa63a5ae4692",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp43_10",
+    "raw_rows_in_downloaded_pool": 22073,
+    "invalid_rows": 14435,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 4080,
+    "unique_accepted_candidates": 3558,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2517c63d12e1043664ec5099c50236692b0651ee9c4886d1c826036baac3b8fa",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp43_5",
+    "raw_rows_in_downloaded_pool": 23376,
+    "invalid_rows": 14383,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 4936,
+    "unique_accepted_candidates": 4057,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "ec6f197035f11cefe4cea2edcb9272505dd3128f29c5281d7d0d5532f5d60892",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp43_9",
+    "raw_rows_in_downloaded_pool": 13643,
+    "invalid_rows": 6981,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3173,
+    "unique_accepted_candidates": 3489,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "668d583cccbf06470023632974daa1eb70ea5077570cbcb58b13084537a9e1dd",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp44_7",
+    "raw_rows_in_downloaded_pool": 11149,
+    "invalid_rows": 6336,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2119,
+    "unique_accepted_candidates": 2694,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "3ae65f17a069c3fe0f24311c96356730e3992afaaae6a0942884c6c5fcaf097c",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp46_5",
+    "raw_rows_in_downloaded_pool": 23928,
+    "invalid_rows": 13192,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6074,
+    "unique_accepted_candidates": 4662,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "6e5dc8b59a9bcfc8ff72f84848d68135bcea3d8f0af01d8c51ff4704f09be8eb",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp46_9",
+    "raw_rows_in_downloaded_pool": 7087,
+    "invalid_rows": 2569,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1519,
+    "unique_accepted_candidates": 2999,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "448ebb377334b84d8c6e09fa7ed57aaba4f146b743a141bdc715a162c5559193",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp47_1",
+    "raw_rows_in_downloaded_pool": 22100,
+    "invalid_rows": 13224,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 5077,
+    "unique_accepted_candidates": 3799,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "7aa7812bff20ca668a64da76efd0a3d385b16dfbc7e3d8f6e80fb14af9f5c121",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp47_9",
+    "raw_rows_in_downloaded_pool": 10319,
+    "invalid_rows": 5873,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1737,
+    "unique_accepted_candidates": 2709,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2f79b8b9b91da753a5dc08590a48564e8c3decd7f29b5084d383dc56856fe41d",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp4_1",
+    "raw_rows_in_downloaded_pool": 17559,
+    "invalid_rows": 12628,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2305,
+    "unique_accepted_candidates": 2626,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "60d6d9aa850e177cbf3637e71c6c0e6ab9c75efaf4fa85c1bee79d36757e2886",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp4_5",
+    "raw_rows_in_downloaded_pool": 24303,
+    "invalid_rows": 13661,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 5569,
+    "unique_accepted_candidates": 5073,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "753719561972e8a5dc01dba6bf0e1d9edb449d422b38d29d25161fb8addb6fcd",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp50_3",
+    "raw_rows_in_downloaded_pool": 14624,
+    "invalid_rows": 8095,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3211,
+    "unique_accepted_candidates": 3318,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "fa192af93d2acd70b6b805ea34e0903841b7595af5ae029750524ad485bb59ed",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp51_3",
+    "raw_rows_in_downloaded_pool": 12865,
+    "invalid_rows": 7048,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2710,
+    "unique_accepted_candidates": 3107,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "2732c31e93f5ef7c18c62b0b78879e684978cb2800f3308e75d5f0e2ee0e7a25",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp55_5",
+    "raw_rows_in_downloaded_pool": 25954,
+    "invalid_rows": 13148,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6908,
+    "unique_accepted_candidates": 5898,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "c53eb064614071e42252f3fce61e8b752a34d3402e2f813270389099045e7853",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp5_2",
+    "raw_rows_in_downloaded_pool": 26513,
+    "invalid_rows": 13859,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 7925,
+    "unique_accepted_candidates": 4729,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "5fd44b01f1d8fcda780f20e28b1c5c9aec833d196398d1f7b9db75bec6eda81e",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp71_5",
+    "raw_rows_in_downloaded_pool": 12775,
+    "invalid_rows": 8050,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2107,
+    "unique_accepted_candidates": 2618,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a0643e5e03088f78524030e84326bb75b63c087adb6520bb80d45b05513ee8ac",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp71_7",
+    "raw_rows_in_downloaded_pool": 23415,
+    "invalid_rows": 12223,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6467,
+    "unique_accepted_candidates": 4725,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "8537d871e9732430ff14413f20a1b49fff8267b995cd986eb700350919464987",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp72_1",
+    "raw_rows_in_downloaded_pool": 23965,
+    "invalid_rows": 19315,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2340,
+    "unique_accepted_candidates": 2310,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a4cd8cf4aaef96d76cdcf02bf928cad1aa90b0be63558bbbc82c2c3f74a1ceae",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp73_3",
+    "raw_rows_in_downloaded_pool": 12394,
+    "invalid_rows": 7301,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2242,
+    "unique_accepted_candidates": 2851,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "c8d8b7b07eb6cf339740417a742c805ba0c622cc8f429888874f2716a7b852bd",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp77_7",
+    "raw_rows_in_downloaded_pool": 23498,
+    "invalid_rows": 17417,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3333,
+    "unique_accepted_candidates": 2748,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "18af79f9354f7a5a1a035e8ba71d66d761d21aadaff3f59cee177f489d302693",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp81_5",
+    "raw_rows_in_downloaded_pool": 24763,
+    "invalid_rows": 13753,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6008,
+    "unique_accepted_candidates": 5002,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "a75b316794235e4207d56a01e8a7e3c1157abf1478596067a4aa69c72f057de4",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp8_7",
+    "raw_rows_in_downloaded_pool": 65803,
+    "invalid_rows": 65803,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "bdb11b8fc4db79bfe85be0eedc91c6fc6accc5a70ec3b3e2ffdf78b0a705850e",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp8_8",
+    "raw_rows_in_downloaded_pool": 47915,
+    "invalid_rows": 47915,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 0,
+    "unique_accepted_candidates": 0,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "e17fd0eace5d8a9d21e0792f65529b2488210b19e6a5e0d750126409b024a3ce",
+    "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp92_9",
+    "raw_rows_in_downloaded_pool": 22917,
+    "invalid_rows": 10587,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 6391,
+    "unique_accepted_candidates": 5939,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "3855437fd54e45a4927a963dafb2c09feccb8ae454938f4c619bf81e732a4b98",
+    "topology_id": "LOADBench__SymmetricalOpAmp12",
+    "raw_rows_in_downloaded_pool": 7395,
+    "invalid_rows": 2445,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1756,
+    "unique_accepted_candidates": 3194,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "0727df3d8b4ebcababfc0865c1aebb9aeb6711e60600931006c4f995162f0d91",
+    "topology_id": "LOADBench__SymmetricalOpAmp13",
+    "raw_rows_in_downloaded_pool": 6044,
+    "invalid_rows": 2326,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1007,
+    "unique_accepted_candidates": 2711,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "1551539d0d5320377b367b06b923ac4a1cf01909764184ae3ee86165166bab08",
+    "topology_id": "LOADBench__SymmetricalOpAmp16",
+    "raw_rows_in_downloaded_pool": 11525,
+    "invalid_rows": 7078,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1823,
+    "unique_accepted_candidates": 2624,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "680b34b07b28e3a17c44c2212aebf9ed10275c87cb36a5591b9021347653a74d",
+    "topology_id": "LOADBench__SymmetricalOpAmp2",
+    "raw_rows_in_downloaded_pool": 11874,
+    "invalid_rows": 5548,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2829,
+    "unique_accepted_candidates": 3497,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "8bed91477cc8272340fc2cb33129b328f16b2a36996d7c59af372f07593c3b35",
+    "topology_id": "LOADBench__SymmetricalOpAmp24",
+    "raw_rows_in_downloaded_pool": 11264,
+    "invalid_rows": 4796,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2761,
+    "unique_accepted_candidates": 3707,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "1fd57c45b8f4635e07871af9a80a3c5c49f28f7191f65356e9ea1fe99a669afc",
+    "topology_id": "LOADBench__SymmetricalOpAmp3",
+    "raw_rows_in_downloaded_pool": 11591,
+    "invalid_rows": 6572,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 2153,
+    "unique_accepted_candidates": 2866,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "d3db601295c3e7b0e749fbff8f85449bdffa279c78da93728c447daf8956eafb",
+    "topology_id": "LOADBench__SymmetricalOpAmp7",
+    "raw_rows_in_downloaded_pool": 9777,
+    "invalid_rows": 5520,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 1599,
+    "unique_accepted_candidates": 2658,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  },
+  {
+    "fingerprint": "07242ed1835d8db1f08403c8dd5e73f464cfd85f669365124515d50007921eba",
+    "topology_id": "LOADBench__SymmetricalOpAmp8",
+    "raw_rows_in_downloaded_pool": 11929,
+    "invalid_rows": 4670,
+    "conflicting_rows_quarantined": 0,
+    "duplicate_design_occurrences_removed": 3214,
+    "unique_accepted_candidates": 4045,
+    "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+  }
+]

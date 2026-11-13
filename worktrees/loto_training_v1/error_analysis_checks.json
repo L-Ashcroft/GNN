@@ -1,0 +1,7 @@
+{
+  "R2_to_RMSE_matches_analytic_predictions": true,
+  "train_only_std_NRMSE_correct": true,
+  "undefined_R2_not_fabricated": true,
+  "rounded_R2_one_with_positive_MAE_not_reported_as_zero_RMSE": true,
+  "test_data_used": false
+}

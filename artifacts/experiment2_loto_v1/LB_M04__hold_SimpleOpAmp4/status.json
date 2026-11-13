@@ -1,0 +1,41 @@
+{
+  "state": "complete",
+  "pid": 16392,
+  "create_time": 1793775798.9173095,
+  "updated_at": "2026-11-04T10:14:21.985880+00:00",
+  "device": "cpu",
+  "experiment": "LOTO",
+  "fold_id": "LB_M04__hold_SimpleOpAmp4",
+  "body_frozen": false,
+  "private_AnalogGym_used": false,
+  "heldout_test_used": true,
+  "role": "test",
+  "epoch": 20,
+  "batch": 1747,
+  "batches_per_epoch": 1747,
+  "samples_done": 2176,
+  "role_samples": 2404,
+  "best_compatible_validation_hit5": 0.4878667149583484,
+  "best_epoch": 20,
+  "model_parameters": 8146624,
+  "heldout_topologies": [
+    "LOADBench__SimpleOpAmp4"
+  ],
+  "training_loss": 0.10286051611718547,
+  "samples_per_second": 72.03946356213623,
+  "gradient_norm": 1.0837899446487427,
+  "updates": 34940,
+  "learning_rates": {
+    "backbone": 2.5e-05,
+    "adaptation": 3.75e-05
+  },
+  "completed_epochs": 20,
+  "compatible_validation_hit5": 0.4878667149583484,
+  "global_validation_hit5": 0.3662654106606265,
+  "compatible_validation_median_r2": 0.9567448768612983,
+  "bad_epochs": 0,
+  "test_samples": 2404,
+  "test_hit5": 0.31281198003327787,
+  "test_median_r2": 0.915381749845978,
+  "completion_reason": "epoch_budget"
+}

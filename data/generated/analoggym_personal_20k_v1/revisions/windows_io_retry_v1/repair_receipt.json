@@ -1,0 +1,17 @@
+{
+  "time_UTC": "2026-10-28T09:03:07.287858+00:00",
+  "original_error": {
+    "time": "2026-10-28T08:52:57.691005+00:00",
+    "type": "PermissionError",
+    "message": "[WinError 5] 拒绝访问。: 'D:\\\\EDA\\\\data\\\\generated\\\\analoggym_personal_20k_v1\\\\status.json.tmp' -> 'D:\\\\EDA\\\\data\\\\generated\\\\analoggym_personal_20k_v1\\\\status.json'"
+  },
+  "preserved_attempts": 1589,
+  "preserved_accepted": 1354,
+  "sampling_policy_digest_unchanged": "d4690d67388a71eb7a880751a4e6c0ac3d6b401262b943aa91f76f58b8bc6ff3",
+  "change": "Unique JSON temporary names, fsync, retry only Windows access/sharing/lock errors up to 15 seconds. Same status fields, simulation, extraction, quality rules and parameters.",
+  "old_metadata_snapshots": "data\\generated\\analoggym_personal_20k_v1\\revisions\\windows_io_retry_v1",
+  "preserved_ledger_rows_verified": 1589,
+  "recovered_archives": 7,
+  "accepted_after_recovery": 1360,
+  "tests_passed": 81
+}

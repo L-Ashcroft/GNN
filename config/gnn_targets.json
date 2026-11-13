@@ -1,0 +1,28 @@
+{
+  "families": {
+    "gain_frequency": ["VoltageGain", "PowerGain", "ConversionGain", "GTMax", "PowerGain_LNA", "ConversionGain_Mixer", "VoltageGain_Amp", "LargeSignalPowerGain", "LargeSignal_PowerGain_PA", "dc_gain", "Bandwidth", "OscillationFrequency", "TuningRange", "TuningRange_VCO", "ft"],
+    "stability": ["phasemargin"],
+    "swing_offset": ["VoltageSwing", "IFVoltageSwing", "VoltageSwing_Mixer", "icmr_min", "icmr_max", "vout_min", "vout_max", "voffset"],
+    "speed": ["sr_neg", "sr_pos"],
+    "power": ["DCPowerConsumption", "PowerConsumption", "p", "OutputPower", "PSAT", "DrainEfficiency", "PAE", "DrainEfficiency_PA", "PAE_PA"],
+    "rf_quality": ["S11", "S22", "S11Min", "S11_LNA", "NoiseFigure", "NFMin", "NoiseFigure_LNA", "PhaseNoise", "PhaseNoise_VCO", "cmrr", "psrr"],
+    "geometry": ["area"]
+  },
+  "unit_reference_scales": {
+    "W": 0.001,
+    "Hz": 1000000.0,
+    "dB": 1.0,
+    "dBm": 1.0,
+    "source_label_dBm_compression_function": 1.0,
+    "dBc/Hz": 1.0,
+    "1": 1.0,
+    "V": 1.0,
+    "degree": 45.0,
+    "V/s": 1000000.0,
+    "um2_estimated": 1000.0
+  },
+  "target_transform": "sign(y/scale)*log1p(abs(y/scale))",
+  "metric_reference_scales": {"voffset": 0.001},
+  "scale_policy": "Fixed engineering reference units, not fitted statistics; does not establish semantic compatibility",
+  "sharing_policy": "Family feature MLPs are shared; final readouts remain independent per conservative supervision contract. No cross-source target equivalence is inferred."
+}

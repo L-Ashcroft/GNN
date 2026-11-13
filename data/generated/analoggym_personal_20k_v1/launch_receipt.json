@@ -1,0 +1,7 @@
+﻿{
+    "workers":  8,
+    "launcher_pid":  22732,
+    "target":  20000,
+    "started_UTC":  "2026-10-28T06:39:22.6154472Z",
+    "command":  "scripts/run_analoggym_personal_pipeline.py"
+}

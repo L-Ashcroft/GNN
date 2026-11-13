@@ -1,0 +1,6 @@
+﻿{
+    "workers":  8,
+    "supervisor_pid":  33752,
+    "sampling_policy":  "folded_recentered_narrow_v2",
+    "started_at":  "2026-10-28T15:24:44.7978261+08:00"
+}

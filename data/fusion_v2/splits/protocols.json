@@ -1,0 +1,22 @@
+{
+  "id": {
+    "status": "ready",
+    "file": "id.parquet",
+    "rule": "design_group hash about 80/10/10, seed 42; minimum one group per role for topologies with >=3 groups"
+  },
+  "loto": {
+    "status": "ready",
+    "files": [
+      "loto_fold_0.parquet",
+      "loto_fold_1.parquet",
+      "loto_fold_2.parquet",
+      "loto_fold_3.parquet",
+      "loto_fold_4.parquet"
+    ],
+    "rule": "Hold out union of full-port connectivity and conservative MOS-core hash groups; WL collisions overgroup safely"
+  },
+  "cross_dataset": {
+    "status": "blocked_no_verified_shared_targets",
+    "reason": "No approved equal physical definitions AND verified test conditions across sources. Candidate files must not be used as comparable-label benchmark."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-31T20:42:43.753978+08:00",
+  "state": "complete_verified",
+  "model_sha256": "e554ca12cb8016bf07354b651286580165ff41b020747d5ccc67f69d2a5878d8",
+  "published_source_matches": true,
+  "CPU_inference_smoke": "16 real training fixture samples, original physical-unit outputs and masks",
+  "original_checkpoint_preserved": true,
+  "test_evaluated_once": true,
+  "all_stage_processes_exited": true,
+  "stderr_empty": true,
+  "test_macro_r2_has_unresolved_extreme_failures": true
+}

@@ -1,0 +1,23 @@
+{
+  "state": "paused",
+  "pid": 28448,
+  "create_time": 1793458537.898873,
+  "updated_at": "2026-10-31T14:56:14.223592+00:00",
+  "test_used": false,
+  "test_policy": "No further test evaluation",
+  "protocol": "frozen_backbone_cached_head_continuation",
+  "max_additional_epochs": 20,
+  "body_frozen": true,
+  "role": "train",
+  "epoch": 7,
+  "additional_epoch": 1,
+  "inherited_head_epochs": 6,
+  "batch": 1,
+  "batches_per_epoch": 391,
+  "role_samples": 400083,
+  "samples_done": 0,
+  "learning_rate": 5e-05,
+  "best_validation_score": 0.22985567748206473,
+  "best_total_head_epoch": 6,
+  "reason": "memory_pressure"
+}

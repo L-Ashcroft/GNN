@@ -1,0 +1,50 @@
+{
+  "status": "prepared_not_started",
+  "at_UTC": "2026-10-31T08:46:10.990595+00:00",
+  "new_recipe_digest": "2e57c9e21fbadbec39ee2db84f6ae98f5a5b4aed6eed5d5a0a8b6fc08fb1edba",
+  "new_checkpoint_sha256": "e108afd136d77cbc873f33bfbbf989ba1153dd37cfea5b2260023676f170ca6f",
+  "preserved_state_sha256": {
+    "model": "25762827039d3038311e9aa7014564c534c80fd9df352702bc51ab47598ccf33",
+    "optimizer": "88cd81323a3ba89a7e0a177601b5c24a6bc0386a4b1b0d0a2738339d52d4c5d5",
+    "scheduler": "263f4f8458f84eaebefd480d04dc004a9d5e401ee4fe751e320e2f85ef5821e7",
+    "coverage_slots": "cae99c747988593833b17f5fffd84cd17871eaf14dfd1aec13c571f95c2b51c2",
+    "coverage_domains": "05d093499b724399df80364f0581047213f0cfa77100ef945daac3d6bfca09d9",
+    "next_epoch": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+    "next_batch": "e39eef82f61b21e2e7f762fcc4307358f165757f2e77ec855d6992f7e0191932",
+    "partial": "602b6d0554b6d87faa0f524cde32be53dd47b77e9962ea16b10f0fc011f7f97a",
+    "history": "b707e6b82246fb5616566bb3ba6a6bac55dc22cfa1264c3516239acc3a186905",
+    "best": "820f2ae795d178018952a09cb344f73595fe65ef97a2e7f6910c87e2928ab922",
+    "best_epoch": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+    "bad": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "rng_cpu": "75ee3f83dd0c9939cc9186a77fe47c0cef6edd7e14769e3233858f2216798892",
+    "rng_cuda": "bed551672b8847f821f4ded5ec435861bc7cd1bcc52b3dbdd8d40ea587162710"
+  },
+  "every_state_component_unchanged": true,
+  "best_model_state_unchanged": true,
+  "original_files_unchanged": true,
+  "source_files": 53,
+  "execution_py_included": true,
+  "speedup": 1.2901015974076273,
+  "parent": {
+    "at_UTC": "2026-10-31T08:46:05.840807+00:00",
+    "kind": "explicit_verified_implementation_migration",
+    "authorization": "User allowed graceful pause, GPU acceptance and independent fast-run migration; no cross-recipe --resume.",
+    "parent_output": "artifacts/experiment1_fusion_id_v1",
+    "parent_checkpoint_sha256": "b5b3526ba03e1361f4f73c2f2692d751758e4a3abe17c76f0c7b2af398956282",
+    "parent_recipe_sha256": "8bb93ddd51c101c81619172bfd3f599c719979a485073eaa6e23ded6775d49c8",
+    "parent_best_sha256": "0cc703acb21cef7cb7e61518ae58433456ffb606f8fbefe56212a3e35fb5d8ef",
+    "GPU_correctness": [
+      "worktrees/rgcn_speedup_candidate/results/correctness_cuda_cached_v2_fresh.json",
+      "worktrees/rgcn_speedup_candidate/results/correctness_cuda_cached_v2_parent.json"
+    ],
+    "measured_speedup": 1.2901015974076273,
+    "benchmark_files": [
+      "worktrees/rgcn_speedup_candidate/results/speedup_20261031/reference_v2_e2e.json",
+      "worktrees/rgcn_speedup_candidate/results/speedup_20261031/optimized_v2_e2e.json"
+    ],
+    "frozen_parent_epochs": 15,
+    "implementation_switch_epoch": 16,
+    "implementation_switch_completed_batches": 1024,
+    "state_policy": "Preserve model, optimizer, scheduler, RNG, history, cursor, coverage and accumulators; derive new recipe digest only."
+  }
+}

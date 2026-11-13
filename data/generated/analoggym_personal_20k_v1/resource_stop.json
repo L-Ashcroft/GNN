@@ -1,0 +1,5 @@
+{
+  "reason": "low available RAM",
+  "available_bytes": 536805376,
+  "threshold_MiB": 512
+}

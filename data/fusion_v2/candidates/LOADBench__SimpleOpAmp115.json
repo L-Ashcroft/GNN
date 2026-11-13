@@ -1,0 +1,10 @@
+{
+  "fingerprint": "14575c2cf7de0f773fd09f544f465098c5e6eb862c8a73d266a5ba87e70392ff",
+  "topology_id": "LOADBench__SimpleOpAmp115",
+  "raw_rows_in_downloaded_pool": 12114,
+  "invalid_rows": 7105,
+  "conflicting_rows_quarantined": 0,
+  "duplicate_design_occurrences_removed": 2270,
+  "unique_accepted_candidates": 2739,
+  "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+}

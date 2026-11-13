@@ -1,0 +1,22 @@
+{
+  "at_UTC": "2026-10-31T08:46:05.840807+00:00",
+  "kind": "explicit_verified_implementation_migration",
+  "authorization": "User allowed graceful pause, GPU acceptance and independent fast-run migration; no cross-recipe --resume.",
+  "parent_output": "artifacts/experiment1_fusion_id_v1",
+  "parent_checkpoint_sha256": "b5b3526ba03e1361f4f73c2f2692d751758e4a3abe17c76f0c7b2af398956282",
+  "parent_recipe_sha256": "8bb93ddd51c101c81619172bfd3f599c719979a485073eaa6e23ded6775d49c8",
+  "parent_best_sha256": "0cc703acb21cef7cb7e61518ae58433456ffb606f8fbefe56212a3e35fb5d8ef",
+  "GPU_correctness": [
+    "worktrees/rgcn_speedup_candidate/results/correctness_cuda_cached_v2_fresh.json",
+    "worktrees/rgcn_speedup_candidate/results/correctness_cuda_cached_v2_parent.json"
+  ],
+  "measured_speedup": 1.2901015974076273,
+  "benchmark_files": [
+    "worktrees/rgcn_speedup_candidate/results/speedup_20261031/reference_v2_e2e.json",
+    "worktrees/rgcn_speedup_candidate/results/speedup_20261031/optimized_v2_e2e.json"
+  ],
+  "frozen_parent_epochs": 15,
+  "implementation_switch_epoch": 16,
+  "implementation_switch_completed_batches": 1024,
+  "state_policy": "Preserve model, optimizer, scheduler, RNG, history, cursor, coverage and accumulators; derive new recipe digest only."
+}

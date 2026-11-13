@@ -1,0 +1,315 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::GTMax",
+        "original_name": "GTMax",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.09909811693114275,
+        "r2": 0.965260106352174,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::S11Min",
+        "original_name": "S11Min",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.26276066132967607,
+        "r2": 0.9494107552979103,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::NFMin",
+        "original_name": "NFMin",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.005643316051419232,
+        "r2": 0.9809029859826768,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1625,
+        "mae": 110289327.43803526,
+        "r2": 0.9177306743682707,
+        "relative_count": 1625,
+        "hit5": 0.8621538461538462,
+        "hit10": 0.9784615384615385
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1625,
+        "mae": 1.8144799710273894e-05,
+        "r2": 0.9992821986073788,
+        "relative_count": 1625,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::GTMax",
+        "original_name": "GTMax",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.011124249424951388,
+        "r2": 0.999541813643696,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::S11Min",
+        "original_name": "S11Min",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.09534983007218786,
+        "r2": 0.9939335295307052,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::NFMin",
+        "original_name": "NFMin",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.0009149904140510548,
+        "r2": 0.9995077891607647,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1625,
+        "mae": 13716243.946804566,
+        "r2": 0.9987690784063968,
+        "relative_count": 1625,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1625,
+        "mae": 1.0580938755945777e-05,
+        "r2": 0.9997168630719964,
+        "relative_count": 1625,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::GTMax",
+        "original_name": "GTMax",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.2532992944755194,
+        "r2": 0.7750549532793444,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::S11Min",
+        "original_name": "S11Min",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.9085459669982827,
+        "r2": 0.41973904729550593,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::NFMin",
+        "original_name": "NFMin",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.019234721701554672,
+        "r2": 0.7823162220814902,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1625,
+        "mae": 175015160.5792421,
+        "r2": 0.7819419920509942,
+        "relative_count": 1625,
+        "hit5": 0.7021538461538461,
+        "hit10": 0.9206153846153846
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1625,
+        "mae": 6.781968149465019e-18,
+        "r2": 1.0,
+        "relative_count": 1625,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::GTMax",
+        "original_name": "GTMax",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.10768240032463561,
+        "r2": 0.9610127118249897,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::S11Min",
+        "original_name": "S11Min",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.20004817918396825,
+        "r2": 0.9701266135127599,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::NFMin",
+        "original_name": "NFMin",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.00909868351739491,
+        "r2": 0.9466180265361223,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1625,
+        "mae": 78581678.1981175,
+        "r2": 0.9618403225176598,
+        "relative_count": 1625,
+        "hit5": 0.968,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1625,
+        "mae": 4.371788709184622e-06,
+        "r2": 0.9996431477061325,
+        "relative_count": 1625,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::GTMax",
+        "original_name": "GTMax",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.12545307960531263,
+        "r2": 0.9473670221970385,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::S11Min",
+        "original_name": "S11Min",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.3042263460594731,
+        "r2": 0.9368157686862363,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::NFMin",
+        "original_name": "NFMin",
+        "unit": "dB",
+        "count": 1625,
+        "mae": 0.00827749698919379,
+        "r2": 0.958882995555315,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1625,
+        "mae": 97136306.3464223,
+        "r2": 0.9390082046325042,
+        "relative_count": 1625,
+        "hit5": 0.9046153846153846,
+        "hit10": 0.9969230769230769
+      },
+      {
+        "supervision_group": "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f",
+        "semantic_id": "AICircuit__LNA::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1625,
+        "mae": 4.843137540118584e-07,
+        "r2": 0.9999878712139846,
+        "relative_count": 1625,
+        "hit5": 1.0,
+        "hit10": 1.0
+      }
+    ]
+  },
+  "topology": "AICircuit__LNA"
+}

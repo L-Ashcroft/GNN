@@ -1,0 +1,11 @@
+{
+  "code_sha256": {
+    "scripts/run_analoggym_personal_pipeline.py": "8b1f01fb4dc7e8b9b26ec985cd5604830b4a36c2489a7820533e8889ad45c62e",
+    "src/analoggym_personal_protocols.py": "896de01106547df82520cdb812d995bf1616270d84142e3f1281ac4f7b334789",
+    "scripts/report_analoggym_personal.py": "5cddc153c2cf7c2581d5ac98461e53d0b59ec605e057f23c23cbd4c5d96dea86",
+    "scripts/supervise_analoggym_personal.py": "d4857e2d1afb1c741461af7a26bca1145160f1cc4bdcdf40fcb34c906dabdf38",
+    "src/analoggym_personal_engine.py": "6c0317889a6cea69179fd2b0836c2e0de42319cb35184e4a8c6545849695c72f",
+    "src/analoggym_personal_runner.py": "c01217f8a2194c5d46280e45938004ada678ca95ed94e3fdd59767f587583740",
+    "scripts/generate_analoggym_personal.py": "447cc1bdabb700fbcd45acf57061fdaf33e4f80843272b7f90832c7f640da271"
+  }
+}

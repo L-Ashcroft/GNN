@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "original_split_sha256": "7f9aa0c24743ff303e0a10f98d1011c5b7b93ab147e6cd09692232b9c4d7f619",
+  "new_split_sha256": "64a8fc1fca01388f92ced26029b0de8245e83ba7beb2893fad8afffdb5791887",
+  "original_files_modified": false,
+  "test_ids_unchanged": true,
+  "all_three_sampling_centres_in_train": true,
+  "role_changes": [
+    {
+      "sample_id": "AnalogGym_generated:cafc175f8645beef:7d82e74ee8c725f43f9de7ba00e88e398d4cff399d46253e062a8e3adc23565d",
+      "candidate": 38,
+      "topology_id": "ldo_folded_cascode",
+      "old_role": "validation",
+      "new_role": "train"
+    },
+    {
+      "sample_id": "AnalogGym_generated:cafc175f8645beef:05815853acad484fe214124abf023f265a4e64220fac6d30a897242656b837ea",
+      "candidate": 14,
+      "topology_id": "ldo_folded_cascode",
+      "old_role": "validation",
+      "new_role": "train"
+    },
+    {
+      "sample_id": "AnalogGym_generated:cafc175f8645beef:95d523c518c852f5b141fee6ea7271a4d732805dbc4a450f5d8926cebb0a35a0",
+      "candidate": 842,
+      "topology_id": "ldo_folded_cascode",
+      "old_role": "train",
+      "new_role": "validation"
+    },
+    {
+      "sample_id": "AnalogGym_generated:cafc175f8645beef:64cca17039aeb183e6e914f90afce39918eb1085765341e44cf205fbf55f1737",
+      "candidate": 13,
+      "topology_id": "ldo_folded_cascode",
+      "old_role": "train",
+      "new_role": "validation"
+    }
+  ],
+  "split_counts": {
+    "train": 16000,
+    "validation": 2000,
+    "test": 2000
+  },
+  "per_topology_counts": {
+    "train": 1600,
+    "validation": 200,
+    "test": 200
+  },
+  "few_shot_nested_and_train_only": true,
+  "limitations": [
+    "Does not remove near-neighbour similarity within a local sampling region.",
+    "Calibration labels used for data collection are separate from downstream adaptation-label budgets.",
+    "Validation target labels must be counted as extra budget; new model adapter/heads still required."
+  ]
+}

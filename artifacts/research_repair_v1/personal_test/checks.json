@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "test_labels_read": false,
+  "validation_embedding_max_absolute_error": 0.0,
+  "samples": 16
+}

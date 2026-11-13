@@ -1,0 +1,81 @@
+{
+  "topology": "FALCON__DBAMixer",
+  "rows": 995,
+  "bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "prediction_sha256": "5fa0a708198cddd5fae5827147ea14faa922cf2bb47db133f05bff34a848c15c",
+  "metrics": {
+    "per_target": [
+      {
+        "supervision_group": "08cb7c30543424ecc5990e7d6d73edb650240c8a9675324e88c295e3869d1503",
+        "semantic_id": "FALCON__DBAMixer::ConversionGain",
+        "unit": "dB",
+        "original_name": "ConversionGain",
+        "count": 995,
+        "mae": 0.038595351221577374,
+        "r2": 0.9975557349463791,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 1.0,
+        "relative_policy": "not applicable to log units"
+      },
+      {
+        "supervision_group": "08cb7c30543424ecc5990e7d6d73edb650240c8a9675324e88c295e3869d1503",
+        "semantic_id": "FALCON__DBAMixer::DCPowerConsumption",
+        "unit": "W",
+        "original_name": "DCPowerConsumption",
+        "count": 995,
+        "mae": 6.397846549186064e-05,
+        "r2": 0.9951951456459558,
+        "mre": 0.005179302822945567,
+        "hit5": 0.9989949748743718,
+        "hit10": 1.0,
+        "relative_count": 995,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      },
+      {
+        "supervision_group": "08cb7c30543424ecc5990e7d6d73edb650240c8a9675324e88c295e3869d1503",
+        "semantic_id": "FALCON__DBAMixer::NoiseFigure",
+        "unit": "dB",
+        "original_name": "NoiseFigure",
+        "count": 995,
+        "mae": 0.02648810771251098,
+        "r2": 0.998073209442516,
+        "mre": null,
+        "hit5": null,
+        "hit10": null,
+        "relative_count": 0,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": 1.0,
+        "relative_policy": "not applicable to log units"
+      },
+      {
+        "supervision_group": "08cb7c30543424ecc5990e7d6d73edb650240c8a9675324e88c295e3869d1503",
+        "semantic_id": "FALCON__DBAMixer::VoltageSwing",
+        "unit": "V",
+        "original_name": "VoltageSwing",
+        "count": 995,
+        "mae": 9.212070070812099e-06,
+        "r2": 0.9974843010395442,
+        "mre": 0.004899725483385247,
+        "hit5": 1.0,
+        "hit10": 1.0,
+        "relative_count": 995,
+        "near_zero_count": 0,
+        "hit_abs_1_unit": null,
+        "relative_policy": "exclude near-zero targets with fixed engineering floor"
+      }
+    ],
+    "macro_hit5": 0.9994974874371859,
+    "macro_hit10": 1.0,
+    "macro_r2": 0.9970770977685988,
+    "macro_mre": 0.005039514153165408,
+    "target_groups": 4
+  },
+  "seconds": 1.94409650000307,
+  "train_test_ids_disjoint": true
+}

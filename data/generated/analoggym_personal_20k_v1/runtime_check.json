@@ -1,0 +1,55 @@
+{
+  "maximum_ngspice_observed": 8,
+  "minimum_available_RAM_bytes": 1777750016,
+  "configured_workers": 8,
+  "observations": [
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1967534080
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1942532096
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1924792320
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1898508288
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1868066816
+    },
+    {
+      "active_ngspice": 6,
+      "available_RAM_bytes": 1969524736
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1942700032
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1899360256
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1897381888
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1966223360
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1920876544
+    },
+    {
+      "active_ngspice": 8,
+      "available_RAM_bytes": 1777750016
+    }
+  ]
+}

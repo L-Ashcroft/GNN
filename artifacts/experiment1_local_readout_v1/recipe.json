@@ -1,0 +1,13 @@
+{
+  "variant": "local_bounded_readouts_ID_v1",
+  "source_diagnostic_recipe_sha256": "c3fd47270a65753e067991fcfff71d60058daf497d131fb7f6effa583ba4e7ee",
+  "script_sha256": "28f9e691f46599d6c5f595205b9330d493a70d58cc7a6d878cd7d8b29e5dce91",
+  "metrics_sha256": "48ef4eea164069b96ec2efe7129965a8b4b26f37ac905c723eb3e753052ee2fb",
+  "raw_manifest_sha256": "c1bc8f65d85fe4dd0e2e65d8d02bb310ea0a57a1e1524dc9e242c28a6b611535",
+  "k": 8,
+  "inverse_squared_distance_epsilon": 0.0001,
+  "source_fit": "train-only normalization, observed output bounds and neighbor labels",
+  "test_read": false,
+  "limitation": "Known semantic contracts and canonical devices only; not validated for LOTO/unseen dataset",
+  "prediction_policy": "Train-range clipping changes predictions, never labels, Mask or evaluation formulas"
+}

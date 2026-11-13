@@ -1,0 +1,9 @@
+﻿{
+    "monitor_pid":  10820,
+    "workers":  8,
+    "stderr":  "supervisor_io_stderr.log",
+    "supervisor_pid":  11604,
+    "repair":  "windows_io_retry_v1",
+    "stdout":  "supervisor_io_stdout.log",
+    "started_at":  "2026-10-28T17:05:11.9481863+08:00"
+}

@@ -1,0 +1,3418 @@
+{
+  "representation": "net_device_multigraph_v2",
+  "directed": false,
+  "port_policy": "MOS all six port pairs including bulk; balun first-port star; other devices all port pairs; tied ports retain self-loops",
+  "nets": [
+    "0",
+    "I0:GND",
+    "I0:VDD",
+    "I0:net1",
+    "I0:net16",
+    "Vout\\+",
+    "Vout\\-",
+    "net1"
+  ],
+  "devices": [
+    {
+      "name": "I0/N5",
+      "nets": [
+        "I0:net16",
+        "I0:net16",
+        "0",
+        "I0:GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wn5",
+        "l": "45n",
+        "m": "1",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/N4",
+      "nets": [
+        "I0:net1",
+        "I0:net16",
+        "0",
+        "I0:GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wn6",
+        "l": "45n",
+        "m": "40",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/N3",
+      "nets": [
+        "net1",
+        "Vout\\-",
+        "net1",
+        "I0:GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wvar",
+        "l": "45n",
+        "m": "25",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/N2",
+      "nets": [
+        "net1",
+        "Vout\\+",
+        "net1",
+        "I0:GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wvar",
+        "l": "45n",
+        "m": "25",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/N1",
+      "nets": [
+        "Vout\\+",
+        "Vout\\-",
+        "I0:net1",
+        "I0:GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wn",
+        "l": "45n",
+        "m": "20",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/N0",
+      "nets": [
+        "Vout\\-",
+        "Vout\\+",
+        "I0:net1",
+        "I0:GND"
+      ],
+      "model": "nmos",
+      "attributes": {
+        "w": "Wn",
+        "l": "45n",
+        "m": "20",
+        "region": "sat"
+      },
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/I0",
+      "nets": [
+        "I0:VDD",
+        "I0:net16"
+      ],
+      "model": "isource",
+      "attributes": {
+        "dc": "300u",
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/C1",
+      "nets": [
+        "I0:VDD",
+        "Vout\\-"
+      ],
+      "model": "capacitor",
+      "attributes": {
+        "c": "C1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/C0",
+      "nets": [
+        "I0:VDD",
+        "Vout\\+"
+      ],
+      "model": "capacitor",
+      "attributes": {
+        "c": "C1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/R1",
+      "nets": [
+        "I0:VDD",
+        "Vout\\-"
+      ],
+      "model": "resistor",
+      "attributes": {
+        "r": "Rp"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/R0",
+      "nets": [
+        "I0:VDD",
+        "Vout\\+"
+      ],
+      "model": "resistor",
+      "attributes": {
+        "r": "Rp"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/L1",
+      "nets": [
+        "I0:VDD",
+        "Vout\\-"
+      ],
+      "model": "inductor",
+      "attributes": {
+        "l": "L1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/L0",
+      "nets": [
+        "I0:VDD",
+        "Vout\\+"
+      ],
+      "model": "inductor",
+      "attributes": {
+        "l": "L1"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/V1",
+      "nets": [
+        "I0:VDD",
+        "0"
+      ],
+      "model": "vsource",
+      "attributes": {
+        "dc": "1.6",
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "I0/V0",
+      "nets": [
+        "I0:GND",
+        "0"
+      ],
+      "model": "vsource",
+      "attributes": {
+        "dc": "0",
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    },
+    {
+      "name": "V0",
+      "nets": [
+        "net1",
+        "0"
+      ],
+      "model": "vsource",
+      "attributes": {
+        "dc": "Vcont",
+        "type": "dc"
+      },
+      "ports": [
+        "P",
+        "N"
+      ],
+      "device_references": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": 4,
+      "target": 4,
+      "device": 0,
+      "name": "I0/N5",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "device": 0,
+      "name": "I0/N5",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "device": 0,
+      "name": "I0/N5",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "device": 0,
+      "name": "I0/N5",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "device": 0,
+      "name": "I0/N5",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 0,
+      "name": "I0/N5",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "device": 1,
+      "name": "I0/N4",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "device": 1,
+      "name": "I0/N4",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 1,
+      "name": "I0/N4",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "device": 1,
+      "name": "I0/N4",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "device": 1,
+      "name": "I0/N4",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 1,
+      "name": "I0/N4",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "device": 2,
+      "name": "I0/N3",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 7,
+      "target": 7,
+      "device": 2,
+      "name": "I0/N3",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "device": 2,
+      "name": "I0/N3",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "device": 2,
+      "name": "I0/N3",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "device": 2,
+      "name": "I0/N3",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "device": 2,
+      "name": "I0/N3",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "device": 3,
+      "name": "I0/N2",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 7,
+      "target": 7,
+      "device": 3,
+      "name": "I0/N2",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "device": 3,
+      "name": "I0/N2",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "device": 3,
+      "name": "I0/N2",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "device": 3,
+      "name": "I0/N2",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "device": 3,
+      "name": "I0/N2",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "device": 4,
+      "name": "I0/N1",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "device": 4,
+      "name": "I0/N1",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "device": 4,
+      "name": "I0/N1",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "device": 4,
+      "name": "I0/N1",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "device": 4,
+      "name": "I0/N1",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 4,
+      "name": "I0/N1",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "device": 5,
+      "name": "I0/N0",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "device": 5,
+      "name": "I0/N0",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "device": 5,
+      "name": "I0/N0",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "device": 5,
+      "name": "I0/N0",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "device": 5,
+      "name": "I0/N0",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "device": 5,
+      "name": "I0/N0",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "device": 6,
+      "name": "I0/I0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "isource_PN"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 7,
+      "name": "I0/C1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "device": 8,
+      "name": "I0/C0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 9,
+      "name": "I0/R1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "resistor_PN"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "device": 10,
+      "name": "I0/R0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "resistor_PN"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 11,
+      "name": "I0/L1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "inductor_PN"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "device": 12,
+      "name": "I0/L0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "inductor_PN"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "device": 13,
+      "name": "I0/V1",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "vsource_PN"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "device": 14,
+      "name": "I0/V0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "vsource_PN"
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "device": 15,
+      "name": "V0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "vsource_PN"
+    }
+  ],
+  "edge_index": [
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      3,
+      3,
+      3,
+      4,
+      4,
+      0,
+      7,
+      7,
+      7,
+      6,
+      6,
+      7,
+      7,
+      7,
+      7,
+      5,
+      5,
+      7,
+      5,
+      5,
+      5,
+      6,
+      6,
+      3,
+      6,
+      6,
+      6,
+      5,
+      5,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      7
+    ],
+    [
+      4,
+      0,
+      1,
+      0,
+      1,
+      1,
+      4,
+      0,
+      1,
+      0,
+      1,
+      1,
+      6,
+      7,
+      1,
+      7,
+      1,
+      1,
+      5,
+      7,
+      1,
+      7,
+      1,
+      1,
+      6,
+      3,
+      1,
+      3,
+      1,
+      1,
+      5,
+      3,
+      1,
+      3,
+      1,
+      1,
+      4,
+      6,
+      5,
+      6,
+      5,
+      6,
+      5,
+      0,
+      0,
+      0
+    ]
+  ],
+  "edge_device_index": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "device_terminals": [
+    {
+      "device": 0,
+      "net": 4,
+      "port": "D"
+    },
+    {
+      "device": 0,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 0,
+      "net": 0,
+      "port": "S"
+    },
+    {
+      "device": 0,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 1,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 1,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 1,
+      "net": 0,
+      "port": "S"
+    },
+    {
+      "device": 1,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 2,
+      "net": 7,
+      "port": "D"
+    },
+    {
+      "device": 2,
+      "net": 6,
+      "port": "G"
+    },
+    {
+      "device": 2,
+      "net": 7,
+      "port": "S"
+    },
+    {
+      "device": 2,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 3,
+      "net": 7,
+      "port": "D"
+    },
+    {
+      "device": 3,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 3,
+      "net": 7,
+      "port": "S"
+    },
+    {
+      "device": 3,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 4,
+      "net": 5,
+      "port": "D"
+    },
+    {
+      "device": 4,
+      "net": 6,
+      "port": "G"
+    },
+    {
+      "device": 4,
+      "net": 3,
+      "port": "S"
+    },
+    {
+      "device": 4,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 5,
+      "net": 6,
+      "port": "D"
+    },
+    {
+      "device": 5,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 5,
+      "net": 3,
+      "port": "S"
+    },
+    {
+      "device": 5,
+      "net": 1,
+      "port": "B"
+    },
+    {
+      "device": 6,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 6,
+      "net": 4,
+      "port": "N"
+    },
+    {
+      "device": 7,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 7,
+      "net": 6,
+      "port": "N"
+    },
+    {
+      "device": 8,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 8,
+      "net": 5,
+      "port": "N"
+    },
+    {
+      "device": 9,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 9,
+      "net": 6,
+      "port": "N"
+    },
+    {
+      "device": 10,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 10,
+      "net": 5,
+      "port": "N"
+    },
+    {
+      "device": 11,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 11,
+      "net": 6,
+      "port": "N"
+    },
+    {
+      "device": 12,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 12,
+      "net": 5,
+      "port": "N"
+    },
+    {
+      "device": 13,
+      "net": 2,
+      "port": "P"
+    },
+    {
+      "device": 13,
+      "net": 0,
+      "port": "N"
+    },
+    {
+      "device": 14,
+      "net": 1,
+      "port": "P"
+    },
+    {
+      "device": 14,
+      "net": 0,
+      "port": "N"
+    },
+    {
+      "device": 15,
+      "net": 7,
+      "port": "P"
+    },
+    {
+      "device": 15,
+      "net": 0,
+      "port": "N"
+    }
+  ],
+  "device_references": [],
+  "num_nets": 8,
+  "num_devices": 16,
+  "num_nodes": 8,
+  "num_terminals": 44,
+  "num_edges": 46,
+  "num_device_references": 0,
+  "source_netlist": "third_party/AICircuit/Simulation/Netlists/VCO/netlist",
+  "feature_names": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient",
+    "finger_count",
+    "width_length_ratio",
+    "hierarchy_depth",
+    "device_type:balun",
+    "device_type:capacitor",
+    "device_type:inductor",
+    "device_type:isource",
+    "device_type:mutual_inductor",
+    "device_type:nmos",
+    "device_type:pmos",
+    "device_type:port",
+    "device_type:resistor",
+    "device_type:vsource"
+  ],
+  "feature_expressions": [
+    [
+      "Wn5",
+      "45n",
+      "1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "(Wn5)/(45n)",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Wn6",
+      "45n",
+      "40",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "(Wn6)/(45n)",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Wvar",
+      "45n",
+      "25",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "(Wvar)/(45n)",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Wvar",
+      "45n",
+      "25",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "(Wvar)/(45n)",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Wn",
+      "45n",
+      "20",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "(Wn)/(45n)",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Wn",
+      "45n",
+      "20",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "(Wn)/(45n)",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "300u",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "C1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "C1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      "Rp",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      "Rp",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "L1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "L1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1.6",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Vcont",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "netlist_sha256": "bdfc759144f6b698e60893429761b87688a78fd72f266f180c52bc72188be1ed",
+  "device_hierarchy_depth": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "node_feature_names": [
+    "connected_device_count",
+    "is_supply",
+    "is_positive_supply",
+    "is_negative_supply",
+    "is_ground",
+    "is_input",
+    "is_output",
+    "is_bias",
+    "role_unassigned",
+    "has_verified_role_evidence",
+    "role_evidence_convention_only",
+    "terminal_count:balun:P1",
+    "terminal_count:balun:P2",
+    "terminal_count:balun:P3",
+    "terminal_count:capacitor:N",
+    "terminal_count:capacitor:P",
+    "terminal_count:inductor:N",
+    "terminal_count:inductor:P",
+    "terminal_count:isource:N",
+    "terminal_count:isource:P",
+    "terminal_count:nmos:B",
+    "terminal_count:nmos:D",
+    "terminal_count:nmos:G",
+    "terminal_count:nmos:S",
+    "terminal_count:pmos:B",
+    "terminal_count:pmos:D",
+    "terminal_count:pmos:G",
+    "terminal_count:pmos:S",
+    "terminal_count:port:N",
+    "terminal_count:port:P",
+    "terminal_count:resistor:N",
+    "terminal_count:resistor:P",
+    "terminal_count:vsource:N",
+    "terminal_count:vsource:P"
+  ],
+  "node_features": [
+    [
+      5,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      7,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      8,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "node_annotations": [
+    {
+      "net": "0",
+      "node_type": "ground",
+      "roles": [
+        "ground"
+      ],
+      "evidence": [
+        {
+          "role": "ground",
+          "basis": "SPICE_reference",
+          "detail": "Global reference node 0"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "I0:GND",
+      "node_type": "ground",
+      "roles": [
+        "ground"
+      ],
+      "evidence": [
+        {
+          "role": "ground",
+          "basis": "zero_DC_reference_source",
+          "detail": "I0/V0; ['I0:GND', '0']"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "I0:VDD",
+      "node_type": "positive_supply",
+      "roles": [
+        "positive_supply"
+      ],
+      "evidence": [
+        {
+          "role": "positive_supply",
+          "basis": "net_name_convention",
+          "detail": "Supply net name I0:VDD"
+        },
+        {
+          "role": "positive_supply",
+          "basis": "DC_supply_source",
+          "detail": "I0/V1 ['I0:VDD', '0'] dc=1.6"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": true
+    },
+    {
+      "net": "I0:net1",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "I0:net16",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "Vout\\+",
+      "node_type": "output",
+      "roles": [
+        "output"
+      ],
+      "evidence": [
+        {
+          "role": "output",
+          "basis": "net_name_convention",
+          "detail": "Top-level signal name Vout\\+"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "Vout\\-",
+      "node_type": "output",
+      "roles": [
+        "output"
+      ],
+      "evidence": [
+        {
+          "role": "output",
+          "basis": "net_name_convention",
+          "detail": "Top-level signal name Vout\\-"
+        }
+      ],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    },
+    {
+      "net": "net1",
+      "node_type": "unassigned",
+      "roles": [],
+      "evidence": [],
+      "role_semantics": "Positive role flags; zero means unassigned, not proof of absence",
+      "has_verified_evidence": false
+    }
+  ],
+  "annotation_version": "lecture12_features_v1",
+  "feature_vocabulary": {
+    "relations": [
+      "balun:P1>P2",
+      "balun:P1>P3",
+      "balun:P2>P1",
+      "balun:P3>P1",
+      "capacitor:N>P",
+      "capacitor:P>N",
+      "inductor:N>P",
+      "inductor:P>N",
+      "isource:N>P",
+      "isource:P>N",
+      "nmos:B>D",
+      "nmos:B>G",
+      "nmos:B>S",
+      "nmos:D>B",
+      "nmos:D>G",
+      "nmos:D>S",
+      "nmos:G>B",
+      "nmos:G>D",
+      "nmos:G>S",
+      "nmos:S>B",
+      "nmos:S>D",
+      "nmos:S>G",
+      "pmos:B>D",
+      "pmos:B>G",
+      "pmos:B>S",
+      "pmos:D>B",
+      "pmos:D>G",
+      "pmos:D>S",
+      "pmos:G>B",
+      "pmos:G>D",
+      "pmos:G>S",
+      "pmos:S>B",
+      "pmos:S>D",
+      "pmos:S>G",
+      "port:N>P",
+      "port:P>N",
+      "resistor:N>P",
+      "resistor:P>N",
+      "vsource:N>P",
+      "vsource:P>N"
+    ],
+    "terminal_types": [
+      "balun:P1",
+      "balun:P2",
+      "balun:P3",
+      "capacitor:N",
+      "capacitor:P",
+      "inductor:N",
+      "inductor:P",
+      "isource:N",
+      "isource:P",
+      "nmos:B",
+      "nmos:D",
+      "nmos:G",
+      "nmos:S",
+      "pmos:B",
+      "pmos:D",
+      "pmos:G",
+      "pmos:S",
+      "port:N",
+      "port:P",
+      "resistor:N",
+      "resistor:P",
+      "vsource:N",
+      "vsource:P"
+    ],
+    "device_types": [
+      "balun",
+      "capacitor",
+      "inductor",
+      "isource",
+      "mutual_inductor",
+      "nmos",
+      "pmos",
+      "port",
+      "resistor",
+      "vsource"
+    ]
+  },
+  "message_passing": {
+    "edge_index": [
+      [
+        4,
+        4,
+        4,
+        0,
+        4,
+        1,
+        4,
+        0,
+        4,
+        1,
+        0,
+        1,
+        3,
+        4,
+        3,
+        0,
+        3,
+        1,
+        4,
+        0,
+        4,
+        1,
+        0,
+        1,
+        7,
+        6,
+        7,
+        7,
+        7,
+        1,
+        6,
+        7,
+        6,
+        1,
+        7,
+        1,
+        7,
+        5,
+        7,
+        7,
+        7,
+        1,
+        5,
+        7,
+        5,
+        1,
+        7,
+        1,
+        5,
+        6,
+        5,
+        3,
+        5,
+        1,
+        6,
+        3,
+        6,
+        1,
+        3,
+        1,
+        6,
+        5,
+        6,
+        3,
+        6,
+        1,
+        5,
+        3,
+        5,
+        1,
+        3,
+        1,
+        2,
+        4,
+        2,
+        6,
+        2,
+        5,
+        2,
+        6,
+        2,
+        5,
+        2,
+        6,
+        2,
+        5,
+        2,
+        0,
+        1,
+        0,
+        7,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        4,
+        1,
+        4,
+        0,
+        4,
+        1,
+        4,
+        1,
+        0,
+        4,
+        3,
+        0,
+        3,
+        1,
+        3,
+        0,
+        4,
+        1,
+        4,
+        1,
+        0,
+        6,
+        7,
+        7,
+        7,
+        1,
+        7,
+        7,
+        6,
+        1,
+        6,
+        1,
+        7,
+        5,
+        7,
+        7,
+        7,
+        1,
+        7,
+        7,
+        5,
+        1,
+        5,
+        1,
+        7,
+        6,
+        5,
+        3,
+        5,
+        1,
+        5,
+        3,
+        6,
+        1,
+        6,
+        1,
+        3,
+        5,
+        6,
+        3,
+        6,
+        1,
+        6,
+        3,
+        5,
+        1,
+        5,
+        1,
+        3,
+        4,
+        2,
+        6,
+        2,
+        5,
+        2,
+        6,
+        2,
+        5,
+        2,
+        6,
+        2,
+        5,
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        7
+      ]
+    ],
+    "edge_device_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15
+    ],
+    "edge_base_index": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22,
+      22,
+      23,
+      23,
+      24,
+      24,
+      25,
+      25,
+      26,
+      26,
+      27,
+      27,
+      28,
+      28,
+      29,
+      29,
+      30,
+      30,
+      31,
+      31,
+      32,
+      32,
+      33,
+      33,
+      34,
+      34,
+      35,
+      35,
+      36,
+      36,
+      37,
+      37,
+      38,
+      38,
+      39,
+      39,
+      40,
+      40,
+      41,
+      41,
+      42,
+      42,
+      43,
+      43,
+      44,
+      44,
+      45,
+      45
+    ],
+    "edge_port_pairs": [
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ]
+    ],
+    "edge_type": [
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      9,
+      8,
+      5,
+      4,
+      5,
+      4,
+      37,
+      36,
+      37,
+      36,
+      7,
+      6,
+      7,
+      6,
+      39,
+      38,
+      39,
+      38,
+      39,
+      38
+    ],
+    "reverse_edge_index": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8,
+      11,
+      10,
+      13,
+      12,
+      15,
+      14,
+      17,
+      16,
+      19,
+      18,
+      21,
+      20,
+      23,
+      22,
+      25,
+      24,
+      27,
+      26,
+      29,
+      28,
+      31,
+      30,
+      33,
+      32,
+      35,
+      34,
+      37,
+      36,
+      39,
+      38,
+      41,
+      40,
+      43,
+      42,
+      45,
+      44,
+      47,
+      46,
+      49,
+      48,
+      51,
+      50,
+      53,
+      52,
+      55,
+      54,
+      57,
+      56,
+      59,
+      58,
+      61,
+      60,
+      63,
+      62,
+      65,
+      64,
+      67,
+      66,
+      69,
+      68,
+      71,
+      70,
+      73,
+      72,
+      75,
+      74,
+      77,
+      76,
+      79,
+      78,
+      81,
+      80,
+      83,
+      82,
+      85,
+      84,
+      87,
+      86,
+      89,
+      88,
+      91,
+      90
+    ],
+    "edge_direction": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "symmetric_norm_weight": [
+      0.1,
+      0.1,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.07254762501100116,
+      0.07254762501100116,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.07254762501100116,
+      0.07254762501100116,
+      0.07647191129018725,
+      0.07647191129018725,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.07647191129018725,
+      0.07647191129018725,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.07254762501100116,
+      0.07254762501100116,
+      0.07647191129018725,
+      0.07647191129018725,
+      0.08006407690254357,
+      0.08006407690254357,
+      0.07692307692307693,
+      0.07692307692307693,
+      0.06362847629757777,
+      0.06362847629757777,
+      0.08006407690254357,
+      0.08006407690254357,
+      0.06622661785325219,
+      0.06622661785325219,
+      0.06362847629757777,
+      0.06362847629757777,
+      0.08006407690254357,
+      0.08006407690254357,
+      0.07692307692307693,
+      0.07692307692307693,
+      0.06362847629757777,
+      0.06362847629757777,
+      0.08006407690254357,
+      0.08006407690254357,
+      0.06622661785325219,
+      0.06622661785325219,
+      0.06362847629757777,
+      0.06362847629757777,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.06622661785325219,
+      0.06622661785325219,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.06622661785325219,
+      0.06622661785325219,
+      0.07647191129018725,
+      0.07647191129018725,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.06622661785325219,
+      0.06622661785325219,
+      0.09622504486493763,
+      0.09622504486493763,
+      0.06622661785325219,
+      0.06622661785325219,
+      0.07647191129018725,
+      0.07647191129018725,
+      0.11180339887498948,
+      0.11180339887498948,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.10206207261596577,
+      0.11785113019775793,
+      0.11785113019775793,
+      0.07647191129018725,
+      0.07647191129018725,
+      0.09245003270420485,
+      0.09245003270420485
+    ],
+    "normalization_note": "Optional structural weights, including retained typed self-loops. Not automatically applied by a model."
+  },
+  "hierarchy_scope": "flattened source netlist; top-level depth zero",
+  "num_message_edges": 92,
+  "message_edge_policy": "Two typed orientations per physical port pair, including tied-port self-loops; not an inferred signal-flow direction",
+  "feature_transform_policy": "Raw SI retained; log10 positive W/L/R/C/L/ratio, log2 positive m/nf; zero gets a separate flag; no fitted normalization"
+}

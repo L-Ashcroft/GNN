@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1+cu128
+# Optional GPU environment: reinstall with scripts/setup_cuda.ps1.
+# Cleanup retains torch/version.py solely for immutable recipe fingerprints;
+# that receipt directory alone is not an executable virtual environment.
+# After installation, eda_shared_dependencies.pth reuses .venv dependencies.

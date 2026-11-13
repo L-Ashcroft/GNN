@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-13T12:45:42.885616+00:00",
+  "independent_restore_verified": true,
+  "core_member_files_verified": 6027,
+  "public_rows_read": 500000,
+  "source_counts": {
+    "FALCON": 200000,
+    "AICircuit": 100000,
+    "LOADBench": 200000
+  },
+  "public_topology_entries": 121,
+  "personal_rows_read": 20000,
+  "personal_topologies": 10,
+  "observed_labels_finite_and_masks_consistent": true,
+  "graph_interface_materialization_each_public_source": true,
+  "archive_member_SHA256_verified_all_components": true,
+  "indexed_python_files_AST_parsed": 791,
+  "credential_pattern_scan_passed": true,
+  "entrypoint_parse_checks": [
+    "ID --resume --prepare-only",
+    "LOTO M02 --prepare-only",
+    "single-source --prepare-only",
+    "list"
+  ],
+  "active_original_source_pins_checked": 119,
+  "current_training_interrupted": false,
+  "new_training_started": false,
+  "new_test_predictions_generated": false,
+  "model_training_or_GPU_equivalence_retested": false,
+  "personal_original_raw_waveform_archives_included": false,
+  "note": "Existing result bytes and selected weights preserved; this validates distribution and loading, not new model accuracy."
+}

@@ -1,0 +1,25 @@
+{
+  "dataset_id": "AnalogGym_personal_20k_v1",
+  "output": "data/generated/analoggym_personal_20k_v1",
+  "target_accepted": 20000,
+  "workers": 8,
+  "pilot_per_topology": 3,
+  "seed": 42,
+  "minimum_available_RAM_MiB": 512,
+  "maximum_campaign_disk_GiB": 40,
+  "max_attempts_factor": 8,
+  "topologies": [
+    "Alfio_RAFFC_Pin_3",
+    "Fan_SMC_Pin_3",
+    "HoiLee_AFFC_Pin_3",
+    "Leung_DFCFC1_Pin_3",
+    "Leung_NMCNR_Pin_3",
+    "Peng_TCFC_Pin_3",
+    "Qu2017_AZC_Pin_3",
+    "Song_DACFC_Pin_3",
+    "ldo_simple",
+    "ldo_folded_cascode"
+  ],
+  "parameter_policy": "Use distinct actually measured successful parameter groups as anchors; preserve source aliases and matching. Reuse frozen bounded log-neighbourhood sampler. Never reuse anchor labels as new simulation labels.",
+  "experiment_role": "Independent target domain for cross-source comparison after metric/condition verification, and few-shot adaptation. Not merged into fusion_v2."
+}

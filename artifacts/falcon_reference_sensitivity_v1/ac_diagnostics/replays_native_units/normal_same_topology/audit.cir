@@ -1,0 +1,118 @@
+** combined opamp testbenches
+.include ./params.cir
+.param vdd=1.8
+.param Cload=1e-12
+.param ibias=10u
+.lib "D:/EDA/data/audit/loadbench_physical_v1/models/reduced_sky130_combined/sky130.lib.spice" tt
+.subckt SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2 ibias in1 in2 out sourceNmos sourcePmos
+XDiodeTransistorNmos1 outSourceVoltageBiasXXnXX1 outSourceVoltageBiasXXnXX1 sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wDiodeTransistorNmos1} l={param_lDiodeTransistorNmos1} m={param_mDiodeTransistorNmos1} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XDiodeTransistorNmos2 ibias ibias outSourceVoltageBiasXXnXX1 outSourceVoltageBiasXXnXX1 sky130_fd_pr__nfet_01v8_lvt w={param_wDiodeTransistorNmos2} l={param_lDiodeTransistorNmos2} m={param_mDiodeTransistorNmos2} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XDiodeTransistorPmos3 outVoltageBiasXXpXX2 outVoltageBiasXXpXX2 sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wDiodeTransistorPmos3} l={param_lDiodeTransistorPmos3} m={param_mDiodeTransistorPmos3} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XDiodeTransistorPmos4 outVoltageBiasXXpXX1 outVoltageBiasXXpXX1 sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wDiodeTransistorPmos4} l={param_lDiodeTransistorPmos4} m={param_mDiodeTransistorPmos4} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos5 outVoltageBiasXXpXX2 outSourceVoltageBiasXXnXX1 sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos5} l={param_lNormalTransistorNmos5} m={param_mNormalTransistorNmos5} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos6 outVoltageBiasXXpXX1 outSourceVoltageBiasXXnXX1 sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos6} l={param_lNormalTransistorNmos6} m={param_mNormalTransistorNmos6} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos8 outFirstStage ibias FirstStageYsourceGCC2 FirstStageYsourceGCC2 sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos8} l={param_lNormalTransistorNmos8} m={param_mNormalTransistorNmos8} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos9 FirstStageYinnerSourceLoad2 ibias FirstStageYsourceGCC1 FirstStageYsourceGCC1 sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos9} l={param_lNormalTransistorNmos9} m={param_mNormalTransistorNmos9} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos10 FirstStageYsourceGCC1 outSourceVoltageBiasXXnXX1 sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos10} l={param_lNormalTransistorNmos10} m={param_mNormalTransistorNmos10} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos11 FirstStageYsourceGCC2 outSourceVoltageBiasXXnXX1 sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos11} l={param_lNormalTransistorNmos11} m={param_mNormalTransistorNmos11} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos13 outFirstStage outVoltageBiasXXpXX1 FirstStageYinnerTransistorStack2Load2 FirstStageYinnerTransistorStack2Load2 sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos13} l={param_lNormalTransistorPmos13} m={param_mNormalTransistorPmos13} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos14 FirstStageYinnerSourceLoad2 outVoltageBiasXXpXX1 FirstStageYinnerTransistorStack1Load2 FirstStageYinnerTransistorStack1Load2 sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos14} l={param_lNormalTransistorPmos14} m={param_mNormalTransistorPmos14} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos15 FirstStageYinnerTransistorStack1Load2 FirstStageYinnerSourceLoad2 sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos15} l={param_lNormalTransistorPmos15} m={param_mNormalTransistorPmos15} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos16 FirstStageYinnerTransistorStack2Load2 FirstStageYinnerSourceLoad2 sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos16} l={param_lNormalTransistorPmos16} m={param_mNormalTransistorPmos16} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos17 FirstStageYsourceGCC1 in1 FirstStageYsourceTransconductance FirstStageYsourceTransconductance sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos17} l={param_lNormalTransistorPmos17} m={param_mNormalTransistorPmos17} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos18 FirstStageYsourceGCC2 in2 FirstStageYsourceTransconductance FirstStageYsourceTransconductance sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos18} l={param_lNormalTransistorPmos18} m={param_mNormalTransistorPmos18} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos19 FirstStageYsourceTransconductance outVoltageBiasXXpXX2 sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos19} l={param_lNormalTransistorPmos19} m={param_mNormalTransistorPmos19} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos20 SecondStageTransconductance SecondStageTransconductance sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos20} l={param_lNormalTransistorNmos20} m={param_mNormalTransistorNmos20} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos21 SecondStageTransconductance outFirstStage sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos21} l={param_lNormalTransistorPmos21} m={param_mNormalTransistorPmos21} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos22 outSecondStage outVoltageBiasXXpXX2 sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos22} l={param_lNormalTransistorPmos22} m={param_mNormalTransistorPmos22} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos23 outSecondStage SecondStageTransconductance sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos23} l={param_lNormalTransistorNmos23} m={param_mNormalTransistorNmos23} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorNmos7 out outSecondStage sourceNmos sourceNmos sky130_fd_pr__nfet_01v8_lvt w={param_wNormalTransistorNmos7} l={param_lNormalTransistorNmos7} m={param_mNormalTransistorNmos7} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+XNormalTransistorPmos12 out outFirstStage sourcePmos sourcePmos sky130_fd_pr__pfet_01v8_lvt w={param_wNormalTransistorPmos12} l={param_lNormalTransistorPmos12} m={param_mNormalTransistorPmos12} nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1
+    capacitor2 outFirstStage out {param_ccapacitor2}
+    capacitor3 outSecondStage outFirstStage {param_ccapacitor3}
+.ends SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2
+
+
+*** Testbench 1 unity feedback for transient, op, icmr ***
+.subckt tb_tran net_vtran_vdc
+XOpAmp net_ibias inp inn out 0 vdd! SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2
+	* Voltage sources *
+	vdd vdd! 0 DC {vdd}
+	vtran inp net_vtran_vdc PULSE({-vdd/2} {vdd/2} .01u 1n 1n .5u 1u) DC 0
+
+	vconnect inn out DC 0
+
+	* Capacitor *
+	Cload out 0 {Cload}
+
+	* Current source *
+	*Ibias net_ibias 0 DC {ibias}
+	Ibias vdd! net_ibias DC {ibias}
+.ends
+xtb_tran vdcin_xtb_vtran tb_tran
+vdc_xtb_tran vdcin_xtb_vtran 0 DC {vdd/2}
+*** end Testbench 1 ***
+
+*** Testbench 2 open loop for gain, ft, phase, psrr, cmrr ***
+.subckt tb_ac_vtran vdd! offset_point
+	* OPAMP *
+	XOpAmp net_ibias inp inn out 0 vdd! SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2
+
+	****Config AC****
+	* Voltage sources *
+	Voffset offset_point inn DC 0
+	Vtran inp offset_point AC 1 DC 0
+	* Capacitor *
+	Cload out 0 {Cload}
+	* Current source *
+	*Ibias net_ibias 0 DC {ibias}
+	Ibias vdd! net_ibias DC {ibias}
+	*Rbias vdd! net_ibias 250M
+.ends
+
+Vdd_source_tb_ac_vtran vdd_tb_ac_tran 0 DC {vdd} AC 0
+Vdc_source_tb_ac_vtran offset_point_tb_ac_tran 0 DC {vdd/2} AC 0
+xtb_ac_vtran vdd_tb_ac_tran offset_point_tb_ac_tran tb_ac_vtran
+*** end Testbench 2 ***
+
+*** Testbench 3 for vout min/max ***
+vdc_sweep_tb_dc_vo vsweepin 0 DC {vdd/2}
+.subckt tb_dc_vo vsweepin
+	XOpAmp net_ibias inp inn out 0 vdd! SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2
+
+	* Voltage sources *
+	vdc_inp inp 0 DC {vdd/2}
+	vdd vdd! 0 DC {vdd}
+
+
+	* Capacitor *
+	Cload out 0 {Cload}
+
+	* Current source *
+	*Ibias net_ibias 0 DC {ibias}
+	Ibias vdd! net_ibias DC {ibias}
+
+	* Resistors for inverting amplifier
+	R1 vsweepin inn 1G
+	R2 inn out 10G
+.ends
+xtb_dc_vo vsweepin tb_dc_vo
+*** end Testbench 3 ***
+
+* SimulationInterface Setup *
+
+.option scale=1e-6
+
+.control
+set noaskquit
+set num_threads=1
+set filetype=binary
+op
+let offset=-(v(xtb_tran.inn)-v(xtb_tran.inp))
+alter v.xtb_ac_vtran.Voffset DC = $&offset
+op
+ac dec 20 1 1G
+write ac.raw vdb(xtb_ac_vtran.out) ph(xtb_ac_vtran.out)
+quit
+.endc
+.end

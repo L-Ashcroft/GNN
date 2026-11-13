@@ -1,0 +1,12 @@
+[submodule "third_party/AICircuit"]
+	path = third_party/AICircuit
+	url = https://github.com/AvestimehrResearchGroup/AICircuit.git
+[submodule "third_party/AnalogGym"]
+	path = third_party/AnalogGym
+	url = https://github.com/CODA-Team/AnalogGym.git
+[submodule "third_party/FALCON"]
+	path = third_party/FALCON
+	url = https://github.com/AsalMehradfar/FALCON.git
+[submodule "third_party/LOADBench-Scripts"]
+	path = third_party/LOADBench-Scripts
+	url = https://github.com/FilipeAz/LOADBench-Scripts.git

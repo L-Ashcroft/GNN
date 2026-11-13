@@ -1,0 +1,66 @@
+{
+  "state": "complete",
+  "updated_at": "2026-10-29T20:47:14.463544+00:00",
+  "pid": 17172,
+  "target_accepted": 20000,
+  "attempts": 23094,
+  "accepted": 20000,
+  "quarantined": 3094,
+  "topologies": {
+    "Alfio_RAFFC_Pin_3": {
+      "attempts": 2504,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "Fan_SMC_Pin_3": {
+      "attempts": 2583,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "HoiLee_AFFC_Pin_3": {
+      "attempts": 2754,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "Leung_DFCFC1_Pin_3": {
+      "attempts": 2237,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "Leung_NMCNR_Pin_3": {
+      "attempts": 2079,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "Peng_TCFC_Pin_3": {
+      "attempts": 2030,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "Qu2017_AZC_Pin_3": {
+      "attempts": 2650,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "Song_DACFC_Pin_3": {
+      "attempts": 2060,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "ldo_simple": {
+      "attempts": 2000,
+      "accepted": 2000,
+      "target": 2000
+    },
+    "ldo_folded_cascode": {
+      "attempts": 2197,
+      "accepted": 2000,
+      "target": 2000
+    }
+  },
+  "raw_bytes": 8995121741,
+  "free_disk_bytes": 293465542656,
+  "workers": 8,
+  "merged_with_historical": false,
+  "complete": true
+}

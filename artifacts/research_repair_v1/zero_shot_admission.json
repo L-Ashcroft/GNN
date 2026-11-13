@@ -1,0 +1,39 @@
+{
+  "state": "zero_shot_blocked_by_physical_contracts",
+  "verified_shared_targets": 0,
+  "source_schema": {
+    "node_features": 34,
+    "relations": 48
+  },
+  "target_schema": {
+    "node_features": 35,
+    "relations": 52
+  },
+  "new_target_relations": [
+    "resistor:B>N",
+    "resistor:B>P",
+    "resistor:N>B",
+    "resistor:P>B"
+  ],
+  "sources": {
+    "data/model_ready/fusion_v2_training_v1/tasks.json": "7b8b16840a0153bc4e99f31bebdfa7fa397a35452d59221158cd474951f5995b",
+    "data/model_ready/personal_transfer_v1/tasks.json": "ff664208e103d20dfe8cfb17da4de6393daed31bf470819abec7b26c82498e08",
+    "artifacts/experiment3_cross_source_v1/compatibility_audit.json": "5b7a91c2c82f88428770ab91c229e349b223ca81d1b2ccb1b9fb2c3ae6d2722a"
+  },
+  "required_bridge_before_training": [
+    "Choose an available common PDK/model/corner and the SAME voltage, temperature, bias, load and extractor for BOTH domains",
+    "Resimulate public-source training circuits AND held-out target circuits under that common fixture; preserve raw archives",
+    "Fit shared output heads on source bridge labels only; fit normalization on source TRAIN only",
+    "Freeze a shared graph vocabulary and deterministic behavior for unseen node/port types; source-only domain inference",
+    "Hold out all target labels from weight fitting, calibration and epoch/model selection; predeclare target test IDs"
+  ],
+  "current_cannot_fix_by": [
+    "Rename gain metrics",
+    "Attach a randomly initialized target output head",
+    "Fit target labels and call the result zero-shot",
+    "Use missing-only mask to hide condition mismatch"
+  ],
+  "new_large_simulation_started": false,
+  "reason": "Existing private amplifier load is500pF versus public LOADBench1pF, model bundles and extraction differ; current output heads are not shared. No measured zero-shot result is available.",
+  "at": "2026-11-08T05:02:37.062754+00:00"
+}

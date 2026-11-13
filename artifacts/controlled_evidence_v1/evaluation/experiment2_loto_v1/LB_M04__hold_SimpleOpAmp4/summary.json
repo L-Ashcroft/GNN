@@ -1,0 +1,103 @@
+{
+  "task_macro": {
+    "macro_hit5": 0.31281198003327787,
+    "macro_hit10": 0.42807442141884733,
+    "macro_r2": 0.44795426659134885,
+    "median_r2": 0.9153817498459775,
+    "negative_r2_tasks": 1,
+    "undefined_r2_tasks": 0,
+    "relative_tasks": 11,
+    "tasks": 14
+  },
+  "by_source": {
+    "LOADBench": {
+      "macro_hit5": 0.31281198003327787,
+      "macro_hit10": 0.42807442141884733,
+      "macro_r2": 0.44795426659134885,
+      "median_r2": 0.9153817498459775,
+      "negative_r2_tasks": 1,
+      "undefined_r2_tasks": 0,
+      "relative_tasks": 11,
+      "tasks": 14
+    }
+  },
+  "sample_equal_native_MRE": {
+    "samples": 2404,
+    "undefined_sample_mre": 0,
+    "untrimmed_sample_mre": {
+      "count": 2404,
+      "mean_pct": 295.5631165792568,
+      "median_pct": 26.89912570615827,
+      "std_across_samples_pct": 3940.826060050668,
+      "p90_pct": 180.22315131339414,
+      "p95_pct": 403.6602571086828,
+      "p99_pct": 2673.2283534615763,
+      "max_pct": 142200.4080481069
+    },
+    "plot_only_95th_percentile_view": {
+      "count": 2283,
+      "mean_pct": 49.03746403780994,
+      "median_pct": 25.76597071623732,
+      "std_across_samples_pct": 63.79739154388751,
+      "p90_pct": 119.21848624544603,
+      "p95_pct": 184.07292985436658,
+      "p99_pct": 328.60839007869697,
+      "max_pct": 400.14867061237436,
+      "removed_samples": 121
+    }
+  },
+  "sample_count": 2404,
+  "aggregation": "task macro over (source,approved supervision group,semantic); undefined R2 omitted, negatives retained",
+  "MRE_policy": "Original Mask and nonzero native label; epsilon1e-8; log labels numerical only; full untrimmed",
+  "run": "experiment2_loto_v1/LB_M04__hold_SimpleOpAmp4",
+  "selected_epoch": 20,
+  "parameters": 8146624,
+  "training_steps": 34940,
+  "training_step_seconds": 141048.12670999998,
+  "training_cost_scope": "Completed epoch training steps only; excludes validation, baseline, resource waits",
+  "selected_updates": 34940,
+  "labels_mask_sha256": "c3c8d15e57ce0288250e9503477f5fda0a6227a43a8f960cf839773ac013e9cf",
+  "checkpoint_sha256": "e7b38b48cd3fdde963bcac4fbba999dbaadc788c461b5d91688c20464681ccba",
+  "config": {
+    "fold_id": "LB_M04__hold_SimpleOpAmp4",
+    "output": "artifacts/experiment2_loto_v1/LB_M04__hold_SimpleOpAmp4",
+    "protocol": "data/fusion_v2/splits/verified_loto_full_v2/manifest.json",
+    "source_population": "public_fusion_500000_only",
+    "private_AnalogGym_used": false,
+    "initialization": "random_seed42_no_ID_weights_or_embeddings",
+    "hidden_dim": 128,
+    "num_layers": 4,
+    "dropout": 0.1,
+    "use_domain_emb": true,
+    "use_film": true,
+    "update_edges": true,
+    "collapse_relations": false,
+    "head": "portable_semantic_direct_residual",
+    "backbone_lr": 0.0002,
+    "adaptation_lr": 0.0003,
+    "weight_decay": 0.01,
+    "minimum_lr": 2e-06,
+    "warmup_updates": 100,
+    "effective_batch_size": 256,
+    "training_microbatch": 128,
+    "validation_microbatch": 128,
+    "lru_topologies": 4,
+    "cpu_threads": 4,
+    "max_epochs": 20,
+    "minimum_epochs": 4,
+    "patience": 5,
+    "minimum_gain": 0.0001,
+    "seed": 42,
+    "checkpoint_every_updates": 100,
+    "selection_metric": "compatible_head_validation_macro_hit5",
+    "test_policy": "Held-out topology labels are never fitted or evaluated until validation selection completes",
+    "backend_policy": "CPU fallback; CUDA only after >=4GiB actual available host RAM and per-implementation numerical qualification",
+    "supported_torch_builds": [
+      "2.9.1+cpu",
+      "2.9.1+cu128"
+    ],
+    "minimum_CPU_start_RAM_GiB": 1.5,
+    "minimum_CUDA_start_RAM_GiB": 4.0
+  },
+  "test_ids_sha256": "6721f010bb1ec30fe589fbffe5f70752bb1b3b0621bade8f34b7fc2d2db4121d"
+}

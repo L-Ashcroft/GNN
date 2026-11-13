@@ -1,0 +1,53 @@
+{
+  "created_at_UTC": "2026-10-30T15:00:29.491735+00:00",
+  "status": "deferred",
+  "GPU_acceptance_passed": false,
+  "formal_release_allowed": false,
+  "blocking_reasons": [
+    "original_training_same_pid_and_creation_time_alive",
+    "workspace_training_command_still_running",
+    "insufficient_available_host_RAM"
+  ],
+  "preflight_evidence": "worktrees/rgcn_optimization/results/gpu_acceptance/preflight_20261030T150029_302475Z.json",
+  "GPU_correctness": {
+    "status": "not_run",
+    "max_abs": null,
+    "max_relative": null
+  },
+  "GPU_performance": {
+    "status": "not_run",
+    "speedup": null,
+    "samples_per_second": null,
+    "kernel_count": null,
+    "sync_count": null
+  },
+  "model_source_fingerprints_verified": true,
+  "thresholds_unchanged": {
+    "states": [
+      5e-06,
+      5e-05
+    ],
+    "loss": [
+      2e-06,
+      2e-05
+    ],
+    "gradient": [
+      2e-05,
+      0.002
+    ],
+    "adamw": [
+      2e-05,
+      0.0002
+    ],
+    "statistics": [
+      2e-05,
+      2e-05
+    ]
+  },
+  "optimized_execution_sha256": "7aa507f93dd77455f1d30740ae2d05c3fca322982332b396a307a983403c2969",
+  "original_recipe_sha256": "8bb93ddd51c101c81619172bfd3f599c719979a485073eaa6e23ded6775d49c8",
+  "formal_version_created": false,
+  "formal_output_directory_created": false,
+  "formal_training_command": null,
+  "CPU_only_preflight_passed": true
+}

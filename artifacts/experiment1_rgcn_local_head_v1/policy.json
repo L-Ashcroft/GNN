@@ -1,0 +1,18 @@
+{
+  "global_graph_local_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "minimum_local_training_rows": 256,
+  "neighbors": 8,
+  "distance_epsilon": 0.0001,
+  "sparse_policy": "Use unchanged parent GNN/head for every target of any contract with fewer256 training rows",
+  "selection": "Max validation macro_hit5 among candidates passing source/median/negative-count guards and macro_R2>=parent",
+  "no_targetwise_selection": true,
+  "test_read": false,
+  "script_sha256": "676660cf01f7ca70ab90e83de6db1cf70eda849514e1450e84a948c5c3d94037",
+  "model_sha256": "ce6da29f875714c79786848da6786bd3e0a246f677f6d9360f26ce546dc79bac"
+}

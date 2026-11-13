@@ -1,0 +1,9 @@
+﻿{
+    "workers":  8,
+    "stderr":  "supervisor_quality_stderr.log",
+    "supervisor_pid":  10192,
+    "stdout":  "supervisor_quality_stdout.log",
+    "quality_policy":  "ac_continuity_v1",
+    "started_at":  "2026-10-28T18:54:46.7296598+08:00",
+    "monitor_pid":  16636
+}

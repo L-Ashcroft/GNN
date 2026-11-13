@@ -1,0 +1,10 @@
+{
+  "fingerprint": "60d6d9aa850e177cbf3637e71c6c0e6ab9c75efaf4fa85c1bee79d36757e2886",
+  "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp4_5",
+  "raw_rows_in_downloaded_pool": 24303,
+  "invalid_rows": 13661,
+  "conflicting_rows_quarantined": 0,
+  "duplicate_design_occurrences_removed": 5569,
+  "unique_accepted_candidates": 5073,
+  "policy": "Source sentinels/nonfinite/invalid ranges quarantine whole rows; optimization feasible=False alone is not a failed simulation. POF full precision preferred to rounded history for duplicate designs within tolerance; larger conflicts quarantined."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "legacy_preview",
+  "rows": 300000,
+  "source_counts": {
+    "FALCON": 200000,
+    "AICircuit": 100000
+  },
+  "graphs": 29,
+  "materialized_examples": 87,
+  "mask_dimensions": {
+    "('FALCON', 5)": 80000,
+    "('FALCON', 3)": 60000,
+    "('FALCON', 7)": 40000,
+    "('FALCON', 4)": 20000,
+    "('AICircuit', 3)": 16173,
+    "('AICircuit', 5)": 29721,
+    "('AICircuit', 4)": 16174,
+    "('AICircuit', 7)": 5584,
+    "('AICircuit', 9)": 32348
+  },
+  "splits": {},
+  "historical_hashes_unchanged": 117,
+  "index_sha256": "3f82f9432912af57136e65537a3c90c44e2814032a746cb035b1b69ce033ba25",
+  "limitations": [
+    "Feature materialization spot checked per topology; every stored parameter and label checked against candidate tables.",
+    "LOADBench candidate construction is separately tested and retains immutable raw CSV provenance.",
+    "Cross-dataset comparable-label evaluation remains blocked without verified shared target semantics."
+  ]
+}
