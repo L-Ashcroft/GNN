@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "graphs": 130,
+  "annotation_version": "lecture12_features_v1",
+  "role_annotation_counts": {
+    "ground": 158,
+    "output": 135,
+    "positive_supply": 131,
+    "bias": 122,
+    "input": 236
+  },
+  "name_convention_evidence_counts": {
+    "output": 34,
+    "positive_supply": 28,
+    "bias": 21,
+    "input": 34
+  },
+  "no_nodes_merged": true,
+  "physical_edges_unchanged": true,
+  "reverse_relations_and_typed_self_loops_checked": true,
+  "normalization_fitted": false,
+  "index_sha256": "00bf2601a9a5af49e652bf433ba04ea65a291dfac5f070a64d4bfb77f81bc9e5",
+  "manifest_sha256": "12b0cbc801bdebfd222b6d109dd80656b1014d576a85d14fc214010652d6bacb"
+}

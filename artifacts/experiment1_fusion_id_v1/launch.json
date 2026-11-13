@@ -1,0 +1,8 @@
+﻿{
+    "split":  "id_stratified_v1.parquet",
+    "environment":  ".venv-gpu",
+    "launcher_pid":  6712,
+    "command":  "scripts/train_experiment1.py --resume",
+    "dataset":  "fusion_v2",
+    "started_at":  "2026-10-30T11:57:54.8777570+08:00"
+}

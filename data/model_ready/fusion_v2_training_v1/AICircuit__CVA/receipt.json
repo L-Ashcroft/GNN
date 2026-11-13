@@ -1,0 +1,45 @@
+{
+  "rows": 5391,
+  "folder": "data/model_ready/fusion_v2_training_v1/AICircuit__CVA",
+  "inputs": {
+    "source": "c1c370b3f21e6cc48e4d48c60eb1bf04ef2a73429b4f63d230136c9fbbb21469",
+    "graph": "65a1f4736c946df797ad7b53c609a07289c172b23a1409a4f7ea422336f83c5e",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "1afc5ad114f0ed1f7218c8306422d03eb93a561eeb9043919e484f8926aba01c",
+    "group.npy": "fd79c3607ca22c7618adc745afa2dc8826ca5d9f8445cdad7c094554f966094a",
+    "known.npy": "34eed90e8ca5a3bc0f0f8bc38ba6e64853cb24422c8ebd80f96c3b77357a5a84",
+    "mask.npy": "6aa314a8820cfb6c9a6a93271828e85c3e84f6f87e37b0c1dc1f0f61524025c1",
+    "role.npy": "04f845cdd7328ed8f105e4578857bf1f6ff3a35da1f5e8426a17c59df4fd27b4",
+    "sample_ids.npy": "d896a45ce9b8d7701959fad0f95c0ee078331bd8d18d01c616c1f6c6c297d9b6",
+    "target.npy": "b622bef4472eb2dc77373c12f90d72a98d90f38f1376848098bc5396b85c3436",
+    "values.npy": "fd68871c4426c80652e0771f6c98afe691c01e01242520ff4e5dc845fede8f79",
+    "zero.npy": "65d41224d75e4d8404fb6c62369610f62f983a68cec9703d71c518a8e25c0fcc"
+  },
+  "coverage": {
+    "0": {
+      "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5": [
+        0,
+        1,
+        2
+      ]
+    },
+    "1": {
+      "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5": [
+        0,
+        1,
+        2
+      ]
+    },
+    "2": {
+      "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "reference_checks": 3
+}

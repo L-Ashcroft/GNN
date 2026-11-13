@@ -1,0 +1,23 @@
+{
+  "implementation": "f4436f8326ad5acbcc5eb4d680863d7d5c52115530d7fd5785f7e04756c53cf4",
+  "source_recipe": "cfac8d8dd122985883d6f73fc523b70b78977ab89c7d152f483dab557765076e",
+  "readout": "4786b33a3c2c85fa337c2283eb89c466b4894c26df0df6615adbcd6d9feb8a97",
+  "inner_split": "seed42, 20% of each original TRAIN contract; original encoder already trained on all original TRAIN labels, so this is readout calibration, not independently held-out encoder validation",
+  "group_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "outer_global_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "Each group maximizes inner hit5 among blends with inner mean R2>=old and negative target count<=old; outer selection uses original four global guards.",
+  "no_test_access": true,
+  "not_using_quality_filter": true
+}

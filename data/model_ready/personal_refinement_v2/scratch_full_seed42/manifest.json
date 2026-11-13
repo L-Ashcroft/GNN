@@ -1,0 +1,20 @@
+{
+  "parent": "scratch_full_seed42",
+  "parent_checkpoint_sha256": "04dbd00a35bab6a799297d77bd71beb6360c203351351fdf0d33c50af56e9a2a",
+  "training_ids_sha256": "80cbf97273ce502f658ad74049218c0265281f48cd30f54690bdd7a37c9f6901",
+  "budget_per_topology": "full",
+  "role_policy": "Declared adaptation train rows and validation only; test embeddings remain NaN",
+  "files": {
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Alfio_RAFFC_Pin_3/embedding.npy": "e725a54f83ec642a8ac5979bb21406148a700cf25945b3e737d799842d514c0e",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Fan_SMC_Pin_3/embedding.npy": "b31699cb0824e2727411ec0d72cca2c1aeb513f86065a6194eaa0de1f11ebe2c",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/HoiLee_AFFC_Pin_3/embedding.npy": "5e8cf142efc24847697417bcb800fdcf5f856028ec78ef0ec34abc8115284058",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Leung_DFCFC1_Pin_3/embedding.npy": "bb9a23c10beb37836bf03233f15feaf5ad57ff13e0b4e25cb5d2256027ebf4e2",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Leung_NMCNR_Pin_3/embedding.npy": "df430e1cb1baede8238cbc13553b8690876f747cfd6b8681bb0a0cf7905d1ec8",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Peng_TCFC_Pin_3/embedding.npy": "2c01c61c1f7e2bc9a3830e8657709e478215cf54a9ea51df27678593674ab82f",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Qu2017_AZC_Pin_3/embedding.npy": "d6d30c45a4fda882fd293a1efc3cba1a830374b81b4a6dfd73783f35e9b2d157",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/Song_DACFC_Pin_3/embedding.npy": "010c990cfe03007763364975ba56070ef59628747e559fc15e713973e8f71c47",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/ldo_folded_cascode/embedding.npy": "f3af749eefb592ae4e557aa582fc51f3b2d03d499e7588c47bcc16473ecbfc28",
+    "data/model_ready/personal_refinement_v2/scratch_full_seed42/ldo_simple/embedding.npy": "b7775c04b667f3517b7295f53c5f44616ee81b27b17c0a6530725d65dd736f0d"
+  },
+  "at": "2026-11-05T11:52:01.941208+00:00"
+}

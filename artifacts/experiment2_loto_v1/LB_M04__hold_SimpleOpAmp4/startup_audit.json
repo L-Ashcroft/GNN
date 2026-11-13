@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-03T02:11:40.988517+08:00",
+  "all24reference_partitions_verified": true,
+  "folds": [
+    {
+      "fold_id": "LB_M01__hold_SimpleThreeStageOpAmp_SimpleOpAmp54_1_1",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M01__hold_SimpleThreeStageOpAmp_SimpleOpAmp54_2_1",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M02__hold_SimpleThreeStageOpAmp_SimpleOpAmp1_1_10",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M02__hold_SimpleThreeStageOpAmp_SimpleOpAmp1_1_3",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M03__hold_SimpleThreeStageOpAmp_SimpleOpAmp47_1_1",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M03__hold_SimpleThreeStageOpAmp_SimpleOpAmp47_2_1",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M03__hold_SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc1",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M03__hold_SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M04__hold_SimpleOpAmp4",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M04__hold_SimpleOpAmp6",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M05__hold_SimpleOpAmp31",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M05__hold_SimpleOpAmp32",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M06__hold_SimpleOpAmp130",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M06__hold_SimpleOpAmp44",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M07__hold_SimpleOpAmp36",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M07__hold_SimpleOpAmp40",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M08__hold_SimpleTwoStageOpAmp_SimpleOpAmp114_7",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M08__hold_SimpleTwoStageOpAmp_SimpleOpAmp92_9",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M09__hold_SimpleTwoStageOpAmp_SimpleOpAmp10_8",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M09__hold_SimpleTwoStageOpAmp_SimpleOpAmp33_7",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M10__hold_SimpleOpAmp115",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M10__hold_SimpleOpAmp116",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M11__hold_SimpleTwoStageOpAmp_SimpleOpAmp55_5",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    },
+    {
+      "fold_id": "LB_M11__hold_SimpleTwoStageOpAmp_SimpleOpAmp71_5",
+      "positions_cover_public500000_once": true,
+      "heldout_topology_excluded": true
+    }
+  ],
+  "live_worker_identity_verified": true,
+  "supervisor_identity_verified": true,
+  "source_recipe_and_normalization_unchanged": true,
+  "training_uses_public_only": true,
+  "heldout_test_labels_used": false,
+  "live_state": "training",
+  "live_batch": 230,
+  "live_train_samples": 58880,
+  "checkpoint_exists": true,
+  "metadata_clarification_without_recipe_mutation": true
+}

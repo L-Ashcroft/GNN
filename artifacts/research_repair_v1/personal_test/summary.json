@@ -1,0 +1,135 @@
+{
+  "state": "complete",
+  "jobs": {
+    "full_physical": {
+      "macro_hit5": 0.6602777777777779,
+      "median_r2": 0.9627257755274375,
+      "macro_r2": 0.8779694183566846,
+      "negative_r2_targets": 0,
+      "target_pairs": 146
+    },
+    "full_joint": {
+      "macro_hit5": 0.6769444444444445,
+      "median_r2": 0.9556363552927876,
+      "macro_r2": 0.8894030659616489,
+      "negative_r2_targets": 0,
+      "target_pairs": 146
+    },
+    "full_gnn": {
+      "macro_hit5": 0.4397222222222222,
+      "median_r2": 0.7360701318236174,
+      "macro_r2": 0.6969703096434249,
+      "negative_r2_targets": 0,
+      "target_pairs": 146
+    },
+    "k100_physical": {
+      "macro_hit5": 0.47282407407407406,
+      "median_r2": 0.7647821098658256,
+      "macro_r2": 0.6631355696372553,
+      "negative_r2_targets": 5,
+      "target_pairs": 146
+    },
+    "k100_pretrained_joint": {
+      "macro_hit5": 0.47291666666666665,
+      "median_r2": 0.7766457352134701,
+      "macro_r2": 0.6134122381065816,
+      "negative_r2_targets": 12,
+      "target_pairs": 146
+    },
+    "k100_scratch_joint": {
+      "macro_hit5": 0.47745370370370377,
+      "median_r2": 0.7961122606087585,
+      "macro_r2": 0.6591204604779558,
+      "negative_r2_targets": 8,
+      "target_pairs": 146
+    },
+    "k50_physical": {
+      "macro_hit5": 0.37467592592592597,
+      "median_r2": 0.6140090031099946,
+      "macro_r2": 0.4720338825219261,
+      "negative_r2_targets": 16,
+      "target_pairs": 146
+    },
+    "k50_pretrained_joint": {
+      "macro_hit5": 0.38703703703703707,
+      "median_r2": 0.5807298794020335,
+      "macro_r2": 0.4405726506717698,
+      "negative_r2_targets": 24,
+      "target_pairs": 146
+    },
+    "k50_scratch_joint": {
+      "macro_hit5": 0.3927777777777778,
+      "median_r2": 0.6060376028235843,
+      "macro_r2": 0.4827001471034428,
+      "negative_r2_targets": 19,
+      "target_pairs": 146
+    },
+    "k20_physical": {
+      "macro_hit5": 0.30398148148148146,
+      "median_r2": 0.25069051049065544,
+      "macro_r2": 0.19945763804050448,
+      "negative_r2_targets": 37,
+      "target_pairs": 146
+    },
+    "k20_pretrained_joint": {
+      "macro_hit5": 0.32106481481481486,
+      "median_r2": 0.1972556036730661,
+      "macro_r2": 0.15404082472529823,
+      "negative_r2_targets": 39,
+      "target_pairs": 146
+    },
+    "k20_scratch_joint": {
+      "macro_hit5": 0.3225,
+      "median_r2": 0.2746308853903914,
+      "macro_r2": 0.24387821144159877,
+      "negative_r2_targets": 37,
+      "target_pairs": 146
+    },
+    "k10_physical": {
+      "macro_hit5": 0.2762962962962963,
+      "median_r2": 0.024452542292687618,
+      "macro_r2": -0.15927762167608217,
+      "negative_r2_targets": 62,
+      "target_pairs": 146
+    },
+    "k10_pretrained_joint": {
+      "macro_hit5": 0.26967592592592593,
+      "median_r2": -0.01909258398194058,
+      "macro_r2": -0.21147319709943171,
+      "negative_r2_targets": 79,
+      "target_pairs": 146
+    },
+    "k10_scratch_joint": {
+      "macro_hit5": 0.2747222222222222,
+      "median_r2": -0.00440447809884037,
+      "macro_r2": -0.20095147408608036,
+      "negative_r2_targets": 74,
+      "target_pairs": 146
+    },
+    "k5_physical": {
+      "macro_hit5": 0.25166666666666665,
+      "median_r2": -0.12103426536010731,
+      "macro_r2": -0.13227334423657364,
+      "negative_r2_targets": 103,
+      "target_pairs": 146
+    },
+    "k5_pretrained_joint": {
+      "macro_hit5": 0.2434259259259259,
+      "median_r2": -0.15700873869710597,
+      "macro_r2": -0.20363663701365148,
+      "negative_r2_targets": 114,
+      "target_pairs": 146
+    },
+    "k5_scratch_joint": {
+      "macro_hit5": 0.2514351851851852,
+      "median_r2": -0.1251736781500843,
+      "macro_r2": -0.186705732826505,
+      "negative_r2_targets": 107,
+      "target_pairs": 146
+    }
+  },
+  "test_samples_per_job": 2000,
+  "test_used_for_model_selection": false,
+  "readout_evaluation_seconds": 1.3600000000442378,
+  "completed_at": "2026-11-08T05:04:13.395495+00:00"
+}

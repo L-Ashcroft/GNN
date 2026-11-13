@@ -1,0 +1,83 @@
+{
+  "raw_graph_cached_readout_tolerance_passed": true,
+  "atol": 5e-06,
+  "rtol": 5e-05,
+  "comparisons": [
+    {
+      "start": 0,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 1.7754434709083e-06,
+      "maximum_tolerance_ratio": 0.010548210588584897,
+      "passed": true
+    },
+    {
+      "start": 16,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 3.455062171031642e-06,
+      "maximum_tolerance_ratio": 0.028599496821633208,
+      "passed": true
+    },
+    {
+      "start": 32,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 1.430511474609375e-06,
+      "maximum_tolerance_ratio": 0.014754788141207389,
+      "passed": true
+    },
+    {
+      "start": 48,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 1.1687224548140307e-06,
+      "maximum_tolerance_ratio": 0.04532904663489199,
+      "passed": true
+    },
+    {
+      "start": 64,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 1.9073486328125e-06,
+      "maximum_tolerance_ratio": 0.013206663712621932,
+      "passed": true
+    },
+    {
+      "start": 80,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 6.7575628504013e-07,
+      "maximum_tolerance_ratio": 0.015669687987129453,
+      "passed": true
+    },
+    {
+      "start": 96,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 1.0467943654113299e-06,
+      "maximum_tolerance_ratio": 0.01545478679242133,
+      "passed": true
+    },
+    {
+      "start": 112,
+      "graphs": 16,
+      "max_observed_symlog_absolute_error": 1.430511474609375e-06,
+      "maximum_tolerance_ratio": 0.01413454981865196,
+      "passed": true
+    },
+    {
+      "start": 128,
+      "graphs": 14,
+      "max_observed_symlog_absolute_error": 1.772442478564784e-06,
+      "maximum_tolerance_ratio": 0.0296446619192771,
+      "passed": true
+    }
+  ],
+  "all_contracts_checked": 142,
+  "all_48_relations_checked": true,
+  "sources": [
+    "AICircuit",
+    "FALCON",
+    "LOADBench"
+  ],
+  "training_neighbor_rows_verified": 400083,
+  "training_index_no_validation_overlap": true,
+  "changed_connections_or_ports_rejected": true,
+  "unknown_contract_rejected": true,
+  "test_read": false,
+  "device": "cpu"
+}

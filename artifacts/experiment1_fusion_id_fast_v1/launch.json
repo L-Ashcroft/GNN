@@ -1,0 +1,31 @@
+{
+  "at_UTC": "2026-10-31T08:52:00.378959+00:00",
+  "command": [
+    "D:\\EDA\\.venv-gpu\\Scripts\\python.exe",
+    "-B",
+    "-u",
+    "D:\\EDA\\versions\\rgcn_cached_fast_v1\\scripts\\train_experiment1_fast.py",
+    "--config",
+    "config/experiment1_fusion_id_fast_v1.json",
+    "--resume"
+  ],
+  "authorized_by": "User approved pause, acceptance and migration after measured improvement",
+  "parent_cursor": {
+    "epoch": 16,
+    "completed_batches": 1024
+  },
+  "state": "training",
+  "launcher_pid": 13392,
+  "training_pid": 33360,
+  "training_create_time": 1793436720.3989315,
+  "observer_launcher_pid": 30624,
+  "observer_command": [
+    "D:\\EDA\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-u",
+    "D:\\EDA\\versions\\rgcn_cached_fast_v1\\scripts\\monitor_experiment1.py",
+    "--auto-resume"
+  ]
+}

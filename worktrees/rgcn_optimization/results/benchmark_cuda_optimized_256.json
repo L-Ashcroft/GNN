@@ -1,0 +1,32 @@
+{
+  "status": "deferred",
+  "reason": "Production PID alive or available host RAM below 4 GiB",
+  "production": {
+    "state": "training",
+    "pid": 27996,
+    "updated_at": "2026-10-30T06:26:18.478780+00:00",
+    "test_used": false,
+    "epoch": 2,
+    "max_epochs": 100,
+    "batch": 957,
+    "batches_per_epoch": 1563,
+    "train_samples": 400083,
+    "validation_samples": 50861,
+    "test_samples": 49056,
+    "device": "cuda",
+    "GPU": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "batch_size": 256,
+    "best_epoch": 1,
+    "samples_processed_in_epoch": 244992,
+    "epoch_training_seconds": 3483.067651499994,
+    "training_loss": 1.233025935338691,
+    "samples_per_second": 70.33799641947621,
+    "estimated_training_seconds_per_epoch": 5688.00677252756,
+    "gradient_norm": 5.226314544677734,
+    "GPU_peak_GiB": 1.0395464897155762,
+    "best_validation_score": 0.07252401951706784,
+    "completed_epochs": 1
+  },
+  "available_RAM_bytes": 1953427456,
+  "GPU_speedup": null
+}

@@ -1,0 +1,51 @@
+{
+  "rows": 10000,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__RVCO",
+  "inputs": {
+    "source": "6b1537b4cc88b0ca2df51ef863408141061bf5fdb4cdad9c2b20b09cbfc3951d",
+    "graph": "effc85999ef2babfad308144fac80dd7420c88585d557d39b1825f1bae39684b",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "f4399f9088e3bf0481b60785ed4b8e060fc462ed926265b910a9ba1ebe107f3c",
+    "group.npy": "dec0c9513b79b7a21c61d1e379839ebcc4680a1182a6575a1ddbef6752e45f5b",
+    "known.npy": "bf62dd6f12e43aee99f5a0e5e4d6bf171417979e6d7650ad6901093476377f0b",
+    "mask.npy": "0daffee4f8e705410b10702f9e14bf6b5f7c3cd9c86b30fae05ed2790255f9de",
+    "role.npy": "57064e5d06ea64ed298129efd3bb4ed8968e81c6b14e723a62bd5a4b6e862b05",
+    "sample_ids.npy": "e5db97963fb6107db1d6eecd9ee8c5eece9c06e3fe0200dd4369ba683533c51a",
+    "target.npy": "727d8b0ae8be92911bdcaab02ceb1dcca741d855dc07fba5d0ee5a73da1d934a",
+    "values.npy": "3b933e02e65bc0203987b372fe36b42e79e18131b972bd8a724827c75fa04d35",
+    "zero.npy": "ad4d3accca3c1a2b6263f3598ce1c1aa5f8de6228fc3caf170bea1247a848961"
+  },
+  "coverage": {
+    "0": {
+      "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "1": {
+      "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2": {
+      "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "reference_checks": 3
+}

@@ -1,0 +1,63 @@
+{
+  "paper_version": "arXiv2505.21923v2, 2025-10-27, local 27-page file",
+  "reviewed_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "key_pages_rendered_and_visually_checked": [
+    7,
+    8,
+    20,
+    21
+  ],
+  "source_sha256": {
+    "background/falcon_2505.21923.pdf": "8fbf416021bf633ae01e84eadba5e7249d308259668826e19502b1279d9d81f2",
+    "third_party/FALCON/utils/compute_metrics.py": "ccb221083ecacaadf6bcf8b16dfbdbebddf6b1bd63fc353402758c072735c126",
+    "third_party/FALCON/utils/model_utils.py": "084eaa2f0d5564f8a0cfc24e4928682818f6540d03daa9a5ac04ed63247ed44e",
+    "third_party/FALCON/utils/visual_utils.py": "d8d99f10f6b8424dc70cc9c94472600f64440ab9ef21412c2b74e879592ec00f",
+    "third_party/FALCON/scripts/generate_splits.py": "0faca295ea778a47bea0a76dfbbeddf91e2043721bdf3fdd7f03c3f3b705d294",
+    "src/falcon_reference_metrics.py": "d9873bafadf865df5424843b3bccc7595d4fdb1574e621dceed924d7b949c2b3",
+    "scripts/evaluate_falcon_reference.py": "ed64f2631092973774476dfe0a698fddb1ed094c6416cf079574a22c38486191",
+    "scripts/render_error_distribution.ps1": "67b03f647237a5ce57af995e3da2cd0eb3b49288cd677d9d7366e035d86555a6",
+    "tests/test_falcon_reference_metrics.py": "d24b2b075d47f65af638463fbfcd48491192e3eea49d1888618d648cd0fce127"
+  },
+  "software": {
+    "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "pyarrow": "23.0.1",
+    "plotting": "Native Windows .NET DataVisualization; no added training dependencies"
+  },
+  "numerical_checks": {
+    "unit_tests_passed": 8,
+    "official_relative_formula_max_absolute_difference": 0.0,
+    "real_frozen_FALCON_samples_compared": 32,
+    "tests_include_zero_tiny_signed_log_and_missing_labels": true
+  },
+  "scope": "Historical frozen predictions re-scored; no new model or label fitting; current training untouched",
+  "native_chart_presentation_QA": "Explicit tick labels; CDF displayed as percentages; full scalar and sample errors unchanged"
+}

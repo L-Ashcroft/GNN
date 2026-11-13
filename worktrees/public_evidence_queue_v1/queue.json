@@ -1,0 +1,35 @@
+{
+  "scope": "Public fusion 500000 only; cold controls and ablations, no personal samples or warm-start ID state",
+  "jobs": [
+    {
+      "id": "rgcn_memory_safe_loto_v2",
+      "kind": "LOTO",
+      "worktree": "worktrees/rgcn_memory_safe_loto_v2",
+      "output": "artifacts/rgcn_memory_safe_loto_v2"
+    },
+    {
+      "id": "rgcn_memory_safe_id_control_v2",
+      "kind": "ID",
+      "worktree": "worktrees/rgcn_memory_safe_id_control_v2",
+      "output": "artifacts/rgcn_memory_safe_id_control_v2"
+    },
+    {
+      "id": "rgcn_memory_safe_no_film_v2",
+      "kind": "ID",
+      "worktree": "worktrees/rgcn_memory_safe_no_film_v2",
+      "output": "artifacts/rgcn_memory_safe_no_film_v2"
+    },
+    {
+      "id": "rgcn_memory_safe_static_edges_v2",
+      "kind": "ID",
+      "worktree": "worktrees/rgcn_memory_safe_static_edges_v2",
+      "output": "artifacts/rgcn_memory_safe_static_edges_v2"
+    },
+    {
+      "id": "rgcn_memory_safe_collapsed_relations_v2",
+      "kind": "ID",
+      "worktree": "worktrees/rgcn_memory_safe_collapsed_relations_v2",
+      "output": "artifacts/rgcn_memory_safe_collapsed_relations_v2"
+    }
+  ]
+}

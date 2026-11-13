@@ -1,0 +1,691 @@
+{
+  "repository": {
+    "url": "https://github.com/CODA-Team/AnalogGym.git",
+    "commit": "0a9d1390ade361e2b4a2d33181e22367edbb8afc"
+  },
+  "written_transitions": 20,
+  "supervised_accepted": 0,
+  "topologies_with_transitions": 2,
+  "replays": [
+    {
+      "topology": "GraphAMPNMCF",
+      "allocated_capacity": 100000,
+      "written_transitions": 10,
+      "ptr": 10,
+      "distinct_actions": 10,
+      "distinct_candidate_parameters": 10,
+      "distinct_performance_vectors": 1,
+      "constant_raw_fields": [
+        "TC",
+        "Power",
+        "vos",
+        "cmrrdc",
+        "dcgain",
+        "GBW",
+        "phase_margin (deg)",
+        "PSRP",
+        "PSRN",
+        "sr",
+        "setting_time"
+      ],
+      "field_distinct_counts": {
+        "TC": 1,
+        "Power": 1,
+        "vos": 1,
+        "cmrrdc": 1,
+        "dcgain": 1,
+        "GBW": 1,
+        "phase_margin (deg)": 1,
+        "PSRP": 1,
+        "PSRN": 1,
+        "sr": 1,
+        "setting_time": 1
+      },
+      "field_min_max": {
+        "TC": [
+          1.36527149e-06,
+          1.36527149e-06
+        ],
+        "Power": [
+          261.17946,
+          261.17946
+        ],
+        "vos": [
+          3.99e-05,
+          3.99e-05
+        ],
+        "cmrrdc": [
+          -104.6452,
+          -104.6452
+        ],
+        "dcgain": [
+          137.6036,
+          137.6036
+        ],
+        "GBW": [
+          2514078.0,
+          2514078.0
+        ],
+        "phase_margin (deg)": [
+          69.45475,
+          69.45475
+        ],
+        "PSRP": [
+          -98.44674,
+          -98.44674
+        ],
+        "PSRN": [
+          -95.0463,
+          -95.0463
+        ],
+        "sr": [
+          720008.2415,
+          720008.2415
+        ],
+        "setting_time": [
+          3.305309031133687e-06,
+          3.305309031133687e-06
+        ]
+      },
+      "archive_sha256": "27532fba89fda2d1c18bdcc00cadd5f295539b15ead41dc00041f50c34bd65b9",
+      "archive": "third_party/AnalogGym/RGNN_RL/saved_memories/memory_GraphLDOtestbench_2024-09-10_noise=uniform_reward=-12.87_ActorCriticRGCN_rew_eng=True.zip",
+      "member": "memory_GraphAMPNMCF_2024-09-10_noise=uniform_reward=-0.29_ActorCriticRGCN_rew_eng=True.pkl",
+      "agent_archive_sha256": "be3d07502b0d467a1ff31c45bbadbfe1c28d85e580823334ae9167d449bc740f",
+      "agent_member": "DDPGAgent_GraphAMPNMCF_2024-09-10_noise=uniform_reward=-0.29_ActorCriticRGCN_rew_eng=True.pkl",
+      "agent_actions_payload_identical": true,
+      "agent_size_ptr_equal": true,
+      "reward_npy_identical": true,
+      "archived_bounds": {
+        "action_space_low": [
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          100.0,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          3e-06,
+          1.0,
+          1.0
+        ],
+        "action_space_high": [
+          10.0,
+          4.0,
+          50.0,
+          10.0,
+          4.0,
+          50.0,
+          10.0,
+          4.0,
+          50.0,
+          10.0,
+          4.0,
+          500.0,
+          10.0,
+          4.0,
+          50.0,
+          10.0,
+          4.0,
+          50.0,
+          10.0,
+          5.0,
+          50.0,
+          2e-05,
+          50.0,
+          50.0
+        ]
+      },
+      "archived_bounds_opcode_evidence": {
+        "action_space_low": {
+          "byte_offset": 7350,
+          "payload_sha256": "8d584b39ff0842f9656af9ab9a2a883acf5252f5bc71a61d8d5576e4d6dbbc1e"
+        },
+        "action_space_high": {
+          "byte_offset": 7592,
+          "payload_sha256": "71702bafb1dedd0fdb02fecebfd0b37971f594c8fdc9de79f025a23233bd2bae"
+        }
+      },
+      "current_source_bounds": {
+        "action_space_low": [
+          0.5,
+          0.5,
+          1,
+          0.5,
+          0.5,
+          1,
+          0.5,
+          0.5,
+          1,
+          0.5,
+          0.5,
+          100,
+          0.5,
+          0.5,
+          1,
+          0.5,
+          0.5,
+          1,
+          0.5,
+          0.5,
+          1,
+          1e-06,
+          1,
+          1
+        ],
+        "action_space_high": [
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          10,
+          5,
+          500,
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          3e-05,
+          30,
+          30
+        ]
+      },
+      "bound_mismatch_parameter_names": {
+        "action_space_low": [
+          "Ib"
+        ],
+        "action_space_high": [
+          "L_M0",
+          "L_M8",
+          "L_M10",
+          "L_M11",
+          "L_M17",
+          "L_M21",
+          "Ib",
+          "M_C0",
+          "M_C1"
+        ]
+      },
+      "parameter_order": [
+        "W_M0",
+        "L_M0",
+        "M_M0",
+        "W_M8",
+        "L_M8",
+        "M_M8",
+        "W_M10",
+        "L_M10",
+        "M_M10",
+        "W_M11",
+        "L_M11",
+        "M_M11",
+        "W_M17",
+        "L_M17",
+        "M_M17",
+        "W_M21",
+        "L_M21",
+        "M_M21",
+        "W_M23",
+        "L_M23",
+        "M_M23",
+        "Ib",
+        "M_C0",
+        "M_C1"
+      ],
+      "parameter_to_netlist": {
+        "W_M0": "MOSFET_0_8_W_BIASCM_PMOS",
+        "L_M0": "MOSFET_0_8_L_BIASCM_PMOS",
+        "M_M0": "MOSFET_0_8_M_BIASCM_PMOS",
+        "W_M8": "MOSFET_8_2_W_gm1_PMOS",
+        "L_M8": "MOSFET_8_2_L_gm1_PMOS",
+        "M_M8": "MOSFET_8_2_M_gm1_PMOS",
+        "W_M10": "MOSFET_10_1_W_gm2_PMOS",
+        "L_M10": "MOSFET_10_1_L_gm2_PMOS",
+        "M_M10": "MOSFET_10_1_M_gm2_PMOS",
+        "W_M11": "MOSFET_11_1_W_gmf2_PMOS",
+        "L_M11": "MOSFET_11_1_L_gmf2_PMOS",
+        "M_M11": "MOSFET_11_1_M_gmf2_PMOS",
+        "W_M17": "MOSFET_17_7_W_BIASCM_NMOS",
+        "L_M17": "MOSFET_17_7_L_BIASCM_NMOS",
+        "M_M17": "MOSFET_17_7_M_BIASCM_NMOS",
+        "W_M21": "MOSFET_21_2_W_LOAD2_NMOS",
+        "L_M21": "MOSFET_21_2_L_LOAD2_NMOS",
+        "M_M21": "MOSFET_21_2_M_LOAD2_NMOS",
+        "W_M23": "MOSFET_23_1_W_gm3_NMOS",
+        "L_M23": "MOSFET_23_1_L_gm3_NMOS",
+        "M_M23": "MOSFET_23_1_M_gm3_NMOS",
+        "Ib": "CURRENT_0_BIAS",
+        "M_C0": "M_C0",
+        "M_C1": "M_C1"
+      },
+      "integer_cast_parameters": [
+        "M_M0",
+        "M_M8",
+        "M_M10",
+        "M_M11",
+        "M_M17",
+        "M_M21",
+        "M_M23",
+        "M_C0",
+        "M_C1"
+      ],
+      "next_observation_Ib_matches": 10,
+      "last_action_matches_checked_in_vars": {
+        "mosfet_0_8_w_biascm_pmos": false,
+        "mosfet_0_8_l_biascm_pmos": false,
+        "mosfet_0_8_m_biascm_pmos": false,
+        "mosfet_8_2_w_gm1_pmos": false,
+        "mosfet_8_2_l_gm1_pmos": false,
+        "mosfet_8_2_m_gm1_pmos": false,
+        "mosfet_10_1_w_gm2_pmos": false,
+        "mosfet_10_1_l_gm2_pmos": false,
+        "mosfet_10_1_m_gm2_pmos": false,
+        "mosfet_11_1_w_gmf2_pmos": false,
+        "mosfet_11_1_l_gmf2_pmos": false,
+        "mosfet_11_1_m_gmf2_pmos": false,
+        "mosfet_17_7_w_biascm_nmos": false,
+        "mosfet_17_7_l_biascm_nmos": false,
+        "mosfet_17_7_m_biascm_nmos": false,
+        "mosfet_21_2_w_load2_nmos": false,
+        "mosfet_21_2_l_load2_nmos": false,
+        "mosfet_21_2_m_load2_nmos": false,
+        "mosfet_23_1_w_gm3_nmos": false,
+        "mosfet_23_1_l_gm3_nmos": false,
+        "mosfet_23_1_m_gm3_nmos": false,
+        "current_0_bias": false,
+        "m_c0": false,
+        "m_c1": false
+      },
+      "checked_in_vars_match_counts_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "DC_file_values_match_all_transitions": {},
+      "integer_quantization_ambiguous_rows": 0,
+      "supervised_accepted": 0,
+      "exclusion_reason": "constant_11_metric_vector_across_distinct_actions_and_unverified_output_freshness",
+      "source_code_hashes": {
+        "third_party/AnalogGym/RGNN_RL/AMP_NMCF.py": "a6fbbc2a8e724bbda908ebb546e89694f7805fffcaaee4d49fcc0f477df26231",
+        "third_party/AnalogGym/RGNN_RL/ckt_graphs.py": "eecdb13571b29eeda00f787f78445b34dfa4bf41c074084cf73001278f905eef",
+        "third_party/AnalogGym/RGNN_RL/ddpg.py": "ae43ad6b8fe6998c0db9d59617af5c5fbd97e4eb587fa46d67efbf084957c843",
+        "third_party/AnalogGym/RGNN_RL/utils.py": "db9c899c2d42099116aaa85a04625566a9bce437eeb1f7102516a12b69efd41c"
+      }
+    },
+    {
+      "topology": "GraphLDOtestbench",
+      "allocated_capacity": 100000,
+      "written_transitions": 10,
+      "ptr": 10,
+      "distinct_actions": 10,
+      "distinct_candidate_parameters": 10,
+      "distinct_performance_vectors": 10,
+      "constant_raw_fields": [
+        "LDR",
+        "Power_maxload",
+        "Power_minload",
+        "vos_maxload",
+        "vos_minload",
+        "GBW_maxload",
+        "phase_margin_maxload (deg) "
+      ],
+      "field_distinct_counts": {
+        "LDR": 1,
+        "LNR_maxload": 10,
+        "LNR_minload": 10,
+        "Power_maxload": 1,
+        "Power_minload": 1,
+        "vos_maxload": 1,
+        "vos_minload": 1,
+        "PSRR_maxload (dB)": 10,
+        "PSRR_minload (dB)": 10,
+        "GBW_maxload": 1,
+        "GBW_minload": 4,
+        "phase_margin_maxload (deg) ": 1,
+        "phase_margin_minload (deg) ": 4,
+        "v_undershoot": 10,
+        "v_overshoot": 10,
+        "CL (pF)": 10
+      },
+      "field_min_max": {
+        "LDR": [
+          -31.3856287,
+          -31.3856287
+        ],
+        "LNR_maxload": [
+          -8.84658246,
+          -3.08304741
+        ],
+        "LNR_minload": [
+          -55.7995774,
+          34.2221389
+        ],
+        "Power_maxload": [
+          0.019677348,
+          0.019677348
+        ],
+        "Power_minload": [
+          0.00086794722,
+          0.00086794722
+        ],
+        "vos_maxload": [
+          17658.77,
+          17658.77
+        ],
+        "vos_minload": [
+          1838.636,
+          1838.636
+        ],
+        "PSRR_maxload (dB)": [
+          22.29921,
+          74.08261
+        ],
+        "PSRR_minload (dB)": [
+          22.29921,
+          74.08261
+        ],
+        "GBW_maxload": [
+          0.0,
+          0.0
+        ],
+        "GBW_minload": [
+          0.0,
+          2507403.0
+        ],
+        "phase_margin_maxload (deg) ": [
+          0.0,
+          0.0
+        ],
+        "phase_margin_minload (deg) ": [
+          0.0,
+          53.42801
+        ],
+        "v_undershoot": [
+          5.102971,
+          1610.205
+        ],
+        "v_overshoot": [
+          0.381121,
+          713.8853
+        ],
+        "CL (pF)": [
+          47.31433850000001,
+          522.27750575
+        ]
+      },
+      "archive_sha256": "27532fba89fda2d1c18bdcc00cadd5f295539b15ead41dc00041f50c34bd65b9",
+      "archive": "third_party/AnalogGym/RGNN_RL/saved_memories/memory_GraphLDOtestbench_2024-09-10_noise=uniform_reward=-12.87_ActorCriticRGCN_rew_eng=True.zip",
+      "member": "memory_GraphLDOtestbench_2024-09-10_noise=uniform_reward=-12.87_ActorCriticRGCN_rew_eng=True.pkl",
+      "agent_archive_sha256": "be3d07502b0d467a1ff31c45bbadbfe1c28d85e580823334ae9167d449bc740f",
+      "agent_member": "DDPGAgent_GraphLDOtestbench_2024-09-10_noise=uniform_reward=-12.87_ActorCriticRGCN_rew_eng=True.pkl",
+      "agent_actions_payload_identical": true,
+      "agent_size_ptr_equal": true,
+      "reward_npy_identical": true,
+      "archived_bounds": {
+        "action_space_low": [
+          1.0,
+          0.5,
+          1.0,
+          1.0,
+          0.5,
+          1.0,
+          1.0,
+          0.5,
+          1.0,
+          2.0,
+          0.15,
+          100.0,
+          1.0,
+          0.5,
+          1.0,
+          1.0,
+          0.5,
+          1.0,
+          3e-06,
+          1.0,
+          1.0
+        ],
+        "action_space_high": [
+          10.0,
+          5.0,
+          30.0,
+          10.0,
+          5.0,
+          30.0,
+          10.0,
+          5.0,
+          30.0,
+          10.0,
+          2.0,
+          1000.0,
+          10.0,
+          5.0,
+          30.0,
+          10.0,
+          5.0,
+          30.0,
+          2e-05,
+          50.0,
+          300.0
+        ]
+      },
+      "archived_bounds_opcode_evidence": {
+        "action_space_low": {
+          "byte_offset": 7656,
+          "payload_sha256": "422162bc462d4e0e95025330777e0b521bfb5e18e6ee3ea02e5b56bf32adb0b3"
+        },
+        "action_space_high": {
+          "byte_offset": 7874,
+          "payload_sha256": "4c183b5d6ebd5702b89841e64021486bb10c8c370ef6753ef6710e6d58c9f5ce"
+        }
+      },
+      "current_source_bounds": {
+        "action_space_low": [
+          1,
+          0.5,
+          1,
+          1,
+          0.5,
+          1,
+          1,
+          0.5,
+          1,
+          1,
+          0.5,
+          100,
+          1,
+          0.5,
+          1,
+          1,
+          0.5,
+          1,
+          1e-06,
+          1,
+          1
+        ],
+        "action_space_high": [
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          10,
+          5,
+          1000,
+          10,
+          5,
+          50,
+          10,
+          5,
+          50,
+          3e-05,
+          30,
+          100
+        ]
+      },
+      "bound_mismatch_parameter_names": {
+        "action_space_low": [
+          "W_power",
+          "L_power",
+          "Ib"
+        ],
+        "action_space_high": [
+          "M_M0",
+          "M_M8",
+          "M_M10",
+          "L_power",
+          "M_M17",
+          "M_M21",
+          "Ib",
+          "M_C0",
+          "M_CL"
+        ]
+      },
+      "parameter_order": [
+        "W_M0",
+        "L_M0",
+        "M_M0",
+        "W_M8",
+        "L_M8",
+        "M_M8",
+        "W_M10",
+        "L_M10",
+        "M_M10",
+        "W_power",
+        "L_power",
+        "M_power",
+        "W_M17",
+        "L_M17",
+        "M_M17",
+        "W_M21",
+        "L_M21",
+        "M_M21",
+        "Ib",
+        "M_C0",
+        "M_CL"
+      ],
+      "parameter_to_netlist": {
+        "W_M0": "mosfet_0_8_w_biascm_pmos",
+        "L_M0": "mosfet_0_8_l_biascm_pmos",
+        "M_M0": "mosfet_0_8_m_biascm_pmos",
+        "W_M8": "mosfet_8_2_w_gm1_pmos",
+        "L_M8": "mosfet_8_2_l_gm1_pmos",
+        "M_M8": "mosfet_8_2_m_gm1_pmos",
+        "W_M10": "mosfet_10_1_w_gm2_pmos",
+        "L_M10": "mosfet_10_1_l_gm2_pmos",
+        "M_M10": "mosfet_10_1_m_gm2_pmos",
+        "W_power": "mosfet_11_1_w_power_pmos",
+        "L_power": "mosfet_11_1_l_power_pmos",
+        "M_power": "mosfet_11_1_m_power_pmos",
+        "W_M17": "mosfet_17_7_w_biascm_nmos",
+        "L_M17": "mosfet_17_7_l_biascm_nmos",
+        "M_M17": "mosfet_17_7_m_biascm_nmos",
+        "W_M21": "mosfet_21_2_w_load2_nmos",
+        "L_M21": "mosfet_21_2_l_load2_nmos",
+        "M_M21": "mosfet_21_2_m_load2_nmos",
+        "Ib": "current_0_bias",
+        "M_C0": "M_C0",
+        "M_CL": "M_CL"
+      },
+      "integer_cast_parameters": [
+        "M_M0",
+        "M_M8",
+        "M_M10",
+        "M_power",
+        "M_M17",
+        "M_M21",
+        "M_C0",
+        "M_CL"
+      ],
+      "next_observation_Ib_matches": 10,
+      "last_action_matches_checked_in_vars": {
+        "mosfet_0_8_w_biascm_pmos": false,
+        "mosfet_0_8_l_biascm_pmos": false,
+        "mosfet_0_8_m_biascm_pmos": false,
+        "mosfet_8_2_w_gm1_pmos": false,
+        "mosfet_8_2_l_gm1_pmos": false,
+        "mosfet_8_2_m_gm1_pmos": false,
+        "mosfet_10_1_w_gm2_pmos": false,
+        "mosfet_10_1_l_gm2_pmos": false,
+        "mosfet_10_1_m_gm2_pmos": false,
+        "mosfet_11_1_w_power_pmos": false,
+        "mosfet_11_1_l_power_pmos": false,
+        "mosfet_11_1_m_power_pmos": false,
+        "mosfet_17_7_w_biascm_nmos": false,
+        "mosfet_17_7_l_biascm_nmos": false,
+        "mosfet_17_7_m_biascm_nmos": false,
+        "mosfet_21_2_w_load2_nmos": false,
+        "mosfet_21_2_l_load2_nmos": false,
+        "mosfet_21_2_m_load2_nmos": false,
+        "current_0_bias": false,
+        "m_c0": false,
+        "m_cl": false
+      },
+      "checked_in_vars_match_counts_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        2,
+        0
+      ],
+      "DC_file_values_match_all_transitions": {
+        "LDR": true,
+        "Power_maxload": true,
+        "Power_minload": true,
+        "vos_maxload": true,
+        "vos_minload": true
+      },
+      "integer_quantization_ambiguous_rows": 0,
+      "supervised_accepted": 0,
+      "exclusion_reason": "stale_DC_output_evidence_and_unobservable_fallback_status_for_GBW_PM",
+      "source_code_hashes": {
+        "third_party/AnalogGym/RGNN_RL/LDO_TB.py": "9862f51e89145daa3efd661e7e316752dba085dc7349e6f522b8abe1e9d56df7",
+        "third_party/AnalogGym/RGNN_RL/ckt_graphs.py": "eecdb13571b29eeda00f787f78445b34dfa4bf41c074084cf73001278f905eef",
+        "third_party/AnalogGym/RGNN_RL/ddpg.py": "ae43ad6b8fe6998c0db9d59617af5c5fbd97e4eb587fa46d67efbf084957c843",
+        "third_party/AnalogGym/RGNN_RL/utils.py": "db9c899c2d42099116aaa85a04625566a9bce437eeb1f7102516a12b69efd41c"
+      }
+    }
+  ],
+  "pickle_policy": "allowlisted numpy reconstruction plus inert ReplayState; agent inspected only with pickletools",
+  "mask_policy": "All present raw fields remain present; quality exclusion never changes missingness",
+  "output": "data/audit/analoggym_replay/quarantined_transitions.parquet"
+}

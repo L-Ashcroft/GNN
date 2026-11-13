@@ -1,0 +1,5 @@
+{
+  "time": "2026-10-28T08:52:57.691005+00:00",
+  "type": "PermissionError",
+  "message": "[WinError 5] 拒绝访问。: 'D:\\\\EDA\\\\data\\\\generated\\\\analoggym_personal_20k_v1\\\\status.json.tmp' -> 'D:\\\\EDA\\\\data\\\\generated\\\\analoggym_personal_20k_v1\\\\status.json'"
+}

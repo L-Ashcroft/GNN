@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-12T10:21:36.986286+00:00",
+  "training_alive": true,
+  "epoch": 11,
+  "batch": 430,
+  "training_source_pins_unchanged": true,
+  "heldout_test_used": false,
+  "evaluation_monitor_alive": true,
+  "evaluation_state": "waiting_frozen_predictions",
+  "pending_new_jobs": 5,
+  "archived_jobs_scored": 20
+}

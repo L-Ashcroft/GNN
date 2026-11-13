@@ -1,0 +1,1 @@
+{"batch_size": 256, "contracts": 95, "prediction_max_abs": 5.960464477539063e-08, "head_gradient_max_abs": 3.725290298461914e-09, "status": "passed", "scope": "CPU isolated head/loss; real grouping and labels, synthetic embedding unit-test input; no full GNN"}

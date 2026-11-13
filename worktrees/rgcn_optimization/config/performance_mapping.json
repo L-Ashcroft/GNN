@@ -1,0 +1,1926 @@
+{
+  "version": 1,
+  "max_dimensions": 16,
+  "mask_semantics": "true iff source metric exists and is finite; invalid rows are quarantined, never hidden with mask",
+  "joining_rule": "Only semantic_id equality permits sharing a target. Equal slots or similar names never imply compatibility.",
+  "cross_dataset_approved_pairs": [],
+  "groups": {
+    "FALCON__CGLNA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__CGLNA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CGLNA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S11",
+        "semantic_id": "FALCON__CGLNA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__CGLNA::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__CGLNA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__CLNA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__CLNA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CLNA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S11",
+        "semantic_id": "FALCON__CLNA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__CLNA::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__CLNA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__CSLNA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__CSLNA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CSLNA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S11",
+        "semantic_id": "FALCON__CSLNA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__CSLNA::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__CSLNA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__DLNA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__DLNA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__DLNA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S11",
+        "semantic_id": "FALCON__DLNA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__DLNA::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__DLNA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__DBAMixer": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__DBAMixer::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "ConversionGain",
+        "semantic_id": "FALCON__DBAMixer::ConversionGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__DBAMixer::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "VoltageSwing",
+        "semantic_id": "FALCON__DBAMixer::VoltageSwing",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__DBPMixer": [
+      {
+        "slot": 0,
+        "original_name": "ConversionGain",
+        "semantic_id": "FALCON__DBPMixer::ConversionGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__DBPMixer::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageSwing",
+        "semantic_id": "FALCON__DBPMixer::VoltageSwing",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__SBAMixer": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__SBAMixer::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "ConversionGain",
+        "semantic_id": "FALCON__SBAMixer::ConversionGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__SBAMixer::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "VoltageSwing",
+        "semantic_id": "FALCON__SBAMixer::VoltageSwing",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__SBPMixer": [
+      {
+        "slot": 0,
+        "original_name": "ConversionGain",
+        "semantic_id": "FALCON__SBPMixer::ConversionGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "NoiseFigure",
+        "semantic_id": "FALCON__SBPMixer::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageSwing",
+        "semantic_id": "FALCON__SBPMixer::VoltageSwing",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__ClassBPA": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__ClassBPA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "S11",
+        "semantic_id": "FALCON__ClassBPA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S22",
+        "semantic_id": "FALCON__ClassBPA::S22",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__ClassBPA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "DrainEfficiency",
+        "semantic_id": "FALCON__ClassBPA::DrainEfficiency",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "PAE",
+        "semantic_id": "FALCON__ClassBPA::PAE",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "PSAT",
+        "semantic_id": "FALCON__ClassBPA::PSAT",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__ClassEPA": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__ClassEPA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "S11",
+        "semantic_id": "FALCON__ClassEPA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S22",
+        "semantic_id": "FALCON__ClassEPA::S22",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__ClassEPA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "DrainEfficiency",
+        "semantic_id": "FALCON__ClassEPA::DrainEfficiency",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "PAE",
+        "semantic_id": "FALCON__ClassEPA::PAE",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "PSAT",
+        "semantic_id": "FALCON__ClassEPA::PSAT",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__DohPA": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__DohPA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "S11",
+        "semantic_id": "FALCON__DohPA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S22",
+        "semantic_id": "FALCON__DohPA::S22",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__DohPA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "DrainEfficiency",
+        "semantic_id": "FALCON__DohPA::DrainEfficiency",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "PAE",
+        "semantic_id": "FALCON__DohPA::PAE",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "PSAT",
+        "semantic_id": "FALCON__DohPA::PSAT",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__DPA": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__DPA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "S11",
+        "semantic_id": "FALCON__DPA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "S22",
+        "semantic_id": "FALCON__DPA::S22",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PowerGain",
+        "semantic_id": "FALCON__DPA::PowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "DrainEfficiency",
+        "semantic_id": "FALCON__DPA::DrainEfficiency",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "PAE",
+        "semantic_id": "FALCON__DPA::PAE",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "PSAT",
+        "semantic_id": "FALCON__DPA::PSAT",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__CGVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__CGVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CGVA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "FALCON__CGVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__CSVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__CSVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CSVA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "FALCON__CSVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__CVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__CVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CVA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "FALCON__CVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__SFVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "FALCON__SFVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__SFVA::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "FALCON__SFVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__CCVCO": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__CCVCO::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "OscillationFrequency",
+        "semantic_id": "FALCON__CCVCO::OscillationFrequency",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "TuningRange",
+        "semantic_id": "FALCON__CCVCO::TuningRange",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "OutputPower",
+        "semantic_id": "FALCON__CCVCO::OutputPower",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PhaseNoise",
+        "semantic_id": "FALCON__CCVCO::PhaseNoise",
+        "source_unit": "dBc/Hz",
+        "unit": "dBc/Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__ColVCO": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__ColVCO::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "OscillationFrequency",
+        "semantic_id": "FALCON__ColVCO::OscillationFrequency",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "TuningRange",
+        "semantic_id": "FALCON__ColVCO::TuningRange",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "OutputPower",
+        "semantic_id": "FALCON__ColVCO::OutputPower",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PhaseNoise",
+        "semantic_id": "FALCON__ColVCO::PhaseNoise",
+        "source_unit": "dBc/Hz",
+        "unit": "dBc/Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__IFVCO": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__IFVCO::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "OscillationFrequency",
+        "semantic_id": "FALCON__IFVCO::OscillationFrequency",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "TuningRange",
+        "semantic_id": "FALCON__IFVCO::TuningRange",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "OutputPower",
+        "semantic_id": "FALCON__IFVCO::OutputPower",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PhaseNoise",
+        "semantic_id": "FALCON__IFVCO::PhaseNoise",
+        "source_unit": "dBc/Hz",
+        "unit": "dBc/Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "FALCON__RVCO": [
+      {
+        "slot": 0,
+        "original_name": "DCPowerConsumption",
+        "semantic_id": "FALCON__RVCO::DCPowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "OscillationFrequency",
+        "semantic_id": "FALCON__RVCO::OscillationFrequency",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "TuningRange",
+        "semantic_id": "FALCON__RVCO::TuningRange",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "OutputPower",
+        "semantic_id": "FALCON__RVCO::OutputPower",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PhaseNoise",
+        "semantic_id": "FALCON__RVCO::PhaseNoise",
+        "source_unit": "dBc/Hz",
+        "unit": "dBc/Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/FALCON/config/data_config.yaml"
+        ]
+      }
+    ],
+    "AICircuit__CSVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "AICircuit__CSVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/CSVA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__CSVA::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/CSVA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "AICircuit__CSVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/CSVA/oceanScript.ocn"
+        ]
+      }
+    ],
+    "AICircuit__CVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "AICircuit__CVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets. Ocean denominator /Vin- is absent from supplied top-level netlist; unverified source extraction.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/CVA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__CVA::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/CVA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "AICircuit__CVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/CVA/oceanScript.ocn"
+        ]
+      }
+    ],
+    "AICircuit__LNA": [
+      {
+        "slot": 0,
+        "original_name": "GTMax",
+        "semantic_id": "AICircuit__LNA::GTMax",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/LNA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "S11Min",
+        "semantic_id": "AICircuit__LNA::S11Min",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/LNA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "NFMin",
+        "semantic_id": "AICircuit__LNA::NFMin",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets. Ocean adds +1 to ymin(dB10(F)); cannot equal conventional NF.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/LNA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "Bandwidth",
+        "semantic_id": "AICircuit__LNA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/LNA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__LNA::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/LNA/oceanScript.ocn"
+        ]
+      }
+    ],
+    "AICircuit__Mixer": [
+      {
+        "slot": 0,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__Mixer::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScriptVoltageSwing.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "IFVoltageSwing",
+        "semantic_id": "AICircuit__Mixer::IFVoltageSwing",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScriptVoltageSwing.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "ConversionGain",
+        "semantic_id": "AICircuit__Mixer::ConversionGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScriptVoltageSwing.ocn"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "NoiseFigure",
+        "semantic_id": "AICircuit__Mixer::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScriptVoltageSwing.ocn"
+        ]
+      }
+    ],
+    "AICircuit__PA": [
+      {
+        "slot": 0,
+        "original_name": "S11",
+        "semantic_id": "AICircuit__PA::S11",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "S22",
+        "semantic_id": "AICircuit__PA::S22",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "LargeSignalPowerGain",
+        "semantic_id": "AICircuit__PA::LargeSignalPowerGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PAE",
+        "semantic_id": "AICircuit__PA::PAE",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "DrainEfficiency",
+        "semantic_id": "AICircuit__PA::DrainEfficiency",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "PSAT",
+        "semantic_id": "AICircuit__PA::PSAT",
+        "source_unit": "source_label_dBm_compression_function",
+        "unit": "source_label_dBm_compression_function",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets. Ocean uses compressionVRICurves gcomp=1; cannot claim saturation power.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__PA::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+        ]
+      }
+    ],
+    "AICircuit__Receiver": [
+      {
+        "slot": 0,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__Receiver::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "VoltageGain",
+        "semantic_id": "AICircuit__Receiver::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "NoiseFigure",
+        "semantic_id": "AICircuit__Receiver::NoiseFigure",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PowerGain_LNA",
+        "semantic_id": "AICircuit__Receiver::PowerGain_LNA",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "NoiseFigure_LNA",
+        "semantic_id": "AICircuit__Receiver::NoiseFigure_LNA",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "S11_LNA",
+        "semantic_id": "AICircuit__Receiver::S11_LNA",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "ConversionGain_Mixer",
+        "semantic_id": "AICircuit__Receiver::ConversionGain_Mixer",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 7,
+        "original_name": "VoltageSwing_Mixer",
+        "semantic_id": "AICircuit__Receiver::VoltageSwing_Mixer",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      },
+      {
+        "slot": 8,
+        "original_name": "VoltageGain_Amp",
+        "semantic_id": "AICircuit__Receiver::VoltageGain_Amp",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+          "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+        ]
+      }
+    ],
+    "AICircuit__Transmitter": [
+      {
+        "slot": 0,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__Transmitter::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "Bandwidth",
+        "semantic_id": "AICircuit__Transmitter::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "OutputPower",
+        "semantic_id": "AICircuit__Transmitter::OutputPower",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "VoltageSwing",
+        "semantic_id": "AICircuit__Transmitter::VoltageSwing",
+        "source_unit": "V",
+        "unit": "V",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "TuningRange_VCO",
+        "semantic_id": "AICircuit__Transmitter::TuningRange_VCO",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 5,
+        "original_name": "PhaseNoise_VCO",
+        "semantic_id": "AICircuit__Transmitter::PhaseNoise_VCO",
+        "source_unit": "dBc/Hz",
+        "unit": "dBc/Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 6,
+        "original_name": "LargeSignal_PowerGain_PA",
+        "semantic_id": "AICircuit__Transmitter::LargeSignal_PowerGain_PA",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 7,
+        "original_name": "DrainEfficiency_PA",
+        "semantic_id": "AICircuit__Transmitter::DrainEfficiency_PA",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 8,
+        "original_name": "PAE_PA",
+        "semantic_id": "AICircuit__Transmitter::PAE_PA",
+        "source_unit": "%",
+        "unit": "1",
+        "factor": 0.01,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+        ]
+      }
+    ],
+    "AICircuit__TSVA": [
+      {
+        "slot": 0,
+        "original_name": "Bandwidth",
+        "semantic_id": "AICircuit__TSVA::Bandwidth",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/TSVA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__TSVA::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/TSVA/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "VoltageGain",
+        "semantic_id": "AICircuit__TSVA::VoltageGain",
+        "source_unit": "dB",
+        "unit": "dB",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/TSVA/oceanScript.ocn"
+        ]
+      }
+    ],
+    "AICircuit__VCO": [
+      {
+        "slot": 0,
+        "original_name": "OscillationFrequency",
+        "semantic_id": "AICircuit__VCO::OscillationFrequency",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/VCO/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 1,
+        "original_name": "PowerConsumption",
+        "semantic_id": "AICircuit__VCO::PowerConsumption",
+        "source_unit": "W",
+        "unit": "W",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/VCO/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 2,
+        "original_name": "OutputPower",
+        "semantic_id": "AICircuit__VCO::OutputPower",
+        "source_unit": "dBm",
+        "unit": "dBm",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/VCO/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 3,
+        "original_name": "PhaseNoise",
+        "semantic_id": "AICircuit__VCO::PhaseNoise",
+        "source_unit": "dBc/Hz",
+        "unit": "dBc/Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/VCO/oceanScript.ocn"
+        ]
+      },
+      {
+        "slot": 4,
+        "original_name": "TuningRange",
+        "semantic_id": "AICircuit__VCO::TuningRange",
+        "source_unit": "Hz",
+        "unit": "Hz",
+        "factor": 1.0,
+        "cross_dataset_compatible": false,
+        "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+        "evidence": [
+          "third_party/AICircuit/Simulation/Ocean/VCO/oceanScript.ocn"
+        ]
+      }
+    ]
+  }
+}

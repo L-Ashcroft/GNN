@@ -1,0 +1,63 @@
+{
+  "supervisor_pid": 30136,
+  "supervisor_create_time": 1794491972.9034595,
+  "run_id": "public_evidence_queue_v1",
+  "training_active": true,
+  "worker_active": true,
+  "state": "working",
+  "current_job": "rgcn_memory_safe_loto_v2",
+  "other_workers": [],
+  "required_RAM_GiB": 2.2,
+  "updated_at": "2026-11-13T12:49:48.162904+00:00",
+  "available_RAM_GiB": 2.7871322631835938,
+  "command": [
+    "D:\\EDA\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-u",
+    "D:\\EDA\\worktrees\\rgcn_memory_safe_loto_v2\\train.py",
+    "--backend",
+    "cpu",
+    "--resume"
+  ],
+  "launcher_pid": 40428,
+  "worker_pid": 40520,
+  "worker_create_time": 1794573296.3051305,
+  "worker_identity_matches": true,
+  "worker_status": {
+    "state": "training",
+    "pid": 40520,
+    "create_time": 1794573296.3051305,
+    "updated_at": "2026-11-13T12:49:03.727929+00:00",
+    "device": "cpu",
+    "experiment": "LOTO",
+    "fold_id": "LB_M02__hold_SimpleThreeStageOpAmp_SimpleOpAmp1_1_10",
+    "body_frozen": false,
+    "private_AnalogGym_used": false,
+    "heldout_test_used": false,
+    "role": "train",
+    "epoch": 9,
+    "batch": 670,
+    "batches_per_epoch": 1747,
+    "samples_done": 171520,
+    "role_samples": 446983,
+    "best_compatible_validation_hit5": 0.17634173055859803,
+    "best_epoch": 6,
+    "model_parameters": 8146624,
+    "heldout_topologies": [
+      "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_10"
+    ],
+    "training_loss": 0.16373012161939884,
+    "samples_per_second": 48.51135700136646,
+    "gradient_norm": 0.5362534523010254,
+    "updates": 14646,
+    "learning_rates": {
+      "backbone": 0.0002,
+      "adaptation": 0.0003
+    }
+  },
+  "runtime_status": "artifacts/rgcn_memory_safe_loto_v2/status.json",
+  "last_exit": 0,
+  "resource_exits": 6
+}

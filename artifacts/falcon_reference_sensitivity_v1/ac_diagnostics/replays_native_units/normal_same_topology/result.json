@@ -1,0 +1,48 @@
+{
+  "label": "normal_same_topology",
+  "source_path": "data/raw/LOADBench/subset/SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2/intermediate_prefix.csv.gz",
+  "source_row": 1697,
+  "source_sha256": "00ab66534a31e9202e14d822ce50ca4d35ee46ae5641fcd79f22293d1102e3b1",
+  "original_testbench_sha256": "3f5b1409c5ec5f8c034835b3d50b61acbac8ac01e6192e0a68762010bfecc193",
+  "audit_netlist_sha256": "5bf4fe39dc8c520f11b456344aa58d9057bee4b563c9d6040ca0996cb625067f",
+  "params_sha256": "a3a68291a570e0b53f26d03f1f99630ce273411efab64b95b6461465382ececd",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "changes": "Paths localized; AC-only OP/offset/1Hz..1GHz sweep; original DUT/fixture/models and physical sizing retained. CSV micron widths fed to wrapper with global scale1e-6; graph-SI parameters are not passed directly. DC range/transient omitted.",
+  "replay_variant": "native_wrapper_units_v2",
+  "qualification": "Native-unit replay requires normal CSV controls to match; not a claim of bit-identical historical simulator/environment.",
+  "scope": "Diagnostic only; original labels not replaced, no dataset sample added.",
+  "state": "simulated",
+  "seconds": 0.5159999999996217,
+  "returncode": 0,
+  "analysis": {
+    "archived": {
+      "dc_gain": 24.57,
+      "ft": 3150000.0,
+      "phasemargin": 27.33
+    },
+    "official_function_on_replayed_waveform": {
+      "dc_gain": 24.568082333682003,
+      "ft": 3150027.2890466074,
+      "phasemargin": 27.32731543485795
+    },
+    "frequency_min_Hz": 1.0,
+    "frequency_max_Hz": 999999999.9999859,
+    "points": 181,
+    "gain_min_dB": -23.950566336794076,
+    "gain_max_dB": 24.568082333682003,
+    "descending_unity_crossings": [
+      {
+        "frequency_Hz": 3149335.130689265,
+        "phase_margin_degree": 27.32731543485795,
+        "bracket_Hz": [
+          2818382.9312644247,
+          3162277.6601683465
+        ]
+      }
+    ],
+    "ascending_unity_crossing_count": 0,
+    "gain_at_1Hz_difference_dB": -0.0019176663179969466,
+    "no_measured_unity_crossing": false,
+    "interpretation": "Independent crossing calculation never extrapolates and does not overwrite official labels."
+  }
+}

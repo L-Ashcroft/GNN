@@ -1,0 +1,24 @@
+{
+  "state": "pilot_rejected",
+  "pid": 25880,
+  "create_time": 1793554330.0277495,
+  "updated_at": "2026-11-01T17:35:35.870673+00:00",
+  "protocol": "streamed_joint_finetune_validation_only",
+  "body_frozen": false,
+  "test_used": false,
+  "device": "cpu",
+  "role": "validation",
+  "samples_done": 4224,
+  "role_samples": 5120,
+  "epoch": 1,
+  "batch": 20,
+  "batches_per_epoch": 20,
+  "training_loss": 0.31818454563617704,
+  "samples_per_second": 83.6984959483761,
+  "learning_rates": {
+    "backbone": 5e-06,
+    "adaptation": 1.25e-05
+  },
+  "gradient_norm": 2.8004512786865234,
+  "reason": "No validation-qualified joint gain"
+}

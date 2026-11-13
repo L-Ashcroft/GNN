@@ -1,0 +1,17 @@
+{
+  "ridge_initialization_observed_max_symlog_abs_error": 1.038917186058086e-06,
+  "ridge_initialization_tolerance": {
+    "atol": 2e-05,
+    "rtol": 2e-05
+  },
+  "state_reload_exact": true,
+  "other_contract_parameters_unchanged": true,
+  "missing_NaN_loss_safe": true,
+  "unknown_contract_rejected": true,
+  "finite_gradient_AdamW": true,
+  "original_metric_accumulator_match": true,
+  "label_free_inference_constructor_exact": true,
+  "target_affine_precision": "float64; normalized MLP weights/activations float32",
+  "test_read": false,
+  "trainable_head_parameters": 1416164
+}

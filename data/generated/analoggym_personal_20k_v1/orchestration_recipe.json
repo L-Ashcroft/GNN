@@ -1,0 +1,15 @@
+{
+  "code_sha256": {
+    "scripts/run_analoggym_personal_pipeline.py": "8b1f01fb4dc7e8b9b26ec985cd5604830b4a36c2489a7820533e8889ad45c62e",
+    "src/analoggym_personal_protocols.py": "896de01106547df82520cdb812d995bf1616270d84142e3f1281ac4f7b334789",
+    "scripts/report_analoggym_personal.py": "5cddc153c2cf7c2581d5ac98461e53d0b59ec605e057f23c23cbd4c5d96dea86",
+    "scripts/supervise_analoggym_personal.py": "638b38e76c8c195f6dce4a8fa1bcdc573ff72fe602d132cc325222e129b68e5d",
+    "src/analoggym_personal_engine.py": "202f34dafed3456d1b379f017808c5997bd3f417e456c354d0215f8b6b1a261e",
+    "src/analoggym_personal_runner.py": "d74db1afe5e410ef0954e9dd10dddf8a18c58a48164a4ca82d5da80cc9aebb68",
+    "scripts/generate_analoggym_personal.py": "447cc1bdabb700fbcd45acf57061fdaf33e4f80843272b7f90832c7f640da271",
+    "src/windows_campaign_io.py": "976853d12045e8654f6ce27e49228e4fdd8a908bfd5ec2e83e02e0e9ac570385",
+    "src/analoggym_personal_quality.py": "8dd622ee29e3e13124ecebbab532364879b8536f27cb76e0c5c72b5a6c617636",
+    "scripts/check_personal_quality.py": "a1952f510a3cb39232121e7169da0cc0d22d342688dfb4773600690af3aae7dc",
+    "scripts/monitor_analoggym_personal.py": "ecd398869e6296f12945dda0f038ae6ac07c40cbea35805f5069c20176590ee5"
+  }
+}

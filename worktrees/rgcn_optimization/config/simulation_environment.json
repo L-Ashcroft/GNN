@@ -1,0 +1,10 @@
+{
+  "ngspice_executable": "tools/Spice64/bin/ngspice_con.exe",
+  "pdk_root": "tools/pdk/sky130_pdk",
+  "pdk_manifest": "tools/pdk/sky130_bundle_manifest.json",
+  "library": "tools/pdk/sky130_pdk/libs.tech/ngspice/sky130.lib.spice",
+  "default_corner": "tt",
+  "model_length_input_unit": "um",
+  "model_scale_evidence": "tools/pdk/sky130_pdk/libs.tech/ngspice/all.spice",
+  "note": "No global PATH, PDK_ROOT, or upstream files modified"
+}

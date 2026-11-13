@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "scope": "complete",
+  "rows": 500000,
+  "source_counts": {
+    "FALCON": 200000,
+    "AICircuit": 100000,
+    "LOADBench": 200000
+  },
+  "graphs": 130,
+  "materialized_examples": 363,
+  "mask_dimensions": {
+    "('FALCON', 5)": 80000,
+    "('FALCON', 3)": 60000,
+    "('FALCON', 7)": 40000,
+    "('FALCON', 4)": 20000,
+    "('AICircuit', 3)": 16173,
+    "('AICircuit', 5)": 29721,
+    "('AICircuit', 4)": 16174,
+    "('AICircuit', 7)": 5584,
+    "('AICircuit', 9)": 32348,
+    "('LOADBench', 12)": 61619,
+    "('LOADBench', 14)": 138381
+  },
+  "splits": {
+    "id.parquet": {
+      "train": 399986,
+      "test": 50109,
+      "validation": 49905
+    },
+    "loto_fold_0.parquet": {
+      "train": 351323,
+      "test": 109568,
+      "validation": 39109
+    },
+    "loto_fold_1.parquet": {
+      "train": 358578,
+      "test": 101292,
+      "validation": 40130
+    },
+    "loto_fold_2.parquet": {
+      "train": 382765,
+      "test": 74717,
+      "validation": 42518
+    },
+    "loto_fold_3.parquet": {
+      "train": 366370,
+      "test": 92880,
+      "validation": 40750
+    },
+    "loto_fold_4.parquet": {
+      "train": 340692,
+      "test": 121543,
+      "validation": 37765
+    }
+  },
+  "historical_hashes_unchanged": 117,
+  "index_sha256": "00bf2601a9a5af49e652bf433ba04ea65a291dfac5f070a64d4bfb77f81bc9e5",
+  "manifest_sha256": "12b0cbc801bdebfd222b6d109dd80656b1014d576a85d14fc214010652d6bacb",
+  "raw_sources_hash_verified": 201,
+  "limitations": [
+    "Feature materialization spot checked per topology; every stored parameter and label checked against candidate tables.",
+    "LOADBench candidate construction is separately tested and retains immutable raw CSV provenance.",
+    "Cross-dataset comparable-label evaluation remains blocked without verified shared target semantics."
+  ]
+}

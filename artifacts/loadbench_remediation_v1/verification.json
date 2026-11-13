@@ -1,0 +1,27 @@
+{
+  "source_partitions_sha256_verified": 92,
+  "implementation_fingerprints_verified": true,
+  "train_rows": 160046,
+  "same_validation_rows": 20653,
+  "test_labels_read": false,
+  "accepted_validation": {
+    "macro_hit5": 0.5182784026923022,
+    "median_r2": 0.8083916749400046,
+    "macro_r2": 0.31121432570990964,
+    "negative_r2_targets": 31,
+    "target_pairs": 1286,
+    "relative_target_pairs": 1012,
+    "observed_scalars": 276562
+  },
+  "published_validation": {
+    "macro_hit5": 0.4931703860640188,
+    "median_r2": 0.7970234590899677,
+    "macro_r2": 0.3041867498615303,
+    "negative_r2_targets": 31,
+    "target_pairs": 1286,
+    "relative_target_pairs": 1012,
+    "observed_scalars": 276562
+  },
+  "interface_checks_passed": true,
+  "scope": "Validation-stage checks; subsequent frozen test recorded in evaluation_receipt.json"
+}

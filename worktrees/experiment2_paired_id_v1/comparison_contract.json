@@ -1,0 +1,12 @@
+{
+  "state": "prepared_not_started",
+  "LOTO_config_sha256": "5788006cedb3ddc64a8601f73f97015f4fcd4039560be041d55cab08ac92493b",
+  "model_code_identical": true,
+  "model_sha256": "ad26b4cae7abfb78e2c1f22076395c95064201f422dfcc1b6a961acedec655de",
+  "differences": [
+    "Independent role split and fold calibration",
+    "ID includes target training designs;LOTO excludes whole target structure"
+  ],
+  "prohibited_comparison": "Do not attribute52.05%hybrid-ID versus neural-LOTO difference solely to topology shift",
+  "execution": "Run separately after firstLOTO, no parallel large training. No control model has been trained."
+}

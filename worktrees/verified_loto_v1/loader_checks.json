@@ -1,0 +1,10 @@
+{
+  "first_fold": "LB_M01__hold_SimpleThreeStageOpAmp_SimpleOpAmp54_1_1",
+  "loaded_counts": {
+    "train": 399910,
+    "validation": 50839,
+    "test": 216
+  },
+  "hash_verification_passed": true,
+  "heldout_structure_not_in_train_or_validation": true
+}

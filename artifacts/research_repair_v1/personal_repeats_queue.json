@@ -1,0 +1,64 @@
+{
+  "worktree": "worktrees/repair_personal_repeats_v1",
+  "jobs": [
+    {
+      "id": "pretrained_k100_seed43",
+      "initialization": "public_pretrained",
+      "budget_per_topology": 100,
+      "seed": 43,
+      "max_epochs": 20,
+      "patience": 5,
+      "effective_batch": 64,
+      "microbatch": 16,
+      "backbone_lr": 0.0002,
+      "adaptation_lr": 0.0003
+    },
+    {
+      "id": "scratch_k100_seed43",
+      "initialization": "random",
+      "budget_per_topology": 100,
+      "seed": 43,
+      "max_epochs": 20,
+      "patience": 5,
+      "effective_batch": 64,
+      "microbatch": 16,
+      "backbone_lr": 0.0002,
+      "adaptation_lr": 0.0003
+    },
+    {
+      "id": "pretrained_k100_seed44",
+      "initialization": "public_pretrained",
+      "budget_per_topology": 100,
+      "seed": 44,
+      "max_epochs": 20,
+      "patience": 5,
+      "effective_batch": 64,
+      "microbatch": 16,
+      "backbone_lr": 0.0002,
+      "adaptation_lr": 0.0003
+    },
+    {
+      "id": "scratch_k100_seed44",
+      "initialization": "random",
+      "budget_per_topology": 100,
+      "seed": 44,
+      "max_epochs": 20,
+      "patience": 5,
+      "effective_batch": 64,
+      "microbatch": 16,
+      "backbone_lr": 0.0002,
+      "adaptation_lr": 0.0003
+    }
+  ],
+  "output": "artifacts/research_repair_personal_repeats_v1",
+  "source_sha256": {
+    "worktrees/repair_personal_repeats_v1/common.py": "677ad96b8a8f4834f3dc04cc359933e9471f6ed333a11a57ea7ff97da81a42cd",
+    "worktrees/repair_personal_repeats_v1/data.py": "d50e6f9258112de4ceef18698c8a5a3d6f98091d275034c08a1d3553ae5c66fb",
+    "worktrees/repair_personal_repeats_v1/model.py": "7493864372bb5b5dba5825d7f40d9c1918732ef274639b7b55d34fb0898149d7",
+    "worktrees/repair_personal_repeats_v1/suite.json": "2fc1ae866c18f50d73f180f7c79c4ea5640c87a5545b3d0c1282073a685fcd13",
+    "worktrees/repair_personal_repeats_v1/train.py": "40a179189ed0f3f3776c334dd556791944548700e4354002330067f5e872fe71"
+  },
+  "scope": "Original end-to-end transfer recipe; not independent repeats of the later topology-local hybrid readout",
+  "estimated_max_CPU_hours": 4,
+  "estimated_output_GiB": 1.5
+}

@@ -1,0 +1,1319 @@
+{
+  "state": "not_admissible_under_current_verified_contracts",
+  "updated_at": "2026-11-04T16:10:20.468157+00:00",
+  "public_supervision_groups": 142,
+  "target_supervision_groups": 2,
+  "target_defined_slots": 28,
+  "verified_shared_targets": 0,
+  "target_labels_used_for_fitting_or_selection": 0,
+  "test_metrics_computed": false,
+  "explanation": "This is a documented protocol limitation, not a measured zero-shot accuracy of zero.",
+  "evidence": [
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 0,
+      "name": "temperature_coefficient_per_K",
+      "unit": "1/K",
+      "definition": "peak-to-peak follower output / mean output / 165 K; -40..125 C",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 1,
+      "name": "supply_power_25C_W",
+      "unit": "W",
+      "definition": "-I(VVDDdc)*1.8 at 25 C in DC follower fixture",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 2,
+      "name": "follower_output_offset_25C_V",
+      "unit": "V",
+      "definition": "V(vout6)-0.45 at 25 C; signed output error, not input offset",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 3,
+      "name": "gain_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(opout))) at 0.1 Hz, 1 V AC in inverting fixture, 27 C",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 4,
+      "name": "common_mode_transfer_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(cm3))) at 0.1 Hz; not generic positive CMRR",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 5,
+      "name": "positive_supply_transfer_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(ppsr1))) at 0.1 Hz; 1 V supply excitation",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 6,
+      "name": "negative_supply_transfer_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(npsr1))) at 0.1 Hz; 1 V ground excitation",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 7,
+      "name": "unity_gain_frequency_Hz",
+      "unit": "Hz",
+      "definition": "first descending 0 dB crossing; log-frequency interpolation",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 8,
+      "name": "phase_at_unity_deg",
+      "unit": "degree",
+      "definition": "unwrapped phase of V(opout) at that crossing; not automatically phase margin",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 9,
+      "name": "rising_slew_observed_10_90_V_per_s",
+      "unit": "V/s",
+      "definition": "80% of observed output transition / interpolated 10-to-90% interval",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 10,
+      "name": "falling_slew_observed_90_10_V_per_s",
+      "unit": "V/s",
+      "definition": "Positive 80% of observed output transition / interpolated 90-to-10% interval",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 11,
+      "name": "rising_settling_observed_1pct_s",
+      "unit": "s",
+      "definition": "First time after last exit of 1% observed amplitude band about final measured high output; finite window",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 12,
+      "name": "falling_settling_observed_1pct_s",
+      "unit": "s",
+      "definition": "First time after last exit of 1% observed amplitude band about final measured low output; finite window",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 13,
+      "name": "high_final_tracking_error_V",
+      "unit": "V",
+      "definition": "Time-weighted final output mean over 180..200 us minus ideal 0.5 V",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+      "slot": 14,
+      "name": "low_final_tracking_error_V",
+      "unit": "V",
+      "definition": "Time-weighted final output mean over 380..400 us minus ideal 0.3 V",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "load_capacitance_F": 5e-10,
+        "common_mode_V": 0.45,
+        "dc_temperature_sweep_C": [
+          -40,
+          125,
+          1
+        ],
+        "power_offset_temperature_C": 25,
+        "ac_frequency_Hz": [
+          0.1,
+          1000000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "transient_levels_V": [
+          0.3,
+          0.5
+        ],
+        "transient_edges_s": [
+          1e-06,
+          0.000201001
+        ],
+        "transient_input_transition_s": 1e-09,
+        "transient_stop_s": 0.000401,
+        "transient_maxstep_s": 2.5e-08
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "Private fixture uses 500pF load; public LOADBench default is 1pF",
+        "0.1Hz transfer, signed follower offset and phase-at-unity are not generic gain/offset/PM synonyms"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 0,
+      "name": "output_light_V",
+      "unit": "V",
+      "definition": "Output at 1 mA load, VDD=1.8 V, 27 C",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 1,
+      "name": "output_heavy_V",
+      "unit": "V",
+      "definition": "Output at 10 mA load, VDD=1.8 V, 27 C",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 2,
+      "name": "input_power_light_W",
+      "unit": "W",
+      "definition": "-1.8*I(VDD), including current bias fed from supply, at 1 mA",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 3,
+      "name": "input_power_heavy_W",
+      "unit": "W",
+      "definition": "-1.8*I(VDD), including current bias fed from supply, at 10 mA",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 4,
+      "name": "load_regulation_V_per_A",
+      "unit": "V/A",
+      "definition": "Signed (output_10mA-output_1mA)/0.009 A",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 5,
+      "name": "line_regulation_V_per_V",
+      "unit": "V/V",
+      "definition": "Signed endpoint slope of output vs VDD=1.62..1.8 V at 1 mA",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 6,
+      "name": "supply_transfer_10Hz_dB",
+      "unit": "dB",
+      "definition": "20log10(abs(Vout/Vsupply_ac)), 1 mA; not positive PSRR",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 7,
+      "name": "supply_transfer_1kHz_dB",
+      "unit": "dB",
+      "definition": "20log10(abs(Vout/Vsupply_ac)), 1 mA",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 8,
+      "name": "supply_transfer_100kHz_dB",
+      "unit": "dB",
+      "definition": "20log10(abs(Vout/Vsupply_ac)), 1 mA",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 9,
+      "name": "load_step_output_min_V",
+      "unit": "V",
+      "definition": "Minimum output after 1-to-10 mA step, 10..110 us",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 10,
+      "name": "load_step_output_max_V",
+      "unit": "V",
+      "definition": "Maximum output after 10-to-1 mA step, 110..210 us",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 11,
+      "name": "heavy_window_final_output_V",
+      "unit": "V",
+      "definition": "Time-weighted mean output over 100..109 us",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    },
+    {
+      "target_group": "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461",
+      "slot": 12,
+      "name": "light_window_final_output_V",
+      "unit": "V",
+      "definition": "Time-weighted mean output over 200..209 us",
+      "conditions": {
+        "PDK": "SKY130 AnalogGym pinned bundle",
+        "corner": "tt",
+        "supply_voltage_V": 1.8,
+        "temperature_C": 27,
+        "normalization_fitted": false,
+        "target_output_V": 1.2,
+        "load_current_A": [
+          0.001,
+          0.01
+        ],
+        "load_capacitance_F": 1e-07,
+        "supply_sweep_V": [
+          1.62,
+          1.8,
+          0.01
+        ],
+        "ac_frequency_Hz": [
+          1,
+          10000000.0
+        ],
+        "ac_points_per_decade": 100,
+        "load_step_edges_s": [
+          1e-05,
+          0.00011
+        ],
+        "load_step_transition_s": 1e-07,
+        "transient_stop_s": 0.00021,
+        "transient_maxstep_s": 2.5e-08,
+        "bias_voltage_sources": "explicit input parameters; supply-power label excludes separate voltage-bias sources",
+        "reference_voltage_V": 1.2
+      },
+      "exact_semantic_matches": [],
+      "zero_shot_admitted": false,
+      "reasons": [
+        "No approved shared physical-target/test-condition contract",
+        "Source checkpoint has no trained personal target readout or target-domain embedding",
+        "No public LDO task registered in the selected public fusion corpus",
+        "Explicit light/heavy load and external bias conditions require target-specific supervision"
+      ]
+    }
+  ],
+  "sha256": {
+    "data\\model_ready\\analoggym_personal_20k_v1\\tasks.json": "ff664208e103d20dfe8cfb17da4de6393daed31bf470819abec7b26c82498e08",
+    "data\\model_ready\\analoggym_personal_20k_v1\\manifest.json": "2bb6984aaf8a464faf5ffd7197a8408b35f4ff9de77b9670101c1cf63ecf8bdf",
+    "data\\model_ready\\fusion_v2_training_v1\\tasks.json": "7b8b16840a0153bc4e99f31bebdfa7fa397a35452d59221158cd474951f5995b"
+  }
+}

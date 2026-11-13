@@ -1,0 +1,11 @@
+{
+  "initial_setup_issues": [
+    "A first sandbox start returned an extended Windows path form at the temporary-directory guard before any simulation result was committed.",
+    "An elevated retry could not read an unrelated model-bundle GDS file during integrity checking."
+  ],
+  "resolution": "Resumed under the original workspace execution account after verifying canonical workspace paths. Pilot then completed all 30 accepted samples with raw-waveform recomputation.",
+  "pinned_code_modified": false,
+  "pilot_attempts": 32,
+  "pilot_accepted": 30,
+  "production_started": true
+}

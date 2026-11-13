@@ -1,0 +1,45 @@
+{
+  "rows": 10000,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__CVA",
+  "inputs": {
+    "source": "c94b96855fd0d31d288d0f308d4c14af2173d10aedf8f7b5b6a0b2f42710b46c",
+    "graph": "73a51b0d500cbf9d618e01c24093928c9928f53dc7f290fca3edc0b2ceaa6abc",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "f4399f9088e3bf0481b60785ed4b8e060fc462ed926265b910a9ba1ebe107f3c",
+    "group.npy": "6f2cacace9f512df2c8518793cdbe512d9d6fd5bbcce07ba048b19f30812ad6f",
+    "known.npy": "de9fb1188c0f1acc290f96ba64779c3834c8fe7e96b6260a1ab4ad5c4057a2c4",
+    "mask.npy": "75d00a731d8ad7bafe92eab00ff354961ecd4669ec1b1d02d15d6c52b5431f79",
+    "role.npy": "602503eb49121faf9b0a438e90f8af4fa5293fd7699da6376a23cb1a2cad535a",
+    "sample_ids.npy": "1463f19cb9d83125e549401e70ccfb45233d2bedfae941a57d23ff1c78be965d",
+    "target.npy": "2f46eb47a0aad3f0e7747dc326cb7cd48df93dd36d56a86187af6b1de1c2ec97",
+    "values.npy": "6da9160d8992a308c24becdb0e88799fc8976302e956d26ac289c74d7dc41ead",
+    "zero.npy": "e9330c9f68818c17960ce80739c6f9e2802f678672a4cc97e4c95c317126baac"
+  },
+  "coverage": {
+    "0": {
+      "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c": [
+        0,
+        1,
+        2
+      ]
+    },
+    "1": {
+      "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c": [
+        0,
+        1,
+        2
+      ]
+    },
+    "2": {
+      "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "reference_checks": 3
+}

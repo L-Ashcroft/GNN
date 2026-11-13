@@ -1,0 +1,51 @@
+{
+  "rows": 16174,
+  "folder": "data/model_ready/fusion_v2_training_v1/AICircuit__LNA",
+  "inputs": {
+    "source": "a6317dfdbc82804c959bff1ec627d5a678b99d5813d6cced6bed668ba8600931",
+    "graph": "c7860914eb9d594daf807ec24d68dc772fa083b3caff10d94739df7f9d4e3bbb",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "23aab8c691200eb759616c12f4d10bf7a7007c3152cb7207651649c3a58223e3",
+    "group.npy": "b232dcbe6f6b79f378f1dce8a922e27a586dddc158d909828418660ac935e67f",
+    "known.npy": "4d0687967090362141cba6943f3cc58df8b99a2dc0c559d3f28c68a0fac7e240",
+    "mask.npy": "368cc72e569f7b30fcd83a78afe1f065ac0e641e0c4ca9d9bd5fe8b0ed78a31e",
+    "role.npy": "b5b8f73e3d61b2f4a1a5b006d69401a296b93cbd9ab0d78a99e34835aababb1d",
+    "sample_ids.npy": "67c78812cfeb73567f895bd886000c1552d1c7a9f44a43cc4efd7e22f44db9d8",
+    "target.npy": "1c5bc25ac6230c80c356d68d915022138b010d9b40fcf6c33ba5b30bfc3e45e4",
+    "values.npy": "195e795603f46b7d3a02174446201bf259d8994feef7e8d7980e6fbf746e7fe1",
+    "zero.npy": "d8e5ba8aca39b59abddaecb029fc7e148394e397012b20e6488c0f8ab59ad579"
+  },
+  "coverage": {
+    "0": {
+      "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "1": {
+      "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2": {
+      "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "reference_checks": 3
+}

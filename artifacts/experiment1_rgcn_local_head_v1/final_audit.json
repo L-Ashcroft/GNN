@@ -1,0 +1,11 @@
+{
+  "published_code_and_model_bundle_unchanged_after_test": true,
+  "test_prediction_rows_unique": 49056,
+  "test_prediction_targets_masks_equal_original_cache": true,
+  "all_observed_predictions_finite": true,
+  "fixed_16_vector_format": true,
+  "report_links_and_python_syntax_valid": true,
+  "LOTO_24_files_hashes_valid": true,
+  "test_not_used_for_fit_or_reselection": true,
+  "current_training_running": false
+}

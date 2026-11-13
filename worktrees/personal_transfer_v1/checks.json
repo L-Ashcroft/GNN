@@ -1,0 +1,399 @@
+{
+  "passed": true,
+  "at": "2026-11-04T16:14:05.112210+00:00",
+  "test_samples_used": 0,
+  "real_train_batch": 20,
+  "cache_matches_original_tensorizer_exactly": true,
+  "mask_and_split_unchanged": true,
+  "name_mapped_pretrained_relations_exact": true,
+  "transfer_receipt": {
+    "copied_tensors": [
+      "node_encoder.weight",
+      "node_encoder.bias",
+      "edge_encoder.weight",
+      "edge_encoder.bias",
+      "relation_encoder.weight",
+      "layers.0.relation_weight",
+      "layers.0.root.weight",
+      "layers.0.root.bias",
+      "layers.0.node_norm.weight",
+      "layers.0.node_norm.bias",
+      "layers.0.edge_norm.weight",
+      "layers.0.edge_norm.bias",
+      "layers.0.edge_update.0.weight",
+      "layers.0.edge_update.0.bias",
+      "layers.0.edge_update.2.weight",
+      "layers.0.edge_update.2.bias",
+      "layers.1.relation_weight",
+      "layers.1.root.weight",
+      "layers.1.root.bias",
+      "layers.1.node_norm.weight",
+      "layers.1.node_norm.bias",
+      "layers.1.edge_norm.weight",
+      "layers.1.edge_norm.bias",
+      "layers.1.edge_update.0.weight",
+      "layers.1.edge_update.0.bias",
+      "layers.1.edge_update.2.weight",
+      "layers.1.edge_update.2.bias",
+      "layers.2.relation_weight",
+      "layers.2.root.weight",
+      "layers.2.root.bias",
+      "layers.2.node_norm.weight",
+      "layers.2.node_norm.bias",
+      "layers.2.edge_norm.weight",
+      "layers.2.edge_norm.bias",
+      "layers.2.edge_update.0.weight",
+      "layers.2.edge_update.0.bias",
+      "layers.2.edge_update.2.weight",
+      "layers.2.edge_update.2.bias",
+      "layers.3.relation_weight",
+      "layers.3.root.weight",
+      "layers.3.root.bias",
+      "layers.3.node_norm.weight",
+      "layers.3.node_norm.bias",
+      "layers.3.edge_norm.weight",
+      "layers.3.edge_norm.bias",
+      "layers.3.edge_update.0.weight",
+      "layers.3.edge_update.0.bias",
+      "layers.3.edge_update.2.weight",
+      "layers.3.edge_update.2.bias",
+      "pool.score.0.weight",
+      "pool.score.0.bias",
+      "pool.score.2.weight",
+      "pool.score.2.bias",
+      "edge_pool.score.0.weight",
+      "edge_pool.score.0.bias",
+      "edge_pool.score.2.weight",
+      "edge_pool.score.2.bias",
+      "pool_fusion.0.weight",
+      "pool_fusion.0.bias",
+      "pool_fusion.2.weight",
+      "pool_fusion.2.bias"
+    ],
+    "source_relation_count": 48,
+    "new_relations": [
+      "resistor:B>N",
+      "resistor:B>P",
+      "resistor:N>B",
+      "resistor:P>B"
+    ],
+    "new_node_features": [
+      "terminal_count:resistor:B"
+    ],
+    "target_heads_domain_FiLM_and_conditions_transferred": false,
+    "source_input_transform": "ID raw deterministic engineering transforms; no LOTO fitted input stats"
+  },
+  "all_nested_budgets_covered_and_train_only": [
+    {
+      "budget_per_topology": 5,
+      "train_labels": 50,
+      "validation_labels_additional": 2000,
+      "observed_slot_counts": {
+        "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          0
+        ],
+        "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "budget_per_topology": 10,
+      "train_labels": 100,
+      "validation_labels_additional": 2000,
+      "observed_slot_counts": {
+        "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          0
+        ],
+        "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "budget_per_topology": 20,
+      "train_labels": 200,
+      "validation_labels_additional": 2000,
+      "observed_slot_counts": {
+        "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": [
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          160,
+          0
+        ],
+        "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "budget_per_topology": 50,
+      "train_labels": 500,
+      "validation_labels_additional": 2000,
+      "observed_slot_counts": {
+        "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": [
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          0
+        ],
+        "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "budget_per_topology": 100,
+      "train_labels": 1000,
+      "validation_labels_additional": 2000,
+      "observed_slot_counts": {
+        "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": [
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          800,
+          0
+        ],
+        "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "budget_per_topology": "full",
+      "train_labels": 16000,
+      "validation_labels_additional": 2000,
+      "observed_slot_counts": {
+        "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf": [
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          12800,
+          0
+        ],
+        "624bb67828d07688d0d7755ca825f4a8ba7c4a628365f5d0af949e46f78e6461": [
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "full_vs_microbatch_loss_abs_error": 2.079562189116757e-09,
+  "full_vs_microbatch_gradient_max_abs_error": 8.940696716308594e-08,
+  "gradient_tolerance": {
+    "atol": 3e-05,
+    "rtol": 0.0003
+  },
+  "gradient_test_dropout": "eval mode; training RNG trajectories need not match across microbatch sizes",
+  "checkpoint_reload_exact": true,
+  "AdamW_resume_one_step_exact": true,
+  "training_step_seconds": [
+    0.35722659999737516,
+    0.33497860000352375,
+    0.34187450000899844
+  ],
+  "training_losses": [
+    0.7467812273890619,
+    0.7304900071617948,
+    0.7129262030417793
+  ],
+  "measured_train_samples_per_second": 59.09701824407686,
+  "RSS_MiB": 775.765625,
+  "available_RAM_GiB": 2.250438690185547,
+  "schema": {
+    "node": 35,
+    "edge": 90,
+    "relations": 52,
+    "conditions": 46
+  },
+  "source_checkpoint_sha256": "87b4a59a38cad932095cf58ac57a2df1715fa04636c0d9c67c2c45d2f80a5fdc",
+  "batch64_cpu_microbenchmark": [
+    {
+      "microbatch": 16,
+      "batch": 64,
+      "seconds": [
+        2.4295103999902494,
+        2.6536733000248205
+      ],
+      "samples_per_second": 25.181069100379066,
+      "RSS_MiB": 545.78125,
+      "available_RAM_GiB": 2.06573486328125
+    },
+    {
+      "microbatch": 32,
+      "batch": 64,
+      "seconds": [
+        2.480657499982044,
+        2.4822091999812983
+      ],
+      "samples_per_second": 25.791545036046497,
+      "RSS_MiB": 499.546875,
+      "available_RAM_GiB": 1.9452133178710938
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source": "worktrees\\joint_cpu_v1",
+  "source_SHA256": "ec9f4022f23d20cc798104dffb163e26a340f1478d098e4391126205e0dbd8c8",
+  "prior_pilots": "artifacts/experiment1_joint_cpu_v1/pilot_trials.json",
+  "short_pilot_promoted": false,
+  "changes": [
+    "Lower backboneLR2e-6/headLR1e-5",
+    "100update linear warmup",
+    "One full training epoch before validation selection",
+    "patience3 and severe regression stop",
+    "Separate recipe/output; no test selection"
+  ],
+  "mathematical_objective": "unchanged contract/Mask standardized symlog MSE; no label/split/model capacity change"
+}

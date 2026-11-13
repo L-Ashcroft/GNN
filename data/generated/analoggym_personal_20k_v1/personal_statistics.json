@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "samples": 20000,
+  "topology_counts": {
+    "Alfio_RAFFC_Pin_3": 2000,
+    "Fan_SMC_Pin_3": 2000,
+    "HoiLee_AFFC_Pin_3": 2000,
+    "Leung_DFCFC1_Pin_3": 2000,
+    "Leung_NMCNR_Pin_3": 2000,
+    "Peng_TCFC_Pin_3": 2000,
+    "Qu2017_AZC_Pin_3": 2000,
+    "Song_DACFC_Pin_3": 2000,
+    "ldo_simple": 2000,
+    "ldo_folded_cascode": 2000
+  },
+  "split_counts": {
+    "train": 16000,
+    "validation": 2000,
+    "test": 2000
+  },
+  "independent_of_fusion_v2": true,
+  "few_shot_budgets_nested": true,
+  "normalization_fitted": false
+}

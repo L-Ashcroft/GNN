@@ -1,0 +1,54 @@
+{
+  "state": "complete",
+  "completed_at": "2026-11-02T17:22:59.342460+00:00",
+  "test_samples": 49056,
+  "source_counts": {
+    "FALCON": 19829,
+    "AICircuit": 9926,
+    "LOADBench": 19301
+  },
+  "metrics": {
+    "macro_hit5": 0.5205106223931415,
+    "macro_hit10": 0.6435726715077718,
+    "macro_r2": -2703.7272996102183,
+    "macro_mre": 1961.1883970123286,
+    "median_r2": 0.836757205822372,
+    "negative_r2_targets": 38,
+    "target_groups": 1491,
+    "by_source": {
+      "FALCON": {
+        "macro_hit5": 0.7800489714485442,
+        "macro_hit10": 0.9006927828841809,
+        "macro_r2": 0.9459638623531427,
+        "macro_mre": 0.04282834880562302,
+        "median_r2": 0.9867633684085192,
+        "negative_r2_targets": 0,
+        "target_groups": 139
+      },
+      "AICircuit": {
+        "macro_hit5": 0.7185032298499562,
+        "macro_hit10": 0.8532809069940613,
+        "macro_r2": 0.9121920680649728,
+        "macro_mre": 0.07077417695659106,
+        "median_r2": 0.9564900499674396,
+        "negative_r2_targets": 0,
+        "target_groups": 66
+      },
+      "LOADBench": {
+        "macro_hit5": 0.4939763848470389,
+        "macro_hit10": 0.6168032792724818,
+        "macro_r2": -3138.9359260415013,
+        "macro_mre": 2178.2311812420726,
+        "median_r2": 0.7974697315072387,
+        "negative_r2_targets": 38,
+        "target_groups": 1286
+      }
+    }
+  },
+  "bundle_sha256": "e253308f2aa024ac7c6e18dd455600fd32a28e371314a37aa923c050c6207a68",
+  "seconds": 119.10568010000134,
+  "peak_RSS_MiB": 734.6953125,
+  "train_test_ids_disjoint": true,
+  "model_modified_by_test": false,
+  "test_protocol_note": "Same fixed holdout as prior models, not a new blind dataset; this branch was frozen before access and will not be retuned from these scores."
+}

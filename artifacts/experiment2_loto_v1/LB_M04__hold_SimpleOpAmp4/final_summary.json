@@ -1,0 +1,134 @@
+{
+  "fold": {
+    "fold_id": "LB_M04__hold_SimpleOpAmp4",
+    "merge_id": "LB_M04",
+    "heldout_structure": "full_ports_v2_0040",
+    "test_topologies": [
+      "LOADBench__SimpleOpAmp4"
+    ],
+    "excluded_structural_aliases": [],
+    "compatible_training_topologies": [
+      "LOADBench__SimpleOpAmp6"
+    ],
+    "head_alias": "verified_LOADBench_LB_M04",
+    "requested_target_slots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "untrained_target_slots": [],
+    "path": "data/fusion_v2/splits/verified_loto_full_v2/LB_M04__hold_SimpleOpAmp4.npz",
+    "sha256": "13233782dcafee480a6e34a7c5733267256e3658441e6a683cbdc5a03d5b89ed",
+    "counts": {
+      "train": 446984,
+      "validation": 50612,
+      "test": 2404,
+      "unused": 0
+    },
+    "training_target_counts": [
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1920,
+      1323,
+      1323,
+      0,
+      0
+    ],
+    "sample_design_structure_leakage_checks": "passed",
+    "training_configuration": {
+      "raw_graph_cache": "data/model_ready/fusion_v2_training_v1",
+      "reference_override_required": true,
+      "initialization": "random_seed42",
+      "pretrained_checkpoint": null,
+      "precomputed_GNN_embeddings": null,
+      "target_calibration": "MUST_FIT_FROM_THIS_FOLD_TRAIN_ONLY",
+      "test_usage": "After validation model selection only",
+      "forbidden": "ID-trained checkpoints, ID frozen embeddings and ID calibration all include this heldout topology"
+    },
+    "source_counts": {
+      "train": {
+        "FALCON": 179880,
+        "AICircuit": 89912,
+        "LOADBench": 177192
+      },
+      "validation": {
+        "FALCON": 20120,
+        "AICircuit": 10088,
+        "LOADBench": 20404
+      },
+      "test": {
+        "FALCON": 0,
+        "AICircuit": 0,
+        "LOADBench": 2404
+      },
+      "unused": {
+        "FALCON": 0,
+        "AICircuit": 0,
+        "LOADBench": 0
+      }
+    },
+    "role_policy": "All non-held public records: former IDtrain+IDtest -> LOTOtrain, original IDvalidation -> LOTOvalidation; target all -> LOTOtest"
+  },
+  "model_selection": {
+    "at": "2026-11-04T10:14:18.048557+00:00",
+    "best_epoch": 20,
+    "best_compatible_validation_hit5": 0.4878667149583484,
+    "checkpoint_sha256": "e7b38b48cd3fdde963bcac4fbba999dbaadc788c461b5d91688c20464681ccba",
+    "recipe_digest": "f25dcbed9b97b5259fda8fc109e58f38656cd42f6eb486d912e196e0685847c0",
+    "outer_test_used_for_selection": false
+  },
+  "test_metrics": {
+    "macro_hit5": 0.31281198003327787,
+    "macro_hit10": 0.4280744214188474,
+    "macro_r2": 0.44795426659134974,
+    "macro_mre": 8.709963352902136,
+    "target_groups": 14,
+    "median_r2": 0.915381749845978,
+    "compatible_validation": {
+      "macro_hit5": 0.31281198003327787,
+      "median_r2": 0.915381749845978,
+      "targets": 14
+    },
+    "by_source": {
+      "FALCON": {
+        "macro_hit5": null,
+        "median_r2": null,
+        "targets": 0
+      },
+      "AICircuit": {
+        "macro_hit5": null,
+        "median_r2": null,
+        "targets": 0
+      },
+      "LOADBench": {
+        "macro_hit5": 0.31281198003327787,
+        "median_r2": 0.915381749845978,
+        "targets": 14
+      }
+    }
+  },
+  "initialization": "random; noIDpretraining",
+  "normalization_training_rows": 446984,
+  "private_AnalogGym_used": false,
+  "backend_events": []
+}

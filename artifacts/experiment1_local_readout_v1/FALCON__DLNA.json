@@ -1,0 +1,315 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1323,
+        "mae": 1039967103.9700824,
+        "r2": 0.8501221809377217,
+        "relative_count": 1323,
+        "hit5": 0.31141345427059713,
+        "hit10": 0.5676492819349962
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1323,
+        "mae": 0.00017771041792621903,
+        "r2": 0.997714344043426,
+        "relative_count": 1323,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.8639315432879789,
+        "r2": 0.8860512165799261,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.09984844506003429,
+        "r2": 0.9916889973852364,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.9390948393833568,
+        "r2": 0.8383219223518643,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1323,
+        "mae": 259785919.67387158,
+        "r2": 0.9885914879592504,
+        "relative_count": 1323,
+        "hit5": 0.8647014361300076,
+        "hit10": 0.983371126228269
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1323,
+        "mae": 3.0551508858318166e-05,
+        "r2": 0.999935422361645,
+        "relative_count": 1323,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.6432284367367128,
+        "r2": 0.9278363568650861,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.027194318676434317,
+        "r2": 0.9993151379031615,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.37522105611922124,
+        "r2": 0.9732814539912451,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1323,
+        "mae": 725679985.2748033,
+        "r2": 0.9188448364567774,
+        "relative_count": 1323,
+        "hit5": 0.4935752078609221,
+        "hit10": 0.7445200302343159
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1323,
+        "mae": 0.00014162049067674814,
+        "r2": 0.9969516630341938,
+        "relative_count": 1323,
+        "hit5": 0.9969765684051398,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.8299820529641112,
+        "r2": 0.8939415266552797,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.09857087190746906,
+        "r2": 0.9914293584345728,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.7093410054479621,
+        "r2": 0.9096558244118248,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1323,
+        "mae": 540993035.4180053,
+        "r2": 0.9544791658225298,
+        "relative_count": 1323,
+        "hit5": 0.5804988662131519,
+        "hit10": 0.8473167044595616
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1323,
+        "mae": 0.00035355888128174665,
+        "r2": 0.9916906666482341,
+        "relative_count": 1323,
+        "hit5": 0.9939531368102796,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 1.039637060331592,
+        "r2": 0.8505328146664968,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.15480381916666447,
+        "r2": 0.9741807947615239,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.5807382477456733,
+        "r2": 0.936664404516061,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1323,
+        "mae": 521646599.17441475,
+        "r2": 0.9597318337030141,
+        "relative_count": 1323,
+        "hit5": 0.5963718820861678,
+        "hit10": 0.8631897203325775
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1323,
+        "mae": 0.0003098641560639033,
+        "r2": 0.9928185587634242,
+        "relative_count": 1323,
+        "hit5": 0.9916855631141346,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.5480105169835268,
+        "r2": 0.9489313990381135,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.09413216336539725,
+        "r2": 0.9896589065420371,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159",
+        "semantic_id": "FALCON__DLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 1323,
+        "mae": 0.5460572747499833,
+        "r2": 0.9454110436069451,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ]
+  },
+  "topology": "FALCON__DLNA"
+}

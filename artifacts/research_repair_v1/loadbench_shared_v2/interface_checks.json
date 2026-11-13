@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "real_test_samples_replayed": 19301,
+  "maximum_absolute_replay_error": 0.0,
+  "mask_and_targets_exactly_preserved": true,
+  "other_sources_exact_pass_through": true,
+  "test_based_candidate_selection": false,
+  "checkpoint_compatibility": "Postprocessor only; existing model weights and recipe unchanged"
+}

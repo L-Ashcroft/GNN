@@ -1,0 +1,12 @@
+{
+  "state": "passed",
+  "real_LOADBench_validation_rows": 20653,
+  "contracts": 92,
+  "maximum_symlog_absolute_replay_error": 0.0,
+  "atol": 1e-10,
+  "rtol": 1e-10,
+  "other_sources_exact_passthrough": true,
+  "test_labels_read": false,
+  "seconds": 28.5,
+  "original_bundle_hash_unchanged": true
+}

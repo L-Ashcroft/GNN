@@ -1,0 +1,50 @@
+{
+  "state": "probe_complete",
+  "topologies_complete": 4,
+  "baseline": {
+    "macro_hit5": 0.4893466792487624,
+    "median_r2": 0.8096373365993137,
+    "macro_r2": 0.7414033824297085,
+    "negative_r2_targets": 0,
+    "target_pairs": 56
+  },
+  "selected": {
+    "macro_hit5": 0.5563833779708324,
+    "median_r2": 0.8282065600035249,
+    "macro_r2": 0.7798837154782854,
+    "negative_r2_targets": 0,
+    "target_pairs": 56
+  },
+  "jobs": {
+    "LOADBench__SimpleOpAmp4": {
+      "macro_hit5": 0.7294633077765608,
+      "median_r2": 0.9775306390656233,
+      "macro_r2": 0.915792234308806,
+      "negative_r2_targets": 0,
+      "target_pairs": 14
+    },
+    "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_10": {
+      "macro_hit5": 0.5205278592375366,
+      "median_r2": 0.5703886566789406,
+      "macro_r2": 0.5881038622428558,
+      "negative_r2_targets": 0,
+      "target_pairs": 14
+    },
+    "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp92_9": {
+      "macro_hit5": 0.4282400536645019,
+      "median_r2": 0.9075937190014269,
+      "macro_r2": 0.8572145587674687,
+      "negative_r2_targets": 0,
+      "target_pairs": 14
+    },
+    "LOADBench__SymmetricalOpAmp12": {
+      "macro_hit5": 0.5473022912047302,
+      "median_r2": 0.7950567663685162,
+      "macro_r2": 0.7584242065940108,
+      "negative_r2_targets": 0,
+      "target_pairs": 14
+    }
+  },
+  "test_used": false,
+  "seconds": 9.359000000054948
+}

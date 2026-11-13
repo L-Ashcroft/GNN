@@ -1,0 +1,119 @@
+[
+  {
+    "sample": {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:22567",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 1713952465423.8855
+    },
+    "prediction_file": "artifacts\\loadbench_remediation_v1\\fixed_test\\LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2.parquet",
+    "largest_scalar_errors": [
+      {
+        "metric": "ft",
+        "unit": "Hz",
+        "target": 0.008057000115513802,
+        "prediction": 1933306529.1092618,
+        "relative_error_pct": 23995334514705.6,
+        "absolute_error_native": 1933306529.1012046
+      },
+      {
+        "metric": "phasemargin",
+        "unit": "degree",
+        "target": 165.3000030517578,
+        "prediction": -1176.451094516374,
+        "relative_error_pct": 811.7066380614884,
+        "absolute_error_native": 1341.7510975681319
+      },
+      {
+        "metric": "dc_gain",
+        "unit": "dB",
+        "target": -7.677000045776367,
+        "prediction": -36.45365227728201,
+        "relative_error_pct": 374.8424126928769,
+        "absolute_error_native": 28.776652231505643
+      }
+    ]
+  },
+  {
+    "sample": {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:30907",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 2382558969.9939394
+    },
+    "prediction_file": "artifacts\\loadbench_remediation_v1\\fixed_test\\LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2.parquet",
+    "largest_scalar_errors": [
+      {
+        "metric": "icmr_max",
+        "unit": "V",
+        "target": 7.269000072002152e-12,
+        "prediction": 1.253274441451478,
+        "relative_error_pct": 12523640979.723757,
+        "absolute_error_native": 1.253274441444209
+      },
+      {
+        "metric": "icmr_min",
+        "unit": "V",
+        "target": 7.269000072002152e-12,
+        "prediction": 1.234379387959473,
+        "relative_error_pct": 12334827693.183052,
+        "absolute_error_native": 1.234379387952204
+      },
+      {
+        "metric": "vout_min",
+        "unit": "V",
+        "target": 2.8319999123560535e-10,
+        "prediction": 0.8707371532990206,
+        "relative_error_pct": 8467569956.4138775,
+        "absolute_error_native": 0.8707371530158206
+      }
+    ]
+  },
+  {
+    "sample": {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:24782",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 1902463608.728556
+    },
+    "prediction_file": "artifacts\\loadbench_remediation_v1\\fixed_test\\LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2.parquet",
+    "largest_scalar_errors": [
+      {
+        "metric": "vout_max",
+        "unit": "V",
+        "target": 9.03099983684541e-10,
+        "prediction": 1.6092654212234088,
+        "relative_error_pct": 14759705246.475061,
+        "absolute_error_native": 1.6092654203203087
+      },
+      {
+        "metric": "vout_min",
+        "unit": "V",
+        "target": 5.797999858003777e-10,
+        "prediction": 1.2563217943779765,
+        "relative_error_pct": 11874721596.668577,
+        "absolute_error_native": 1.2563217937981765
+      },
+      {
+        "metric": "sr_pos",
+        "unit": "V/s",
+        "target": 1250000.0,
+        "prediction": 792979654.1303334,
+        "relative_error_pct": 63338.37233042617,
+        "absolute_error_native": 791729654.1303334
+      }
+    ]
+  }
+]

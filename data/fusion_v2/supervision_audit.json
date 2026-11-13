@@ -1,0 +1,2043 @@
+{
+  "status": "passed",
+  "rows_checked": 500000,
+  "supervision_groups": 142,
+  "cross_source_shared_targets_approved": 0,
+  "policy": "Separate source/topology/definition/extractor/testbench/PVT contracts; Mask only means missing.",
+  "group_counts": {
+    "0646cdbb5c5bedf84249729cb45ab88c9bb88d6cf3a94610cf38d2eae4e21b28": 10000,
+    "75c8573cdaf83c7d4caeb6ed8ac4b3cf630c04decb4772f606e164912be66ea1": 13153,
+    "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a": 10000,
+    "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d": 541,
+    "c092329c34dd03379c87fa77f765fde03a2f938bede530e8a17762d0943b6d01": 13153,
+    "1b536d53dabd3d9c573170ad0fff491149ea237ee4cd253d9e7621ca87784099": 1038,
+    "369417a9cebd54f238bf3c11f2558a8588edd7bfef275b612a9b63e13bf97faf": 939,
+    "c419d35a7f6b8c1152c6178b7d378889e5d69e2b4a2a1631705c9066904502cc": 1010,
+    "4d003df5905879ae74df6701e905930a501abb05b6f7e78c18d1aac986d0fa03": 1074,
+    "3da61e4ec0d2f0e01d0f98c55863b9f5f8946aa6ef522ea9d0d3694047dc0737": 1115,
+    "3200f5d86201f59bde0e31d79e8e1d131f1d10132a7a6c2843ce2a6ad3936f8a": 1175,
+    "6517d117e4864ff926e5ac919d86be8002fba183ab16e435070d35380d616e36": 1172,
+    "f1a621254beccc3682de69e99ba4d91a682d55ce2e644b9a7de0cc38da3cf23f": 1210,
+    "bf5b1a5610125b30bc56d6e273493cdcc46cc085818ef56852d09c1105d0ee6f": 1267,
+    "30c9ebc1e013a55f4d780cb5302904b0fff5b35997cd6e64e55fdaa4cd42414c": 10000,
+    "cb79ffaa6ebd6a036438fa5f3002ea4379f7057f07225cb02c4eb0217047ddbc": 10000,
+    "4c873e0c0ae931f8a19320ff75263b25cbe5514a04120f45dd56973a2a8be03c": 10000,
+    "dc2b2f4e201a20e4a1eb89afd227aeae669239fe40b820c55459c3f1036dfed4": 10000,
+    "08cb7c30543424ecc5990e7d6d73edb650240c8a9675324e88c295e3869d1503": 10000,
+    "2cf7950159360839ae5e06a41cb6aebd92860265f8ec628cd1d9e3bf9a826743": 10000,
+    "e3f4ee38dbe376076d8050894827d017be94453000c5e3082b1036e2f552d159": 13153,
+    "1b5e335423120cf851e57be5521d37f534e82e81752b83f09c2b30d6d616fa32": 10000,
+    "4448734b027232f21c02fd261a000983b02ec4498d43d3f6ac909d635567f72e": 10000,
+    "faeb76f9de384124ea399deadf710e760f7780ab5ebd16652578a1b1625b3bfb": 10000,
+    "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d": 10000,
+    "a96e47b728b3ef71a24d23cedbdc371946cfaaa50f809bc7472e4e6d9175ad38": 10000,
+    "27e32a98b18aa95caae17a09b584d6ce0455078f0bb739935661978f341d3669": 10000,
+    "4b5f5e3965918f1f280013f8fb375d2dc30164a032f9277ede5e1ee90b27d47e": 1270,
+    "ad813be8cb6c1b4c77fb7555a15e63c31dfa481b24c11c216a52c2c0e023d936": 1310,
+    "721c52f6803f436e69b18b97b4d8bfdbfe1816a2172b4784868f6d159e674346": 1229,
+    "c452f2143757948beb656bd1ad95b6951d3f5219167ca906b13cd6955208866b": 1266,
+    "7197cbef793559cefd5d598c14aea606f4115c24ec95e8dfd6091dcea065a561": 1221,
+    "7df6a547c130d4ef45de515d604312eed6d32a4c604cec636028d2568ddc25e6": 1261,
+    "2b5acc7c50b39e8ba64811be0931f4c336574222e3dbab503bf1e2ae32cc141f": 1239,
+    "9687270f7b2f173c99ad2febb23c9ca6485659e4ccfee2f3939c5802257f1298": 1204,
+    "8fe20566864d93989ccc0b100ac3598f0f0ba879485397d6974e0748682096e8": 698,
+    "d563734a715ae4e6646e81c49b7e55b4df02a2c2c1c47b3ee3eab7fdded34b73": 737,
+    "569bff43fa09a1131d286e8351eadc6cbf780b9e688a1c0708ea215625d73aa3": 764,
+    "9ada38d189d30a3b3c0488fe11f64dc95403d50b276b21cc7f740c79f7515899": 775,
+    "fbb3b00aa27d6da4c2bf52f7a6112bf44b2360d9b3d2a0a85d415378d52d3264": 787,
+    "bc78ff5efb21825ec271930946c1e9127efc6710709bbe9373d80522144d9378": 805,
+    "8ec3a6ada5bde014ee159e59ad07e6b7df9e1a9681c4a205152cdcbb37eced00": 825,
+    "90c0996c08ef9965ba3dd32f623309dfd070c17b210f139cf83ee9bc70b6ccd5": 5391,
+    "c515717f91d6ebf9c9e4a0db64e33552d587ec45c4f72859c9ae7fbe5148660f": 16174,
+    "7b6931c6e2449dad7a8d08dd5b2f49ef402d0078937b13fdcedabe4abab2bc25": 16174,
+    "18bce1f291e5181792b8da4ac00a868223cbf22937ced1b1f642649ac572da6f": 5584,
+    "6cc4454496e09fb64b592b1b91e181fd8ce48dcca86164a4f4ede51b71a3b737": 16174,
+    "59de2695fbcf10d1bc40c82ca7849e92f7c193fa5988b8af0936cc3dc369eadc": 5391,
+    "68416ebad638b6df956728335bed12e60bb4496c51ebd6c9c78ca18f8fe99e20": 16174,
+    "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b": 13547,
+    "ecf47cda98033f726e6ab778a2e53799be8dceaaae4637e2b7e74f726db462a7": 2376,
+    "f0a0dedbc4f80d5121d42171a15c4d79fcd5fbdd2141b6edc0929a5ca8b72a36": 2404,
+    "1e31362f0b83e20d21fd901cfe0452a5a621a9531c90091a920eea202680f985": 2404,
+    "3a9947f29073a43152231d3ec6e4a793736a79b45fe168f3d90c113161098421": 2404,
+    "a5ff2b7d3b10044ca8a7ff4c3fe8fe18166ff48243fa7db1ac42f821a55928a0": 2404,
+    "db3cacaf884964bf5229f8207b14df72b6eac6931297844ba20e7b18485a6e2d": 2404,
+    "b9f12e6655ad8a579cfd2299ff99beb2d8c200eb272bde88e36ebeba36a2b444": 2404,
+    "942b46c89c9caf61c7a2a32e1c7509fabf2c8280b03392c62cfe6c80ef9fabce": 2404,
+    "8bd8d90332d0d9b50212e53a9c7f74f9fa8391de81e655ddcc73413121efc5fe": 2404,
+    "327dd4697554d392a251194bd6e865ec50fecf50e5f1820cb6d15f388837d30a": 2404,
+    "682f2b9783554d89332ac704734e483596fc01c7999ca76be4e39a4b17d85fc6": 2404,
+    "7046830c9aacf5ed36fbe4af71bd647537df1ef820ea5790d0aae61aab84a333": 2404,
+    "59241c5c9427faf7b1a59004aba771fb175c7382721ddd6b9f8b1d28418d94bb": 2313,
+    "97f7216fb4effad714c2f36cc555ed74548efcbcda4c79898144db5201fe340b": 2404,
+    "6bf1684af2021ab9ce6c2d89456aa0d7ec8e406da1ab434d819555e433c69899": 2404,
+    "2fc78adbb88c2f509c9a7cccd22baa370d199fcc1eef13709b208c691c3da251": 2404,
+    "2c188c31698b083bf3178b093f5955cf6c288024d0e5b5866d8663c81ee4be58": 2404,
+    "cf7ef8235aa199608cf566c95596728f4b47dba56dda2aac9739d799b0ebd5f5": 2404,
+    "cd1de67d2fa07a3771d87b8133ff513c7baba6630b7d3fa2e90767861f7405c6": 2404,
+    "a14c29e7fe6977662dbd1167fdb4108bc46a0d0fac6f823ac22fa771dadee72f": 2404,
+    "8ca671a6a3e4577329ef93fcc80556fad1aa490110f3a85b676fde10078d9b2c": 2404,
+    "4aa3b144b2ae02e69fb08337b65bc770538e8a1541a19720cd0e0676890df14f": 2404,
+    "d9ca32cf56cdb8cf92b569b7441ac0ddc52c41f6a9eef16ae0770cc198f4ede2": 2404,
+    "f773319c19b77e312242130a97ad024dd458248c778bc56a26bf7c90e331481a": 2404,
+    "810013b4020df76c17d7ff7f6c5d531cb9941d2b903b447610b662d721892ae4": 2404,
+    "b86b6a5bf1a1c2107ab6de915c28a03b4a3db9a03d9c84b32c2237fe9018be3d": 2404,
+    "8cc61b46bc4e02f97e089afddd9b39bac0ea4dbb963dd0ccc266e566d8a36086": 2404,
+    "7f374b9a4c4bfdbeae95067ce36b8ce22b219c2a51e0ccf3104981685f7cdcc9": 2404,
+    "c2b20a5236acb7236690e40c964dd452c3fcc2e80b5556e7ba001bb390cfd344": 2404,
+    "ebd567854320b292021ccb38f66366ad796a71a2f4d647e3b72d1550a069ec50": 2404,
+    "9f96e166e762d3ab6f92b4b9aac11eff8972dd263c350c2a6c0df50922f8e7c9": 2404,
+    "1fec6ef743d36932fae1b6597d7b85591eb132def82889b7bedab5f96f51cf74": 2404,
+    "8517f12b7be014cb32f3f02ab5b47be630443a8a922fa776fe1268bbe8ab5070": 2404,
+    "003bfc917e10989e8073f66f21d5811c1193435f51953304fd2d6c9e99eadc61": 1518,
+    "bfd850613a910c544cd38503e79f38dd34629aeeebb5a55a09d72a88ec43c875": 2404,
+    "a27e0e1e7c22b552d3197742cc4fee5dcbc863fd4c0a5d4fcb64a1b26bc12890": 2404,
+    "f983cdf8ff3c4380e680a44b1a3e24577e63dc01727890531cf460ba4c0e25c3": 2404,
+    "55235f1e51613bdbb11863fac379a3ef3d62bb189e7fe78bcbe60a83da13f655": 2404,
+    "b3d9094872674c0bc2f5133ff1e0df6efb2d2dd86236ba033ed461d9fab9719f": 2404,
+    "ea854af0c4a2ef11c852a9d4a312053e402dffac7bbea1603dd965d051580ec2": 2404,
+    "a097ee52281a2927dcce2be67eaf803b602d8b904b408015bf44d11dfb092a6d": 321,
+    "c6e16e269e21fd81fd99cc63632a4f638f4ef9059d0774d962fda381c9c5e2a8": 541,
+    "7983fba3d63e77c63b8af0d359803da0eb03b61e04049d36eeeb4484b9b67716": 1604,
+    "ab8f419a8c076a01a56c01caeadbbb232d1fe01b2f9f9680bfa2b8797e9bcd2e": 1962,
+    "d9ff7550ba7389e20c17b61dde16a9a08b9e1ed25e79ac09a790a4a4f3a31e8e": 2404,
+    "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73": 1440,
+    "9545c95cf235b7e0bfa62b96fcdc9c9d9a17428c20ec410325522755ef25ee47": 216,
+    "c12f09552a9c8fc5f3c4f3cce17e82c3029a88b41e17aa33115d784da4685c98": 1339,
+    "c7d5dc1bbecdfe9a22a03afdd94131bbd0a7038f1ec66af8467860d2f33969c6": 2404,
+    "889c81a38969bd8eddb0d77a99644e7b4921b09e2414cc81863c169f998234df": 2404,
+    "3723072dbd51bb980bfe90bd791df955b235446413afd9c43da761097aa7fbf6": 1742,
+    "3f3559af0e2542317a044962ffdb655c3ff76167b03259887092c5d30262c08c": 21,
+    "bc61ee97b9628ec253b6af543f0c8dcf434c4b8910202be70ae7431d27fd91c5": 2404,
+    "b30f99b0200242dd35d20a0b84281a6eacf0f0ed2d925390d67be95102a3d609": 2404,
+    "6b124909f76907a6d1e7a0820d56afb9058eb421299b2fd629e1cedfab73f48c": 2404,
+    "7475e8b5ff5314b2caa6bb848c18d7ac550d5c1c6cb1b41674669ff54ba550db": 2404,
+    "6ed22962a8625b718aca85bc26fcdf1ca43621d9e8115ae368863389f85ad12f": 1853,
+    "d8fc27e730a880d184c75959bddd582cc627f44e2f8d677b8960a9f55e53b462": 146,
+    "559a7809e710836c27f50abf7808cf79b07400705fd3ce1ca4feb05c4019f4ed": 23,
+    "beb88047518ef88532a55688fb5cb32c60c6fa64678596f39f40927ed5cf94a0": 6,
+    "29c2944229dd9461b1e11cc41828571d3a725966af6710dd9d0c848020f00608": 2403,
+    "d95341a91f6b16188a25dba655159191ba2f5897bd4607c5c396321ad39cbba6": 2403,
+    "09eb614792a1b8351daa9538551e06cc3a8b58adece692352dc9f9409a1accaa": 2403,
+    "0481f23a5bde740f4b64dfd570b1353f52c597bcea33b66920292022f6d72861": 2403,
+    "94e85c0974a16a3723a29622f5f84bd970775b30386d02b14694e80c017ea980": 2403,
+    "d605b600f47e47402a326356735963c8bd30056aecd55bcc37d2b04f42add815": 2403,
+    "570574df02cd382542b9d8dbf0c7508c4c14ae0b27f7aae73689a2efef7f15fe": 2403,
+    "1a7b70ee6f87fed658d20c2ae167e3bbd2b5fda2148655cbb70dcfa2347c1747": 2403,
+    "9b2f390bebbffda12022c045ee38d82679b9c493ece0468ebff8bf44af45a60e": 2403,
+    "47e6ec41c47bb9e58eee3b05f6304d83db67e58e6c010b1f6c701625b4ed7243": 2403,
+    "e25ea0305045f626068dd5d9bcdf57d4447bf6c3333dbfa822e722a063ad0e09": 2403,
+    "e1da42c7c156b078f9a9f0a51e7d4efd3a410ece34febcea906603107c7b63b3": 2403,
+    "8f957dc64941ec111d92aefa000f8718f94d139df4a34ab9ed0bc9ec79322f59": 2403,
+    "0872a1f34a29fa662fd3a34979af2a91745d3d3b7c26e645e57aca5a984d972a": 2403,
+    "f1f20b800958df6627ffcdc4284368c38f47908922efd0c85f901847b81b0e75": 2403,
+    "e6e652aa5900664a9b7179c8cd425dcd3e5c04a52d610954edc256ce4eb35f9e": 2403,
+    "b97aef0535bfac6b7e338aaecc72215272c0d02bd98e0e35a1c538da10f3f46b": 2403,
+    "fefc48df771efcce3256aa1835d6d255f8503fadbb1b0ea553696633c2c63713": 2403,
+    "dc16b1f0cfe9ec649bb43ff9e18a716509f89ba373f5b79a795065fe35e1a815": 2403,
+    "49d71e3d0e3f26552dc38d0178e160f31ec5f4a1841721cc8be443ed270f2cda": 2310,
+    "b8c73d0af2e4313bf467a4928cdb0cdc30c10cdfb3842388379b28de13ea69ad": 2403,
+    "cda63a2a2ed6a3958f6cc16df79ad36e241ad375a830f240cdac516b85c68e22": 2403,
+    "22c87c3aac390713474e343048fd0dca79ddd868ef7dea748b1dc7ffbc4b9499": 2403,
+    "f583a6b139d0b9c3835a5fd9c8dab59e094d2cf2bfc0c9e9be1c6ca1826a9cc9": 2403,
+    "cf85c44d6bcbc74cc296864989167f7808e13b8901a16dbd657a28fd5aad06f1": 2403,
+    "1b9ece115556098ec638e46f61d52890dc96904bf8233ab86acc6dbb0fdbdb74": 2403,
+    "464dd9a38c79663514f21bbfaab26fd7d592a641b9670702a80804b552e9685b": 2403,
+    "7bc2dce7568c393107d6485220f9656b22f5ca07d0fa43f919b47877045bb147": 2403,
+    "54320c47b977d0f37ee46cd910c5048c6ed1dc9a0f98353e7a746947b5effa89": 2403,
+    "69624f5bca4315a038bac9fd741e02bbb7bbeacf022db3f37d022ef3e22d0719": 2403,
+    "8d91d303b2d299f5dd8a4b83d227a28a8645f749e18eef5e113a5b7fdfdf644c": 2403,
+    "6e0b0241720fc1d0f1035d71cb5b2f9511692703e89b083d30982dac812e672a": 2403
+  },
+  "gain_metric_evidence": [
+    {
+      "topology_id": "FALCON__CGLNA",
+      "slot": 4,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__CGLNA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__CGVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "FALCON__CGVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__CLNA",
+      "slot": 4,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__CLNA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__CSLNA",
+      "slot": 4,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__CSLNA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__CSVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "FALCON__CSVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__CVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "FALCON__CVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__ClassBPA",
+      "slot": 3,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__ClassBPA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__ClassEPA",
+      "slot": 3,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__ClassEPA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__DBAMixer",
+      "slot": 1,
+      "original_name": "ConversionGain",
+      "semantic_id": "FALCON__DBAMixer::ConversionGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__DBPMixer",
+      "slot": 0,
+      "original_name": "ConversionGain",
+      "semantic_id": "FALCON__DBPMixer::ConversionGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__DLNA",
+      "slot": 4,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__DLNA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__DPA",
+      "slot": 3,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__DPA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__DohPA",
+      "slot": 3,
+      "original_name": "PowerGain",
+      "semantic_id": "FALCON__DohPA::PowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__SBAMixer",
+      "slot": 1,
+      "original_name": "ConversionGain",
+      "semantic_id": "FALCON__SBAMixer::ConversionGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__SBPMixer",
+      "slot": 0,
+      "original_name": "ConversionGain",
+      "semantic_id": "FALCON__SBPMixer::ConversionGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "FALCON__SFVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "FALCON__SFVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/FALCON/config/data_config.yaml"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__CSVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "AICircuit__CSVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/CSVA/oceanScript.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__CVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "AICircuit__CVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/CVA/oceanScript.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__Mixer",
+      "slot": 2,
+      "original_name": "ConversionGain",
+      "semantic_id": "AICircuit__Mixer::ConversionGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScript.ocn",
+        "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScriptVoltageSwing.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__PA",
+      "slot": 2,
+      "original_name": "LargeSignalPowerGain",
+      "semantic_id": "AICircuit__PA::LargeSignalPowerGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__Receiver",
+      "slot": 1,
+      "original_name": "VoltageGain",
+      "semantic_id": "AICircuit__Receiver::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__Receiver",
+      "slot": 3,
+      "original_name": "PowerGain_LNA",
+      "semantic_id": "AICircuit__Receiver::PowerGain_LNA",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__Receiver",
+      "slot": 6,
+      "original_name": "ConversionGain_Mixer",
+      "semantic_id": "AICircuit__Receiver::ConversionGain_Mixer",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__Receiver",
+      "slot": 8,
+      "original_name": "VoltageGain_Amp",
+      "semantic_id": "AICircuit__Receiver::VoltageGain_Amp",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+        "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__TSVA",
+      "slot": 2,
+      "original_name": "VoltageGain",
+      "semantic_id": "AICircuit__TSVA::VoltageGain",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/TSVA/oceanScript.ocn"
+      ]
+    },
+    {
+      "topology_id": "AICircuit__Transmitter",
+      "slot": 6,
+      "original_name": "LargeSignal_PowerGain_PA",
+      "semantic_id": "AICircuit__Transmitter::LargeSignal_PowerGain_PA",
+      "source_unit": "dB",
+      "unit": "dB",
+      "factor": 1.0,
+      "cross_dataset_compatible": false,
+      "reason": "Source topology scoped: extraction and complete test conditions are not verified across topologies/datasets.",
+      "evidence": [
+        "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d40eb2d872a48229c8f4f42cbc57dc1b5b41176c855d719aa4713e10a9e7b42a::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp115",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::b4c5a7e3da182aa5c9fe105b2436a1a3cc814e184ddd1947594e6b870d2620f6::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp116",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::b4c5a7e3da182aa5c9fe105b2436a1a3cc814e184ddd1947594e6b870d2620f6::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp119",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::0076f99f7b9aa27ad99f74d16a1702298fa03154e936c0a54f891ba6932ece47::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp12",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::3dad03133c1bf197678f79ec1d604f6b6d170bacde12299283e7688d7ff49d14::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp13",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::630849bb452ff721b32fe7a2b71dc3e3c44449978a7be8487efdb3c7ac2cc431::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp130",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::971e7d5cb26ad21c8ead0fb4fd43ab6d8c254aa8766087caf43a0117c27b3eda::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp2",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::f9a70b9147531f81e7e7608f5b6fbe6efa1cd67a461cb963376dacd7f3c05794::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp30",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::0b1cae462c502e0666c5bccaed109506e422ead172dff9495e51a64b23e02d3b::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp31",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::487e53f55cda866f63ea3ef5d5fb01e46ecc8a8cee0402809e17efdbe6fbd37b::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp32",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::487e53f55cda866f63ea3ef5d5fb01e46ecc8a8cee0402809e17efdbe6fbd37b::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp33",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::30f45143bf888b1b7f5edac813eb4344a3d66f4ee5d10e4d55ffbf45186808f9::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp34",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::50cfafa5fe54ce82d493f8b9b65976e1858af20c806c4b442a66d8dc3fbb13f6::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp36",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::bd81a162824cfc0f01e8f94d32b160f892b72669f8bb64204838799cc97670f5::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp4",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::ae18a929fe77856485d02d2258cb4f6567ac24a6a2abccfaee3d48f9472cf70b::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp40",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::bd81a162824cfc0f01e8f94d32b160f892b72669f8bb64204838799cc97670f5::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp44",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::971e7d5cb26ad21c8ead0fb4fd43ab6d8c254aa8766087caf43a0117c27b3eda::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp46",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::ce9762a63beb0397f53b2749ef2b75bc15603fda3e230d714dd24508a53a6e3e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d3d61bccebdda7bb593cbfd593858950144002abaac9eba71ea022493ad1ac40::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp53",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::8642c2e08a7a9a211bf3538435e3b1c2c6b6c45f9414528f02f0576bfbbe4541::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp55",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::00ae75910328d1c98dc0fd2fd2300710d12636e179a7656ddc4cdb1ae061365f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp6",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::ae18a929fe77856485d02d2258cb4f6567ac24a6a2abccfaee3d48f9472cf70b::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp74",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::e85f0c4e4cf336888ca1a7f4a0c7ab56c1abdf7247d7b427bef70b9786c853d5::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp75",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::651a5c2b9ef66dded0ad5b05b38df2d20d39e1873d20ee5ec097d5fc7e5a135d::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp76",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::6a9ea7683bef2555b85e8d0b959812de2a15fa7defde9941191b92416574ec6f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp77",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::6c42a85fcc67dbda6da57b294697c6df433ecb9fd1f2edeb9add42016d5069aa::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::12e2ae3b3a25302f5dfc10bbdb6bee31b5d06ac599e6e5bba918ce186933e161::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp82",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::a5fdbc7f202ebc522de0e525e95ec613957c031f8ad139ab408d748588701110::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp85",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::b645a3879cc421092b8636ef4c585bbaadebfc8680c81e0d28dc50109e834d6c::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp93",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::c0c282225f5188cc8da5b986c0d373048e721077c29dfbcd4781c4668e28f679::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleOpAmp95",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::f59529fcfaf60f4284875f34e26eadb8e3f14d2790be1ca63d109006a2f3e83e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_10",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::4e5c339667bae665c71cdb31078b47e0c5d827b1794f8ae8c36c30a625477276::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_3",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::4e5c339667bae665c71cdb31078b47e0c5d827b1794f8ae8c36c30a625477276::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_4",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d8877fbe2e562a7585feeeaea7a178fa6034ee2337ef661acd8ac9a5b2e81b78::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::01a2de2198b5864d62cf0271fd92c474aac8a087c10d2297498514cbbe4ccb9b::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_6",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::ff5da5a16697fec435459e1bd696582cf83245daa696e8b27a8802eddbabe9c7::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::1ba84d863e2b1df57a859a8aea918a65be09d5e6383b91e7a48130017b1a7dd2::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d71f6d395ae30d330a8e02a6afa0776f7e4b33f1f6dd59d7d68e02c2c91f712a::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::0ec677392adbd9a2d629e8e9b44f9bde8a41fbf7c580d2fae14e8ed09106c520::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_2_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::62235f26c705679f3b506ef0a5c087c1f6f13af8b0a43bd33db4cd72d0dae082::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_1_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::3836a22d29e430ebc77e92984b075aa5d162565b1856dfeefa6e1832a3927a6f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_1_10",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::4f63047a9567593b60a8f2f76b89dba0d4b2617a41afb6762639a525811af73a::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_1_2",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::bc98c9d7870d43a1cfa75fc631167decbe71ec13704b6d01f5449c808f1d98e5::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::3836a22d29e430ebc77e92984b075aa5d162565b1856dfeefa6e1832a3927a6f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::3836a22d29e430ebc77e92984b075aa5d162565b1856dfeefa6e1832a3927a6f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::3836a22d29e430ebc77e92984b075aa5d162565b1856dfeefa6e1832a3927a6f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp54_1_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::5fc0b86164fa8017af54f4d015646fc487194d6bf4253629177e2214a3c256fc::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp54_2_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::5fc0b86164fa8017af54f4d015646fc487194d6bf4253629177e2214a3c256fc::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp8_1_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::e4dd4b435537fc19db9de00c6ed42b887e9ba7d4c24a3338a34b9e5a38a8f360::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp10_10",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::6428a303f52d8a4322e8cca1d255977b555b8e4fe15d10d35661898de4c22977::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp10_8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::e543673bbb83ef9e695d81ab3ed7cdd1159feb43278ebe23e26eb7474c058b92::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp114_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::ae77170fa6993aa67e205b8569bc70c9a61d1fbc181d91f0185e602ee74c5778::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp11_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::4c4f01c6e2c16b96655b25a9f628c3003349a565780e2e6426ce1b15ff31446f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp11_8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::bf3882cdd28f9b7e6d6592f344aa6bacc1cc62bc27f1b2682d50bcd2670fb40e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp12_10",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::3989e4ece5a7dce8d07c7b6c93b1bdb64176780ec3b8bd00c47242006d9c05e7::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp12_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::b23f7b224eb64beabc6123a4341fbea867e91ee0365d1c135677d0ce20e6c021::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp13_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::4c4f01c6e2c16b96655b25a9f628c3003349a565780e2e6426ce1b15ff31446f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp1_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::c8d50f0aeffdf03a0a50a366765952245a7887fc8cccbd49df583dc06a19ad70::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp1_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::023bd49c46ace8c5a5a28833f89ea26760b4d43342ad6ce66f11069ea44074b1::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp29_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::c5957a766a42ee4c30def0f0d943dc42cc15be8090b2b58a2f8aabbbf8c6b91e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp30_8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::f6da7325259946f79bbf4ef9e7181ec4b2e7dd31f097c66e0a12a502efeaaafc::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp31_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::b49e6019a00ab329fb3845014b68316fb2b4e50f603468759125b4c4c630c83a::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp33_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::e543673bbb83ef9e695d81ab3ed7cdd1159feb43278ebe23e26eb7474c058b92::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp34_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::a58b9ba89e70af6253ee22a2365c29e55633866cb1055bbdb0dbe19597d96e4c::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp34_8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::995b8c1f56551534483e01cab8184e247ae5d52a537058509f5d941065a5ecf5::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp35_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::bf3882cdd28f9b7e6d6592f344aa6bacc1cc62bc27f1b2682d50bcd2670fb40e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp39_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::da09aca4fafba26d6403314d6aaf56bef39aadaa3cc0067d78e5432eba10f398::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp39_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::81b4d0b24fbd75f928414556fe7acec23641bfb247a49ff5cffdc7cb3eeb6f61::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp3_2",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::967e180cafbcfd097dcafc75d00f0510f5981783ebd35d442845f8a94930b243::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp3_6",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::cf355f0d92bb6e853fd11ba7e6973269114cbd637d4e4a39073995a74c3a5383::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp43_10",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::e41f5458809041fabdd5940f845214d6e48f6c8ca8b6477c119ad3392fe67089::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp43_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::0516108f55f4bf528cea60a48fc9fe39343a6158167154c1c106aa8b9ee43ecf::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp43_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::4d302cd720f7dda2cca538ba6f4263333fb875b20412184848b8686eedfbf3c9::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp44_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::6885d5c6aadcb4f0dd7c2f43a9c25118485663797d22f943eabe6e6b6bee0216::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp46_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::21c215b4ab50c8cb63b8e351fba246659c6164d55352a81ade22cd6661d79095::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp46_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::f7913b259e1419abf3db58d3c5cb3798ee7937b50cc3b9c568e73c5bfba1e625::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp47_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::23806a5864a032f0c0a042524e35f6295ccc2eab7f1eca3bde4d008f6f530569::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp47_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::cf2e2dfa235829f6304e117995dd84241a1cf5fb031652ffab4ad4e8d7a07e4d::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp4_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::bc8742257a59753dc0855a12ecc6cb7c55c938cec8b68bf632c54a5b8b73674f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp4_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d0ff9fc8980fe245e068f5cbdc11b3ada1c8e777922c6cec047c8eebb32c87bb::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp50_3",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d6b621ad8f64f60dcf6176aab20783d0c26b1c926e1d404c86e65867c5284a8f::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp51_3",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::39f12ade3214b5227e320ad23a961af6c4dd0452aa237c670ae6634b5946ebc2::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp55_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::88bdd796334608dd9067e7f599767116d1661361a39639010c5115097636ad50::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp5_2",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::689d00a72d2d9b169c46d5017d61d4aee9ea83f3dd06753091aa9b47031481f2::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp71_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::88bdd796334608dd9067e7f599767116d1661361a39639010c5115097636ad50::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp71_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::2997d35f2d8c8f77e330b6ade5c34c962e9ce989bb6d259f1bf3e72bc6a9f7a7::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp72_1",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::d74c4e17f8bdc8feabda48d63cf6812a81ef308efb80ede364a7fcd5cb1ea8c5::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp73_3",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::416de2d9b50a44c169404bf4f445b49bc8499ce58a532496883e4cdbfe76620e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp77_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::8700e31354760dd842f70f985b101d01ce995fa98b8c7f9e7cbe4b746d91d140::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp81_5",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::8882cc8b53138a1099381d3a37edb77ca4b473d49004b69ba92a2754c2f3e6e8::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp8_7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::a3268b7a60279123eda49ed47f9739f85b6848e60e4d0891612264dd4c8065d7::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp8_8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::c5957a766a42ee4c30def0f0d943dc42cc15be8090b2b58a2f8aabbbf8c6b91e::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SimpleTwoStageOpAmp_SimpleOpAmp92_9",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::ae77170fa6993aa67e205b8569bc70c9a61d1fbc181d91f0185e602ee74c5778::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp12",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::21cb6aa707649a13af4df99791922bdf7a248fcd5b61684b9c830cac197a7beb::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp13",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::a96a854a5b547480389a30fbf66d568f164ecb5c6c3d66db29bc603c77d09f18::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp16",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::6017e755ee440d1be04e90056e8c5d5a731da5f634f4c64c0166edb242e203ca::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp2",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::402e6e1f136fc6cf8f4bb6426ab781d6a4dfebe7ad5c1959764233e3e9ac14b6::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp24",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::5b0145dc71e6ae89cfc4807093220f013e43b72efa4c8d3a1f44b93cbc0b73dd::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp3",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::b2e1243c8ce1748dc974f08ddb907faaf75d0a47f449c4ea8f90a1f756e2ce77::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp7",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::0c180eafb646775eb03624cf240b8990eb3820b797e8154c290072ebd423ed9a::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    },
+    {
+      "topology_id": "LOADBench__SymmetricalOpAmp8",
+      "slot": 0,
+      "original_name": "dc_gain",
+      "unit": "dB",
+      "source_unit": "dB",
+      "factor": 1.0,
+      "semantic_id": "LOADBench::2f5ed23181c9fef9422513a01321d9b8bfdc412e6832cda1e0f06681de775cce::dc_gain",
+      "definition": "Low-frequency gain from the official 1Hz AC start; not RF voltage gain",
+      "cross_dataset_compatible": false,
+      "evidence": [
+        "https://zenodo.org/records/21759759",
+        "https://arxiv.org/html/2610.21591v1#S2.T2"
+      ]
+    }
+  ],
+  "index_sha256": "00bf2601a9a5af49e652bf433ba04ea65a291dfac5f070a64d4bfb77f81bc9e5",
+  "implementation_sha256": {
+    "src/dataset_fusion.py": "c4fb8e5079d3c6e6edd2013ffa04a423f03b75eb64f346211c09eb292fbc2694",
+    "src/supervision_fusion.py": "c4b7007007c5206f07af35f64d01fd8ff0c5c75e9000bc6469e0665508912604",
+    "scripts/check_fusion_supervision.py": "f46eab8aebc6bd336b94841697b22806374a57c269792413f69ef4e57166b6db"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "data/generated/analoggym_personal_20k_v1",
+  "derived": "data/model_ready/analoggym_personal_20k_v1",
+  "split_directory": "splits/anchor_safe_v1",
+  "hidden_dim": 128,
+  "num_layers": 4,
+  "dropout": 0.1,
+  "update_edges": true,
+  "use_domain_emb": true,
+  "use_film": true,
+  "collapse_relations": false,
+  "batch_size": 16,
+  "seed": 42,
+  "cpu_threads": 2,
+  "learning_rate": 0.0002,
+  "backbone_learning_rate": 0.00002,
+  "weight_decay": 0.01,
+  "epochs": 100,
+  "patience": 20,
+  "full_training_started": false,
+  "target_policy": "Two verified within-source contracts, Amplifier and LDO; no cross-source target sharing",
+  "condition_policy": "Known fixture settings and explicit bias parameters only; fixed engineering scales, no fitted normalization"
+}

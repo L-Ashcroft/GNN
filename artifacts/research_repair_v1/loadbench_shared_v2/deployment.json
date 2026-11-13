@@ -1,0 +1,55 @@
+{
+  "format": "validation_selected_physical_bounds_v1",
+  "scope": "Known-topology ID only",
+  "input": "Raw-unit output from the existing calibrated LOADBench readout; 16 columns",
+  "source_bundle": "artifacts/loadbench_remediation_v1/bundle.json",
+  "sources": {
+    "data/model_ready/fusion_v2_training_v1/tasks.json": "7b8b16840a0153bc4e99f31bebdfa7fa397a35452d59221158cd474951f5995b",
+    "data/fusion_v2/supervision_group_details.json": "a2f243e830aecc94d994f2373a4a6ad7a99c9697a04a3d7a1297894578ba5dbb",
+    "artifacts/research_repair_v1/loadbench_shared_v2/recipe.json": "fdd579e437c3e0424dde1a9b3b61e2a5f27749171ed928a63b7ada57d57f5863",
+    "worktrees/loadbench_bounds_inference_v1/interface.py": "af86ed182012f10cec6c647bd55a87e572f0239e9fd03268be87ad84b85822e6",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M01/selection.json": "68f4087da154b642558aabcaccbfaea0be5d7bac99fc684fcdc562d8b1ddcf3f",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M01/bounds.npz": "a79c2b782d61a78024edf51191f094dc9c42d3bbb2fb560b451821d978cd922b",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M02/selection.json": "d1cd9fac706d924fb8f652733a1de4dc5409219b90cf21d89a18e1ee2937b154",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M03/selection.json": "46146f84e9f6377e1410703982abbdb01880bf2a4a6762cb0d43b97200923a28",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M03/bounds.npz": "8b575a2eaa658565b5f9da5bfdbf21e15ed47ed2c970c149c706914fd84da773",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M04/selection.json": "0e8f9d770de1d00bcb74433bdcd45d9ff54bd294c1ddfd8fe51fd211bc967065",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M05/selection.json": "8d40b00c14a3f9460049f5f06e8be539383a6a0b0d60bb86f35b415d18e07d63",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M06/selection.json": "c817c536b47fc8d74d5b7afc6e438ebf20f6a36ffd5c7e648a195d9b07d7fcd2",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M07/selection.json": "22d1462908f48626b90efae7402fb93838f5bd7d5e8b7316416b6f2de522d67c",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M08/selection.json": "1cab5fac8b34eb6cfc912f4cd97668d4a6ed737633e78301e8e1b0fc417212e7",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M09/selection.json": "024d296562123dcf69cbfcef21935d4e41f32991bd8eb0b58921770ccff19640",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M10/selection.json": "5c4665c9d988e0ddcd62e26a292ae26637a5742850e92e6838899c5b80fb97ef",
+    "artifacts/research_repair_v1/loadbench_shared_v2/LB_M11/selection.json": "dd6b5a1f8c3cb973d86ad45abf9eb2c6b0fe75458ba51e223ba2feac7124b259"
+  },
+  "groups": {
+    "9545c95cf235b7e0bfa62b96fcdc9c9d9a17428c20ec410325522755ef25ee47": {
+      "bounds": "artifacts/research_repair_v1/loadbench_shared_v2/LB_M01/bounds.npz",
+      "merge_id": "LB_M01"
+    },
+    "c12f09552a9c8fc5f3c4f3cce17e82c3029a88b41e17aa33115d784da4685c98": {
+      "bounds": "artifacts/research_repair_v1/loadbench_shared_v2/LB_M01/bounds.npz",
+      "merge_id": "LB_M01"
+    },
+    "a097ee52281a2927dcce2be67eaf803b602d8b904b408015bf44d11dfb092a6d": {
+      "bounds": "artifacts/research_repair_v1/loadbench_shared_v2/LB_M03/bounds.npz",
+      "merge_id": "LB_M03"
+    },
+    "ab8f419a8c076a01a56c01caeadbbb232d1fe01b2f9f9680bfa2b8797e9bcd2e": {
+      "bounds": "artifacts/research_repair_v1/loadbench_shared_v2/LB_M03/bounds.npz",
+      "merge_id": "LB_M03"
+    },
+    "d9ff7550ba7389e20c17b61dde16a9a08b9e1ed25e79ac09a790a4a4f3a31e8e": {
+      "bounds": "artifacts/research_repair_v1/loadbench_shared_v2/LB_M03/bounds.npz",
+      "merge_id": "LB_M03"
+    },
+    "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73": {
+      "bounds": "artifacts/research_repair_v1/loadbench_shared_v2/LB_M03/bounds.npz",
+      "merge_id": "LB_M03"
+    }
+  },
+  "selection_uses": "TRAIN and VALIDATION only, according to predeclared guard",
+  "original_checkpoints_masks_labels_roles_changed": false,
+  "test_used_to_select_or_promote": false,
+  "no_LOTO_or_zero_shot_claim": true
+}

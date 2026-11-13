@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "test_read": false,
+  "trainable_parameters": 6998615,
+  "all_backbone_parameters_trainable": true,
+  "node_encoder_updated": true,
+  "effective_batch": 256,
+  "microbatch": 128,
+  "threads": 4,
+  "relations_observed": 48,
+  "steps": [
+    {
+      "seconds": 2.5996244000270963,
+      "loss": 0.3375018239021301,
+      "gradient_norm": 5.190947532653809,
+      "samples": 256
+    },
+    {
+      "seconds": 2.7444939000997692,
+      "loss": 0.29573681950569153,
+      "gradient_norm": 6.271921634674072,
+      "samples": 256
+    },
+    {
+      "seconds": 3.154149299953133,
+      "loss": 0.2971224784851074,
+      "gradient_norm": 3.6461639404296875,
+      "samples": 256
+    }
+  ],
+  "peak_process_RSS_MiB": 856.71484375,
+  "minimum_available_RAM_MiB": 1752.94140625,
+  "samples_per_second": 90.37135992196461
+}

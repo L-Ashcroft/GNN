@@ -1,0 +1,41 @@
+{
+  "config": {
+    "dataset": "data/fusion_v2",
+    "split": "data/fusion_v2/splits/id_stratified_v1.parquet",
+    "cache": "data/model_ready/fusion_v2_training_v1",
+    "output": "artifacts/experiment1_fusion_id_v1",
+    "hidden_dim": 128,
+    "num_layers": 4,
+    "dropout": 0.1,
+    "update_edges": true,
+    "use_domain_emb": true,
+    "use_film": true,
+    "collapse_relations": false,
+    "batch_size": 256,
+    "seed": 42,
+    "cpu_threads": 2,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "epochs": 100,
+    "patience": 20,
+    "checkpoint_every_batches": 250,
+    "device": "cuda",
+    "test_policy": "Evaluate once after validation-selected training; no test data for model selection",
+    "precision": "float32; no mixed precision or fitted normalization"
+  },
+  "cache_manifest_sha256": "c1bc8f65d85fe4dd0e2e65d8d02bb310ea0a57a1e1524dc9e242c28a6b611535",
+  "split_sha256": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+  "implementation_sha256": {
+    "scripts/train_experiment1.py": "2e7ddaffd5596d5cf2a9f792af312baa29323161108aab9653d7f45a22169017",
+    "src/train/fusion_cache.py": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb",
+    "src/model/network.py": "facdf60d93e6455d92c457ebe71e1910f2d93cc7f60c02a1737d0d2c8cc3e8ed",
+    "src/model/layers.py": "e01d4b2af63faa2edb3c8204bb2ceb412eb113523ce26701599199366d7f9cab",
+    "src/model/heads.py": "cc2b98fde927c026c9e1782190e3bab26cd9e4d724385c62ad3c77e977fc71d7",
+    "src/model/film.py": "e801f9a07a2d638eeaa62e473d1289ab05f429ec035c962b9c8f92426ed22f2c",
+    "src/train/losses.py": "2548eedf029319c133c7ecdf921e7914ac67e44a1f0c9dde8ba80979e4faf41e",
+    "src/train/loop.py": "a6e769c358f3f0396fc21e0cb96b270b4adb00fa9417aa3ae192f1ce51b7c5a8",
+    "src/train/metrics.py": "e5380cbeb9b93981b8f04daa347e235e287c683921ea63f976f2fc8fbc02bcb4"
+  },
+  "torch": "2.9.1+cu128",
+  "GPU": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

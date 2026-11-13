@@ -1,0 +1,315 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 57,
+        "mae": 462193249.150583,
+        "r2": 0.8794824508152566,
+        "relative_count": 57,
+        "hit5": 0.8070175438596491,
+        "hit10": 0.8947368421052632
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 57,
+        "mae": 1.5894554221108457e-05,
+        "r2": 0.997448714866075,
+        "relative_count": 57,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.5641943515698546,
+        "r2": 0.8646400886470654,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.23047316124910486,
+        "r2": 0.623422622113907,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.3081025775452378,
+        "r2": 0.5688169775178054,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 57,
+        "mae": 302780785.7106381,
+        "r2": 0.9470964557553363,
+        "relative_count": 57,
+        "hit5": 0.8947368421052632,
+        "hit10": 0.9473684210526315
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 57,
+        "mae": 4.897303215394502e-06,
+        "r2": 0.9997476930702768,
+        "relative_count": 57,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.397738128260666,
+        "r2": 0.9391429260427284,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.15329969117925502,
+        "r2": 0.806490405072221,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.18408296638127303,
+        "r2": 0.8382138257184957,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 57,
+        "mae": 494936637.27488494,
+        "r2": 0.8772505534729765,
+        "relative_count": 57,
+        "hit5": 0.7543859649122807,
+        "hit10": 0.8947368421052632
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 57,
+        "mae": 5.383790743200914e-05,
+        "r2": 0.9656537935944558,
+        "relative_count": 57,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.6471862341421583,
+        "r2": 0.8134167776687496,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.2060990133038216,
+        "r2": 0.6452260862840411,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.3648701031909922,
+        "r2": 0.47408212508885406,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 57,
+        "mae": 397233823.62626886,
+        "r2": 0.9226119042577184,
+        "relative_count": 57,
+        "hit5": 0.7894736842105263,
+        "hit10": 0.9473684210526315
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 57,
+        "mae": 2.4151249316549942e-05,
+        "r2": 0.9914453588121905,
+        "relative_count": 57,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.5042563002736717,
+        "r2": 0.9000429948298583,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.1509468187835032,
+        "r2": 0.8360885157390803,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.2582669455277953,
+        "r2": 0.7031163665125872,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 57,
+        "mae": 408792543.68204135,
+        "r2": 0.9125709458947668,
+        "relative_count": 57,
+        "hit5": 0.7894736842105263,
+        "hit10": 0.9298245614035088
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 57,
+        "mae": 2.3529076687621552e-05,
+        "r2": 0.9916277309812775,
+        "relative_count": 57,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::S11",
+        "original_name": "S11",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.5482033702117128,
+        "r2": 0.8752895096265265,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::NoiseFigure",
+        "original_name": "NoiseFigure",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.16224261101686777,
+        "r2": 0.7807009939373578,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "efaeaa6ce206effbc2af7e49459d1911205de77fb43ea90a8a1c92c00c880a3d",
+        "semantic_id": "FALCON__CLNA::PowerGain",
+        "original_name": "PowerGain",
+        "unit": "dB",
+        "count": 57,
+        "mae": 0.3068140302759244,
+        "r2": 0.5767082518407726,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ]
+  },
+  "topology": "FALCON__CLNA"
+}

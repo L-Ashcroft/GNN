@@ -1,0 +1,25 @@
+{
+  "pins": {
+    "worktrees/controlled_evidence_v1/assessment.py": "7c288cbff7343dad13aca8ef723c1d11576c7146f87537a5443935f58bf1e828",
+    "worktrees/controlled_evidence_v1/data.py": "9a509ed9f9efd1fab1816944ea4a4a8232bf6f001ed246142eb5d364ef7a5000",
+    "worktrees/controlled_evidence_v1/fit.py": "3e1ec6c07be9525375d0b6e6ea57e9a138ee056dbd80a87807a9d6187bdf2f5a",
+    "worktrees/controlled_evidence_v1/followup.py": "1b667715ef8c07645cda81c211930b549cec46ba51aa3fcb135b86bf52100edb",
+    "worktrees/controlled_evidence_v1/model.py": "687442552f662175dbd2804009c40963eade1fa6526b743681c671d6510f9a67",
+    "worktrees/controlled_evidence_v1/portable.py": "ad26b4cae7abfb78e2c1f22076395c95064201f422dfcc1b6a961acedec655de",
+    "worktrees/controlled_evidence_v1/preflight.py": "367acbfe2079dae66e535184601377347e79f3d140448f492458c97b18c2157e",
+    "worktrees/controlled_evidence_v1/prepare.py": "7b51ae9ed05b9094654135d96af51be595d1f7046c9b8b299e4f7d8b7d16e50a",
+    "worktrees/controlled_evidence_v1/raw_data.py": "3b15b499d249c039df6a1b8b4465f42236e20aa1523477c194fe2ba8f1ae7ee0",
+    "worktrees/controlled_evidence_v1/runtime.py": "5dd14c67cb001dbca4d879c8c97099ee76a7cb7bfa68f6f1c078fa5ab73f5d74",
+    "worktrees/controlled_evidence_v1/train.py": "d1f505e3d4b0308f551390a0526205e53fcab3fe02fb0efd8ae97c458d10a5d4",
+    "worktrees/controlled_evidence_v1/configs/multi_rgcn.json": "7f29d7df7af6322b15a9469bc672b6bf3a576d2ce1e0173c2505f24b9cba109e",
+    "worktrees/controlled_evidence_v1/configs/single_gcn.json": "9c5e46dfa09603217caf05f563c4e11d156770fff1efc42da39f6b642152e2be",
+    "worktrees/controlled_evidence_v1/configs/single_mlp.json": "19881d8e9e0f29b050f1dff86b28ecaea483282084e2c97c2d008440e9e35799",
+    "worktrees/controlled_evidence_v1/configs/single_rgcn.json": "010ca47b9b5e617cd71e5c6d9b56e8441661ed83ada7be5451ca7dc6a11ff134",
+    "worktrees/controlled_evidence_v1/config.json": "145f1704711b6aff21eaffd235ac0e644e61bff0611e9f75749119b4e19d4cd7",
+    "worktrees/controlled_evidence_v1/suite.json": "f1096caa61b7806dc967fde72f11acef89b8872840f55dae756f748da52ae18b"
+  },
+  "serial_only": true,
+  "wait_for_original_queue_completion": true,
+  "CPU_only": true,
+  "no_new_FewShot_or_large_LOTO": true
+}

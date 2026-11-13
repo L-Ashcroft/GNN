@@ -1,0 +1,57 @@
+{
+  "rows": 10000,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__ClassEPA",
+  "inputs": {
+    "source": "c11f3b87749c54a699d9eebd2f7eaae51a3424ac34bf4d4e46a21889e954da23",
+    "graph": "c0b4cd7040da285ba897029b03d862b85c6a2c8e05ef32c4116bc5ae97a3e3f6",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "f4399f9088e3bf0481b60785ed4b8e060fc462ed926265b910a9ba1ebe107f3c",
+    "group.npy": "525c27ca1b9bf6283b675280ef79d871137532cefe45170c5d49b3e60ea81d58",
+    "known.npy": "f6dd698f0d112c975b898187ef72557e75daad63446b46330f3b2efceacf5180",
+    "mask.npy": "a86a62a6f5ab3030b89d4392908747944d2a8232d78085fc6aac7ef32e78cdca",
+    "role.npy": "11eb48f2d6b3e188838f4b701ce54c8d6156be7f69cc2b1cdddf79a490120bc2",
+    "sample_ids.npy": "f9bac50493f4e33db23741cd79c6c021d96664d7978849c6b6ed039c12fd712a",
+    "target.npy": "52011612c35dd29631abf224835163fddd712670d70d8766c56273692c93ca28",
+    "values.npy": "71916d207f9436b708cf08b83423122590dcc6b3c84a9efa1b4e50887ff76a97",
+    "zero.npy": "ad4d3accca3c1a2b6263f3598ce1c1aa5f8de6228fc3caf170bea1247a848961"
+  },
+  "coverage": {
+    "0": {
+      "4c873e0c0ae931f8a19320ff75263b25cbe5514a04120f45dd56973a2a8be03c": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "1": {
+      "4c873e0c0ae931f8a19320ff75263b25cbe5514a04120f45dd56973a2a8be03c": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "2": {
+      "4c873e0c0ae931f8a19320ff75263b25cbe5514a04120f45dd56973a2a8be03c": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "reference_checks": 3
+}

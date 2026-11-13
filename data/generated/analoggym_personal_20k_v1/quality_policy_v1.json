@@ -1,0 +1,46 @@
+{
+  "policy": {
+    "version": "ac_continuity_v1",
+    "gain_step_dB": 20.0,
+    "minimum_large_steps": 10,
+    "minimum_descending_crossings": 20,
+    "grid_points_per_decade": 100,
+    "action": "quarantine entire sample; retain original raw archive; sample another design to fill quota",
+    "scope": "Amplifier AC numerical-continuity screen; not a product-specification filter"
+  },
+  "adopted_at_UTC": "2026-10-28T10:52:50.747624+00:00",
+  "base_recipe_hash": "cafc175f8645beefbe37d0a49beab2b0a35e2b907fce1f6464f915f2281d52e2",
+  "retrospective_accepted_scanned": 2739,
+  "quarantined": [
+    {
+      "topology": "Song_DACFC_Pin_3",
+      "candidate": 101,
+      "sample_design": "7159f20d9fc88b82291991cc23dddb1e",
+      "archive": "data/generated/analoggym_personal_20k_v1/raw/Song_DACFC_Pin_3/0000/00000101.zip",
+      "archive_sha256": "14511f1933964d44e0c0ac311d5dbed83c5e93ae4594089038b10b45cfe1618d",
+      "diagnostics": {
+        "gain_jumps_over_20dB_per_grid_step": 490,
+        "descending_unity_crossings": 78,
+        "review_required": true
+      }
+    },
+    {
+      "topology": "Song_DACFC_Pin_3",
+      "candidate": 252,
+      "sample_design": "7159f20d9fc88b82291991cc23dddb1e",
+      "archive": "data/generated/analoggym_personal_20k_v1/raw/Song_DACFC_Pin_3/0000/00000252.zip",
+      "archive_sha256": "d2413ef7a89c8227661b0ccb9251bfaec85471976fb5fdece9e1a2f8c97e5d47",
+      "diagnostics": {
+        "gain_jumps_over_20dB_per_grid_step": 504,
+        "descending_unity_crossings": 74,
+        "review_required": true
+      }
+    }
+  ],
+  "raw_archives_modified": false,
+  "unchanged_other_ledger_rows": 3155,
+  "goal_accepted": 20000,
+  "per_topology_goal": 2000,
+  "performance_definitions_or_masks_changed": false,
+  "sampling_parameters_changed": false
+}

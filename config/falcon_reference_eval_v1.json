@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "reference_pdf": "background/falcon_2505.21923.pdf",
+  "reference_sections": [
+    "5, p7-8, Table2/Figure6",
+    "Appendix C p20-21"
+  ],
+  "profile": "Stage2 metrics on frozen physical predictions; full/untrimmed statistics primary",
+  "training_split_and_selection_changed": false,
+  "jobs": [
+    {
+      "id": "public_id_published",
+      "description": "Public ID: calibrated local readout",
+      "tasks": "data/model_ready/fusion_v2_training_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment1_rgcn_local_head_v1/fixed_test/FALCON__*.parquet",
+          "topology": "file_stem"
+        },
+        {
+          "glob": "artifacts/experiment1_rgcn_local_head_v1/fixed_test/AICircuit__*.parquet",
+          "topology": "file_stem"
+        },
+        {
+          "glob": "artifacts/loadbench_remediation_v1/fixed_test/LOADBench__*.parquet",
+          "topology": "file_stem"
+        }
+      ],
+      "proofs": [
+        "artifacts/loadbench_remediation_v1/evaluation_receipt.json",
+        "artifacts/experiment1_rgcn_local_head_v1/fixed_test/status.json"
+      ],
+      "expected_rows": 49056,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "expected_files": 121
+    },
+    {
+      "id": "loadbench_expert",
+      "description": "LOADBench: supervised-neighborhood expert",
+      "tasks": "data/model_ready/fusion_v2_training_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/rgcn_metric_v4/fixed_test/LOADBench__*.parquet",
+          "topology": "file_stem"
+        }
+      ],
+      "proofs": [
+        "artifacts/rgcn_metric_v4/fixed_test/evaluation_frozen.json",
+        "artifacts/rgcn_metric_v4/fixed_test/metrics.json"
+      ],
+      "expected_rows": 19301,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "expected_files": 92
+    },
+    {
+      "id": "loto_M04",
+      "description": "LOTO: SimpleOpAmp4",
+      "tasks": "artifacts/experiment2_loto_v1/LB_M04__hold_SimpleOpAmp4/task_registry.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment2_loto_v1/LB_M04__hold_SimpleOpAmp4/heldout_predictions.parquet",
+          "topology": "LOADBench__SimpleOpAmp4"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment2_loto_v1/LB_M04__hold_SimpleOpAmp4/selection_frozen.json",
+        "artifacts/experiment2_loto_v1/LB_M04__hold_SimpleOpAmp4/heldout_test_metrics.json"
+      ],
+      "expected_rows": 2404,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_full_joint",
+      "description": "Personal full supervision: full_joint",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_v1/personal_test/full_joint/predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_v1/personal_test/full_joint/metrics.json",
+        "artifacts/personal_refinement_v2/full_joint/selection_frozen.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_full_physical",
+      "description": "Personal full supervision: full_physical",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_v1/personal_test/full_physical/predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_v1/personal_test/full_physical/metrics.json",
+        "artifacts/personal_refinement_v2/full_physical/selection_frozen.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_full_gnn",
+      "description": "Personal full supervision: full_gnn",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_v1/personal_test/full_gnn/predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_v1/personal_test/full_gnn/metrics.json",
+        "artifacts/personal_refinement_v2/full_gnn/selection_frozen.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k5_seed42",
+      "description": "Personal e2e: pretrained, k=5, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/pretrained_k5_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k5_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k5_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k10_seed42",
+      "description": "Personal e2e: pretrained, k=10, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/pretrained_k10_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k10_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k10_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k20_seed42",
+      "description": "Personal e2e: pretrained, k=20, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/pretrained_k20_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k20_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k20_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k50_seed42",
+      "description": "Personal e2e: pretrained, k=50, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/pretrained_k50_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k50_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k50_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k100_seed42",
+      "description": "Personal e2e: pretrained, k=100, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/pretrained_k100_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k100_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/pretrained_k100_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k100_seed43",
+      "description": "Personal e2e: pretrained, k=100, seed=43",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_personal_repeats_v1/pretrained_k100_seed43/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_personal_repeats_v1/pretrained_k100_seed43/selection_frozen.json",
+        "artifacts/research_repair_personal_repeats_v1/pretrained_k100_seed43/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_pretrained_k100_seed44",
+      "description": "Personal e2e: pretrained, k=100, seed=44",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_personal_repeats_v1/pretrained_k100_seed44/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_personal_repeats_v1/pretrained_k100_seed44/selection_frozen.json",
+        "artifacts/research_repair_personal_repeats_v1/pretrained_k100_seed44/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k5_seed42",
+      "description": "Personal e2e: scratch, k=5, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/scratch_k5_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/scratch_k5_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/scratch_k5_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k10_seed42",
+      "description": "Personal e2e: scratch, k=10, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/scratch_k10_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/scratch_k10_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/scratch_k10_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k20_seed42",
+      "description": "Personal e2e: scratch, k=20, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/scratch_k20_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/scratch_k20_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/scratch_k20_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k50_seed42",
+      "description": "Personal e2e: scratch, k=50, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/scratch_k50_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/scratch_k50_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/scratch_k50_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k100_seed42",
+      "description": "Personal e2e: scratch, k=100, seed=42",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/experiment4_personal_transfer_v1/scratch_k100_seed42/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/experiment4_personal_transfer_v1/scratch_k100_seed42/selection_frozen.json",
+        "artifacts/experiment4_personal_transfer_v1/scratch_k100_seed42/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k100_seed43",
+      "description": "Personal e2e: scratch, k=100, seed=43",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_personal_repeats_v1/scratch_k100_seed43/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_personal_repeats_v1/scratch_k100_seed43/selection_frozen.json",
+        "artifacts/research_repair_personal_repeats_v1/scratch_k100_seed43/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "personal_scratch_k100_seed44",
+      "description": "Personal e2e: scratch, k=100, seed=44",
+      "tasks": "data/model_ready/personal_transfer_v1/tasks.json",
+      "inputs": [
+        {
+          "glob": "artifacts/research_repair_personal_repeats_v1/scratch_k100_seed44/test_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/research_repair_personal_repeats_v1/scratch_k100_seed44/selection_frozen.json",
+        "artifacts/research_repair_personal_repeats_v1/scratch_k100_seed44/test_metrics.json"
+      ],
+      "expected_rows": 2000,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "topology_groups": "data/model_ready/personal_transfer_v1/structures.json",
+      "expected_files": 1
+    },
+    {
+      "id": "rgcn_memory_safe_id_control_v2",
+      "description": "Pending neural experiment: rgcn_memory_safe_id_control_v2",
+      "tasks": "artifacts/rgcn_memory_safe_id_control_v2/task_registry.json",
+      "inputs": [
+        {
+          "glob": "artifacts/rgcn_memory_safe_id_control_v2/heldout_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/rgcn_memory_safe_id_control_v2/selection_frozen.json",
+        "artifacts/rgcn_memory_safe_id_control_v2/heldout_test_metrics.json"
+      ],
+      "expected_rows": 49056,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "requires_selection_freeze": true,
+      "checkpoint": "artifacts/rgcn_memory_safe_id_control_v2/best.pt",
+      "pending": true,
+      "expected_files": 1
+    },
+    {
+      "id": "rgcn_memory_safe_no_film_v2",
+      "description": "Pending neural experiment: rgcn_memory_safe_no_film_v2",
+      "tasks": "artifacts/rgcn_memory_safe_no_film_v2/task_registry.json",
+      "inputs": [
+        {
+          "glob": "artifacts/rgcn_memory_safe_no_film_v2/heldout_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/rgcn_memory_safe_no_film_v2/selection_frozen.json",
+        "artifacts/rgcn_memory_safe_no_film_v2/heldout_test_metrics.json"
+      ],
+      "expected_rows": 49056,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "requires_selection_freeze": true,
+      "checkpoint": "artifacts/rgcn_memory_safe_no_film_v2/best.pt",
+      "pending": true,
+      "expected_files": 1
+    },
+    {
+      "id": "rgcn_memory_safe_static_edges_v2",
+      "description": "Pending neural experiment: rgcn_memory_safe_static_edges_v2",
+      "tasks": "artifacts/rgcn_memory_safe_static_edges_v2/task_registry.json",
+      "inputs": [
+        {
+          "glob": "artifacts/rgcn_memory_safe_static_edges_v2/heldout_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/rgcn_memory_safe_static_edges_v2/selection_frozen.json",
+        "artifacts/rgcn_memory_safe_static_edges_v2/heldout_test_metrics.json"
+      ],
+      "expected_rows": 49056,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "requires_selection_freeze": true,
+      "checkpoint": "artifacts/rgcn_memory_safe_static_edges_v2/best.pt",
+      "pending": true,
+      "expected_files": 1
+    },
+    {
+      "id": "rgcn_memory_safe_collapsed_relations_v2",
+      "description": "Pending neural experiment: rgcn_memory_safe_collapsed_relations_v2",
+      "tasks": "artifacts/rgcn_memory_safe_collapsed_relations_v2/task_registry.json",
+      "inputs": [
+        {
+          "glob": "artifacts/rgcn_memory_safe_collapsed_relations_v2/heldout_predictions.parquet"
+        }
+      ],
+      "proofs": [
+        "artifacts/rgcn_memory_safe_collapsed_relations_v2/selection_frozen.json",
+        "artifacts/rgcn_memory_safe_collapsed_relations_v2/heldout_test_metrics.json"
+      ],
+      "expected_rows": 49056,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "requires_selection_freeze": true,
+      "checkpoint": "artifacts/rgcn_memory_safe_collapsed_relations_v2/best.pt",
+      "pending": true,
+      "expected_files": 1
+    },
+    {
+      "id": "rgcn_memory_safe_loto_v2",
+      "description": "Pending neural experiment: rgcn_memory_safe_loto_v2",
+      "tasks": "artifacts/rgcn_memory_safe_loto_v2/task_registry.json",
+      "inputs": [
+        {
+          "glob": "artifacts/rgcn_memory_safe_loto_v2/heldout_predictions.parquet",
+          "topology": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp1_1_10"
+        }
+      ],
+      "proofs": [
+        "artifacts/rgcn_memory_safe_loto_v2/selection_frozen.json",
+        "artifacts/rgcn_memory_safe_loto_v2/heldout_test_metrics.json"
+      ],
+      "expected_rows": 2404,
+      "scope": "historical_fixed_test_reanalysis_no_new_model_selection",
+      "requires_selection_freeze": true,
+      "checkpoint": "artifacts/rgcn_memory_safe_loto_v2/best.pt",
+      "pending": true,
+      "expected_files": 1
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1010,
+        "mae": 0.00019671509567681467,
+        "r2": 0.9996354740515095,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 200209112.5779573,
+        "r2": 0.9961892880626136,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 39828655.976030424,
+        "r2": 0.970750218748686,
+        "relative_count": 1010,
+        "hit5": 0.8435643564356435,
+        "hit10": 0.9801980198019802
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1010,
+        "mae": 0.03950638304442591,
+        "r2": 0.9908297013134694,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1010,
+        "mae": 0.8448228424260205,
+        "r2": 0.9717394546379299,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1010,
+        "mae": 4.050508276202207e-05,
+        "r2": 0.9999851958415624,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 30091758.684504032,
+        "r2": 0.999932116569232,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 7113332.400155737,
+        "r2": 0.9989452896923,
+        "relative_count": 1010,
+        "hit5": 0.997029702970297,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1010,
+        "mae": 0.017618914510657162,
+        "r2": 0.9972983570087521,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1010,
+        "mae": 0.5239604975109498,
+        "r2": 0.9866352143298283,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1010,
+        "mae": 0.00039150046551507004,
+        "r2": 0.9983146924240905,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 435141685.40674865,
+        "r2": 0.9815946640606398,
+        "relative_count": 1010,
+        "hit5": 0.9831683168316832,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 39670619.52646024,
+        "r2": 0.9736851138579451,
+        "relative_count": 1010,
+        "hit5": 0.8346534653465346,
+        "hit10": 0.9722772277227723
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1010,
+        "mae": 0.06878681414486004,
+        "r2": 0.9709648773520376,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1010,
+        "mae": 0.6082686735904647,
+        "r2": 0.9829910195914802,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1010,
+        "mae": 0.000568919881317535,
+        "r2": 0.9970534949703669,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 180969558.66790128,
+        "r2": 0.9969636159807971,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 20716366.04876786,
+        "r2": 0.9915959415110327,
+        "relative_count": 1010,
+        "hit5": 0.9584158415841584,
+        "hit10": 0.9910891089108911
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1010,
+        "mae": 0.029069472907117165,
+        "r2": 0.9902103288028236,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1010,
+        "mae": 0.512182325680706,
+        "r2": 0.987272734202291,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1010,
+        "mae": 0.0004935105758977668,
+        "r2": 0.9977204494044282,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 184500428.4964816,
+        "r2": 0.9967386806752087,
+        "relative_count": 1010,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1010,
+        "mae": 20027948.367582954,
+        "r2": 0.9914069689503298,
+        "relative_count": 1010,
+        "hit5": 0.9613861386138614,
+        "hit10": 0.9920792079207921
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1010,
+        "mae": 0.031105427879136748,
+        "r2": 0.9905346626301127,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "6de9f06f8ed6caed2153d080ff96b0bd63cc759d2599bf1dd4853ffe4177f26d",
+        "semantic_id": "FALCON__RVCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1010,
+        "mae": 0.49861052963254876,
+        "r2": 0.9875335557211671,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ]
+  },
+  "topology": "FALCON__RVCO"
+}

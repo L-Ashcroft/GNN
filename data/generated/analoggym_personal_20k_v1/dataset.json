@@ -1,0 +1,411 @@
+{
+  "recipe_hash": "cafc175f8645beefbe37d0a49beab2b0a35e2b907fce1f6464f915f2281d52e2",
+  "sample_count": 20000,
+  "topologies": 10,
+  "quality_policy_file": "quality_policy_v1.json",
+  "quality_policy_sha256": "b1c0ad5ba3cdf0b71d0b50bc89b8332f04acaaef7d61ee80333f18e85e8eabb6",
+  "shards": [
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00007.parquet",
+      "rows": 208
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00000.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00001.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00001.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00002.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00002.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00003.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00003.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00004.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00004.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00005.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00005.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00006.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00006.parquet",
+      "rows": 256
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00007.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00007.parquet",
+      "rows": 208
+    }
+  ],
+  "updated_at": "2026-10-29T20:32:00.547425+00:00",
+  "merged_with_historical": false
+}

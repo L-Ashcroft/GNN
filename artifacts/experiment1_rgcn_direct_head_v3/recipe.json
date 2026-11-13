@@ -1,0 +1,42 @@
+{
+  "variant": "edge_RGCN_direct_residual_head_v3",
+  "config": {
+    "output": "artifacts/experiment1_rgcn_direct_head_v3",
+    "feature_cache": "data/model_ready/fusion_v2_frozen_e19_bf0d71ad",
+    "graph_checkpoint": "artifacts/experiment1_autonomous_head_v1/best.pt",
+    "target_calibration": "data/model_ready/fusion_v2_accuracy_v2/target_calibration.json",
+    "hidden": 64,
+    "minimum_residual_training_rows": 256,
+    "direct_learning_rate": 0.0001,
+    "residual_learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "batch_size": 512,
+    "cpu_threads": 2,
+    "max_epochs": 40,
+    "patience": 8,
+    "minimum_gain": 0.0001,
+    "minimum_start_RAM_GiB": 1.25,
+    "seed": 42,
+    "checkpoint_every_batches": 100,
+    "test_policy": "Training and validation only. Existing test results remain unchanged."
+  },
+  "source_sha256": {
+    "worktrees/rgcn_direct_head_v3/model.py": "a3891e1188e751536966bb9af12c802aa5292e69cdc697822d86c17183a0aae7",
+    "worktrees/rgcn_direct_head_v3/train.py": "752451752451523ce042882423e5d8db62b09b935c524ccbcff30ccee49cc573",
+    "worktrees/rgcn_direct_head_v3/supervisor.py": "71cc649f2f3cab2653aaf401955f908124b3289b12ef1e54eb15ecd4de524c9c",
+    "worktrees/rgcn_direct_head_v3/config.json": "5c66433707fa3583dd2df54fda61c1e07bc0f0c4e1762444662fc78fc3616d92",
+    "worktrees/rgcn_direct_head_v3/checks.py": "d43b4034f4147cd6ccc4c6970665a2e1bf1047d5953ccd1e1f3644b0dc0765f5"
+  },
+  "cache_manifest_sha256": "382573ba71e4d52d6f8d0fcf52e05b0d803e7019985aaa3e3e90f665a6cccf06",
+  "graph_checkpoint_sha256": "87b4a59a38cad932095cf58ac57a2df1715fa04636c0d9c67c2c45d2f80a5fdc",
+  "target_calibration_sha256": "246e1f3e2bf0eaaace45bf387e4ab3b86608bcd6fdc6c455e6aaa824acb2e024",
+  "initial_ridge_recipe_sha256": "c3fd47270a65753e067991fcfff71d60058daf497d131fb7f6effa583ba4e7ee",
+  "bounds_recipe_sha256": "6162f18be36ca96dd3f175d49985486ad42c02bbd49f96188ff2701d16ef1c2e",
+  "torch": "2.9.1+cpu",
+  "initial_head_sha256": "01015d1c2d174d77604fe026e51cfc0cc04ed5cb1f360e183fe874d71a593162",
+  "metric_source_sha256": "48ef4eea164069b96ec2efe7129965a8b4b26f37ac905c723eb3e753052ee2fb",
+  "objective": "Observed per-contract mean squared error in train-calibrated symlog units; no label/mask changes",
+  "changes": "Independent128D direct skips/residual heads; FP32 normalized trainable layers, FP64 target affine; eval-only train-range output safeguard",
+  "test_policy": "No test arrays or scores read; validation only",
+  "LOTO_policy": "Unknown semantic heads rejected; this ID candidate does not solve unseen-contract zero shot"
+}

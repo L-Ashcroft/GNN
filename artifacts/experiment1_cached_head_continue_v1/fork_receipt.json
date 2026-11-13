@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-31T14:56:09.720269+00:00",
+  "parent_last_sha256": "5cdfd04be0cbfdc3492c86de34f6fc8886ec1628d636c60acbb2867500741017",
+  "head_weights_exactly_inherited": true,
+  "AdamW_moments_and_steps_exactly_inherited": true,
+  "learning_rate_explicitly_restarted_from": 0.0,
+  "learning_rate_new": 5e-05,
+  "previous_cosine_T_max": 6,
+  "inherited_head_epochs": 6,
+  "graph_pretraining_epochs": 19,
+  "test_data_or_scores_used": false,
+  "no_cross_recipe_resume": true,
+  "original_artifacts_unchanged": true
+}

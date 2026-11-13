@@ -1,0 +1,1408 @@
+{
+  "analysis": "descriptive sensitivity on fixed test; no new model improvement",
+  "created_at": "2026-11-12T12:14:45.957725+00:00",
+  "full_samples": 49056,
+  "full_sample_mre_pct": 35346366.44698292,
+  "full_sample_error_sum_pct": 1733951352423.194,
+  "without_single_largest": {
+    "samples": 49055,
+    "mean_pct": 407682.9476976591,
+    "excluded_for_diagnostic_only": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:22567"
+  },
+  "LOADBench_without_single_largest": {
+    "samples": 19300,
+    "mean_pct": 1036198.7704332084
+  },
+  "tail_cohorts": {
+    "top1": {
+      "sample_count": 1,
+      "count_rule": "ceil(fraction*N) for percentage cohorts",
+      "sum_sample_errors_pct": 1713952465423.8855,
+      "contribution_pct": 98.84662929145273,
+      "metric_attribution": [
+        {
+          "source": "LOADBench",
+          "metric": "ft",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 1713952465336.1145,
+          "within_cohort_contribution_pct": 99.99999999487902,
+          "global_contribution_pct": 98.84662928639081
+        },
+        {
+          "source": "LOADBench",
+          "metric": "phasemargin",
+          "unit": "degree",
+          "sum_sample_weighted_error_pct": 57.9790455758206,
+          "within_cohort_contribution_pct": 3.3827685857951452e-09,
+          "global_contribution_pct": 3.343752723788645e-09
+        },
+        {
+          "source": "LOADBench",
+          "metric": "dc_gain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 26.77445804949121,
+          "within_cohort_contribution_pct": 1.5621470600626893e-09,
+          "global_contribution_pct": 1.5441297134474937e-09
+        },
+        {
+          "source": "LOADBench",
+          "metric": "psrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 1.1344269460459036,
+          "within_cohort_contribution_pct": 6.618777176911631e-11,
+          "global_contribution_pct": 6.54243813968912e-11
+        },
+        {
+          "source": "LOADBench",
+          "metric": "cmrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 1.1284160590743206,
+          "within_cohort_contribution_pct": 6.583706852075661e-11,
+          "global_contribution_pct": 6.507772305707199e-11
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 0.33534922763653346,
+          "within_cohort_contribution_pct": 1.956584178392583e-11,
+          "global_contribution_pct": 1.9340175095909323e-11
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 0.28703875454334865,
+          "within_cohort_contribution_pct": 1.6747182919822678e-11,
+          "global_contribution_pct": 1.655402581751861e-11
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_neg",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 0.0651144036637762,
+          "within_cohort_contribution_pct": 3.799078736274781e-12,
+          "global_contribution_pct": 3.755261274935939e-12
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_pos",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 0.028926809509656613,
+          "within_cohort_contribution_pct": 1.6877253070435993e-12,
+          "global_contribution_pct": 1.6682595777114188e-12
+        },
+        {
+          "source": "LOADBench",
+          "metric": "voffset",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 0.02295688084738415,
+          "within_cohort_contribution_pct": 1.3394117579396566e-12,
+          "global_contribution_pct": 1.3239633750567425e-12
+        },
+        {
+          "source": "LOADBench",
+          "metric": "area",
+          "unit": "um2_estimated",
+          "sum_sample_weighted_error_pct": 0.006940280024955195,
+          "within_cohort_contribution_pct": 4.049283842442365e-13,
+          "global_contribution_pct": 4.0025805886976965e-13
+        },
+        {
+          "source": "LOADBench",
+          "metric": "p",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 0.006038390981790363,
+          "within_cohort_contribution_pct": 3.52307960903512e-13,
+          "global_contribution_pct": 3.482445440785707e-13
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 0.0014479081853386259,
+          "within_cohort_contribution_pct": 8.447773287461254e-14,
+          "global_contribution_pct": 8.350339144839193e-14
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 0.0009942773827948486,
+          "within_cohort_contribution_pct": 5.801079101391235e-14,
+          "global_contribution_pct": 5.73417115425613e-14
+        }
+      ]
+    },
+    "top5": {
+      "sample_count": 5,
+      "count_rule": "ceil(fraction*N) for percentage cohorts",
+      "sum_sample_errors_pct": 1720971424464.079,
+      "contribution_pct": 99.25142490641531,
+      "metric_attribution": [
+        {
+          "source": "LOADBench",
+          "metric": "ft",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 1713954608356.551,
+          "within_cohort_contribution_pct": 99.59227585026792,
+          "global_contribution_pct": 98.84675287811865
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 2252698582.794162,
+          "within_cohort_contribution_pct": 0.1308969196566216,
+          "global_contribution_pct": 0.12991705791780256
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 2233332522.0483403,
+          "within_cohort_contribution_pct": 0.12977162144013016,
+          "global_contribution_pct": 0.12880018340348834
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 1454547868.9418452,
+          "within_cohort_contribution_pct": 0.08451900178382102,
+          "global_contribution_pct": 0.08388631358712094
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 1076228543.888968,
+          "within_cohort_contribution_pct": 0.06253610772323615,
+          "global_contribution_pct": 0.0620679779963227
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_pos",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 4539.036294756864,
+          "within_cohort_contribution_pct": 2.6374849868122283e-07,
+          "global_contribution_pct": 2.617741431103916e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_neg",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 3829.514434645301,
+          "within_cohort_contribution_pct": 2.2252051255515965e-07,
+          "global_contribution_pct": 2.2085477942005472e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "phasemargin",
+          "unit": "degree",
+          "sum_sample_weighted_error_pct": 69.4414706055143,
+          "within_cohort_contribution_pct": 4.035015899647421e-09,
+          "global_contribution_pct": 4.004810775600478e-09
+        },
+        {
+          "source": "LOADBench",
+          "metric": "dc_gain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 67.50270470839779,
+          "within_cohort_contribution_pct": 3.922360577800909e-09,
+          "global_contribution_pct": 3.892998763434906e-09
+        },
+        {
+          "source": "LOADBench",
+          "metric": "p",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 50.11797956556526,
+          "within_cohort_contribution_pct": 2.9121912690196062e-09,
+          "global_contribution_pct": 2.890391330502177e-09
+        },
+        {
+          "source": "LOADBench",
+          "metric": "cmrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 15.891361680574036,
+          "within_cohort_contribution_pct": 9.23394860290763e-10,
+          "global_contribution_pct": 9.164825563511852e-10
+        },
+        {
+          "source": "LOADBench",
+          "metric": "psrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 11.249919156542878,
+          "within_cohort_contribution_pct": 6.536958717978813e-10,
+          "global_contribution_pct": 6.48802467313811e-10
+        },
+        {
+          "source": "LOADBench",
+          "metric": "voffset",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 6.1261072710450755,
+          "within_cohort_contribution_pct": 3.559679831960477e-10,
+          "global_contribution_pct": 3.533032955327063e-10
+        },
+        {
+          "source": "LOADBench",
+          "metric": "area",
+          "unit": "um2_estimated",
+          "sum_sample_weighted_error_pct": 0.9747308940661462,
+          "within_cohort_contribution_pct": 5.6638412480886094e-11,
+          "global_contribution_pct": 5.621443143165242e-11
+        }
+      ]
+    },
+    "top1percent": {
+      "sample_count": 491,
+      "count_rule": "ceil(fraction*N) for percentage cohorts",
+      "sum_sample_errors_pct": 1733948247364.194,
+      "contribution_pct": 99.99982092582957,
+      "metric_attribution": [
+        {
+          "source": "LOADBench",
+          "metric": "ft",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 1714251136398.4153,
+          "within_cohort_contribution_pct": 98.86403120763721,
+          "global_contribution_pct": 98.86385416769348
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 5586804659.8779745,
+          "within_cohort_contribution_pct": 0.3222013499174832,
+          "global_contribution_pct": 0.32220077293808874
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 5242593157.733235,
+          "within_cohort_contribution_pct": 0.3023500364386651,
+          "global_contribution_pct": 0.3023494950078455
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 4456029002.286475,
+          "within_cohort_contribution_pct": 0.25698742791546203,
+          "global_contribution_pct": 0.25698696771735735
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 2538136651.535782,
+          "within_cohort_contribution_pct": 0.1463790315191961,
+          "global_contribution_pct": 0.1463787693921597
+        },
+        {
+          "source": "LOADBench",
+          "metric": "cmrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 1855792415.998924,
+          "within_cohort_contribution_pct": 0.10702697838992296,
+          "global_contribution_pct": 0.10702678673224927
+        },
+        {
+          "source": "LOADBench",
+          "metric": "voffset",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 12456733.71344786,
+          "within_cohort_contribution_pct": 0.0007184028550092867,
+          "global_contribution_pct": 0.0007184015685353337
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_pos",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 2859039.975424495,
+          "within_cohort_contribution_pct": 0.0001648861192812746,
+          "global_contribution_pct": 0.00016488582401282434
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_neg",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 2320606.4455967005,
+          "within_cohort_contribution_pct": 0.00013383366251699244,
+          "global_contribution_pct": 0.00013383342285547154
+        },
+        {
+          "source": "LOADBench",
+          "metric": "phasemargin",
+          "unit": "degree",
+          "sum_sample_weighted_error_pct": 91658.74280352848,
+          "within_cohort_contribution_pct": 5.286129095424882e-06,
+          "global_contribution_pct": 5.286119629333057e-06
+        },
+        {
+          "source": "AICircuit",
+          "metric": "OutputPower",
+          "unit": "dBm",
+          "sum_sample_weighted_error_pct": 15826.105853079012,
+          "within_cohort_contribution_pct": 9.127207733642893e-07,
+          "global_contribution_pct": 9.127191389171361e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "p",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 5039.425974071527,
+          "within_cohort_contribution_pct": 2.9063300947603533e-07,
+          "global_contribution_pct": 2.906324890273846e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "psrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 3020.6802738969777,
+          "within_cohort_contribution_pct": 1.742082140276544e-07,
+          "global_contribution_pct": 1.7420790206574033e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "dc_gain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 2806.1366398613,
+          "within_cohort_contribution_pct": 1.6183508614671507e-07,
+          "global_contribution_pct": 1.618347963418771e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "area",
+          "unit": "um2_estimated",
+          "sum_sample_weighted_error_pct": 330.9905094617483,
+          "within_cohort_contribution_pct": 1.9088834396579767e-08,
+          "global_contribution_pct": 1.9088800213407925e-08
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PAE_PA",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 3.8344682830913643,
+          "within_cohort_contribution_pct": 2.2114087250990384e-10,
+          "global_contribution_pct": 2.211404765037209e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "DrainEfficiency_PA",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 3.434675961033454,
+          "within_cohort_contribution_pct": 1.9808411042570425e-10,
+          "global_contribution_pct": 1.9808375570822677e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "LargeSignal_PowerGain_PA",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 2.7223665362052967,
+          "within_cohort_contribution_pct": 1.570039094502166e-10,
+          "global_contribution_pct": 1.570036282967682e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "Bandwidth",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 2.4312226585359467,
+          "within_cohort_contribution_pct": 1.4021310395115261e-10,
+          "global_contribution_pct": 1.402128528656999e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "VoltageSwing",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 2.430953487679542,
+          "within_cohort_contribution_pct": 1.4019758037039906e-10,
+          "global_contribution_pct": 1.4019732931274504e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "TuningRange_VCO",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 1.194589577011536,
+          "within_cohort_contribution_pct": 6.889418867186221e-11,
+          "global_contribution_pct": 6.889406530016537e-11
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PhaseNoise_VCO",
+          "unit": "dBc/Hz",
+          "sum_sample_weighted_error_pct": 0.062032138255556105,
+          "within_cohort_contribution_pct": 3.577508057109102e-12,
+          "global_contribution_pct": 3.5775016507162267e-12
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PowerConsumption",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 0.019401481731276107,
+          "within_cohort_contribution_pct": 1.1189193080455919e-12,
+          "global_contribution_pct": 1.1189173043501232e-12
+        }
+      ]
+    },
+    "top5percent": {
+      "sample_count": 2453,
+      "count_rule": "ceil(fraction*N) for percentage cohorts",
+      "sum_sample_errors_pct": 1733950820524.4968,
+      "contribution_pct": 99.99996932447404,
+      "metric_attribution": [
+        {
+          "source": "LOADBench",
+          "metric": "ft",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 1714251580133.075,
+          "within_cohort_contribution_pct": 98.86391008566996,
+          "global_contribution_pct": 98.86387975864555
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 5587069525.937835,
+          "within_cohort_contribution_pct": 0.3222161470674134,
+          "global_contribution_pct": 0.3222160482259156
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 5242700729.45496,
+          "within_cohort_contribution_pct": 0.30235579160596454,
+          "global_contribution_pct": 0.3023556988567352
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_min",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 4456117317.046494,
+          "within_cohort_contribution_pct": 0.25699213981735525,
+          "global_contribution_pct": 0.25699206098366467
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_max",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 2538149682.7975345,
+          "within_cohort_contribution_pct": 0.14637956583046446,
+          "global_contribution_pct": 0.14637952092776274
+        },
+        {
+          "source": "LOADBench",
+          "metric": "cmrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 1856271068.8241262,
+          "within_cohort_contribution_pct": 0.10705442431536952,
+          "global_contribution_pct": 0.1070543914758618
+        },
+        {
+          "source": "LOADBench",
+          "metric": "voffset",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 12740380.306094509,
+          "within_cohort_contribution_pct": 0.0007347601878489676,
+          "global_contribution_pct": 0.0007347599624574154
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_pos",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 3002494.1976841735,
+          "within_cohort_contribution_pct": 0.00017315913243582995,
+          "global_contribution_pct": 0.00017315907931835534
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_neg",
+          "unit": "V/s",
+          "sum_sample_weighted_error_pct": 2928493.526796002,
+          "within_cohort_contribution_pct": 0.000168891383315599,
+          "global_contribution_pct": 0.00016889133150727886
+        },
+        {
+          "source": "LOADBench",
+          "metric": "phasemargin",
+          "unit": "degree",
+          "sum_sample_weighted_error_pct": 131914.26660484358,
+          "within_cohort_contribution_pct": 7.607728260997696e-06,
+          "global_contribution_pct": 7.607725927287038e-06
+        },
+        {
+          "source": "LOADBench",
+          "metric": "p",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 28055.20639993161,
+          "within_cohort_contribution_pct": 1.6179932018743926e-06,
+          "global_contribution_pct": 1.6179927055464679e-06
+        },
+        {
+          "source": "AICircuit",
+          "metric": "OutputPower",
+          "unit": "dBm",
+          "sum_sample_weighted_error_pct": 22124.161417615636,
+          "within_cohort_contribution_pct": 1.2759393839626533e-06,
+          "global_contribution_pct": 1.2759389925615364e-06
+        },
+        {
+          "source": "FALCON",
+          "metric": "PowerGain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 17160.76076825542,
+          "within_cohort_contribution_pct": 9.896913202569679e-07,
+          "global_contribution_pct": 9.8969101666395e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "psrr",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 13571.626554370932,
+          "within_cohort_contribution_pct": 7.826996241027008e-07,
+          "global_contribution_pct": 7.826993840054744e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "dc_gain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 10446.750612785727,
+          "within_cohort_contribution_pct": 6.024825207917792e-07,
+          "global_contribution_pct": 6.024823359770971e-07
+        },
+        {
+          "source": "FALCON",
+          "metric": "PSAT",
+          "unit": "dBm",
+          "sum_sample_weighted_error_pct": 6146.064508217231,
+          "within_cohort_contribution_pct": 3.544543729537917e-07,
+          "global_contribution_pct": 3.5445426422304845e-07
+        },
+        {
+          "source": "FALCON",
+          "metric": "VoltageGain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 4094.4383827161373,
+          "within_cohort_contribution_pct": 2.3613347819620542e-07,
+          "global_contribution_pct": 2.36133405761019e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PAE_PA",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 3918.075480954893,
+          "within_cohort_contribution_pct": 2.2596231880265947e-07,
+          "global_contribution_pct": 2.2596224948752972e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PSAT",
+          "unit": "source_label_dBm_compression_function",
+          "sum_sample_weighted_error_pct": 3594.7726530045647,
+          "within_cohort_contribution_pct": 2.0731687487637017e-07,
+          "global_contribution_pct": 2.073168112808284e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "TuningRange",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 3251.7886598317973,
+          "within_cohort_contribution_pct": 1.8753638346260448e-07,
+          "global_contribution_pct": 1.8753632593483247e-07
+        },
+        {
+          "source": "FALCON",
+          "metric": "PAE",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 2755.4410146788755,
+          "within_cohort_contribution_pct": 1.5891113992756676e-07,
+          "global_contribution_pct": 1.5891109118073878e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "VoltageGain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 2321.6765156472165,
+          "within_cohort_contribution_pct": 1.3389517673545901e-07,
+          "global_contribution_pct": 1.3389513566240931e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "S11",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 2297.6418419902634,
+          "within_cohort_contribution_pct": 1.3250905474327453e-07,
+          "global_contribution_pct": 1.3250901409542505e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "LargeSignal_PowerGain_PA",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 2280.065499152151,
+          "within_cohort_contribution_pct": 1.3149539607256344e-07,
+          "global_contribution_pct": 1.314953557356591e-07
+        },
+        {
+          "source": "LOADBench",
+          "metric": "area",
+          "unit": "um2_estimated",
+          "sum_sample_weighted_error_pct": 1905.5942259249978,
+          "within_cohort_contribution_pct": 1.0989897772005905e-07,
+          "global_contribution_pct": 1.098989440079696e-07
+        },
+        {
+          "source": "AICircuit",
+          "metric": "ConversionGain_Mixer",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 1237.719678397081,
+          "within_cohort_contribution_pct": 7.138147539978598e-08,
+          "global_contribution_pct": 7.138145350314297e-08
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PowerGain_LNA",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 794.1359862061292,
+          "within_cohort_contribution_pct": 4.579922203133269e-08,
+          "global_contribution_pct": 4.5799207982180444e-08
+        },
+        {
+          "source": "FALCON",
+          "metric": "OutputPower",
+          "unit": "dBm",
+          "sum_sample_weighted_error_pct": 665.4144868741267,
+          "within_cohort_contribution_pct": 3.8375626286381514e-08,
+          "global_contribution_pct": 3.837561451445631e-08
+        },
+        {
+          "source": "FALCON",
+          "metric": "TuningRange",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 504.9852440449614,
+          "within_cohort_contribution_pct": 2.912338908736813e-08,
+          "global_contribution_pct": 2.912338015361535e-08
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PAE",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 479.5964562758849,
+          "within_cohort_contribution_pct": 2.765917294763951e-08,
+          "global_contribution_pct": 2.765916446304273e-08
+        },
+        {
+          "source": "FALCON",
+          "metric": "ConversionGain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 297.23002321475497,
+          "within_cohort_contribution_pct": 1.7141779322486604e-08,
+          "global_contribution_pct": 1.7141774064155635e-08
+        },
+        {
+          "source": "AICircuit",
+          "metric": "DrainEfficiency_PA",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 117.35918152096338,
+          "within_cohort_contribution_pct": 6.768310850100339e-09,
+          "global_contribution_pct": 6.768308773885387e-09
+        },
+        {
+          "source": "AICircuit",
+          "metric": "LargeSignalPowerGain",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 115.67267092904221,
+          "within_cohort_contribution_pct": 6.6710468116998145e-09,
+          "global_contribution_pct": 6.671044765321118e-09
+        },
+        {
+          "source": "AICircuit",
+          "metric": "S22",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 115.5734947032829,
+          "within_cohort_contribution_pct": 6.6653271439569134e-09,
+          "global_contribution_pct": 6.665325099332755e-09
+        },
+        {
+          "source": "AICircuit",
+          "metric": "DrainEfficiency",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 115.57191606075186,
+          "within_cohort_contribution_pct": 6.665236100859707e-09,
+          "global_contribution_pct": 6.665234056263476e-09
+        },
+        {
+          "source": "FALCON",
+          "metric": "S11",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 90.82722364706096,
+          "within_cohort_contribution_pct": 5.238166075528425e-09,
+          "global_contribution_pct": 5.2381644686934305e-09
+        },
+        {
+          "source": "AICircuit",
+          "metric": "Bandwidth",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 50.74402199197451,
+          "within_cohort_contribution_pct": 2.9264971873092186e-09,
+          "global_contribution_pct": 2.926496289590814e-09
+        },
+        {
+          "source": "FALCON",
+          "metric": "DrainEfficiency",
+          "unit": "%",
+          "sum_sample_weighted_error_pct": 46.94892308209663,
+          "within_cohort_contribution_pct": 2.7076271441133034e-09,
+          "global_contribution_pct": 2.707626313534436e-09
+        },
+        {
+          "source": "FALCON",
+          "metric": "S22",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 46.51585913313731,
+          "within_cohort_contribution_pct": 2.6826515828786246e-09,
+          "global_contribution_pct": 2.6826507599611416e-09
+        },
+        {
+          "source": "AICircuit",
+          "metric": "VoltageSwing",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 40.6765483504746,
+          "within_cohort_contribution_pct": 2.3458882379472844e-09,
+          "global_contribution_pct": 2.3458875183337288e-09
+        },
+        {
+          "source": "FALCON",
+          "metric": "Bandwidth",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 37.708270776229384,
+          "within_cohort_contribution_pct": 2.174702438493794e-09,
+          "global_contribution_pct": 2.174701771392383e-09
+        },
+        {
+          "source": "FALCON",
+          "metric": "DCPowerConsumption",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 23.571732570646642,
+          "within_cohort_contribution_pct": 1.3594233637789398e-09,
+          "global_contribution_pct": 1.3594229467686729e-09
+        },
+        {
+          "source": "AICircuit",
+          "metric": "TuningRange_VCO",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 22.988664053770673,
+          "within_cohort_contribution_pct": 1.3257967747214946e-09,
+          "global_contribution_pct": 1.3257963680263608e-09
+        },
+        {
+          "source": "FALCON",
+          "metric": "NoiseFigure",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 10.175647530704246,
+          "within_cohort_contribution_pct": 5.86847528214569e-10,
+          "global_contribution_pct": 5.868473481960031e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PhaseNoise",
+          "unit": "dBc/Hz",
+          "sum_sample_weighted_error_pct": 8.014111668144567,
+          "within_cohort_contribution_pct": 4.621879451990689e-10,
+          "global_contribution_pct": 4.621878034204858e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PowerConsumption",
+          "unit": "W",
+          "sum_sample_weighted_error_pct": 7.5872577892536635,
+          "within_cohort_contribution_pct": 4.375705296508133e-10,
+          "global_contribution_pct": 4.375703954237519e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "VoltageSwing_Mixer",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 7.2881169495524745,
+          "within_cohort_contribution_pct": 4.2031855017363855e-10,
+          "global_contribution_pct": 4.203184212387126e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "S11_LNA",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 7.210791771282754,
+          "within_cohort_contribution_pct": 4.158590708530929e-10,
+          "global_contribution_pct": 4.158589432861357e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "VoltageGain_Amp",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 4.520247315114231,
+          "within_cohort_contribution_pct": 2.6069062983844705e-10,
+          "global_contribution_pct": 2.606905498702252e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "OscillationFrequency",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 4.2592800553641,
+          "within_cohort_contribution_pct": 2.4564018800001057e-10,
+          "global_contribution_pct": 2.4564011264859093e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "NoiseFigure",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 3.882736070839438,
+          "within_cohort_contribution_pct": 2.2392423273371515e-10,
+          "global_contribution_pct": 2.23924164043779e-10
+        },
+        {
+          "source": "AICircuit",
+          "metric": "PhaseNoise_VCO",
+          "unit": "dBc/Hz",
+          "sum_sample_weighted_error_pct": 2.2597077150702622,
+          "within_cohort_contribution_pct": 1.3032132678288597e-10,
+          "global_contribution_pct": 1.3032128680613355e-10
+        },
+        {
+          "source": "FALCON",
+          "metric": "PhaseNoise",
+          "unit": "dBc/Hz",
+          "sum_sample_weighted_error_pct": 1.6857402797463164,
+          "within_cohort_contribution_pct": 9.721961313968539e-11,
+          "global_contribution_pct": 9.721958331705772e-11
+        },
+        {
+          "source": "AICircuit",
+          "metric": "NoiseFigure_LNA",
+          "unit": "dB",
+          "sum_sample_weighted_error_pct": 0.480560491362191,
+          "within_cohort_contribution_pct": 2.7714770550229785e-11,
+          "global_contribution_pct": 2.771476204857815e-11
+        },
+        {
+          "source": "FALCON",
+          "metric": "OscillationFrequency",
+          "unit": "Hz",
+          "sum_sample_weighted_error_pct": 0.38801829572306357,
+          "within_cohort_contribution_pct": 2.2377699017189732e-11,
+          "global_contribution_pct": 2.237769215271286e-11
+        },
+        {
+          "source": "FALCON",
+          "metric": "VoltageSwing",
+          "unit": "V",
+          "sum_sample_weighted_error_pct": 0.005258113565255844,
+          "within_cohort_contribution_pct": 3.032446770125427e-13,
+          "global_contribution_pct": 3.032445839906431e-13
+        }
+      ]
+    }
+  },
+  "top5_samples": [
+    {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:22567",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 1713952465423.8855
+    },
+    {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:30907",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 2382558969.9939394
+    },
+    {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:24782",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 1902463608.728556
+    },
+    {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:35887",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 1467433681.4233758
+    },
+    {
+      "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:28965",
+      "source_dataset": "LOADBench",
+      "topology_id": "LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2",
+      "supervision_group": "38da5a7421d72c7a5cd4c2a3c4f8d9c6d60d4b08d55278b4f9fdafefddb93e73",
+      "observed_metrics": 14,
+      "relative_valid_metrics": 14,
+      "observed_zero_metrics": 0,
+      "sample_mre_pct": 1266502780.0476513
+    }
+  ],
+  "no_mutation_to_original_mask_labels_predictions_splits": true,
+  "worst_record_trace": {
+    "sample_id": "LOADBench:21759759:SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2:intermediate_prefix:22567",
+    "raw_csv": "data/raw/LOADBench/subset/SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2/intermediate_prefix.csv.gz",
+    "one_based_data_row": 22567,
+    "generation": "11",
+    "point_index": "38",
+    "source_feasible": "False",
+    "raw_ft_Hz": 0.008057,
+    "frozen_target_ft_Hz": 0.008057000115513802,
+    "predicted_ft_Hz": 1933306529.1092618,
+    "float32_cache_rounding_verified": true,
+    "source_hash_and_downloaded_prefix_hash_verified": true,
+    "mask_true_slots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "absent_slots": [
+      14,
+      15
+    ],
+    "ft_native_multiplier": 1.0,
+    "raw_row": {
+      "generation": "11",
+      "point_index": "38",
+      "param_lDiodeTransistorNmos1": "9.49",
+      "param_wDiodeTransistorNmos1": "722.73",
+      "param_mDiodeTransistorNmos1": "1.0",
+      "param_lDiodeTransistorNmos2": "17.79",
+      "param_wDiodeTransistorNmos2": "887.3199999999999",
+      "param_mDiodeTransistorNmos2": "1.0",
+      "param_lDiodeTransistorPmos3": "3.94",
+      "param_wDiodeTransistorPmos3": "646.66",
+      "param_mDiodeTransistorPmos3": "1.0",
+      "param_lDiodeTransistorPmos4": "19.17",
+      "param_wDiodeTransistorPmos4": "600.36",
+      "param_mDiodeTransistorPmos4": "1.0",
+      "param_wNormalTransistorNmos5": "469.12",
+      "param_mNormalTransistorNmos5": "1.0",
+      "param_wNormalTransistorNmos6": "404.54",
+      "param_mNormalTransistorNmos6": "1.0",
+      "param_wNormalTransistorNmos8": "844.29",
+      "param_mNormalTransistorNmos8": "1.0",
+      "param_wNormalTransistorNmos10": "273.49",
+      "param_mNormalTransistorNmos10": "1.0",
+      "param_lNormalTransistorPmos13": "18.860000000000003",
+      "param_wNormalTransistorPmos13": "343.98",
+      "param_mNormalTransistorPmos13": "1.0",
+      "param_lNormalTransistorPmos15": "9.26",
+      "param_wNormalTransistorPmos15": "830.22",
+      "param_mNormalTransistorPmos15": "1.0",
+      "param_lNormalTransistorPmos17": "7.27",
+      "param_wNormalTransistorPmos17": "705.9399999999999",
+      "param_mNormalTransistorPmos17": "1.0",
+      "param_wNormalTransistorPmos19": "1009.0799999999999",
+      "param_mNormalTransistorPmos19": "1.0",
+      "param_lNormalTransistorNmos20": "14.99",
+      "param_wNormalTransistorNmos20": "618.5799999999999",
+      "param_mNormalTransistorNmos20": "1.0",
+      "param_lNormalTransistorPmos21": "1.65",
+      "param_wNormalTransistorPmos21": "322.57000000000005",
+      "param_mNormalTransistorPmos21": "1.0",
+      "param_wNormalTransistorPmos22": "892.48",
+      "param_mNormalTransistorPmos22": "1.0",
+      "param_wNormalTransistorNmos23": "506.96000000000004",
+      "param_mNormalTransistorNmos23": "1.0",
+      "param_lNormalTransistorNmos7": "0.68",
+      "param_wNormalTransistorNmos7": "513.49",
+      "param_mNormalTransistorNmos7": "1.0",
+      "param_lNormalTransistorPmos12": "9.41",
+      "param_wNormalTransistorPmos12": "8.66",
+      "param_mNormalTransistorPmos12": "1.0",
+      "param_ccapacitor2": "1.3e-12",
+      "param_ccapacitor3": "2.4e-12",
+      "dc_gain": "-7.677",
+      "ft": "0.008057",
+      "p": "0.0001031",
+      "phasemargin": "165.3",
+      "sr_neg": "-2072000000.0",
+      "sr_pos": "16960000.0",
+      "voffset": "0.4151",
+      "icmr_min": "1.316",
+      "icmr_max": "1.34",
+      "vout_min": "6.037e-10",
+      "vout_max": "1.8",
+      "area": "144200.0",
+      "cmrr": "-116.5",
+      "psrr": "-116.5",
+      "icmr_diff": "0.02386",
+      "vout_diff": "1.8",
+      "nsimplecurrentmirror_ninv_diodetransistornmos1": "-0.03152",
+      "nsimplecurrentmirror_ninv_normaltransistornmos10": "-0.03154",
+      "nsimplecurrentmirror_ninv_normaltransistornmos11": "-0.03154",
+      "nsimplecurrentmirror_ninv_normaltransistornmos20": "0.0107",
+      "nsimplecurrentmirror_ninv_normaltransistornmos23": "0.0107",
+      "nsimplecurrentmirror_ninv_normaltransistornmos5": "-0.03153",
+      "nsimplecurrentmirror_ninv_normaltransistornmos6": "-0.03153",
+      "nsimplecurrentmirror_nsat_diodetransistornmos1": "0.3454",
+      "nsimplecurrentmirror_nsat_normaltransistornmos10": "1.697",
+      "nsimplecurrentmirror_nsat_normaltransistornmos11": "0.7217",
+      "nsimplecurrentmirror_nsat_normaltransistornmos20": "0.3723",
+      "nsimplecurrentmirror_nsat_normaltransistornmos23": "0.1036",
+      "nsimplecurrentmirror_nsat_normaltransistornmos5": "1.322",
+      "nsimplecurrentmirror_nsat_normaltransistornmos6": "1.216",
+      "pdifferentialpair_feva_normaltransistorpmos17_normaltransistorpmos18": "1.175",
+      "pdifferentialpair_fevb_normaltransistorpmos17_normaltransistorpmos18": "-0.7753",
+      "pdifferentialpair_pinv_normaltransistorpmos17": "0.3905",
+      "pdifferentialpair_pinv_normaltransistorpmos18": "-0.02456",
+      "pdifferentialpair_preo_normaltransistorpmos17": "0.6095",
+      "pdifferentialpair_preo_normaltransistorpmos18": "1.025",
+      "pdifferentialpair_psat_normaltransistorpmos17": "-0.302",
+      "pdifferentialpair_psat_normaltransistorpmos18": "0.9213",
+      "pmos_pinv_diodetransistorpmos4": "0.07627",
+      "pmos_pinv_normaltransistorpmos21": "-0.01914",
+      "pmos_psat_diodetransistorpmos4": "0.4386",
+      "pmos_psat_normaltransistorpmos21": "1.297",
+      "psimplecurrentmirror_pinv_diodetransistorpmos3": "-0.02021",
+      "psimplecurrentmirror_pinv_normaltransistorpmos19": "-0.0202",
+      "psimplecurrentmirror_pinv_normaltransistorpmos22": "-0.0202",
+      "psimplecurrentmirror_psat_diodetransistorpmos3": "0.3702",
+      "psimplecurrentmirror_psat_normaltransistorpmos19": "-0.006903",
+      "psimplecurrentmirror_psat_normaltransistorpmos22": "1.575",
+      "pwideswingcascodecurrentmirror_pinv_normaltransistorpmos13": "-0.362",
+      "pwideswingcascodecurrentmirror_pinv_normaltransistorpmos14": "0.07613",
+      "pwideswingcascodecurrentmirror_pinv_normaltransistorpmos15": "-0.4583",
+      "pwideswingcascodecurrentmirror_pinv_normaltransistorpmos16": "-0.4583",
+      "pwideswingcascodecurrentmirror_psat_normaltransistorpmos13": "-0.0229",
+      "pwideswingcascodecurrentmirror_psat_normaltransistorpmos14": "-0.09607",
+      "pwideswingcascodecurrentmirror_psat_normaltransistorpmos15": "-0.03365",
+      "pwideswingcascodecurrentmirror_psat_normaltransistorpmos16": "0.4045",
+      "feasible": "False",
+      "rank": "39",
+      "crowding_distance": "0.0",
+      "nondominated": "False",
+      "survived": "True"
+    },
+    "prediction_trace": {
+      "file": "artifacts/loadbench_remediation_v1/fixed_test/LOADBench__SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2.parquet",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "valid_count": 14,
+      "sample_mre_pct": 1713952465423.8855,
+      "scalars": [
+        {
+          "source": "LOADBench",
+          "metric": "ft",
+          "native_unit": "Hz",
+          "slot": 1,
+          "target": 0.008057000115513802,
+          "prediction": 1933306529.1092618,
+          "absolute_error_native": 1933306529.1012046,
+          "relative_error_pct": 23995334514705.6,
+          "sample_weighted_error_pct": 1713952465336.1145,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "phasemargin",
+          "native_unit": "degree",
+          "slot": 3,
+          "target": 165.3000030517578,
+          "prediction": -1176.451094516374,
+          "absolute_error_native": 1341.7510975681319,
+          "relative_error_pct": 811.7066380614884,
+          "sample_weighted_error_pct": 57.9790455758206,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "dc_gain",
+          "native_unit": "dB",
+          "slot": 0,
+          "target": -7.677000045776367,
+          "prediction": -36.45365227728201,
+          "absolute_error_native": 28.776652231505643,
+          "relative_error_pct": 374.8424126928769,
+          "sample_weighted_error_pct": 26.77445804949121,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "psrr",
+          "native_unit": "dB",
+          "slot": 13,
+          "target": -116.5,
+          "prediction": -135.00250349159688,
+          "absolute_error_native": 18.502503491596883,
+          "relative_error_pct": 15.88197724464265,
+          "sample_weighted_error_pct": 1.1344269460459036,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "cmrr",
+          "native_unit": "dB",
+          "slot": 12,
+          "target": -116.5,
+          "prediction": -134.90446592508195,
+          "absolute_error_native": 18.40446592508195,
+          "relative_error_pct": 15.797824827040488,
+          "sample_weighted_error_pct": 1.1284160590743206,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_max",
+          "native_unit": "V",
+          "slot": 8,
+          "target": 1.340000033378601,
+          "prediction": 1.2770885162374102,
+          "absolute_error_native": 0.06291151714119092,
+          "relative_error_pct": 4.694889186911468,
+          "sample_weighted_error_pct": 0.33534922763653346,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "icmr_min",
+          "native_unit": "V",
+          "slot": 7,
+          "target": 1.315999984741211,
+          "prediction": 1.263115964815471,
+          "absolute_error_native": 0.05288401992573988,
+          "relative_error_pct": 4.018542563606881,
+          "sample_weighted_error_pct": 0.28703875454334865,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_neg",
+          "native_unit": "V/s",
+          "slot": 4,
+          "target": -2072000000.0,
+          "prediction": -2090888386.2147882,
+          "absolute_error_native": 18888386.2147882,
+          "relative_error_pct": 0.9116016512928667,
+          "sample_weighted_error_pct": 0.0651144036637762,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "sr_pos",
+          "native_unit": "V/s",
+          "slot": 5,
+          "target": 16960000.0,
+          "prediction": 16891316.18350027,
+          "absolute_error_native": 68683.81649972871,
+          "relative_error_pct": 0.4049753331351926,
+          "sample_weighted_error_pct": 0.028926809509656613,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "voffset",
+          "native_unit": "V",
+          "slot": 6,
+          "target": 0.41510000824928284,
+          "prediction": 0.41376589201706543,
+          "absolute_error_native": 0.0013341162322174083,
+          "relative_error_pct": 0.3213963318633781,
+          "sample_weighted_error_pct": 0.02295688084738415,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "area",
+          "native_unit": "um2_estimated",
+          "slot": 11,
+          "target": 144200.0,
+          "prediction": 144059.8896268562,
+          "absolute_error_native": 140.1103731438052,
+          "relative_error_pct": 0.09716392034937273,
+          "sample_weighted_error_pct": 0.006940280024955195,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "p",
+          "native_unit": "W",
+          "slot": 2,
+          "target": 0.00010309999925084412,
+          "prediction": 0.0001030128326622989,
+          "absolute_error_native": 8.716658854521914e-08,
+          "relative_error_pct": 0.08453747374506508,
+          "sample_weighted_error_pct": 0.006038390981790363,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_min",
+          "native_unit": "V",
+          "slot": 9,
+          "target": 6.036999788960884e-10,
+          "prediction": 6.015505331368838e-10,
+          "absolute_error_native": 2.1494457592046125e-12,
+          "relative_error_pct": 0.020270714594740762,
+          "sample_weighted_error_pct": 0.0014479081853386259,
+          "native_multiplier": 1.0,
+          "mask": true
+        },
+        {
+          "source": "LOADBench",
+          "metric": "vout_max",
+          "native_unit": "V",
+          "slot": 10,
+          "target": 1.7999999523162842,
+          "prediction": 1.7997493944210654,
+          "absolute_error_native": 0.0002505578952187726,
+          "relative_error_pct": 0.013919883359127881,
+          "sample_weighted_error_pct": 0.0009942773827948486,
+          "native_multiplier": 1.0,
+          "mask": true
+        }
+      ]
+    }
+  },
+  "all_49056_samples_recomputed_max_abs_error_pct": 0.0,
+  "AC_replay": {
+    "never_called_pause_or_resume": true,
+    "new_training_labels_created": false,
+    "results": [
+      {
+        "label": "worst_22567",
+        "source_path": "data/raw/LOADBench/subset/SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2/intermediate_prefix.csv.gz",
+        "source_row": 22567,
+        "source_sha256": "00ab66534a31e9202e14d822ce50ca4d35ee46ae5641fcd79f22293d1102e3b1",
+        "original_testbench_sha256": "3f5b1409c5ec5f8c034835b3d50b61acbac8ac01e6192e0a68762010bfecc193",
+        "audit_netlist_sha256": "5bf4fe39dc8c520f11b456344aa58d9057bee4b563c9d6040ca0996cb625067f",
+        "params_sha256": "ec858aebea44023aea1042841e604ffb10673977c651d6dd9a8fbf341a31af7a",
+        "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+        "changes": "Paths localized; AC-only OP/offset/1Hz..1GHz sweep; original DUT/fixture/models and physical sizing retained. CSV micron widths fed to wrapper with global scale1e-6; graph-SI parameters are not passed directly. DC range/transient omitted.",
+        "replay_variant": "native_wrapper_units_v2",
+        "qualification": "Native-unit replay requires normal CSV controls to match; not a claim of bit-identical historical simulator/environment.",
+        "scope": "Diagnostic only; original labels not replaced, no dataset sample added.",
+        "state": "simulated",
+        "seconds": 7.17200000000048,
+        "returncode": 0,
+        "analysis": {
+          "archived": {
+            "dc_gain": -7.677,
+            "ft": 0.008057,
+            "phasemargin": 165.3
+          },
+          "official_function_on_replayed_waveform": {
+            "dc_gain": -8.641071849340493,
+            "ft": -9.4196555814152,
+            "phasemargin": 2.467930306129034
+          },
+          "frequency_min_Hz": 1.0,
+          "frequency_max_Hz": 999999999.9999859,
+          "points": 181,
+          "gain_min_dB": -39.982550262944024,
+          "gain_max_dB": -8.641071849340493,
+          "descending_unity_crossings": [],
+          "ascending_unity_crossing_count": 0,
+          "gain_at_1Hz_difference_dB": -0.9640718493404936,
+          "no_measured_unity_crossing": true,
+          "interpretation": "Independent crossing calculation never extrapolates and does not overwrite official labels."
+        }
+      },
+      {
+        "label": "normal_same_topology",
+        "source_path": "data/raw/LOADBench/subset/SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc2/intermediate_prefix.csv.gz",
+        "source_row": 1697,
+        "source_sha256": "00ab66534a31e9202e14d822ce50ca4d35ee46ae5641fcd79f22293d1102e3b1",
+        "original_testbench_sha256": "3f5b1409c5ec5f8c034835b3d50b61acbac8ac01e6192e0a68762010bfecc193",
+        "audit_netlist_sha256": "5bf4fe39dc8c520f11b456344aa58d9057bee4b563c9d6040ca0996cb625067f",
+        "params_sha256": "a3a68291a570e0b53f26d03f1f99630ce273411efab64b95b6461465382ececd",
+        "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+        "changes": "Paths localized; AC-only OP/offset/1Hz..1GHz sweep; original DUT/fixture/models and physical sizing retained. CSV micron widths fed to wrapper with global scale1e-6; graph-SI parameters are not passed directly. DC range/transient omitted.",
+        "replay_variant": "native_wrapper_units_v2",
+        "qualification": "Native-unit replay requires normal CSV controls to match; not a claim of bit-identical historical simulator/environment.",
+        "scope": "Diagnostic only; original labels not replaced, no dataset sample added.",
+        "state": "simulated",
+        "seconds": 0.5159999999996217,
+        "returncode": 0,
+        "analysis": {
+          "archived": {
+            "dc_gain": 24.57,
+            "ft": 3150000.0,
+            "phasemargin": 27.33
+          },
+          "official_function_on_replayed_waveform": {
+            "dc_gain": 24.568082333682003,
+            "ft": 3150027.2890466074,
+            "phasemargin": 27.32731543485795
+          },
+          "frequency_min_Hz": 1.0,
+          "frequency_max_Hz": 999999999.9999859,
+          "points": 181,
+          "gain_min_dB": -23.950566336794076,
+          "gain_max_dB": 24.568082333682003,
+          "descending_unity_crossings": [
+            {
+              "frequency_Hz": 3149335.130689265,
+              "phase_margin_degree": 27.32731543485795,
+              "bracket_Hz": [
+                2818382.9312644247,
+                3162277.6601683465
+              ]
+            }
+          ],
+          "ascending_unity_crossing_count": 0,
+          "gain_at_1Hz_difference_dB": -0.0019176663179969466,
+          "no_measured_unity_crossing": false,
+          "interpretation": "Independent crossing calculation never extrapolates and does not overwrite official labels."
+        }
+      }
+    ]
+  }
+}

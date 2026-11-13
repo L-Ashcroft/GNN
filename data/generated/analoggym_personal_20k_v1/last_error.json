@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-28T08:52:57.691005+00:00",
+  "type": "PermissionError",
+  "message": "[WinError 5] 拒绝访问。: 'D:\\\\EDA\\\\data\\\\generated\\\\analoggym_personal_20k_v1\\\\status.json.tmp' -> 'D:\\\\EDA\\\\data\\\\generated\\\\analoggym_personal_20k_v1\\\\status.json'",
+  "resolved": true,
+  "resolved_at_UTC": "2026-10-28T09:04:45.147082+00:00",
+  "resolution": "Bounded Windows atomic-write retries; all prior ledger rows verified; completed orphan archives recovered."
+}

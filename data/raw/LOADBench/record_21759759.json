@@ -1,0 +1,269 @@
+{
+  "created": "2026-08-03T22:29:49.012440+00:00",
+  "modified": "2026-10-20T01:03:28.201469+00:00",
+  "id": 21759759,
+  "conceptrecid": "21759758",
+  "doi": "10.5281/zenodo.21759759",
+  "conceptdoi": "10.5281/zenodo.21759758",
+  "doi_url": "https://doi.org/10.5281/zenodo.21759759",
+  "metadata": {
+    "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design – Dataset",
+    "doi": "10.5281/zenodo.21759759",
+    "publication_date": "2026-08-02",
+    "description": "<p>This dataset accompanies the paper \"LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design\" (MLCAD 2026) (arXiv preprint: https://arxiv.org/abs/2610.21591). It was developed at the Technical University of Munich (TUM) and Instituto de Telecomunica&ccedil;&otilde;es / Instituto Superior T&eacute;cnico - University of Lisbon, in collaboration with Sony AI and Sony Semiconductor Solutions Europe.</p>\n<p><strong>When using this dataset please also cite the paper:</strong></p>\n<p>@inproceedings{leibl2026loadbench,<br>&nbsp;&nbsp; author&nbsp; &nbsp; = {Leibl, Markus and Azevedo, Filipe and Uhlich, Stefan and<br>Bonetti, Andrea and<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Venkitaraman, Arun and Hsieh, Chia-Yu and Pham, Phuoc<br>and Servadei, Lorenzo and<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Graeb, Helmut and Martins, Ricardo},<br>&nbsp;&nbsp; title&nbsp; &nbsp; &nbsp;= {{LOADBench}: A Large Open Analog Dataset and Benchmark<br>for Machine Learning in {IC} Design},<br>&nbsp;&nbsp; booktitle = {Proceedings of the 2026 ACM/IEEE International Symposium<br>on Machine Learning for CAD},<br>&nbsp;&nbsp; series&nbsp; &nbsp; = {MLCAD '26},<br>&nbsp;&nbsp; year&nbsp; &nbsp; &nbsp; = {2026},<br>&nbsp;&nbsp; location&nbsp; = {Seogwipo, Jeju, Republic of Korea},<br>&nbsp;&nbsp; publisher = {Association for Computing Machinery},<br>&nbsp;&nbsp; address&nbsp; &nbsp;= {New York, NY, USA},<br>&nbsp;&nbsp; doi&nbsp; &nbsp; &nbsp; &nbsp;= {10.1145/3831599.3840321}<br>}</p>\n<p>------------------------------------------------------------------------------------------</p>\n<h1>Description</h1>\n<p>The dataset contains more than 100 1-, 2-, and 3-stage operational amplifier topologies in the open-source SkyWater130 PDK, each shipped with structural and functional annotations, topology-specific sizing constraints (symmetry and sizing rules), an Ngspice testbench, and a multi-objective NSGA-II sizing run producing around $10^3$ Pareto-optimal and $10^6$ intermediate sizing-performance pairs per topology. Additionally, a GitHub repository containing Python scripts to help evaluate the proposed 6 benchmarks described in the paper is provided. Thus, the data presented here constitutes the most comprehensive dataset for ML development in over four decades of analog IC design automation. The dataset, ground-truth annotations, and reference implementations of the metric-defining routines are released under an open license, enabling reproducible and directly comparable evaluation across heterogeneous analog design automation methods.</p>\n<p>The dataset contains 31 1-stage opamps, 44 2-stage opamps, 18 3-stage opamps and 8 symmetrical opamps (of various stages).&nbsp;</p>\n<p>----</p>\n<p>The OneStageOpAmps.zip, TwoStageOpAmps.zip, ThreeStageOpAmps.zip and SymmetricalOpAmps.zip files contain all of the opamps.</p>\n<p>Inside each opamp folder there are:</p>\n<ul>\n<li>(AllSims.zip) a zipped folder containing a csv file with the sizings and performances of all the simulations ran during the NSGA-II optimization;</li>\n<li>(FinalPOFTraining.csv and FinalPOFtest.csv) two csv files with the sizings and performances of the the full final POF obtained at the end of the NSGA-II optimization, divided by training and test splits, to be used for ML approaches where applicable;</li>\n<li>(FinalPOFfull.csv) a csv file with the sizings and performances of the the full final POF obtained at the end of the NSGA-II optimization;</li>\n<li>(param_match.txt) a file containing information on how the transistors are matched;</li>\n<li>(partitioning.xml) a file containing information on the functional properties of the substructures of the opamp;</li>\n<li>(struct_recognition.xml) a file containing information on recognized structures of the opamp, e.g. current-mirrors and differential pairs;</li>\n<li>(example_run) a folder that contains an example setup for simulation and measurement extraction.</li>\n</ul>\n<p>----</p>\n<p>Additionally, the AllCombinedTestbenches.zip file contains only the testbenches for all opamps.</p>\n<p>----</p>\n<p>The TopologySelectionAndInverseSizingBenchmark.zip file contains only the opamps that should be used for the <strong>topology selection</strong> and <strong>inverse sizing benchmark</strong>, for ease use<strong>:</strong></p>\n<blockquote>\n<p>&nbsp; &nbsp; SimpleOpAmp1\",<br>&nbsp; &nbsp; \"SimpleOpAmp13\",<br>&nbsp; &nbsp; \"SimpleOpAmp36\",<br>&nbsp; &nbsp; \"SimpleOpAmp53\",<br>&nbsp; &nbsp; \"SimpleOpAmp130\",<br>&nbsp; &nbsp; \"SimpleTwoStageOpAmp_SimpleOpAmp1_1\",<br>&nbsp; &nbsp; \"SimpleTwoStageOpAmp_SimpleOpAmp8_7\",<br>&nbsp; &nbsp; \"SimpleTwoStageOpAmp_SimpleOpAmp33_7\",<br>&nbsp; &nbsp; \"SimpleTwoStageOpAmp_SimpleOpAmp43_9\",<br>&nbsp; &nbsp; \"SimpleTwoStageOpAmp_SimpleOpAmp47_9\",<br>&nbsp; &nbsp; \"SimpleThreeStageOpAmp_SimpleOpAmp1_1_4\",<br>&nbsp; &nbsp; \"SimpleThreeStageOpAmp_SimpleOpAmp8_1_7\",<br>&nbsp; &nbsp; \"SimpleThreeStageOpAmp_SimpleOpAmp1_2_1\",<br>&nbsp; &nbsp; \"SimpleThreeStageOpAmp_SimpleOpAmp47_2_pfc1\",<br>&nbsp; &nbsp; \"SimpleThreeStageOpAmp_SimpleOpAmp54_2_1\"</p>\n</blockquote>\n<p>----</p>\n<p>Finally, the dataset comes with a reduced Skywater130 PDK (reduced_sky130_combined.zip), that should be downloaded for simulation. <strong>For simulation, make sure the reduced_sky130_combined folder (unziped) is the same folder as the OpAmps:</strong></p>\n<p>/home/</p>\n<p>&nbsp; &nbsp; reduced_sky130_combined</p>\n<p>&nbsp;&nbsp;&nbsp; SimpleOpAmp1</p>\n<p>&nbsp;&nbsp;&nbsp; SimpleOpAmp2</p>\n<p>&nbsp;&nbsp;&nbsp; ...</p>\n<p><strong>Check the _.lib_ command inside the testbenches if you have problem with the paths.</strong></p>\n<p><strong>## How to run the measurement extraction example:</strong><br>Inside each OpAmp folder there is on example_run folder that contains a combined netlist and testbench file (<em>CombinedTestBench.cir</em>), a <em>params.cir</em> file that contains the sizing solution to be tested (should be changed aside from the matching transistors, as the current values are random and may lead to a simulation error), a&nbsp;<em>standalone_tb_extract.py</em> script that extracts the measurements and creates a TB.extract file out of the simulation files, and a .spiceinit file that contains ngspice configuration options. **<strong>This flow was only tested on NGSpice version 44.2</strong>**.</p>\n<p>&nbsp;- Run:</p>\n<blockquote>\n<p>&nbsp;&nbsp;&nbsp; &nbsp; \\$ cd example_run<br>&nbsp; &nbsp; &nbsp; \\$ ngspice CombinedTestBench.cir<br>&nbsp; &nbsp; &nbsp; \\$ python3 standalone_tb_extract.py ./</p>\n</blockquote>\n<p>&nbsp; &nbsp; &nbsp; <br>&nbsp;- Requirements:<br>&nbsp; &nbsp; &nbsp; - python installation with numpy installed.</p>\n<p><strong>The sizings in the _params.cir_ file are defaulted to micrometers, no need to append e-6.</strong></p>\n<p><strong>!!! POSSIBLE BUG FOUND: If your TB.extract file is full of infinity values (i.e. 999999999999), you might need to add the line \"set filetype=binary\" to your .spiceinit file.&nbsp; The <em>standalone_tb_extract.py</em> script expects the simulation files (.raw) to be in binary.</strong></p>\n<p>----</p>\n<p>A GitHub repository with scripts to evaluate your models trained on the LOADBench dataset is available at https://github.com/FilipeAz/LOADBench-Scripts.</p>\n<p>&nbsp;</p>\n<p>For citing purposes:</p>\n<p><strong>Paper:<br></strong>@inproceedings{leibl2026loadbench,<br>&nbsp;&nbsp; author&nbsp; &nbsp; = {Leibl, Markus and Azevedo, Filipe and Uhlich, Stefan and<br>Bonetti, Andrea and<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Venkitaraman, Arun and Hsieh, Chia-Yu and Pham, Phuoc<br>and Servadei, Lorenzo and<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Graeb, Helmut and Martins, Ricardo},<br>&nbsp;&nbsp; title&nbsp; &nbsp; &nbsp;= {{LOADBench}: A Large Open Analog Dataset and Benchmark<br>for Machine Learning in {IC} Design},<br>&nbsp;&nbsp; booktitle = {Proceedings of the 2026 ACM/IEEE International Symposium<br>on Machine Learning for CAD},<br>&nbsp;&nbsp; series&nbsp; &nbsp; = {MLCAD '26},<br>&nbsp;&nbsp; year&nbsp; &nbsp; &nbsp; = {2026},<br>&nbsp;&nbsp; location&nbsp; = {Seogwipo, Jeju, Republic of Korea},<br>&nbsp;&nbsp; publisher = {Association for Computing Machinery},<br>&nbsp;&nbsp; address&nbsp; &nbsp;= {New York, NY, USA},<br>&nbsp;&nbsp; doi&nbsp; &nbsp; &nbsp; &nbsp;= {10.1145/3831599.3840321}<br>}</p>\n<p><strong>Dataset:</strong><br>@misc{leibl2026loadbenchdata,<br>&nbsp;&nbsp; author&nbsp; &nbsp; = {Leibl, Markus and Azevedo, Filipe and Uhlich, Stefan and<br>Bonetti, Andrea and<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Venkitaraman, Arun and Hsieh, Chia-Yu and Pham, Phuoc<br>and Servadei, Lorenzo and<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Graeb, Helmut and Martins, Ricardo},<br>&nbsp;&nbsp; title&nbsp; &nbsp; &nbsp;= {{LOADBench}: A Large Open Analog Dataset and Benchmark<br>for Machine Learning in {IC} Design -- Dataset},<br>&nbsp;&nbsp; year&nbsp; &nbsp; &nbsp; = {2026},<br>&nbsp;&nbsp; publisher = {Zenodo},<br>&nbsp;&nbsp; doi&nbsp; &nbsp; &nbsp; &nbsp;= {10.5281/zenodo.21759759}<br>}</p>\n<div class=\"yj6qo\">&nbsp;</div>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Leibl, Markus",
+        "affiliation": "Technical University of Munich",
+        "orcid": "0000-0003-0995-7610"
+      },
+      {
+        "name": "Azevedo, Filipe",
+        "affiliation": "Instituto de Telecomunicações",
+        "orcid": "0009-0006-7898-1154"
+      },
+      {
+        "name": "Uhlich, Stefan",
+        "affiliation": "SonyAI"
+      },
+      {
+        "name": "Bonetti, Andrea",
+        "affiliation": "SonyAI"
+      },
+      {
+        "name": "Venkitaraman, Arun",
+        "affiliation": "SonyAI"
+      },
+      {
+        "name": "Hsieh, Chia-Yu",
+        "affiliation": "SonyAI"
+      },
+      {
+        "name": "Pham, Phuoc",
+        "affiliation": "Technical University of Munich"
+      },
+      {
+        "name": "Servadei, Lorenzo",
+        "affiliation": "SonyAI"
+      },
+      {
+        "name": "Graeb, Helmut",
+        "affiliation": "Technical University of Munich"
+      },
+      {
+        "name": "Martins, Ricardo",
+        "affiliation": "Instituto de Telecomunicações"
+      }
+    ],
+    "keywords": [
+      "Analog integrated circuits",
+      "Operational amplifiers",
+      "Machine learning for EDA",
+      "Benchmark dataset",
+      "Inverse sizing",
+      "Topology selection",
+      "Sub-circuit classification",
+      "Circuit generation",
+      "Pareto optimization"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1145/3831599.3840321",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-conferencepaper",
+        "scheme": "doi"
+      }
+    ],
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/FilipeAz/LOADBench-Scripts",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ],
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      }
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "meeting": {
+      "title": "8th ACM/IEEE International Symposium on Machine Learning for CAD",
+      "acronym": "MLCAD",
+      "dates": "7-9 September 2026",
+      "place": "Seogwipo, Jeju, South Korea",
+      "url": "https://mlcad.org/symposium/2026/",
+      "session": "8",
+      "session_part": "1"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "2023.11981.PEX",
+        "internal_id": "10.13039/501100001871::2023.11981.PEX",
+        "funder": {
+          "name": "Fundação para a Ciência e Tecnologia",
+          "doi": "10.13039/501100001871",
+          "acronym": "FCT"
+        },
+        "title": "Accelerating the Future 5G/6G Deployments with Millimeter Wave Integrated Circuit Interfaces Generated by Deep Computer Vision",
+        "acronym": "ACTON"
+      },
+      {
+        "code": "UID/50008/2025",
+        "internal_id": "10.13039/501100001871::UID/50008/2025",
+        "funder": {
+          "name": "Fundação para a Ciência e Tecnologia",
+          "doi": "10.13039/501100001871",
+          "acronym": "FCT"
+        },
+        "title": "Instituto de Telecomunicações",
+        "url": "https://sciproj.ptcris.pt/177141UID"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "21759758"
+          }
+        }
+      ]
+    }
+  },
+  "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design – Dataset",
+  "links": {
+    "self": "https://zenodo.org/api/records/21759759",
+    "self_html": "https://zenodo.org/records/21759759",
+    "preview_html": "https://zenodo.org/records/21759759?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.21759759",
+    "self_doi": "https://doi.org/10.5281/zenodo.21759759",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21759759",
+    "reserve_doi": "https://zenodo.org/api/records/21759759/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/21759758",
+    "parent_html": "https://zenodo.org/records/21759758",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21759758",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21759758",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21759759/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21759759/sequence/default",
+    "files": "https://zenodo.org/api/records/21759759/files",
+    "media_files": "https://zenodo.org/api/records/21759759/media-files",
+    "latest": "https://zenodo.org/api/records/21759759/versions/latest",
+    "latest_html": "https://zenodo.org/records/21759759/latest",
+    "versions": "https://zenodo.org/api/records/21759759/versions",
+    "draft": "https://zenodo.org/api/records/21759759/draft",
+    "access_links": "https://zenodo.org/api/records/21759759/access/links",
+    "access_grants": "https://zenodo.org/api/records/21759759/access/grants",
+    "access_users": "https://zenodo.org/api/records/21759759/access/users",
+    "access_request": "https://zenodo.org/api/records/21759759/access/request",
+    "access": "https://zenodo.org/api/records/21759759/access",
+    "communities": "https://zenodo.org/api/records/21759759/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/21759759/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/21759759/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/21759759/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/21759759/quota-increase",
+    "requests": "https://zenodo.org/api/records/21759759/requests"
+  },
+  "updated": "2026-10-20T01:03:28.201469+00:00",
+  "recid": "21759759",
+  "revision": 14,
+  "files": [
+    {
+      "id": "865fcfd7-9225-47d8-b1fb-1204ee305fb4",
+      "key": "SymmetricalOpAmps.zip",
+      "size": 3315268696,
+      "checksum": "md5:588a33392dad0d96fb0e42ca5665a52e",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/SymmetricalOpAmps.zip/content"
+      }
+    },
+    {
+      "id": "9f7179b4-b46c-4780-bee6-75c394a1bff5",
+      "key": "reduced_sky130_combined.zip",
+      "size": 634564,
+      "checksum": "md5:afc78b96c130d2830b86ccebdf6573e7",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/reduced_sky130_combined.zip/content"
+      }
+    },
+    {
+      "id": "d4752889-dc75-49c8-b4c2-c3fe7942eb06",
+      "key": "ThreeStageOpAmps.zip",
+      "size": 7337596228,
+      "checksum": "md5:613d0a26024b8160e1ae1ca577f724df",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/ThreeStageOpAmps.zip/content"
+      }
+    },
+    {
+      "id": "faff9721-ef59-4c3a-ab51-df70fd930898",
+      "key": "TwoStageOpAmps.zip",
+      "size": 14974874749,
+      "checksum": "md5:57e9a214cb9c29b002765482b7f63963",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/TwoStageOpAmps.zip/content"
+      }
+    },
+    {
+      "id": "2017691e-8ede-4d0f-aa97-de801d16f9a8",
+      "key": "AllCombinedTestbenches.zip",
+      "size": 329506,
+      "checksum": "md5:044fda40ae82fd4f0c766e4360989fee",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/AllCombinedTestbenches.zip/content"
+      }
+    },
+    {
+      "id": "29cd63b5-50cf-42db-be64-4031a112d751",
+      "key": "TopologySelectionAndInverseSizingBenchmark.zip",
+      "size": 5109691613,
+      "checksum": "md5:fdef6d018cac8ea5319e4497884514a0",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/TopologySelectionAndInverseSizingBenchmark.zip/content"
+      }
+    },
+    {
+      "id": "55adccae-711a-4ba1-910b-3a55da3c2f0e",
+      "key": "OneStageOpAmps.zip",
+      "size": 8203436621,
+      "checksum": "md5:43cca22429905359df829f3dbf866c7b",
+      "links": {
+        "self": "https://zenodo.org/api/records/21759759/files/OneStageOpAmps.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1769088"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 11638,
+    "unique_downloads": 1877,
+    "views": 1230,
+    "unique_views": 922,
+    "version_downloads": 11638,
+    "version_unique_downloads": 1877,
+    "version_unique_views": 922,
+    "version_views": 1230
+  },
+  "state": "done",
+  "submitted": true
+}

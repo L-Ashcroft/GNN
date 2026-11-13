@@ -1,0 +1,14 @@
+{
+  "FALCON": {
+    "url": "https://github.com/AsalMehradfar/FALCON.git",
+    "commit": "845145c0091fd10c3eaa0bc3d32ca95bfc519550"
+  },
+  "AnalogGym": {
+    "url": "https://github.com/CODA-Team/AnalogGym.git",
+    "commit": "0a9d1390ade361e2b4a2d33181e22367edbb8afc"
+  },
+  "AICircuit": {
+    "url": "https://github.com/AvestimehrResearchGroup/AICircuit.git",
+    "commit": "eaf803a6b17151bd44b7ec1bbcc36a8a8897d751"
+  }
+}

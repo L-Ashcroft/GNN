@@ -1,0 +1,3708 @@
+[
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CGLNA",
+    "circuit_family": "LNA",
+    "csv": "third_party/FALCON/dataset/LNA/CGLNA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/LNA/CGLNA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "fin": 30000000000.0,
+      "pin": -40.0,
+      "VDD": 1.2,
+      "Iref": 0.001,
+      "WN2": 4.9999999999999996e-06
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/LNA/CGLNA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CGLNA",
+    "graph": "data/processed/graphs/FALCON__CGLNA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "S11",
+      "NoiseFigure",
+      "PowerGain"
+    ],
+    "parameters": [
+      "C1",
+      "C2",
+      "Cb",
+      "Ld",
+      "Ls",
+      "WN1"
+    ],
+    "full_connectivity_hash": "559c2821bcb67dff9a5cadf0f30f0cec",
+    "mos_core_hash": "26265e2f60b1c94262ff61ea3af8e5f1",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CGLNA:4ad1d4e45cbd",
+    "compatibility_group": "FALCON__CGLNA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CGLNA/netlist"
+      },
+      "C2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CGLNA/netlist"
+      },
+      "Cb": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CGLNA/netlist"
+      },
+      "Ld": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CGLNA/netlist"
+      },
+      "Ls": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CGLNA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CGLNA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 13,
+    "num_nets": 7,
+    "num_edges": 23,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CGLNA",
+    "topology_group": "core_FALCON__CGLNA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CLNA",
+    "circuit_family": "LNA",
+    "csv": "third_party/FALCON/dataset/LNA/CLNA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/LNA/CLNA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "W": 4.9999999999999996e-06,
+      "R1": 160.0,
+      "R2": 1300.0,
+      "R3": 290.0,
+      "VDD": 1.2,
+      "fin": 30000000000.0,
+      "pin": -20.0
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/LNA/CLNA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CLNA",
+    "graph": "data/processed/graphs/FALCON__CLNA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "S11",
+      "NoiseFigure",
+      "PowerGain"
+    ],
+    "parameters": [
+      "C1",
+      "C2",
+      "Ld",
+      "Lg",
+      "Ls",
+      "WN1",
+      "WN2"
+    ],
+    "full_connectivity_hash": "0c390326131c03a8f4eb51b68f68ed37",
+    "mos_core_hash": "cffcf5b4f1ea59016ed5294bb0f0ec9e",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CLNA:9e691404b7e3",
+    "compatibility_group": "FALCON__CLNA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      },
+      "C2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      },
+      "Ld": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      },
+      "Lg": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      },
+      "Ls": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      },
+      "WN2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CLNA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 16,
+    "num_nets": 11,
+    "num_edges": 31,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CLNA",
+    "topology_group": "core_FALCON__CLNA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CSLNA",
+    "circuit_family": "LNA",
+    "csv": "third_party/FALCON/dataset/LNA/CSLNA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/LNA/CSLNA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "C2": 2e-12
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/LNA/CSLNA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CSLNA",
+    "graph": "data/processed/graphs/FALCON__CSLNA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "S11",
+      "NoiseFigure",
+      "PowerGain"
+    ],
+    "parameters": [
+      "C1",
+      "W",
+      "Lg",
+      "Ls",
+      "VGS"
+    ],
+    "full_connectivity_hash": "c6d19b42e07f47581b387cc7625ad3f4",
+    "mos_core_hash": "51742e1f3b79ea18438e38b8471b7fa0",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CSLNA:697a841470ed",
+    "compatibility_group": "FALCON__CSLNA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CSLNA/netlist"
+      },
+      "W": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CSLNA/netlist"
+      },
+      "Lg": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CSLNA/netlist"
+      },
+      "Ls": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CSLNA/netlist"
+      },
+      "VGS": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/CSLNA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.8,
+    "supply_voltage_expression": "1.8",
+    "num_devices": 12,
+    "num_nets": 10,
+    "num_edges": 17,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CSLNA",
+    "topology_group": "core_FALCON__CSLNA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "DLNA",
+    "circuit_family": "LNA",
+    "csv": "third_party/FALCON/dataset/LNA/DLNA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/LNA/DLNA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "W": 4.9999999999999996e-06,
+      "R1": 160.0,
+      "R2": 1300.0,
+      "R3": 1500.0,
+      "VDD": 1.2,
+      "fin": 30000000000.0,
+      "pin": -40.0
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/LNA/DLNA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__DLNA",
+    "graph": "data/processed/graphs/FALCON__DLNA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "S11",
+      "NoiseFigure",
+      "PowerGain"
+    ],
+    "parameters": [
+      "C1",
+      "C2",
+      "Ld",
+      "Lg",
+      "Ls",
+      "WN1",
+      "WN2"
+    ],
+    "full_connectivity_hash": "9394bd82541f423db48323604934d529",
+    "mos_core_hash": "6a613bdd5f67ee0294f08fcd8259135b",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__DLNA:f5633bcfba87",
+    "compatibility_group": "FALCON__DLNA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      },
+      "C2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      },
+      "Ld": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      },
+      "Lg": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      },
+      "Ls": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      },
+      "WN2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/LNA/DLNA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 30,
+    "num_nets": 21,
+    "num_edges": 62,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__DLNA",
+    "topology_group": "core_FALCON__DLNA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "DBAMixer",
+    "circuit_family": "Mixer",
+    "csv": "third_party/FALCON/dataset/Mixer/DBAMixer/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/Mixer/DBAMixer/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "frf": 30000000000.0,
+      "prf": -40.0,
+      "flo": 29900000000.0,
+      "plo": 15.0,
+      "Itail": 0.02,
+      "pacmag": 1.0,
+      "VDD": 1.2
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/Mixer/DBAMixer/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__DBAMixer",
+    "graph": "data/processed/graphs/FALCON__DBAMixer.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "ConversionGain",
+      "NoiseFigure",
+      "VoltageSwing"
+    ],
+    "parameters": [
+      "C",
+      "R",
+      "WN1_RF",
+      "WN2_LO"
+    ],
+    "full_connectivity_hash": "89ca6cbaabb025495382dd00655d59e8",
+    "mos_core_hash": "8df923f4252a73916861e26f3e63ac6c",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__DBAMixer:7f2596a7bd95",
+    "compatibility_group": "FALCON__DBAMixer",
+    "parameter_units": {
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBAMixer/netlist"
+      },
+      "R": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBAMixer/netlist"
+      },
+      "WN1_RF": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBAMixer/netlist"
+      },
+      "WN2_LO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBAMixer/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 19,
+    "num_nets": 15,
+    "num_edges": 52,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__DBAMixer",
+    "topology_group": "core_FALCON__DBAMixer"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "DBPMixer",
+    "circuit_family": "Mixer",
+    "csv": "third_party/FALCON/dataset/Mixer/DBPMixer/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/Mixer/DBPMixer/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "flo": 29900000000.0,
+      "frf": 30000000000.0,
+      "pacmag": 1.0,
+      "plo": 10.0,
+      "prf": -40.0
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/Mixer/DBPMixer/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__DBPMixer",
+    "graph": "data/processed/graphs/FALCON__DBPMixer.json",
+    "metric_names": [
+      "ConversionGain",
+      "NoiseFigure",
+      "VoltageSwing"
+    ],
+    "parameters": [
+      "C",
+      "R",
+      "W"
+    ],
+    "full_connectivity_hash": "2abb88a939c86bdfbfbc8c75cd232757",
+    "mos_core_hash": "c8eca734a58a346f5c3c697816e5cf38",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__DBPMixer:17c28b0510cb",
+    "compatibility_group": "FALCON__DBPMixer",
+    "parameter_units": {
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBPMixer/netlist"
+      },
+      "R": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBPMixer/netlist"
+      },
+      "W": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/DBPMixer/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 15,
+    "num_nets": 11,
+    "num_edges": 38,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__DBPMixer",
+    "topology_group": "core_FALCON__DBPMixer"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "SBAMixer",
+    "circuit_family": "Mixer",
+    "csv": "third_party/FALCON/dataset/Mixer/SBAMixer/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/Mixer/SBAMixer/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "plo": 10.0,
+      "prf": -40.0,
+      "pacmag": 1.0,
+      "flo": 30100000000.0,
+      "frf": 30000000000.0
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/Mixer/SBAMixer/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__SBAMixer",
+    "graph": "data/processed/graphs/FALCON__SBAMixer.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "ConversionGain",
+      "NoiseFigure",
+      "VoltageSwing"
+    ],
+    "parameters": [
+      "C",
+      "Itail",
+      "R",
+      "WLO",
+      "WRF"
+    ],
+    "full_connectivity_hash": "0eadb05fb90d9deeb71d72994fe443b1",
+    "mos_core_hash": "d52f678d442ebd4a8c22106105d00c87",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__SBAMixer:b9bfd3117b45",
+    "compatibility_group": "FALCON__SBAMixer",
+    "parameter_units": {
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBAMixer/netlist"
+      },
+      "Itail": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_current_A"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBAMixer/netlist"
+      },
+      "R": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBAMixer/netlist"
+      },
+      "WLO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBAMixer/netlist"
+      },
+      "WRF": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBAMixer/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "1.2",
+    "num_devices": 15,
+    "num_nets": 12,
+    "num_edges": 32,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__SBAMixer",
+    "topology_group": "core_FALCON__SBAMixer"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "SBPMixer",
+    "circuit_family": "Mixer",
+    "csv": "third_party/FALCON/dataset/Mixer/SBPMixer/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/Mixer/SBPMixer/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "frf": 30000000000.0,
+      "prf": -40.0,
+      "pacmag": 1.0,
+      "flo": 29900000000.0,
+      "plo": 15.0
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/Mixer/SBPMixer/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__SBPMixer",
+    "graph": "data/processed/graphs/FALCON__SBPMixer.json",
+    "metric_names": [
+      "ConversionGain",
+      "NoiseFigure",
+      "VoltageSwing"
+    ],
+    "parameters": [
+      "C",
+      "R",
+      "WN"
+    ],
+    "full_connectivity_hash": "51c1f448a790bcc6cebafef1fd587aec",
+    "mos_core_hash": "d23999a9c630bde4f65a5f34c4047460",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__SBPMixer:e357d823d1ed",
+    "compatibility_group": "FALCON__SBPMixer",
+    "parameter_units": {
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBPMixer/netlist"
+      },
+      "R": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBPMixer/netlist"
+      },
+      "WN": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/Mixer/SBPMixer/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 12,
+    "num_nets": 9,
+    "num_edges": 24,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__SBPMixer",
+    "topology_group": "core_FALCON__SBPMixer"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "ClassBPA",
+    "circuit_family": "PA",
+    "csv": "third_party/FALCON/dataset/PA/ClassBPA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/PA/ClassBPA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "C1": 2e-10,
+      "fin": 30000000000.0,
+      "pin": -10.0,
+      "R2": 2500.0,
+      "Vdc": 1.5
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/PA/ClassBPA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__ClassBPA",
+    "graph": "data/processed/graphs/FALCON__ClassBPA.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "S11",
+      "S22",
+      "PowerGain",
+      "DrainEfficiency",
+      "PAE",
+      "PSAT"
+    ],
+    "parameters": [
+      "Lm",
+      "Lm2",
+      "Cm2",
+      "R1",
+      "W1",
+      "W2"
+    ],
+    "full_connectivity_hash": "4965de76e0e69856f7e76c91de2635e0",
+    "mos_core_hash": "01241842e9f813479aa42c395fdc5073",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__ClassBPA:22eb512c6d22",
+    "compatibility_group": "FALCON__ClassBPA",
+    "parameter_units": {
+      "Lm": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassBPA/netlist"
+      },
+      "Lm2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassBPA/netlist"
+      },
+      "Cm2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassBPA/netlist"
+      },
+      "R1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassBPA/netlist"
+      },
+      "W1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassBPA/netlist"
+      },
+      "W2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassBPA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.5,
+    "supply_voltage_expression": "Vdc",
+    "num_devices": 14,
+    "num_nets": 9,
+    "num_edges": 24,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__ClassBPA",
+    "topology_group": "core_FALCON__ClassBPA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "ClassEPA",
+    "circuit_family": "PA",
+    "csv": "third_party/FALCON/dataset/PA/ClassEPA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/PA/ClassEPA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "Vbias": 1.2,
+      "LS": 7e-11,
+      "Cp0": 1e-13,
+      "Ls1": 5.5e-10,
+      "Cp1": 4e-13,
+      "fin": 30000000000.0,
+      "pin": -20.0
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/PA/ClassEPA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__ClassEPA",
+    "graph": "data/processed/graphs/FALCON__ClassEPA.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "S11",
+      "S22",
+      "PowerGain",
+      "DrainEfficiency",
+      "PAE",
+      "PSAT"
+    ],
+    "parameters": [
+      "Cshunt",
+      "Ls2",
+      "W",
+      "Cs",
+      "Lp"
+    ],
+    "full_connectivity_hash": "dd37b2ab7aa6a64a1c3bd229fead2632",
+    "mos_core_hash": "b9271f18c0bc0c49b15019a1cb8678da",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__ClassEPA:7bf8470e4a7e",
+    "compatibility_group": "FALCON__ClassEPA",
+    "parameter_units": {
+      "Cshunt": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassEPA/netlist"
+      },
+      "Ls2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassEPA/netlist"
+      },
+      "W": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassEPA/netlist"
+      },
+      "Cs": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassEPA/netlist"
+      },
+      "Lp": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/ClassEPA/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 14,
+    "num_nets": 10,
+    "num_edges": 19,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__ClassEPA",
+    "topology_group": "core_FALCON__ClassEPA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "DohPA",
+    "circuit_family": "PA",
+    "csv": "third_party/FALCON/dataset/PA/DohPA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/PA/DohPA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "Cg": 2e-12,
+      "Rb": 10000.0,
+      "fin": 30000000000.0,
+      "pin": -40.0,
+      "Vb1": 1.2,
+      "Vb2": 1.2,
+      "VDD": 1.2
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/PA/DohPA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__DohPA",
+    "graph": "data/processed/graphs/FALCON__DohPA.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "S11",
+      "S22",
+      "PowerGain",
+      "DrainEfficiency",
+      "PAE",
+      "PSAT"
+    ],
+    "parameters": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "WN1",
+      "WN2"
+    ],
+    "full_connectivity_hash": "98ffdcb8cb91b0cf601c77305c3ea46b",
+    "mos_core_hash": "651f75928ea0566d8433213ba89b74c9",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__DohPA:ac3cebc7a6dd",
+    "compatibility_group": "FALCON__DohPA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "C2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "C3": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "C4": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "C5": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "L1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "L2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "L3": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "L4": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "L5": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "L6": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      },
+      "WN2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DohPA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 27,
+    "num_nets": 17,
+    "num_edges": 47,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__DohPA",
+    "topology_group": "core_FALCON__DohPA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "DPA",
+    "circuit_family": "PA",
+    "csv": "third_party/FALCON/dataset/PA/DPA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/PA/DPA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "L2p": 8e-10,
+      "L2s": 7e-10,
+      "VDD": 1.2,
+      "Vb1": 1.2,
+      "Vb2": 1.2,
+      "Vinb1": 0.8,
+      "Vinb2": 0.9,
+      "fin": 30000000000.0,
+      "pin": -40.0,
+      "q": 30.0,
+      "k": 0.6
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/PA/DPA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__DPA",
+    "graph": "data/processed/graphs/FALCON__DPA.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "S11",
+      "S22",
+      "PowerGain",
+      "DrainEfficiency",
+      "PAE",
+      "PSAT"
+    ],
+    "parameters": [
+      "L1p",
+      "L1s",
+      "L3p",
+      "L3s",
+      "Lm",
+      "WN1",
+      "WN2"
+    ],
+    "full_connectivity_hash": "9c441f50722a7614dcaa2e978c86bfc4",
+    "mos_core_hash": "609c7b28f718b4188938762d7e04b56e",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__DPA:ca19a7859be8",
+    "compatibility_group": "FALCON__DPA",
+    "parameter_units": {
+      "L1p": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      },
+      "L1s": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      },
+      "L3p": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      },
+      "L3s": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      },
+      "Lm": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      },
+      "WN2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/PA/DPA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 54,
+    "num_nets": 39,
+    "num_edges": 96,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__DPA",
+    "topology_group": "core_FALCON__DPA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CGVA",
+    "circuit_family": "VA",
+    "csv": "third_party/FALCON/dataset/VA/CGVA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VA/CGVA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "VDD": 1.2,
+      "Vin": 1.0,
+      "Iref": 0.001
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/VA/CGVA/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CGVA",
+    "graph": "data/processed/graphs/FALCON__CGVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "VoltageGain"
+    ],
+    "parameters": [
+      "C",
+      "R",
+      "WN1",
+      "WN2"
+    ],
+    "full_connectivity_hash": "b8a6a5495ba7f9e16aef5348e3e0d5e2",
+    "mos_core_hash": "26265e2f60b1c94262ff61ea3af8e5f1",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CGVA:5e8036523514",
+    "compatibility_group": "FALCON__CGVA",
+    "parameter_units": {
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CGVA/netlist"
+      },
+      "R": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CGVA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CGVA/netlist"
+      },
+      "WN2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CGVA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 8,
+    "num_nets": 6,
+    "num_edges": 18,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CGVA",
+    "topology_group": "core_FALCON__CGLNA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CSVA",
+    "circuit_family": "VA",
+    "csv": "third_party/FALCON/dataset/VA/CSVA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VA/CSVA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {},
+    "default_files": [],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CSVA",
+    "graph": "data/processed/graphs/FALCON__CSVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "VoltageGain"
+    ],
+    "parameters": [
+      "Rd",
+      "VDD",
+      "Vgate",
+      "Wn"
+    ],
+    "full_connectivity_hash": "01b3f2a4a68323d700f0e5efe1768a65",
+    "mos_core_hash": "b9271f18c0bc0c49b15019a1cb8678da",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CSVA:2aba2919d5ac",
+    "compatibility_group": "FALCON__CSVA",
+    "parameter_units": {
+      "Rd": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CSVA/netlist"
+      },
+      "VDD": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CSVA/netlist"
+      },
+      "Vgate": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CSVA/netlist"
+      },
+      "Wn": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CSVA/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 5,
+    "num_nets": 4,
+    "num_edges": 10,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CSVA",
+    "topology_group": "core_FALCON__ClassEPA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CVA",
+    "circuit_family": "VA",
+    "csv": "third_party/FALCON/dataset/VA/CVA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VA/CVA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {},
+    "default_files": [],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CVA",
+    "graph": "data/processed/graphs/FALCON__CVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "VoltageGain"
+    ],
+    "parameters": [
+      "Rd",
+      "Wbias",
+      "Wn1",
+      "Wn2"
+    ],
+    "full_connectivity_hash": "4368d12124ea05f63b8db5706ddd5b31",
+    "mos_core_hash": "02474633468bf472648f948118762dcd",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CVA:cd6b9f4a2c7d",
+    "compatibility_group": "FALCON__CVA",
+    "parameter_units": {
+      "Rd": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CVA/netlist"
+      },
+      "Wbias": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CVA/netlist"
+      },
+      "Wn1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CVA/netlist"
+      },
+      "Wn2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/CVA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "1.2",
+    "num_devices": 9,
+    "num_nets": 8,
+    "num_edges": 24,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CVA",
+    "topology_group": "core_FALCON__CVA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "SFVA",
+    "circuit_family": "VA",
+    "csv": "third_party/FALCON/dataset/VA/SFVA/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VA/SFVA/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {},
+    "default_files": [],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__SFVA",
+    "graph": "data/processed/graphs/FALCON__SFVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "DCPowerConsumption",
+      "VoltageGain"
+    ],
+    "parameters": [
+      "Vgate",
+      "Vbias",
+      "VDD",
+      "W1",
+      "W2"
+    ],
+    "full_connectivity_hash": "7d54f18f85719ea905652f19a5a0eef5",
+    "mos_core_hash": "d5422b2b9189519346c3268a24b6fe67",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__SFVA:20f6315e3d15",
+    "compatibility_group": "FALCON__SFVA",
+    "parameter_units": {
+      "Vgate": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/SFVA/netlist"
+      },
+      "Vbias": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/SFVA/netlist"
+      },
+      "VDD": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/SFVA/netlist"
+      },
+      "W1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/SFVA/netlist"
+      },
+      "W2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VA/SFVA/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 5,
+    "num_nets": 5,
+    "num_edges": 15,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__SFVA",
+    "topology_group": "core_FALCON__SFVA"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "CCVCO",
+    "circuit_family": "VCO",
+    "csv": "third_party/FALCON/dataset/VCO/CCVCO/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VCO/CCVCO/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "Ibias": 0.01,
+      "Vcont": 0.8,
+      "VDD": 1.2
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/VCO/CCVCO/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__CCVCO",
+    "graph": "data/processed/graphs/FALCON__CCVCO.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "OscillationFrequency",
+      "TuningRange",
+      "OutputPower",
+      "PhaseNoise"
+    ],
+    "parameters": [
+      "L",
+      "Wn",
+      "Wvar"
+    ],
+    "full_connectivity_hash": "883acf1d733464ddc2d090ebc3233283",
+    "mos_core_hash": "e2c39b1e3a47252967af88d414dc24b9",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__CCVCO:936f5fee8aa4",
+    "compatibility_group": "FALCON__CCVCO",
+    "parameter_units": {
+      "L": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/CCVCO/netlist"
+      },
+      "Wn": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/CCVCO/netlist"
+      },
+      "Wvar": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/CCVCO/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 10,
+    "num_nets": 7,
+    "num_edges": 30,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CCVCO",
+    "topology_group": "core_FALCON__CCVCO"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "ColVCO",
+    "circuit_family": "VCO",
+    "csv": "third_party/FALCON/dataset/VCO/ColVCO/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VCO/ColVCO/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "Vcont": 0.7000000000000001,
+      "vdc": 1.2
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/VCO/ColVCO/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__ColVCO",
+    "graph": "data/processed/graphs/FALCON__ColVCO.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "OscillationFrequency",
+      "TuningRange",
+      "OutputPower",
+      "PhaseNoise"
+    ],
+    "parameters": [
+      "C1",
+      "L",
+      "Vbias",
+      "W1",
+      "Wvar",
+      "idc"
+    ],
+    "full_connectivity_hash": "a0d8563f9c266e98202a368610ea66a2",
+    "mos_core_hash": "c6e7db77bd1137965253ba6234352f9d",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__ColVCO:b9770b3901ca",
+    "compatibility_group": "FALCON__ColVCO",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/ColVCO/netlist"
+      },
+      "L": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/ColVCO/netlist"
+      },
+      "Vbias": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/ColVCO/netlist"
+      },
+      "W1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/ColVCO/netlist"
+      },
+      "Wvar": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/ColVCO/netlist"
+      },
+      "idc": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_current_A"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/ColVCO/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "1.2",
+    "num_devices": 10,
+    "num_nets": 7,
+    "num_edges": 20,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__ColVCO",
+    "topology_group": "core_FALCON__ColVCO"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "IFVCO",
+    "circuit_family": "VCO",
+    "csv": "third_party/FALCON/dataset/VCO/IFVCO/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VCO/IFVCO/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "VDD": 1.2,
+      "Vcont": 0.6
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/VCO/IFVCO/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__IFVCO",
+    "graph": "data/processed/graphs/FALCON__IFVCO.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "OscillationFrequency",
+      "TuningRange",
+      "OutputPower",
+      "PhaseNoise"
+    ],
+    "parameters": [
+      "C1",
+      "C2",
+      "L1",
+      "L2",
+      "Wn",
+      "Wvar"
+    ],
+    "full_connectivity_hash": "7e54f1b39271da8644e19d0ce8fba548",
+    "mos_core_hash": "793b02eff3b65cc1c5feedc6002549bd",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__IFVCO:92c1b9a989d3",
+    "compatibility_group": "FALCON__IFVCO",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/IFVCO/netlist"
+      },
+      "C2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/IFVCO/netlist"
+      },
+      "L1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/IFVCO/netlist"
+      },
+      "L2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/IFVCO/netlist"
+      },
+      "Wn": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/IFVCO/netlist"
+      },
+      "Wvar": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/IFVCO/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 16,
+    "num_nets": 10,
+    "num_edges": 36,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__IFVCO",
+    "topology_group": "core_FALCON__IFVCO"
+  },
+  {
+    "source_dataset": "FALCON",
+    "source_topology": "RVCO",
+    "circuit_family": "VCO",
+    "csv": "third_party/FALCON/dataset/VCO/RVCO/dataset.csv",
+    "netlist": "third_party/FALCON/dataset/VCO/RVCO/netlist",
+    "metric_units": {
+      "DCPowerConsumption": "W",
+      "VoltageGain": "dB",
+      "PowerGain": "dB",
+      "ConversionGain": "dB",
+      "S11": "dB",
+      "S22": "dB",
+      "NoiseFigure": "dB",
+      "Bandwidth": "Hz",
+      "OscillationFrequency": "Hz",
+      "TuningRange": "Hz",
+      "OutputPower": "dBm",
+      "PSAT": "dBm",
+      "DrainEfficiency": "%",
+      "PAE": "%",
+      "PhaseNoise": "dBc/Hz",
+      "VoltageSwing": "V"
+    },
+    "defaults": {
+      "Vcont": 0.8,
+      "VDD": 1.2
+    },
+    "default_files": [
+      "third_party/FALCON/dataset/VCO/RVCO/values.yaml"
+    ],
+    "temperature": null,
+    "process": "CMOS_45nm_PDK_unspecified",
+    "pdk_evidence": "https://arxiv.org/html/2505.21923v2#S3.SS1",
+    "testbench_status": "not_published",
+    "testbench_files": [],
+    "topology_id": "FALCON__RVCO",
+    "graph": "data/processed/graphs/FALCON__RVCO.json",
+    "metric_names": [
+      "DCPowerConsumption",
+      "OscillationFrequency",
+      "TuningRange",
+      "OutputPower",
+      "PhaseNoise"
+    ],
+    "parameters": [
+      "Wn",
+      "Wvar",
+      "C",
+      "L1",
+      "L2"
+    ],
+    "full_connectivity_hash": "503611b12279783a0866f4f79c14b234",
+    "mos_core_hash": "a1660ca5aa092c583015fe1c717daafe",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "FALCON__RVCO:827b4410a855",
+    "compatibility_group": "FALCON__RVCO",
+    "parameter_units": {
+      "Wn": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/RVCO/netlist"
+      },
+      "Wvar": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/RVCO/netlist"
+      },
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/RVCO/netlist"
+      },
+      "L1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/RVCO/netlist"
+      },
+      "L2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/FALCON/dataset/VCO/RVCO/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 14,
+    "num_nets": 8,
+    "num_edges": 44,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__RVCO",
+    "topology_group": "core_FALCON__RVCO"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "CSVA",
+    "circuit_family": "VA",
+    "csv": "third_party/AICircuit/Dataset/CSVA/CSVA.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/CSVA/netlist",
+    "parameters": [
+      "VDD",
+      "Vgate",
+      "Wn",
+      "Rd"
+    ],
+    "metric_units": {
+      "Bandwidth": "Hz",
+      "PowerConsumption": "W",
+      "VoltageGain": "dB"
+    },
+    "defaults": {
+      "Rd": 1000.0,
+      "VDD": 1.2,
+      "Vgate": 0.8,
+      "Wn": 4.9999999999999996e-06
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/CSVA/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__CSVA",
+    "graph": "data/processed/graphs/AICircuit__CSVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "PowerConsumption",
+      "VoltageGain"
+    ],
+    "full_connectivity_hash": "01b3f2a4a68323d700f0e5efe1768a65",
+    "mos_core_hash": "b9271f18c0bc0c49b15019a1cb8678da",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__CSVA:58c0f1b95768",
+    "compatibility_group": "AICircuit__CSVA",
+    "parameter_units": {
+      "VDD": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CSVA/netlist"
+      },
+      "Vgate": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "dc_voltage_V"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CSVA/netlist"
+      },
+      "Wn": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CSVA/netlist"
+      },
+      "Rd": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CSVA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 5,
+    "num_nets": 4,
+    "num_edges": 10,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CSVA",
+    "topology_group": "core_FALCON__ClassEPA"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "CVA",
+    "circuit_family": "VA",
+    "csv": "third_party/AICircuit/Dataset/CVA/CVA.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/CVA/netlist",
+    "parameters": [
+      "Wbias",
+      "Rd",
+      "Wn1",
+      "Wn2"
+    ],
+    "metric_units": {
+      "Bandwidth": "Hz",
+      "PowerConsumption": "W",
+      "VoltageGain": "dB"
+    },
+    "defaults": {
+      "Wbias": 1.35e-05,
+      "Wn2": 4e-06,
+      "Rd": 2000.0,
+      "Wn1": 4.9999999999999996e-06
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/CVA/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__CVA",
+    "graph": "data/processed/graphs/AICircuit__CVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "PowerConsumption",
+      "VoltageGain"
+    ],
+    "full_connectivity_hash": "be7ea75accd435ce0f4c77ecef6940c9",
+    "mos_core_hash": "f29ca8d217fb641a31ec353293ff7a9e",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__CVA:a0b0c4771939",
+    "compatibility_group": "AICircuit__CVA",
+    "parameter_units": {
+      "Wbias": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CVA/netlist"
+      },
+      "Rd": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CVA/netlist"
+      },
+      "Wn1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CVA/netlist"
+      },
+      "Wn2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/CVA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "1.2",
+    "num_devices": 14,
+    "num_nets": 11,
+    "num_edges": 39,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_AICircuit__CVA",
+    "topology_group": "core_AICircuit__CVA"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "LNA",
+    "circuit_family": "LNA",
+    "csv": "third_party/AICircuit/Dataset/LNA/LNA.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/LNA/netlist",
+    "parameters": [
+      "C1",
+      "C2",
+      "Ld",
+      "Lg",
+      "Ls",
+      "WN1",
+      "WN2"
+    ],
+    "metric_units": {
+      "GTMax": "dB",
+      "S11Min": "dB",
+      "NFMin": "dB",
+      "Bandwidth": "Hz",
+      "PowerConsumption": "W"
+    },
+    "defaults": {
+      "Vbmain": 1.0,
+      "Z0": 200.0,
+      "C1": 4e-13,
+      "C2": 2.5e-13,
+      "Ld": 3.7000000000000005e-09,
+      "Lg": 1.04e-08,
+      "Ls": 7.47e-10,
+      "R1": 1500.0,
+      "R2": 2500.0,
+      "R3": 400.0,
+      "VDD": 2.5,
+      "W": 1.5e-06,
+      "WN1": 4.9999999999999996e-06,
+      "WN2": 4.9999999999999996e-06
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/LNA/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__LNA",
+    "graph": "data/processed/graphs/AICircuit__LNA.json",
+    "metric_names": [
+      "GTMax",
+      "S11Min",
+      "NFMin",
+      "Bandwidth",
+      "PowerConsumption"
+    ],
+    "full_connectivity_hash": "0c390326131c03a8f4eb51b68f68ed37",
+    "mos_core_hash": "cffcf5b4f1ea59016ed5294bb0f0ec9e",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__LNA:5955a9602f54",
+    "compatibility_group": "AICircuit__LNA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      },
+      "C2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      },
+      "Ld": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      },
+      "Lg": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      },
+      "Ls": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      },
+      "WN2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/LNA/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 16,
+    "num_nets": 11,
+    "num_edges": 31,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__CLNA",
+    "topology_group": "core_FALCON__CLNA"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "Mixer",
+    "circuit_family": "Mixer",
+    "csv": "third_party/AICircuit/Dataset/Mixer/Mixer.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/Mixer/netlist",
+    "parameters": [
+      "C",
+      "R",
+      "WLO",
+      "WRF"
+    ],
+    "metric_units": {
+      "PowerConsumption": "W",
+      "IFVoltageSwing": "V",
+      "ConversionGain": "dB",
+      "NoiseFigure": "dB"
+    },
+    "defaults": {
+      "Itail": 0.002,
+      "C": 1e-12,
+      "flo": 5500000000.0,
+      "frf": 5600000000.0,
+      "pacmag": 1.0,
+      "plo": 10.0,
+      "prf": -40.0,
+      "R": 350.0,
+      "WLO": 9.999999999999999e-06,
+      "WRF": 1.9999999999999998e-05
+    },
+    "config_corrections": [
+      {
+        "from": "RF",
+        "to": "WRF",
+        "reason": "Config typo; CSV header, netlist w=WRF and Ocean desVar WRF agree."
+      }
+    ],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScript.ocn",
+      "third_party/AICircuit/Simulation/Ocean/Mixer/oceanScriptVoltageSwing.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__Mixer",
+    "graph": "data/processed/graphs/AICircuit__Mixer.json",
+    "metric_names": [
+      "PowerConsumption",
+      "IFVoltageSwing",
+      "ConversionGain",
+      "NoiseFigure"
+    ],
+    "full_connectivity_hash": "89ca6cbaabb025495382dd00655d59e8",
+    "mos_core_hash": "8df923f4252a73916861e26f3e63ac6c",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__Mixer:0d4e9b758405",
+    "compatibility_group": "AICircuit__Mixer",
+    "parameter_units": {
+      "C": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Mixer/netlist"
+      },
+      "R": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Mixer/netlist"
+      },
+      "WLO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Mixer/netlist"
+      },
+      "WRF": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Mixer/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 19,
+    "num_nets": 15,
+    "num_edges": 52,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_FALCON__DBAMixer",
+    "topology_group": "core_FALCON__DBAMixer"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "PA",
+    "circuit_family": "PA",
+    "csv": "third_party/AICircuit/Dataset/PA/PA.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/PA/netlist",
+    "parameters": [
+      "L1p",
+      "L1s",
+      "L3p",
+      "L3s",
+      "Lm",
+      "Wn1",
+      "Wn2"
+    ],
+    "metric_units": {
+      "S11": "dB",
+      "S22": "dB",
+      "LargeSignalPowerGain": "dB",
+      "PAE": "%",
+      "DrainEfficiency": "%",
+      "PSAT": "source_label_dBm_compression_function",
+      "PowerConsumption": "W"
+    },
+    "defaults": {
+      "fin": 28000000000.0,
+      "pin": -20.0,
+      "L1p": 3.5e-10,
+      "L1s": 8e-11,
+      "L2p": 4.6e-10,
+      "L2s": 3.1e-10,
+      "L3p": 4.75e-10,
+      "L3s": 6e-11,
+      "Lm": 1.75e-10,
+      "q": 30.0,
+      "Vb1": 1.2,
+      "Vb2": 1.2,
+      "Vinb1": 0.8,
+      "Vinb2": 0.75,
+      "Wn1": 2.2e-05,
+      "Wn2": 3.2e-05
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/PA/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__PA",
+    "graph": "data/processed/graphs/AICircuit__PA.json",
+    "metric_names": [
+      "S11",
+      "S22",
+      "LargeSignalPowerGain",
+      "PAE",
+      "DrainEfficiency",
+      "PSAT",
+      "PowerConsumption"
+    ],
+    "full_connectivity_hash": "f17ee704c52478186b1fb532e12a9154",
+    "mos_core_hash": "609c7b28f718b4188938762d7e04b56e",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__PA:2e665871694a",
+    "compatibility_group": "AICircuit__PA",
+    "parameter_units": {
+      "L1p": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      },
+      "L1s": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      },
+      "L3p": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      },
+      "L3s": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      },
+      "Lm": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      },
+      "Wn1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      },
+      "Wn2": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/PA/netlist"
+      }
+    },
+    "supply_voltage_default": 1.2,
+    "supply_voltage_expression": "1.2",
+    "num_devices": 50,
+    "num_nets": 37,
+    "num_edges": 86,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_AICircuit__PA",
+    "topology_group": "core_FALCON__DPA"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "Receiver",
+    "circuit_family": "Receiver",
+    "csv": "third_party/AICircuit/Dataset/Receiver/Receiver.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist",
+    "parameters": [
+      "C1_LNA",
+      "C2_LNA",
+      "Ld_LNA",
+      "Lg_LNA",
+      "Ls_LNA",
+      "WN1_LNA",
+      "WN2_LNA",
+      "C_Mixer",
+      "R_Mixer",
+      "WLO_Mixer",
+      "WRF_Mixer",
+      "Rd_Amp",
+      "Wn1_Amp",
+      "Wn2_Amp"
+    ],
+    "metric_units": {
+      "PowerConsumption": "W",
+      "VoltageGain": "dB",
+      "NoiseFigure": "dB",
+      "PowerGain_LNA": "dB",
+      "NoiseFigure_LNA": "dB",
+      "S11_LNA": "dB",
+      "ConversionGain_Mixer": "dB",
+      "VoltageSwing_Mixer": "V",
+      "VoltageGain_Amp": "dB"
+    },
+    "defaults": {
+      "C1_LNA": 1.3e-13,
+      "C2_LNA": 1.7e-13,
+      "C_Mixer": 1e-12,
+      "Cf": 1.5e-11,
+      "Cmatch": 1e-13,
+      "Cmatch2": 1e-12,
+      "Cmatch_lna": 2e-13,
+      "Ibias_Amp": 0.002,
+      "Itail_Mixer": 0.0025,
+      "Ld_LNA": 1.8e-10,
+      "Lg_LNA": 8.5e-10,
+      "Lmatch": 2.6e-10,
+      "Lmatch2": 5.0000000000000004e-08,
+      "Lmatch_lna": 3.5e-10,
+      "Ls_LNA": 8e-11,
+      "R1_LNA": 160.0,
+      "R2_LNA": 1300.0,
+      "R3_LNA": 1500.0,
+      "R_Mixer": 400.0,
+      "Rd_Amp": 300.0,
+      "Rf": 100.0,
+      "VDD": 1.2,
+      "WLO_Mixer": 4e-06,
+      "WN1_LNA": 4.599999999999999e-06,
+      "WN2_LNA": 8e-06,
+      "WRF_Mixer": 8e-06,
+      "W_LNA": 2.4999999999999998e-06,
+      "Wn1_Amp": 7e-06,
+      "Wn2_Amp": 4e-06,
+      "flo": 27900000000.0,
+      "pacmag": 1.0,
+      "plo": 10.0
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScript.ocn",
+      "third_party/AICircuit/Simulation/Ocean/Receiver/oceanScriptIndividual.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__Receiver",
+    "graph": "data/processed/graphs/AICircuit__Receiver.json",
+    "metric_names": [
+      "PowerConsumption",
+      "VoltageGain",
+      "NoiseFigure",
+      "PowerGain_LNA",
+      "NoiseFigure_LNA",
+      "S11_LNA",
+      "ConversionGain_Mixer",
+      "VoltageSwing_Mixer",
+      "VoltageGain_Amp"
+    ],
+    "full_connectivity_hash": "2306445509259ecc16cb7df199868be6",
+    "mos_core_hash": "1bd1f5c61ac14706ff3180f3b173f097",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__Receiver:aae67f6b2d59",
+    "compatibility_group": "AICircuit__Receiver",
+    "parameter_units": {
+      "C1_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "C2_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "Ld_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "Lg_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "Ls_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "WN1_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "WN2_LNA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "C_Mixer": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "R_Mixer": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "WLO_Mixer": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "WRF_Mixer": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "Rd_Amp": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "Wn1_Amp": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      },
+      "Wn2_Amp": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Receiver/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 69,
+    "num_nets": 45,
+    "num_edges": 152,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_AICircuit__Receiver",
+    "topology_group": "core_AICircuit__Receiver"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "Transmitter",
+    "circuit_family": "Transmitter",
+    "csv": "third_party/AICircuit/Dataset/Transmitter/Transmitter.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist",
+    "parameters": [
+      "C1_VCO",
+      "L1_VCO",
+      "Rp_VCO",
+      "Wn_VCO",
+      "Wn6_VCO",
+      "Wvar_VCO",
+      "L1p_PA",
+      "L1s_PA",
+      "L3p_PA",
+      "L3s_PA",
+      "Wn1_PA",
+      "Wn2_PA"
+    ],
+    "metric_units": {
+      "PowerConsumption": "W",
+      "Bandwidth": "Hz",
+      "OutputPower": "dBm",
+      "VoltageSwing": "V",
+      "TuningRange_VCO": "Hz",
+      "PhaseNoise_VCO": "dBc/Hz",
+      "LargeSignal_PowerGain_PA": "dB",
+      "DrainEfficiency_PA": "%",
+      "PAE_PA": "%"
+    },
+    "defaults": {
+      "C1_VCO": 1e-13,
+      "L1_VCO": 1.2e-10,
+      "Rp_VCO": 400.0,
+      "Wn5_VCO": 6e-06,
+      "Wn6_VCO": 8e-06,
+      "Wn_VCO": 2e-06,
+      "Wvar_VCO": 4e-06,
+      "C1": 1e-13,
+      "Cmatch1": 5e-13,
+      "Cmatch2": 9.600000000000001e-14,
+      "Iref": 0.0005,
+      "L1": 1.2e-10,
+      "L1p_PA": 3.5e-10,
+      "L1s_PA": 1.2e-10,
+      "L2p_PA": 4.6e-10,
+      "L2s_PA": 3.1e-10,
+      "L3p_PA": 7.13e-10,
+      "L3s_PA": 9e-11,
+      "Lm_PA": 8.75e-11,
+      "Lmatch1": 4e-09,
+      "Lmatch2": 1.04e-10,
+      "Rp": 400.0,
+      "Vb1": 1.2,
+      "Vb2": 1.2,
+      "Vcont": 0.6,
+      "Vinb1": 0.85,
+      "Vinb2": 0.85,
+      "Wbias": 4.9999999999999996e-06,
+      "Wbuffer": 8e-06,
+      "Wn": 2e-06,
+      "Wn1_PA": 2.7e-05,
+      "Wn2_PA": 2.1e-05,
+      "Wn5": 6e-06,
+      "Wn6": 8e-06,
+      "Wvar": 4e-06,
+      "fin": 28000000000.0,
+      "q": 30.0
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/Transmitter/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__Transmitter",
+    "graph": "data/processed/graphs/AICircuit__Transmitter.json",
+    "metric_names": [
+      "PowerConsumption",
+      "Bandwidth",
+      "OutputPower",
+      "VoltageSwing",
+      "TuningRange_VCO",
+      "PhaseNoise_VCO",
+      "LargeSignal_PowerGain_PA",
+      "DrainEfficiency_PA",
+      "PAE_PA"
+    ],
+    "full_connectivity_hash": "a3447624a4323bd3b3957c17e9f1acde",
+    "mos_core_hash": "ecad31f1a32848588be07754f3109e98",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__Transmitter:acbe38d250d1",
+    "compatibility_group": "AICircuit__Transmitter",
+    "parameter_units": {
+      "C1_VCO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "L1_VCO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "Rp_VCO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "Wn_VCO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "Wn6_VCO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "Wvar_VCO": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "L1p_PA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "L1s_PA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "L3p_PA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "L3s_PA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "Wn1_PA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      },
+      "Wn2_PA": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/Transmitter/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 72,
+    "num_nets": 46,
+    "num_edges": 158,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_AICircuit__Transmitter",
+    "topology_group": "core_AICircuit__Transmitter"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "TSVA",
+    "circuit_family": "VA",
+    "csv": "third_party/AICircuit/Dataset/TSVA/TSVA.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist",
+    "parameters": [
+      "C1",
+      "WNOUT",
+      "WPOUT",
+      "WCS",
+      "WN1",
+      "WP1"
+    ],
+    "metric_units": {
+      "Bandwidth": "Hz",
+      "PowerConsumption": "W",
+      "VoltageGain": "dB"
+    },
+    "defaults": {
+      "C0": 2e-13,
+      "C1": 2e-13,
+      "Vb1": 1.5,
+      "Vb2": 1.8,
+      "Vb3": 2.7,
+      "Vb4": 0.62,
+      "Vb5": 1.0,
+      "Vbmain": 0.74,
+      "VDD": 3.3,
+      "WCS": 6e-06,
+      "WN1": 3e-06,
+      "WNOUT": 1.5e-06,
+      "WP1": 3e-06,
+      "WPOUT": 1.5e-06
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/TSVA/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__TSVA",
+    "graph": "data/processed/graphs/AICircuit__TSVA.json",
+    "metric_names": [
+      "Bandwidth",
+      "PowerConsumption",
+      "VoltageGain"
+    ],
+    "full_connectivity_hash": "bbdee7e8cc44de21c60df31ab3bb1061",
+    "mos_core_hash": "8108894c7a11ef0c269bd3c2bf74091a",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__TSVA:372d7989f617",
+    "compatibility_group": "AICircuit__TSVA",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist"
+      },
+      "WNOUT": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist"
+      },
+      "WPOUT": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist"
+      },
+      "WCS": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist"
+      },
+      "WN1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist"
+      },
+      "WP1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "area_drain_m2",
+          "area_source_m2",
+          "perimeter_drain_m",
+          "perimeter_source_m",
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/TSVA/netlist"
+      }
+    },
+    "supply_voltage_default": 3.3,
+    "supply_voltage_expression": "VDD",
+    "num_devices": 26,
+    "num_nets": 19,
+    "num_edges": 91,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_AICircuit__TSVA",
+    "topology_group": "core_AICircuit__TSVA"
+  },
+  {
+    "source_dataset": "AICircuit",
+    "source_topology": "VCO",
+    "circuit_family": "VCO",
+    "csv": "third_party/AICircuit/Dataset/VCO/VCO.csv",
+    "netlist": "third_party/AICircuit/Simulation/Netlists/VCO/netlist",
+    "parameters": [
+      "C1",
+      "L1",
+      "Rp",
+      "Wn",
+      "Wn5",
+      "Wn6",
+      "Wvar"
+    ],
+    "metric_units": {
+      "OscillationFrequency": "Hz",
+      "PowerConsumption": "W",
+      "OutputPower": "dBm",
+      "PhaseNoise": "dBc/Hz",
+      "TuningRange": "Hz"
+    },
+    "defaults": {
+      "C1": 1.5000000000000002e-13,
+      "L1": 4e-09,
+      "Rp": 2200.0,
+      "Vcont": 0.8,
+      "Wn": 2e-06,
+      "Wn5": 1.1e-05,
+      "Wn6": 3.2e-06,
+      "Wvar": 4e-06
+    },
+    "config_corrections": [],
+    "temperature": 27.0,
+    "process": "PTM_LP_45nm_MetalGate_HighK_StrainedSi",
+    "testbench_status": "published_reference_not_row_verified",
+    "testbench_files": [
+      "third_party/AICircuit/Simulation/Ocean/VCO/oceanScript.ocn"
+    ],
+    "pdk_evidence": "third_party/AICircuit/Simulation/Model/45n270AModels.sp",
+    "topology_id": "AICircuit__VCO",
+    "graph": "data/processed/graphs/AICircuit__VCO.json",
+    "metric_names": [
+      "OscillationFrequency",
+      "PowerConsumption",
+      "OutputPower",
+      "PhaseNoise",
+      "TuningRange"
+    ],
+    "full_connectivity_hash": "01d021e7949c9e8801186ab9dc80fd01",
+    "mos_core_hash": "303127cfef0b30b8b7f1bdc3b9806f6a",
+    "unresolved_device_features": {},
+    "input_complete": true,
+    "testbench_id": "AICircuit__VCO:d65f2215c0f4",
+    "compatibility_group": "AICircuit__VCO",
+    "parameter_units": {
+      "C1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "capacitance_F"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      },
+      "L1": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "inductance_H"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      },
+      "Rp": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "resistance_ohm"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      },
+      "Wn": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      },
+      "Wn5": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      },
+      "Wn6": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      },
+      "Wvar": {
+        "source_unit": "SI",
+        "factor": 1.0,
+        "feature_uses": [
+          "width_m"
+        ],
+        "evidence": "third_party/AICircuit/Simulation/Netlists/VCO/netlist"
+      }
+    },
+    "supply_voltage_default": null,
+    "supply_voltage_expression": null,
+    "num_devices": 16,
+    "num_nets": 8,
+    "num_edges": 46,
+    "graph_representation": "net_device_multigraph_v2",
+    "connectivity_group": "conn_AICircuit__VCO",
+    "topology_group": "core_AICircuit__VCO"
+  }
+]

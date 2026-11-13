@@ -1,0 +1,106 @@
+{
+  "checked_at_UTC": "2026-10-29T20:51:53.004035+00:00",
+  "interval_seconds": 300,
+  "campaign_state": "complete",
+  "attempts": 23094,
+  "accepted": 20000,
+  "status_age_seconds": 278.540491,
+  "available_memory_bytes": 3091894272,
+  "free_disk_bytes": 293466279936,
+  "recent_window_per_topology": 20,
+  "topologies": {
+    "Alfio_RAFFC_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 16,
+      "consecutive_failures": 0,
+      "failures": {
+        "ValueError: DC follower outside 20% operating window or nonpositive power": 4
+      }
+    },
+    "Fan_SMC_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 15,
+      "consecutive_failures": 0,
+      "failures": {
+        "ValueError: DC follower outside 20% operating window or nonpositive power": 5
+      }
+    },
+    "HoiLee_AFFC_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 13,
+      "consecutive_failures": 0,
+      "failures": {
+        "ValueError: Observed response never settles": 6,
+        "ValueError: Insufficient settled observation time": 1
+      }
+    },
+    "Leung_DFCFC1_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 17,
+      "consecutive_failures": 0,
+      "failures": {
+        "ValueError: No descending unity-gain crossing; do not fill a zero label": 2,
+        "ValueError: Observed response never settles": 1
+      }
+    },
+    "Leung_NMCNR_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 20,
+      "consecutive_failures": 0,
+      "failures": {}
+    },
+    "Peng_TCFC_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 20,
+      "consecutive_failures": 0,
+      "failures": {}
+    },
+    "Qu2017_AZC_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 13,
+      "consecutive_failures": 0,
+      "failures": {
+        "ValueError: Insufficient settled observation time": 1,
+        "TimeoutExpired: Command '['D:\\\\EDA\\\\tools\\\\Spice64\\\\bin\\\\ngspice_con.exe', '-n', '-b', '-o', 'tran.log', 'tran.cir']' timed out after 119.98499999986961 seconds": 1,
+        "TimeoutExpired: Command '['D:\\\\EDA\\\\tools\\\\Spice64\\\\bin\\\\ngspice_con.exe', '-n', '-b', '-o', 'tran.log', 'tran.cir']' timed out after 119.98400000017136 seconds": 1,
+        "TimeoutExpired: Command '['D:\\\\EDA\\\\tools\\\\Spice64\\\\bin\\\\ngspice_con.exe', '-n', '-b', '-o', 'tran.log', 'tran.cir']' timed out after 119.95299999997951 seconds": 2,
+        "TimeoutExpired: Command '['D:\\\\EDA\\\\tools\\\\Spice64\\\\bin\\\\ngspice_con.exe', '-n', '-b', '-o', 'tran.log', 'tran.cir']' timed out after 119.9680000001099 seconds": 2
+      }
+    },
+    "Song_DACFC_Pin_3": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 18,
+      "consecutive_failures": 0,
+      "failures": {
+        "ValueError: DC follower outside 20% operating window or nonpositive power": 2
+      }
+    },
+    "ldo_simple": {
+      "sampling_policy": "personal_sampler_v1",
+      "attempts": 20,
+      "accepted": 20,
+      "consecutive_failures": 0,
+      "failures": {}
+    },
+    "ldo_folded_cascode": {
+      "sampling_policy": "folded_recentered_narrow_v2",
+      "attempts": 20,
+      "accepted": 20,
+      "consecutive_failures": 0,
+      "failures": {}
+    }
+  },
+  "latest_raw_labels_recomputed": 10,
+  "alerts": [],
+  "health": "ok",
+  "scope": "Recent 20 attempts per topology and latest accepted raw waveform per topology; not a full-dataset audit.",
+  "monitor_pid": 26320
+}

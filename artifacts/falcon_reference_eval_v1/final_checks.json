@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "analysis_jobs_verified": 20,
+  "input_sources_unchanged": true,
+  "sample_means_recomputed_independently": true,
+  "jobs": [
+    {
+      "job": "loadbench_expert",
+      "samples": 19301,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "loto_M04",
+      "samples": 2404,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_full_gnn",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_full_joint",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_full_physical",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k100_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k100_seed43",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k100_seed44",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k10_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k20_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k50_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_pretrained_k5_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k100_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k100_seed43",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k100_seed44",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k10_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k20_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k50_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "personal_scratch_k5_seed42",
+      "samples": 2000,
+      "numeric_and_parent_fingerprints_verified": true
+    },
+    {
+      "job": "public_id_published",
+      "samples": 49056,
+      "numeric_and_parent_fingerprints_verified": true
+    }
+  ]
+}

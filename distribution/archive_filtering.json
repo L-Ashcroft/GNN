@@ -1,0 +1,62 @@
+{
+  "artifacts/report_archive_20261113.zip": {
+    "excluded_records": [
+      "reports/background_example_checks.json",
+      "reports/graph_lecture12_audit.json",
+      "reports/lecture5_implementation.json",
+      "reports/lecture5_implementation.md"
+    ],
+    "retained_records": 67,
+    "sha256": "2e435dbae9b84f1c2806ef98d0044e1f7712216cfae1c19d426f665c752028a4"
+  },
+  "artifacts/inactive_json_records_20261113.zip": {
+    "excluded_records": [
+      "artifacts/paper_2c_20261107/checks.json",
+      "artifacts/paper_2c_20261107/evidence.json",
+      "artifacts/paper_2c_20261107/layout.json",
+      "artifacts/paper_2c_20261107/pages.json",
+      "artifacts/paper_2c_20261107/source_section.json",
+      "artifacts/paper_experiment_setup_20261103/checks.json",
+      "artifacts/paper_experiment_setup_20261103/render/pages.json",
+      "artifacts/paper_final_check_20261111/changes.json",
+      "artifacts/paper_final_check_20261111/edit_checks.json",
+      "artifacts/paper_final_check_20261111/evidence.json",
+      "artifacts/paper_final_check_20261111/final_checks.json",
+      "artifacts/paper_final_check_20261111/index_equivalence.json",
+      "artifacts/paper_final_check_20261111/operations.json",
+      "artifacts/paper_final_check_20261111/pages.json",
+      "artifacts/paper_final_check_20261111/visual_checks.json",
+      "artifacts/paper_four_experiments_20261110/content_checks.json",
+      "artifacts/paper_four_experiments_20261110/edit_checks.json",
+      "artifacts/paper_four_experiments_20261110/evidence.json",
+      "artifacts/paper_four_experiments_20261110/export_recovery.json",
+      "artifacts/paper_four_experiments_20261110/operations.json",
+      "artifacts/paper_four_experiments_20261110/pages.json",
+      "artifacts/paper_four_experiments_20261110/visual_checks.json",
+      "artifacts/paper_method_review_20261103/checks.json",
+      "artifacts/paper_method_review_20261103/render/pages.json",
+      "artifacts/paper_results_update_20261112/changes.json",
+      "artifacts/paper_results_update_20261112/final_checks.json",
+      "artifacts/paper_results_update_20261112/render/pages.json",
+      "artifacts/paper_results_update_20261112/visual_checks.json",
+      "artifacts/paper_review_20261103/render/pages.json",
+      "artifacts/paper_review_20261103/revision_checks.json",
+      "artifacts/paper_review_final_20261110/ID_test_counts.json",
+      "artifacts/paper_review_final_20261110/captions.json",
+      "artifacts/paper_review_final_20261110/checkpoint_parameter_shapes.json",
+      "artifacts/paper_review_final_20261110/edit_checks.json",
+      "artifacts/paper_review_final_20261110/final_checks.json",
+      "artifacts/paper_review_final_20261110/final_pages.json",
+      "artifacts/paper_review_final_20261110/live_guard.json",
+      "artifacts/paper_review_final_20261110/operations.json",
+      "artifacts/paper_review_final_20261110/pages.json",
+      "artifacts/paper_review_final_20261110/raw_metric_checks.json",
+      "artifacts/paper_review_final_20261110/source_checks.json",
+      "artifacts/paper_review_final_20261110/visual_checks.json",
+      "artifacts/paper_supplement_20261106/edit_checks.json",
+      "artifacts/paper_supplement_20261106/pages.json"
+    ],
+    "retained_records": 286,
+    "sha256": "b0c59e5310f49763510ba35765f9b8518aec04d39deb9ab49573638c2840b95c"
+  }
+}

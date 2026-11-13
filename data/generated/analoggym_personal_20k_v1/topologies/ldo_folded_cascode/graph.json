@@ -1,0 +1,1695 @@
+{
+  "representation": "net_device_multigraph_v2",
+  "directed": false,
+  "port_policy": "MOS all six port pairs including bulk; balun first-port star; other devices all port pairs; tied ports retain self-loops",
+  "nets": [
+    "net1",
+    "net2",
+    "net3",
+    "net4",
+    "vb1",
+    "vb2",
+    "vdd",
+    "vinn",
+    "vinp",
+    "vout1",
+    "vreg",
+    "vss"
+  ],
+  "devices": [
+    {
+      "name": "xm10",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "vreg",
+        "vout1",
+        "vdd",
+        "vdd"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m10)*1e-6",
+        "w": "(w_m10)*1e-6",
+        "m": "m_m10"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm1",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net2",
+        "vinp",
+        "net4",
+        "vss"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m1)*1e-6",
+        "w": "(w_m1)*1e-6",
+        "m": "m_m1"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm2",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net3",
+        "vinn",
+        "net4",
+        "vss"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m2)*1e-6",
+        "w": "(w_m2)*1e-6",
+        "m": "m_m2"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm4",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net3",
+        "net1",
+        "vdd",
+        "vdd"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m4)*1e-6",
+        "w": "(w_m4)*1e-6",
+        "m": "m_m4"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm3",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net2",
+        "net1",
+        "vdd",
+        "vdd"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m3)*1e-6",
+        "w": "(w_m3)*1e-6",
+        "m": "m_m3"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm9",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net4",
+        "vb1",
+        "vss",
+        "vss"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m9)*1e-6",
+        "w": "(w_m9)*1e-6",
+        "m": "m_m9"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm6",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "vout1",
+        "vb2",
+        "net3",
+        "vdd"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m6)*1e-6",
+        "w": "(w_m6)*1e-6",
+        "m": "m_m6"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm5",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net1",
+        "vb2",
+        "net2",
+        "vdd"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m5)*1e-6",
+        "w": "(w_m5)*1e-6",
+        "m": "m_m5"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm7",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net1",
+        "vb1",
+        "vss",
+        "vss"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m7)*1e-6",
+        "w": "(w_m7)*1e-6",
+        "m": "m_m7"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xm8",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "vout1",
+        "vb1",
+        "vss",
+        "vss"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(l_m8)*1e-6",
+        "w": "(w_m8)*1e-6",
+        "m": "m_m8"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xcfb",
+      "model": "sky130_fd_pr__cap_mim_m3_1",
+      "pdk_model": "sky130_fd_pr__cap_mim_m3_1",
+      "nets": [
+        "net2",
+        "vreg"
+      ],
+      "ports": [
+        "P",
+        "N"
+      ],
+      "attributes": {
+        "w": "(10)*1e-6",
+        "l": "(10)*1e-6",
+        "mf": "m_cfb",
+        "m": "m_cfb"
+      },
+      "device_references": {}
+    },
+    {
+      "name": "xrfb",
+      "model": "sky130_fd_pr__res_high_po_0p35",
+      "pdk_model": "sky130_fd_pr__res_high_po_0p35",
+      "nets": [
+        "net2",
+        "vout1",
+        "vss"
+      ],
+      "ports": [
+        "P",
+        "N",
+        "B"
+      ],
+      "attributes": {
+        "l": "(3)*1e-6",
+        "mult": "m_rfb",
+        "m": "m_rfb"
+      },
+      "device_references": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": 10,
+      "target": 9,
+      "device": 0,
+      "name": "xm10",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 10,
+      "target": 6,
+      "device": 0,
+      "name": "xm10",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 10,
+      "target": 6,
+      "device": 0,
+      "name": "xm10",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "device": 0,
+      "name": "xm10",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "device": 0,
+      "name": "xm10",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 6,
+      "target": 6,
+      "device": 0,
+      "name": "xm10",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "device": 1,
+      "name": "xm1",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "device": 1,
+      "name": "xm1",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "device": 1,
+      "name": "xm1",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "device": 1,
+      "name": "xm1",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "device": 1,
+      "name": "xm1",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "device": 1,
+      "name": "xm1",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "device": 2,
+      "name": "xm2",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "device": 2,
+      "name": "xm2",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "device": 2,
+      "name": "xm2",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "device": 2,
+      "name": "xm2",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "device": 2,
+      "name": "xm2",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "device": 2,
+      "name": "xm2",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "device": 3,
+      "name": "xm4",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 3,
+      "name": "xm4",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 3,
+      "name": "xm4",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "device": 3,
+      "name": "xm4",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "device": 3,
+      "name": "xm4",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 6,
+      "target": 6,
+      "device": 3,
+      "name": "xm4",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "device": 4,
+      "name": "xm3",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "device": 4,
+      "name": "xm3",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "device": 4,
+      "name": "xm3",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "device": 4,
+      "name": "xm3",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "device": 4,
+      "name": "xm3",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 6,
+      "target": 6,
+      "device": 4,
+      "name": "xm3",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "device": 5,
+      "name": "xm9",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "device": 5,
+      "name": "xm9",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "device": 5,
+      "name": "xm9",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "device": 5,
+      "name": "xm9",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "device": 5,
+      "name": "xm9",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 5,
+      "name": "xm9",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "device": 6,
+      "name": "xm6",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 9,
+      "target": 2,
+      "device": 6,
+      "name": "xm6",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "device": 6,
+      "name": "xm6",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "device": 6,
+      "name": "xm6",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "device": 6,
+      "name": "xm6",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "device": 6,
+      "name": "xm6",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "device": 7,
+      "name": "xm5",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "device": 7,
+      "name": "xm5",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "device": 7,
+      "name": "xm5",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "device": 7,
+      "name": "xm5",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "device": 7,
+      "name": "xm5",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "device": 7,
+      "name": "xm5",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "device": 8,
+      "name": "xm7",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "device": 8,
+      "name": "xm7",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "device": 8,
+      "name": "xm7",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "device": 8,
+      "name": "xm7",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "device": 8,
+      "name": "xm7",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 8,
+      "name": "xm7",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "device": 9,
+      "name": "xm8",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "device": 9,
+      "name": "xm8",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "device": 9,
+      "name": "xm8",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "device": 9,
+      "name": "xm8",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "device": 9,
+      "name": "xm8",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 9,
+      "name": "xm8",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "device": 10,
+      "name": "xcfb",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "sky130_fd_pr__cap_mim_m3_1_PN"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "device": 11,
+      "name": "xrfb",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "sky130_fd_pr__res_high_po_0p35_PN"
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "device": 11,
+      "name": "xrfb",
+      "ports": [
+        "P",
+        "B"
+      ],
+      "component": "sky130_fd_pr__res_high_po_0p35_PB"
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "device": 11,
+      "name": "xrfb",
+      "ports": [
+        "N",
+        "B"
+      ],
+      "component": "sky130_fd_pr__res_high_po_0p35_NB"
+    }
+  ],
+  "edge_index": [
+    [
+      10,
+      10,
+      10,
+      9,
+      9,
+      6,
+      1,
+      1,
+      1,
+      8,
+      8,
+      3,
+      2,
+      2,
+      2,
+      7,
+      7,
+      3,
+      2,
+      2,
+      2,
+      0,
+      0,
+      6,
+      1,
+      1,
+      1,
+      0,
+      0,
+      6,
+      3,
+      3,
+      3,
+      4,
+      4,
+      11,
+      9,
+      9,
+      9,
+      5,
+      5,
+      2,
+      0,
+      0,
+      0,
+      5,
+      5,
+      1,
+      0,
+      0,
+      0,
+      4,
+      4,
+      11,
+      9,
+      9,
+      9,
+      4,
+      4,
+      11,
+      1,
+      1,
+      1,
+      9
+    ],
+    [
+      9,
+      6,
+      6,
+      6,
+      6,
+      6,
+      8,
+      3,
+      11,
+      3,
+      11,
+      11,
+      7,
+      3,
+      11,
+      3,
+      11,
+      11,
+      0,
+      6,
+      6,
+      6,
+      6,
+      6,
+      0,
+      6,
+      6,
+      6,
+      6,
+      6,
+      4,
+      11,
+      11,
+      11,
+      11,
+      11,
+      5,
+      2,
+      6,
+      2,
+      6,
+      6,
+      5,
+      1,
+      6,
+      1,
+      6,
+      6,
+      4,
+      11,
+      11,
+      11,
+      11,
+      11,
+      4,
+      11,
+      11,
+      11,
+      11,
+      11,
+      10,
+      9,
+      11,
+      11
+    ]
+  ],
+  "edge_device_index": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    10,
+    11,
+    11,
+    11
+  ],
+  "device_terminals": [
+    {
+      "device": 0,
+      "net": 10,
+      "port": "D"
+    },
+    {
+      "device": 0,
+      "net": 9,
+      "port": "G"
+    },
+    {
+      "device": 0,
+      "net": 6,
+      "port": "S"
+    },
+    {
+      "device": 0,
+      "net": 6,
+      "port": "B"
+    },
+    {
+      "device": 1,
+      "net": 1,
+      "port": "D"
+    },
+    {
+      "device": 1,
+      "net": 8,
+      "port": "G"
+    },
+    {
+      "device": 1,
+      "net": 3,
+      "port": "S"
+    },
+    {
+      "device": 1,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 2,
+      "net": 2,
+      "port": "D"
+    },
+    {
+      "device": 2,
+      "net": 7,
+      "port": "G"
+    },
+    {
+      "device": 2,
+      "net": 3,
+      "port": "S"
+    },
+    {
+      "device": 2,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 3,
+      "net": 2,
+      "port": "D"
+    },
+    {
+      "device": 3,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 3,
+      "net": 6,
+      "port": "S"
+    },
+    {
+      "device": 3,
+      "net": 6,
+      "port": "B"
+    },
+    {
+      "device": 4,
+      "net": 1,
+      "port": "D"
+    },
+    {
+      "device": 4,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 4,
+      "net": 6,
+      "port": "S"
+    },
+    {
+      "device": 4,
+      "net": 6,
+      "port": "B"
+    },
+    {
+      "device": 5,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 5,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 5,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 5,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 6,
+      "net": 9,
+      "port": "D"
+    },
+    {
+      "device": 6,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 6,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 6,
+      "net": 6,
+      "port": "B"
+    },
+    {
+      "device": 7,
+      "net": 0,
+      "port": "D"
+    },
+    {
+      "device": 7,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 7,
+      "net": 1,
+      "port": "S"
+    },
+    {
+      "device": 7,
+      "net": 6,
+      "port": "B"
+    },
+    {
+      "device": 8,
+      "net": 0,
+      "port": "D"
+    },
+    {
+      "device": 8,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 8,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 8,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 9,
+      "net": 9,
+      "port": "D"
+    },
+    {
+      "device": 9,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 9,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 9,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 10,
+      "net": 1,
+      "port": "P"
+    },
+    {
+      "device": 10,
+      "net": 10,
+      "port": "N"
+    },
+    {
+      "device": 11,
+      "net": 1,
+      "port": "P"
+    },
+    {
+      "device": 11,
+      "net": 9,
+      "port": "N"
+    },
+    {
+      "device": 11,
+      "net": 11,
+      "port": "B"
+    }
+  ],
+  "device_references": [],
+  "num_nets": 12,
+  "num_devices": 12,
+  "num_nodes": 12,
+  "num_terminals": 45,
+  "num_edges": 64,
+  "num_device_references": 0,
+  "source_netlist": "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/design_variables/ldo_folded_cascode.txt",
+  "netlist_sha256": "d1205723822a39897f6c8d64452d19624b0ed63232623b934581f11e19e4a6bc",
+  "external_ports": [
+    "vdd",
+    "vinp",
+    "vb2",
+    "vinn",
+    "vb1",
+    "vss",
+    "vreg"
+  ],
+  "subcircuit_name": "ldo_folded_cascode",
+  "feature_names": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient"
+  ],
+  "feature_expressions": [
+    [
+      "(w_m10)*1e-6",
+      "(l_m10)*1e-6",
+      "m_m10",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m1)*1e-6",
+      "(l_m1)*1e-6",
+      "m_m1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m2)*1e-6",
+      "(l_m2)*1e-6",
+      "m_m2",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m4)*1e-6",
+      "(l_m4)*1e-6",
+      "m_m4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m3)*1e-6",
+      "(l_m3)*1e-6",
+      "m_m3",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m9)*1e-6",
+      "(l_m9)*1e-6",
+      "m_m9",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m6)*1e-6",
+      "(l_m6)*1e-6",
+      "m_m6",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m5)*1e-6",
+      "(l_m5)*1e-6",
+      "m_m5",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m7)*1e-6",
+      "(l_m7)*1e-6",
+      "m_m7",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(w_m8)*1e-6",
+      "(l_m8)*1e-6",
+      "m_m8",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "(10)*1e-6",
+      "(10)*1e-6",
+      "m_cfb",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(3)*1e-6",
+      "m_rfb",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "graph_scope": "DUT; external fixtures in conditions.json",
+  "topology_hash": "907fb673b086b26296aacdf347e72a5f"
+}

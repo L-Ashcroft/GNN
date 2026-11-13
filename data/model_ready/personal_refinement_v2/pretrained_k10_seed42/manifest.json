@@ -1,0 +1,20 @@
+{
+  "parent": "pretrained_k10_seed42",
+  "parent_checkpoint_sha256": "e5f17eb217c61c18c94a5ba80b8f36ae0c66513c295fd4b5ea5fe4acc23f880d",
+  "training_ids_sha256": "5cb202957f94c9936e795bff7befe41c0c8b7c00b1bf2f62bc12cb7a85de8ec0",
+  "budget_per_topology": 10,
+  "role_policy": "Declared adaptation train rows and validation only; test embeddings remain NaN",
+  "files": {
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Alfio_RAFFC_Pin_3/embedding.npy": "5a0d19b483bf23848fa3c9bb750665503613078ff0532a51afd95c9a1c093c30",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Fan_SMC_Pin_3/embedding.npy": "8391ded3a8cab11345b7ab60c1403cc25d31712260072a36ea478542c50fe4db",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/HoiLee_AFFC_Pin_3/embedding.npy": "bc02111b57f8b46b719a9cf1e63f3b1146667c5a80c4ccdb42e76176ba343691",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Leung_DFCFC1_Pin_3/embedding.npy": "f86c0877b8e8b32270ba00201f41f3e27c8f0adb2725e3ad724f4b7b04983bdb",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Leung_NMCNR_Pin_3/embedding.npy": "79535e309c9bedfb2c55be1ff309a12eaea12c211fabc8c8860c3b1633d6232c",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Peng_TCFC_Pin_3/embedding.npy": "9b6e4d6dc4ed470aac152f343586e06ad81dec6bed06fe0bbac1b9bcee4ba20a",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Qu2017_AZC_Pin_3/embedding.npy": "e3e340d428c3448d72204ec3290717ea068bf0cbdadcad45a2977d9cd5bcb1b6",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/Song_DACFC_Pin_3/embedding.npy": "84f9c0897306344ee2e4b27898a1a5a68fc29c14fb6151776ed68f68fbf4458a",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/ldo_folded_cascode/embedding.npy": "24e620f221b0e43a3d848453929202fa55aaa675c35567879a65e7b85178ba87",
+    "data/model_ready/personal_refinement_v2/pretrained_k10_seed42/ldo_simple/embedding.npy": "bf622826d0bdf38cde1d095aab515cb5daa1bf4957a4729332b206819518bf72"
+  },
+  "at": "2026-11-05T12:01:57.423762+00:00"
+}

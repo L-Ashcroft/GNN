@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "missing_label_has_no_effect": true,
+  "constant_input_safe": true,
+  "train_range_projection": true
+}

@@ -1,0 +1,45 @@
+{
+  "rows": 10000,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__CGVA",
+  "inputs": {
+    "source": "834dc5469cd921cb4b1191310c35ac2b2cab9d0a18b48b45312cb1fb692c6deb",
+    "graph": "a654b6807457ef2f56624d133dcc98126c388feb17b64b3953ab81af6d46ad57",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "f4399f9088e3bf0481b60785ed4b8e060fc462ed926265b910a9ba1ebe107f3c",
+    "group.npy": "28ef662b34c62fe8c71212ee2d270e2264dd3a8cedcb4bfa80e824a8e2153c01",
+    "known.npy": "0742096adca6533f8c2925724abf572b69f15863513a266228d4f8b7964848a7",
+    "mask.npy": "75d00a731d8ad7bafe92eab00ff354961ecd4669ec1b1d02d15d6c52b5431f79",
+    "role.npy": "2886d49370df8658468b01ff4ec0482ca5b0a04b3edb8409e0842ad46b3b8286",
+    "sample_ids.npy": "a3613da05f60bab66d4aac811458609f9e01d388b6d5a19af99130d524152d6e",
+    "target.npy": "0d5960c3c18d1291916df36dc4eb47f9e94496b87124b75bc2ce0e49e8bcd801",
+    "values.npy": "33cfb31557f0edafbc706ce16d0e3093d1b6e2035df2834711670f73ddacf86b",
+    "zero.npy": "e1d6192c5866189499bebb8e1e506c0592eee62e508e15914c03fc5265765e6e"
+  },
+  "coverage": {
+    "0": {
+      "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a": [
+        0,
+        1,
+        2
+      ]
+    },
+    "1": {
+      "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a": [
+        0,
+        1,
+        2
+      ]
+    },
+    "2": {
+      "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "reference_checks": 3
+}

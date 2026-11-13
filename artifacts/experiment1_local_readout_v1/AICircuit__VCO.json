@@ -1,0 +1,315 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 72535488.34469144,
+        "r2": 0.9862886847036709,
+        "relative_count": 1364,
+        "hit5": 0.9560117302052786,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1364,
+        "mae": 0.00013046143394780243,
+        "r2": 0.9840458669481439,
+        "relative_count": 1364,
+        "hit5": 0.9582111436950147,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1364,
+        "mae": 0.04795583765612165,
+        "r2": 0.963223829123713,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1364,
+        "mae": 3.054080382860044,
+        "r2": 0.15068663884548605,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 22923660.888754908,
+        "r2": 0.7803665915024167,
+        "relative_count": 1364,
+        "hit5": 0.5498533724340176,
+        "hit10": 0.8387096774193549
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 5161055.767539568,
+        "r2": 0.9999356378933805,
+        "relative_count": 1364,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1364,
+        "mae": 7.656295027213508e-06,
+        "r2": 0.9999356027364615,
+        "relative_count": 1364,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1364,
+        "mae": 0.009039083242296764,
+        "r2": 0.9988023009514291,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1364,
+        "mae": 3.062747568382416,
+        "r2": 0.15404270778042028,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 23496537.858430274,
+        "r2": 0.7877233854044865,
+        "relative_count": 1364,
+        "hit5": 0.5520527859237536,
+        "hit10": 0.8137829912023461
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 55586444.02097317,
+        "r2": 0.9915459839095592,
+        "relative_count": 1364,
+        "hit5": 0.9560117302052786,
+        "hit10": 0.9978005865102639
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1364,
+        "mae": 0.0003147564338173364,
+        "r2": 0.9325396608326105,
+        "relative_count": 1364,
+        "hit5": 0.4640762463343108,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1364,
+        "mae": 0.06714223161278983,
+        "r2": 0.9444330225866895,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1364,
+        "mae": 3.8359832994310823,
+        "r2": -0.20419117377555218,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 18976689.84784959,
+        "r2": 0.7688591516334433,
+        "relative_count": 1364,
+        "hit5": 0.7917888563049853,
+        "hit10": 0.8892961876832844
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 102681428.32825953,
+        "r2": 0.9779718474960354,
+        "relative_count": 1364,
+        "hit5": 0.8489736070381232,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1364,
+        "mae": 3.076340482156035e-05,
+        "r2": 0.997207768296186,
+        "relative_count": 1364,
+        "hit5": 0.9978005865102639,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1364,
+        "mae": 0.021858453770558166,
+        "r2": 0.9925133682824775,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1364,
+        "mae": 3.3407892589211463,
+        "r2": 0.03306097194630453,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 24806650.23776582,
+        "r2": 0.7341868695206684,
+        "relative_count": 1364,
+        "hit5": 0.6063049853372434,
+        "hit10": 0.844574780058651
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OscillationFrequency",
+        "original_name": "OscillationFrequency",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 66808675.06996081,
+        "r2": 0.990316423558884,
+        "relative_count": 1364,
+        "hit5": 0.9538123167155426,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PowerConsumption",
+        "original_name": "PowerConsumption",
+        "unit": "W",
+        "count": 1364,
+        "mae": 1.1685251439725849e-05,
+        "r2": 0.9995814245891805,
+        "relative_count": 1364,
+        "hit5": 0.999266862170088,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::OutputPower",
+        "original_name": "OutputPower",
+        "unit": "dBm",
+        "count": 1364,
+        "mae": 0.029104246168264822,
+        "r2": 0.9862769314342213,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::PhaseNoise",
+        "original_name": "PhaseNoise",
+        "unit": "dBc/Hz",
+        "count": 1364,
+        "mae": 3.4321720479095768,
+        "r2": -0.014388259167060546,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      },
+      {
+        "supervision_group": "81a2ffb2fe96cd1cc2d455508f073c5520031c8c1db2f4e3eaf526b4fdd4958b",
+        "semantic_id": "AICircuit__VCO::TuningRange",
+        "original_name": "TuningRange",
+        "unit": "Hz",
+        "count": 1364,
+        "mae": 22282411.037326723,
+        "r2": 0.7429029884932961,
+        "relative_count": 1364,
+        "hit5": 0.716275659824047,
+        "hit10": 0.8629032258064516
+      }
+    ]
+  },
+  "topology": "AICircuit__VCO"
+}

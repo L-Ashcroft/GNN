@@ -1,0 +1,195 @@
+{
+  "GraphAMPNMCF": {
+    "TC": {
+      "raw_name": "TC",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "Power": {
+      "raw_name": "Power",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "vos": {
+      "raw_name": "vos",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "cmrrdc": {
+      "raw_name": "cmrrdc",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "dcgain": {
+      "raw_name": "dcgain",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "GBW": {
+      "raw_name": "GBW",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "phase_margin (deg)": {
+      "raw_name": "phase_margin (deg)",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "PSRP": {
+      "raw_name": "PSRP",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "PSRN": {
+      "raw_name": "PSRN",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "sr": {
+      "raw_name": "sr",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "setting_time": {
+      "raw_name": "setting_time",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    }
+  },
+  "GraphLDOtestbench": {
+    "LDR": {
+      "raw_name": "LDR",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "LNR_maxload": {
+      "raw_name": "LNR_maxload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "LNR_minload": {
+      "raw_name": "LNR_minload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "Power_maxload": {
+      "raw_name": "Power_maxload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "Power_minload": {
+      "raw_name": "Power_minload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "vos_maxload": {
+      "raw_name": "vos_maxload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "vos_minload": {
+      "raw_name": "vos_minload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "PSRR_maxload (dB)": {
+      "raw_name": "PSRR_maxload (dB)",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "PSRR_minload (dB)": {
+      "raw_name": "PSRR_minload (dB)",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "GBW_maxload": {
+      "raw_name": "GBW_maxload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "GBW_minload": {
+      "raw_name": "GBW_minload",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "phase_margin_maxload (deg) ": {
+      "raw_name": "phase_margin_maxload (deg) ",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "phase_margin_minload (deg) ": {
+      "raw_name": "phase_margin_minload (deg) ",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "v_undershoot": {
+      "raw_name": "v_undershoot",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "v_overshoot": {
+      "raw_name": "v_overshoot",
+      "unified_slot": null,
+      "role": "unverified_historical_performance",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    },
+    "CL (pF)": {
+      "raw_name": "CL (pF)",
+      "unified_slot": null,
+      "role": "input_related_capacitance_not_prediction_target",
+      "status": "quarantined_unverified_historical_testbench_and_freshness",
+      "missing": false
+    }
+  }
+}

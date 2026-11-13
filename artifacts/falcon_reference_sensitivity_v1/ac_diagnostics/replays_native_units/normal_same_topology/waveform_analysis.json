@@ -1,0 +1,31 @@
+{
+  "archived": {
+    "dc_gain": 24.57,
+    "ft": 3150000.0,
+    "phasemargin": 27.33
+  },
+  "official_function_on_replayed_waveform": {
+    "dc_gain": 24.568082333682003,
+    "ft": 3150027.2890466074,
+    "phasemargin": 27.32731543485795
+  },
+  "frequency_min_Hz": 1.0,
+  "frequency_max_Hz": 999999999.9999859,
+  "points": 181,
+  "gain_min_dB": -23.950566336794076,
+  "gain_max_dB": 24.568082333682003,
+  "descending_unity_crossings": [
+    {
+      "frequency_Hz": 3149335.130689265,
+      "phase_margin_degree": 27.32731543485795,
+      "bracket_Hz": [
+        2818382.9312644247,
+        3162277.6601683465
+      ]
+    }
+  ],
+  "ascending_unity_crossing_count": 0,
+  "gain_at_1Hz_difference_dB": -0.0019176663179969466,
+  "no_measured_unity_crossing": false,
+  "interpretation": "Independent crossing calculation never extrapolates and does not overwrite official labels."
+}

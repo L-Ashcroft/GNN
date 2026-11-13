@@ -1,0 +1,195 @@
+{
+  "metrics": {
+    "embedding_linear_trainrange": [
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1012,
+        "mae": 105458228.27333155,
+        "r2": 0.9903404206794191,
+        "relative_count": 1012,
+        "hit5": 0.5948616600790514,
+        "hit10": 0.8893280632411067
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1012,
+        "mae": 4.154967764973141e-05,
+        "r2": 0.9957015987823221,
+        "relative_count": 1012,
+        "hit5": 0.974308300395257,
+        "hit10": 0.9990118577075099
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 1012,
+        "mae": 0.25104652461864496,
+        "r2": 0.9943664285581771,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_device_RFF_trainrange": [
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1012,
+        "mae": 49243507.18609354,
+        "r2": 0.9982733976405596,
+        "relative_count": 1012,
+        "hit5": 0.8527667984189723,
+        "hit10": 0.9802371541501976
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1012,
+        "mae": 7.929108890484926e-06,
+        "r2": 0.9998354906309065,
+        "relative_count": 1012,
+        "hit5": 1.0,
+        "hit10": 1.0
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 1012,
+        "mae": 0.18434964615542485,
+        "r2": 0.9965642169729885,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "embedding_local8": [
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1012,
+        "mae": 75348921.43007112,
+        "r2": 0.9959989479378812,
+        "relative_count": 1012,
+        "hit5": 0.6679841897233202,
+        "hit10": 0.9239130434782609
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1012,
+        "mae": 4.6946270899217345e-05,
+        "r2": 0.9953663780369192,
+        "relative_count": 1012,
+        "hit5": 0.9347826086956522,
+        "hit10": 0.9940711462450593
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 1012,
+        "mae": 0.20445990167182132,
+        "r2": 0.9958673285406828,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "device_local8": [
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1012,
+        "mae": 175507522.11321384,
+        "r2": 0.9600462622465836,
+        "relative_count": 1012,
+        "hit5": 0.4891304347826087,
+        "hit10": 0.7440711462450593
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1012,
+        "mae": 4.928378897543441e-05,
+        "r2": 0.9939422025459794,
+        "relative_count": 1012,
+        "hit5": 0.932806324110672,
+        "hit10": 0.9920948616600791
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 1012,
+        "mae": 0.4690620442589664,
+        "r2": 0.9736909341555848,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ],
+    "combined_local8": [
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::Bandwidth",
+        "original_name": "Bandwidth",
+        "unit": "Hz",
+        "count": 1012,
+        "mae": 105428787.36008953,
+        "r2": 0.9899952863157541,
+        "relative_count": 1012,
+        "hit5": 0.5760869565217391,
+        "hit10": 0.857707509881423
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::DCPowerConsumption",
+        "original_name": "DCPowerConsumption",
+        "unit": "W",
+        "count": 1012,
+        "mae": 4.397326310939673e-05,
+        "r2": 0.9957289522172256,
+        "relative_count": 1012,
+        "hit5": 0.9476284584980237,
+        "hit10": 0.9990118577075099
+      },
+      {
+        "supervision_group": "bdef7f32d014440b29f26b58465d1fdbdaf123b7f66b825f256f517d57a0025a",
+        "semantic_id": "FALCON__CGVA::VoltageGain",
+        "original_name": "VoltageGain",
+        "unit": "dB",
+        "count": 1012,
+        "mae": 0.2352107780079499,
+        "r2": 0.9948145671422016,
+        "relative_count": 0,
+        "hit5": null,
+        "hit10": null
+      }
+    ]
+  },
+  "topology": "FALCON__CGVA"
+}

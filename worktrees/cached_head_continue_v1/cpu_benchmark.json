@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "CPU_threads": 2,
+  "batch_size": 1024,
+  "complete_train_step_seconds": [
+    0.360473700100556,
+    0.38758630002848804,
+    0.4095238000154495,
+    0.3960563000291586
+  ],
+  "mean_seconds": 0.38841002504341304,
+  "samples_per_second": 2636.3892123678997,
+  "real_training_graph_embeddings": true,
+  "test_data_read": false,
+  "peak_RSS_MiB": 304.3046875,
+  "minimum_available_RAM_MiB": 1700.9453125,
+  "scope": "Fixed real cached Batch1024, no I/O in step timing; optimizer fresh, not predictive-quality assessment"
+}

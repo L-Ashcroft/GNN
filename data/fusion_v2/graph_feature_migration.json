@@ -1,0 +1,13 @@
+{
+  "version": "lecture12_features_v1",
+  "graphs": 130,
+  "samples_unchanged": true,
+  "labels_unchanged": true,
+  "splits_unchanged": true,
+  "physical_connectivity_unchanged": true,
+  "normalization_fitted": false,
+  "rollback_archive": "data/fusion_v2/migrations/graph_features_v1_before.zip",
+  "index_sha256": "00bf2601a9a5af49e652bf433ba04ea65a291dfac5f070a64d4bfb77f81bc9e5",
+  "relations": 40,
+  "terminal_types": 23
+}

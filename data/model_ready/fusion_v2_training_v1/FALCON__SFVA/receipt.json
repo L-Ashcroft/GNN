@@ -1,0 +1,150 @@
+{
+  "rows": 10000,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__SFVA",
+  "inputs": {
+    "source": "4537644f1774e2bc21bd0a59ac8da7b53e3f319ec314720dbdfca7d435d75406",
+    "graph": "38d9f13a53d81a0b5d624bfbe3fba3fdf1bdf3c65155a2a1fda1a4997872076d",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "f4399f9088e3bf0481b60785ed4b8e060fc462ed926265b910a9ba1ebe107f3c",
+    "group.npy": "31ca817d79ce116c2c86df0adf20f2fbd7d5b166fe1b69e96567cd09d9ea4fd4",
+    "known.npy": "2a95f5d7de26c63176d2cfa96a72cd192c511caa4970af398acb9a10142efdb6",
+    "mask.npy": "75d00a731d8ad7bafe92eab00ff354961ecd4669ec1b1d02d15d6c52b5431f79",
+    "role.npy": "c1a7f6f6fc91b32fd8e326973ddc86379ddd851a352c032a54ee8f8c7be0de49",
+    "sample_ids.npy": "937102f7a19c0d385148bb5588ff340e60d8ea4cf507f6ea76676b87231442a8",
+    "target.npy": "305bdb55a3a4116d30863f411873de36d2a05771b73e4f5f0f752043e49adf5d",
+    "values.npy": "9f6cfa9aa5169c8247be19e7e765e4d3a955a68780ed50869d0caa8dd6ebf782",
+    "zero.npy": "e8c39c3a9522dc0809ec0c6cada07d97d36cb0a105c14ddf97fa503c1ba640c4"
+  },
+  "coverage": {
+    "0": {
+      "4b5f5e3965918f1f280013f8fb375d2dc30164a032f9277ede5e1ee90b27d47e": [
+        0,
+        1,
+        2
+      ],
+      "ad813be8cb6c1b4c77fb7555a15e63c31dfa481b24c11c216a52c2c0e023d936": [
+        0,
+        1,
+        2
+      ],
+      "721c52f6803f436e69b18b97b4d8bfdbfe1816a2172b4784868f6d159e674346": [
+        0,
+        1,
+        2
+      ],
+      "c452f2143757948beb656bd1ad95b6951d3f5219167ca906b13cd6955208866b": [
+        0,
+        1,
+        2
+      ],
+      "7197cbef793559cefd5d598c14aea606f4115c24ec95e8dfd6091dcea065a561": [
+        0,
+        1,
+        2
+      ],
+      "7df6a547c130d4ef45de515d604312eed6d32a4c604cec636028d2568ddc25e6": [
+        0,
+        1,
+        2
+      ],
+      "2b5acc7c50b39e8ba64811be0931f4c336574222e3dbab503bf1e2ae32cc141f": [
+        0,
+        1,
+        2
+      ],
+      "9687270f7b2f173c99ad2febb23c9ca6485659e4ccfee2f3939c5802257f1298": [
+        0,
+        1,
+        2
+      ]
+    },
+    "1": {
+      "4b5f5e3965918f1f280013f8fb375d2dc30164a032f9277ede5e1ee90b27d47e": [
+        0,
+        1,
+        2
+      ],
+      "ad813be8cb6c1b4c77fb7555a15e63c31dfa481b24c11c216a52c2c0e023d936": [
+        0,
+        1,
+        2
+      ],
+      "721c52f6803f436e69b18b97b4d8bfdbfe1816a2172b4784868f6d159e674346": [
+        0,
+        1,
+        2
+      ],
+      "c452f2143757948beb656bd1ad95b6951d3f5219167ca906b13cd6955208866b": [
+        0,
+        1,
+        2
+      ],
+      "7197cbef793559cefd5d598c14aea606f4115c24ec95e8dfd6091dcea065a561": [
+        0,
+        1,
+        2
+      ],
+      "7df6a547c130d4ef45de515d604312eed6d32a4c604cec636028d2568ddc25e6": [
+        0,
+        1,
+        2
+      ],
+      "2b5acc7c50b39e8ba64811be0931f4c336574222e3dbab503bf1e2ae32cc141f": [
+        0,
+        1,
+        2
+      ],
+      "9687270f7b2f173c99ad2febb23c9ca6485659e4ccfee2f3939c5802257f1298": [
+        0,
+        1,
+        2
+      ]
+    },
+    "2": {
+      "4b5f5e3965918f1f280013f8fb375d2dc30164a032f9277ede5e1ee90b27d47e": [
+        0,
+        1,
+        2
+      ],
+      "ad813be8cb6c1b4c77fb7555a15e63c31dfa481b24c11c216a52c2c0e023d936": [
+        0,
+        1,
+        2
+      ],
+      "721c52f6803f436e69b18b97b4d8bfdbfe1816a2172b4784868f6d159e674346": [
+        0,
+        1,
+        2
+      ],
+      "c452f2143757948beb656bd1ad95b6951d3f5219167ca906b13cd6955208866b": [
+        0,
+        1,
+        2
+      ],
+      "7197cbef793559cefd5d598c14aea606f4115c24ec95e8dfd6091dcea065a561": [
+        0,
+        1,
+        2
+      ],
+      "7df6a547c130d4ef45de515d604312eed6d32a4c604cec636028d2568ddc25e6": [
+        0,
+        1,
+        2
+      ],
+      "2b5acc7c50b39e8ba64811be0931f4c336574222e3dbab503bf1e2ae32cc141f": [
+        0,
+        1,
+        2
+      ],
+      "9687270f7b2f173c99ad2febb23c9ca6485659e4ccfee2f3939c5802257f1298": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "reference_checks": 3
+}

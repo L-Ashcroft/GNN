@@ -1,0 +1,12999 @@
+{
+  "representation": "net_device_multigraph_v2",
+  "directed": false,
+  "port_policy": "MOS all six port pairs including bulk; balun first-port star; other devices all port pairs; tied ports retain self-loops",
+  "nets": [
+    "dm_1",
+    "dm_2",
+    "gnda",
+    "net013",
+    "net043",
+    "net049",
+    "net050",
+    "net063",
+    "net1",
+    "net2",
+    "net3",
+    "net31",
+    "net4",
+    "net5",
+    "net54",
+    "net56",
+    "net69",
+    "net70",
+    "net85",
+    "vb3",
+    "vb4",
+    "vdda",
+    "vinn",
+    "vinp",
+    "vout",
+    "voutn"
+  ],
+  "devices": [
+    {
+      "name": "xm69",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net3",
+        "net70",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm68",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net2",
+        "net70",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm63",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net70",
+        "dm_1",
+        "net2",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm62",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "voutn",
+        "dm_1",
+        "net3",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm61",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net4",
+        "dm_1",
+        "net050",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm60",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "voutn",
+        "dm_1",
+        "net5",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm59",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net1",
+        "net013",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "2*mosfet_0_8_m_biascm_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm58",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net049",
+        "vinp",
+        "net1",
+        "net1"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_58_2_l_gmf1_pmos)*1e-6",
+        "w": "(mosfet_58_2_w_gmf1_pmos*1)*1e-6",
+        "m": "mosfet_58_2_m_gmf1_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm57",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net043",
+        "vinn",
+        "net1",
+        "net1"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_58_2_l_gmf1_pmos)*1e-6",
+        "w": "(mosfet_58_2_w_gmf1_pmos*1)*1e-6",
+        "m": "mosfet_58_2_m_gmf1_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm11",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "vout",
+        "net4",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_11_1_l_gmf2_pmos)*1e-6",
+        "w": "(mosfet_11_1_w_gmf2_pmos*1)*1e-6",
+        "m": "mosfet_11_1_m_gmf2_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm7",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net049",
+        "voutn",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_7_1_l_gma2_pmos)*1e-6",
+        "w": "(mosfet_7_1_w_gma2_pmos*1)*1e-6",
+        "m": "mosfet_7_1_m_gma2_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm10",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net043",
+        "net4",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_10_1_l_gm2_pmos)*1e-6",
+        "w": "(mosfet_10_1_w_gm2_pmos*1)*1e-6",
+        "m": "mosfet_10_1_m_gm2_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm6",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net050",
+        "voutn",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_5_2_l_gma1_pmos)*1e-6",
+        "w": "(mosfet_5_2_w_gma1_pmos*1)*1e-6",
+        "m": "mosfet_5_2_m_gma1_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm5",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net5",
+        "voutn",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_5_2_l_gma1_pmos)*1e-6",
+        "w": "(mosfet_5_2_w_gma1_pmos*1)*1e-6",
+        "m": "mosfet_5_2_m_gma1_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm9",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net063",
+        "vinp",
+        "net31",
+        "net31"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_8_2_l_gm1_pmos)*1e-6",
+        "w": "(mosfet_8_2_w_gm1_pmos*1)*1e-6",
+        "m": "mosfet_8_2_m_gm1_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm8",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "dm_2",
+        "vinn",
+        "net31",
+        "net31"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_8_2_l_gm1_pmos)*1e-6",
+        "w": "(mosfet_8_2_w_gm1_pmos*1)*1e-6",
+        "m": "mosfet_8_2_m_gm1_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm4",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net31",
+        "net013",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "2*mosfet_0_8_m_biascm_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm3",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "vb3",
+        "net013",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm2",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "dm_1",
+        "dm_1",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm1",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "vb4",
+        "net013",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm0",
+      "model": "pmos",
+      "pdk_model": "sky130_fd_pr__pfet_01v8",
+      "nets": [
+        "net013",
+        "net013",
+        "vdda",
+        "vdda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_0_8_l_biascm_pmos)*1e-6",
+        "w": "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+        "m": "mosfet_0_8_m_biascm_pmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "pmos"
+    },
+    {
+      "name": "xm71",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "voutn",
+        "vb3",
+        "net85",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm70",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net70",
+        "vb3",
+        "net69",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm65",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net69",
+        "vb4",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*8"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm64",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net85",
+        "vb4",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*8"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm23",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "vout",
+        "net049",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_23_1_l_gm3_nmos)*1e-6",
+        "w": "(mosfet_23_1_w_gm3_nmos*1)*1e-6",
+        "m": "mosfet_23_1_m_gm3_nmos"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm22",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net049",
+        "net043",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_21_2_l_load2_nmos)*1e-6",
+        "w": "(mosfet_21_2_w_load2_nmos*1)*1e-6",
+        "m": "mosfet_21_2_m_load2_nmos"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm21",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net043",
+        "net043",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_21_2_l_load2_nmos)*1e-6",
+        "w": "(mosfet_21_2_w_load2_nmos*1)*1e-6",
+        "m": "mosfet_21_2_m_load2_nmos"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm19",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "dm_2",
+        "vb4",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*8"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm15",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "voutn",
+        "vb3",
+        "dm_2",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm20",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net063",
+        "vb4",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*8"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm16",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net4",
+        "vb3",
+        "net063",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm17",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net54",
+        "vb4",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm14",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "vb3",
+        "vb3",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm12",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "vb4",
+        "vb3",
+        "net54",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm18",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "net56",
+        "vb4",
+        "gnda",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "xm13",
+      "model": "nmos",
+      "pdk_model": "sky130_fd_pr__nfet_01v8",
+      "nets": [
+        "dm_1",
+        "vb3",
+        "net56",
+        "gnda"
+      ],
+      "ports": [
+        "D",
+        "G",
+        "S",
+        "B"
+      ],
+      "attributes": {
+        "l": "(mosfet_17_7_l_biascm_nmos)*1e-6",
+        "w": "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+        "m": "mosfet_17_7_m_biascm_nmos*4"
+      },
+      "device_references": {},
+      "source_device_model": "nmos"
+    },
+    {
+      "name": "i0",
+      "model": "isource",
+      "pdk_model": null,
+      "nets": [
+        "net013",
+        "gnda"
+      ],
+      "ports": [
+        "P",
+        "N"
+      ],
+      "attributes": {
+        "dc": "current_0_bias"
+      },
+      "device_references": {},
+      "source_device_model": "isource"
+    },
+    {
+      "name": "c2",
+      "model": "capacitor",
+      "pdk_model": null,
+      "nets": [
+        "net4",
+        "gnda"
+      ],
+      "ports": [
+        "P",
+        "N"
+      ],
+      "attributes": {
+        "c": "capacitor_1"
+      },
+      "device_references": {},
+      "source_device_model": "capacitor"
+    },
+    {
+      "name": "c0",
+      "model": "capacitor",
+      "pdk_model": null,
+      "nets": [
+        "vout",
+        "net70"
+      ],
+      "ports": [
+        "P",
+        "N"
+      ],
+      "attributes": {
+        "c": "capacitor_0"
+      },
+      "device_references": {},
+      "source_device_model": "capacitor"
+    }
+  ],
+  "edges": [
+    {
+      "source": 10,
+      "target": 17,
+      "device": 0,
+      "name": "xm69",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 10,
+      "target": 21,
+      "device": 0,
+      "name": "xm69",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 10,
+      "target": 21,
+      "device": 0,
+      "name": "xm69",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "device": 0,
+      "name": "xm69",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "device": 0,
+      "name": "xm69",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 0,
+      "name": "xm69",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "device": 1,
+      "name": "xm68",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 9,
+      "target": 21,
+      "device": 1,
+      "name": "xm68",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 9,
+      "target": 21,
+      "device": 1,
+      "name": "xm68",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "device": 1,
+      "name": "xm68",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "device": 1,
+      "name": "xm68",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 1,
+      "name": "xm68",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 17,
+      "target": 0,
+      "device": 2,
+      "name": "xm63",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 17,
+      "target": 9,
+      "device": 2,
+      "name": "xm63",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "device": 2,
+      "name": "xm63",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "device": 2,
+      "name": "xm63",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 2,
+      "name": "xm63",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 9,
+      "target": 21,
+      "device": 2,
+      "name": "xm63",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 25,
+      "target": 0,
+      "device": 3,
+      "name": "xm62",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 25,
+      "target": 10,
+      "device": 3,
+      "name": "xm62",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 3,
+      "name": "xm62",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "device": 3,
+      "name": "xm62",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 3,
+      "name": "xm62",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 10,
+      "target": 21,
+      "device": 3,
+      "name": "xm62",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "device": 4,
+      "name": "xm61",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "device": 4,
+      "name": "xm61",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "device": 4,
+      "name": "xm61",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "device": 4,
+      "name": "xm61",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 4,
+      "name": "xm61",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 6,
+      "target": 21,
+      "device": 4,
+      "name": "xm61",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 25,
+      "target": 0,
+      "device": 5,
+      "name": "xm60",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 25,
+      "target": 13,
+      "device": 5,
+      "name": "xm60",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 5,
+      "name": "xm60",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "device": 5,
+      "name": "xm60",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 5,
+      "name": "xm60",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 13,
+      "target": 21,
+      "device": 5,
+      "name": "xm60",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "device": 6,
+      "name": "xm59",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 8,
+      "target": 21,
+      "device": 6,
+      "name": "xm59",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 8,
+      "target": 21,
+      "device": 6,
+      "name": "xm59",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 6,
+      "name": "xm59",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 6,
+      "name": "xm59",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 6,
+      "name": "xm59",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 5,
+      "target": 23,
+      "device": 7,
+      "name": "xm58",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "device": 7,
+      "name": "xm58",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "device": 7,
+      "name": "xm58",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 23,
+      "target": 8,
+      "device": 7,
+      "name": "xm58",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 23,
+      "target": 8,
+      "device": 7,
+      "name": "xm58",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 8,
+      "target": 8,
+      "device": 7,
+      "name": "xm58",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 4,
+      "target": 22,
+      "device": 8,
+      "name": "xm57",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "device": 8,
+      "name": "xm57",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "device": 8,
+      "name": "xm57",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 22,
+      "target": 8,
+      "device": 8,
+      "name": "xm57",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 22,
+      "target": 8,
+      "device": 8,
+      "name": "xm57",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 8,
+      "target": 8,
+      "device": 8,
+      "name": "xm57",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 24,
+      "target": 12,
+      "device": 9,
+      "name": "xm11",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 24,
+      "target": 21,
+      "device": 9,
+      "name": "xm11",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 24,
+      "target": 21,
+      "device": 9,
+      "name": "xm11",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "device": 9,
+      "name": "xm11",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "device": 9,
+      "name": "xm11",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 9,
+      "name": "xm11",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 5,
+      "target": 25,
+      "device": 10,
+      "name": "xm7",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 5,
+      "target": 21,
+      "device": 10,
+      "name": "xm7",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 5,
+      "target": 21,
+      "device": 10,
+      "name": "xm7",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 10,
+      "name": "xm7",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 10,
+      "name": "xm7",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 10,
+      "name": "xm7",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 4,
+      "target": 12,
+      "device": 11,
+      "name": "xm10",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 4,
+      "target": 21,
+      "device": 11,
+      "name": "xm10",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 4,
+      "target": 21,
+      "device": 11,
+      "name": "xm10",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "device": 11,
+      "name": "xm10",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "device": 11,
+      "name": "xm10",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 11,
+      "name": "xm10",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 6,
+      "target": 25,
+      "device": 12,
+      "name": "xm6",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 6,
+      "target": 21,
+      "device": 12,
+      "name": "xm6",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 6,
+      "target": 21,
+      "device": 12,
+      "name": "xm6",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 12,
+      "name": "xm6",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 12,
+      "name": "xm6",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 12,
+      "name": "xm6",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 13,
+      "target": 25,
+      "device": 13,
+      "name": "xm5",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 13,
+      "target": 21,
+      "device": 13,
+      "name": "xm5",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 13,
+      "target": 21,
+      "device": 13,
+      "name": "xm5",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 13,
+      "name": "xm5",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "device": 13,
+      "name": "xm5",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 13,
+      "name": "xm5",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 7,
+      "target": 23,
+      "device": 14,
+      "name": "xm9",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "device": 14,
+      "name": "xm9",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "device": 14,
+      "name": "xm9",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 23,
+      "target": 11,
+      "device": 14,
+      "name": "xm9",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 23,
+      "target": 11,
+      "device": 14,
+      "name": "xm9",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 14,
+      "name": "xm9",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 1,
+      "target": 22,
+      "device": 15,
+      "name": "xm8",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "device": 15,
+      "name": "xm8",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "device": 15,
+      "name": "xm8",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 22,
+      "target": 11,
+      "device": 15,
+      "name": "xm8",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 22,
+      "target": 11,
+      "device": 15,
+      "name": "xm8",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "device": 15,
+      "name": "xm8",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 11,
+      "target": 3,
+      "device": 16,
+      "name": "xm4",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 11,
+      "target": 21,
+      "device": 16,
+      "name": "xm4",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 11,
+      "target": 21,
+      "device": 16,
+      "name": "xm4",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 16,
+      "name": "xm4",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 16,
+      "name": "xm4",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 16,
+      "name": "xm4",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 19,
+      "target": 3,
+      "device": 17,
+      "name": "xm3",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "device": 17,
+      "name": "xm3",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "device": 17,
+      "name": "xm3",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 17,
+      "name": "xm3",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 17,
+      "name": "xm3",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 17,
+      "name": "xm3",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 0,
+      "target": 0,
+      "device": 18,
+      "name": "xm2",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 18,
+      "name": "xm2",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 18,
+      "name": "xm2",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 18,
+      "name": "xm2",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "device": 18,
+      "name": "xm2",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 18,
+      "name": "xm2",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 20,
+      "target": 3,
+      "device": 19,
+      "name": "xm1",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "device": 19,
+      "name": "xm1",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "device": 19,
+      "name": "xm1",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 19,
+      "name": "xm1",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 19,
+      "name": "xm1",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 19,
+      "name": "xm1",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 3,
+      "device": 20,
+      "name": "xm0",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "pmos_DG"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 20,
+      "name": "xm0",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "pmos_DS"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 20,
+      "name": "xm0",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "pmos_DB"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 20,
+      "name": "xm0",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "pmos_GS"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "device": 20,
+      "name": "xm0",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "pmos_GB"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "device": 20,
+      "name": "xm0",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "pmos_SB"
+    },
+    {
+      "source": 25,
+      "target": 19,
+      "device": 21,
+      "name": "xm71",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 25,
+      "target": 18,
+      "device": 21,
+      "name": "xm71",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 25,
+      "target": 2,
+      "device": 21,
+      "name": "xm71",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 18,
+      "device": 21,
+      "name": "xm71",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 21,
+      "name": "xm71",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 18,
+      "target": 2,
+      "device": 21,
+      "name": "xm71",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 17,
+      "target": 19,
+      "device": 22,
+      "name": "xm70",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "device": 22,
+      "name": "xm70",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 17,
+      "target": 2,
+      "device": 22,
+      "name": "xm70",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 16,
+      "device": 22,
+      "name": "xm70",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 22,
+      "name": "xm70",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "device": 22,
+      "name": "xm70",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 16,
+      "target": 20,
+      "device": 23,
+      "name": "xm65",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "device": 23,
+      "name": "xm65",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "device": 23,
+      "name": "xm65",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 23,
+      "name": "xm65",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 23,
+      "name": "xm65",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 23,
+      "name": "xm65",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 18,
+      "target": 20,
+      "device": 24,
+      "name": "xm64",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 18,
+      "target": 2,
+      "device": 24,
+      "name": "xm64",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 18,
+      "target": 2,
+      "device": 24,
+      "name": "xm64",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 24,
+      "name": "xm64",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 24,
+      "name": "xm64",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 24,
+      "name": "xm64",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 24,
+      "target": 5,
+      "device": 25,
+      "name": "xm23",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 24,
+      "target": 2,
+      "device": 25,
+      "name": "xm23",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 24,
+      "target": 2,
+      "device": 25,
+      "name": "xm23",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "device": 25,
+      "name": "xm23",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "device": 25,
+      "name": "xm23",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 25,
+      "name": "xm23",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "device": 26,
+      "name": "xm22",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "device": 26,
+      "name": "xm22",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "device": 26,
+      "name": "xm22",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 26,
+      "name": "xm22",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 26,
+      "name": "xm22",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 26,
+      "name": "xm22",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 4,
+      "target": 4,
+      "device": 27,
+      "name": "xm21",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 27,
+      "name": "xm21",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 27,
+      "name": "xm21",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 27,
+      "name": "xm21",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "device": 27,
+      "name": "xm21",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 27,
+      "name": "xm21",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 1,
+      "target": 20,
+      "device": 28,
+      "name": "xm19",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "device": 28,
+      "name": "xm19",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "device": 28,
+      "name": "xm19",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 28,
+      "name": "xm19",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 28,
+      "name": "xm19",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 28,
+      "name": "xm19",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 25,
+      "target": 19,
+      "device": 29,
+      "name": "xm15",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 25,
+      "target": 1,
+      "device": 29,
+      "name": "xm15",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 25,
+      "target": 2,
+      "device": 29,
+      "name": "xm15",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 1,
+      "device": 29,
+      "name": "xm15",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 29,
+      "name": "xm15",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "device": 29,
+      "name": "xm15",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 7,
+      "target": 20,
+      "device": 30,
+      "name": "xm20",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "device": 30,
+      "name": "xm20",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "device": 30,
+      "name": "xm20",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 30,
+      "name": "xm20",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 30,
+      "name": "xm20",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 30,
+      "name": "xm20",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 12,
+      "target": 19,
+      "device": 31,
+      "name": "xm16",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 12,
+      "target": 7,
+      "device": 31,
+      "name": "xm16",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 12,
+      "target": 2,
+      "device": 31,
+      "name": "xm16",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 7,
+      "device": 31,
+      "name": "xm16",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 31,
+      "name": "xm16",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "device": 31,
+      "name": "xm16",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 14,
+      "target": 20,
+      "device": 32,
+      "name": "xm17",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 14,
+      "target": 2,
+      "device": 32,
+      "name": "xm17",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 14,
+      "target": 2,
+      "device": 32,
+      "name": "xm17",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 32,
+      "name": "xm17",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 32,
+      "name": "xm17",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 32,
+      "name": "xm17",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 19,
+      "target": 19,
+      "device": 33,
+      "name": "xm14",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 33,
+      "name": "xm14",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 33,
+      "name": "xm14",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 33,
+      "name": "xm14",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 33,
+      "name": "xm14",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 33,
+      "name": "xm14",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 20,
+      "target": 19,
+      "device": 34,
+      "name": "xm12",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 20,
+      "target": 14,
+      "device": 34,
+      "name": "xm12",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 34,
+      "name": "xm12",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 14,
+      "device": 34,
+      "name": "xm12",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 34,
+      "name": "xm12",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 14,
+      "target": 2,
+      "device": 34,
+      "name": "xm12",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 15,
+      "target": 20,
+      "device": 35,
+      "name": "xm18",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 15,
+      "target": 2,
+      "device": 35,
+      "name": "xm18",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 15,
+      "target": 2,
+      "device": 35,
+      "name": "xm18",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 35,
+      "name": "xm18",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "device": 35,
+      "name": "xm18",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "device": 35,
+      "name": "xm18",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 0,
+      "target": 19,
+      "device": 36,
+      "name": "xm13",
+      "ports": [
+        "D",
+        "G"
+      ],
+      "component": "nmos_DG"
+    },
+    {
+      "source": 0,
+      "target": 15,
+      "device": 36,
+      "name": "xm13",
+      "ports": [
+        "D",
+        "S"
+      ],
+      "component": "nmos_DS"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "device": 36,
+      "name": "xm13",
+      "ports": [
+        "D",
+        "B"
+      ],
+      "component": "nmos_DB"
+    },
+    {
+      "source": 19,
+      "target": 15,
+      "device": 36,
+      "name": "xm13",
+      "ports": [
+        "G",
+        "S"
+      ],
+      "component": "nmos_GS"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "device": 36,
+      "name": "xm13",
+      "ports": [
+        "G",
+        "B"
+      ],
+      "component": "nmos_GB"
+    },
+    {
+      "source": 15,
+      "target": 2,
+      "device": 36,
+      "name": "xm13",
+      "ports": [
+        "S",
+        "B"
+      ],
+      "component": "nmos_SB"
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "device": 37,
+      "name": "i0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "isource_PN"
+    },
+    {
+      "source": 12,
+      "target": 2,
+      "device": 38,
+      "name": "c2",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    },
+    {
+      "source": 24,
+      "target": 17,
+      "device": 39,
+      "name": "c0",
+      "ports": [
+        "P",
+        "N"
+      ],
+      "component": "capacitor_PN"
+    }
+  ],
+  "edge_index": [
+    [
+      10,
+      10,
+      10,
+      17,
+      17,
+      21,
+      9,
+      9,
+      9,
+      17,
+      17,
+      21,
+      17,
+      17,
+      17,
+      0,
+      0,
+      9,
+      25,
+      25,
+      25,
+      0,
+      0,
+      10,
+      12,
+      12,
+      12,
+      0,
+      0,
+      6,
+      25,
+      25,
+      25,
+      0,
+      0,
+      13,
+      8,
+      8,
+      8,
+      3,
+      3,
+      21,
+      5,
+      5,
+      5,
+      23,
+      23,
+      8,
+      4,
+      4,
+      4,
+      22,
+      22,
+      8,
+      24,
+      24,
+      24,
+      12,
+      12,
+      21,
+      5,
+      5,
+      5,
+      25,
+      25,
+      21,
+      4,
+      4,
+      4,
+      12,
+      12,
+      21,
+      6,
+      6,
+      6,
+      25,
+      25,
+      21,
+      13,
+      13,
+      13,
+      25,
+      25,
+      21,
+      7,
+      7,
+      7,
+      23,
+      23,
+      11,
+      1,
+      1,
+      1,
+      22,
+      22,
+      11,
+      11,
+      11,
+      11,
+      3,
+      3,
+      21,
+      19,
+      19,
+      19,
+      3,
+      3,
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21,
+      20,
+      20,
+      20,
+      3,
+      3,
+      21,
+      3,
+      3,
+      3,
+      3,
+      3,
+      21,
+      25,
+      25,
+      25,
+      19,
+      19,
+      18,
+      17,
+      17,
+      17,
+      19,
+      19,
+      16,
+      16,
+      16,
+      16,
+      20,
+      20,
+      2,
+      18,
+      18,
+      18,
+      20,
+      20,
+      2,
+      24,
+      24,
+      24,
+      5,
+      5,
+      2,
+      5,
+      5,
+      5,
+      4,
+      4,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      1,
+      1,
+      1,
+      20,
+      20,
+      2,
+      25,
+      25,
+      25,
+      19,
+      19,
+      1,
+      7,
+      7,
+      7,
+      20,
+      20,
+      2,
+      12,
+      12,
+      12,
+      19,
+      19,
+      7,
+      14,
+      14,
+      14,
+      20,
+      20,
+      2,
+      19,
+      19,
+      19,
+      19,
+      19,
+      2,
+      20,
+      20,
+      20,
+      19,
+      19,
+      14,
+      15,
+      15,
+      15,
+      20,
+      20,
+      2,
+      0,
+      0,
+      0,
+      19,
+      19,
+      15,
+      3,
+      12,
+      24
+    ],
+    [
+      17,
+      21,
+      21,
+      21,
+      21,
+      21,
+      17,
+      21,
+      21,
+      21,
+      21,
+      21,
+      0,
+      9,
+      21,
+      9,
+      21,
+      21,
+      0,
+      10,
+      21,
+      10,
+      21,
+      21,
+      0,
+      6,
+      21,
+      6,
+      21,
+      21,
+      0,
+      13,
+      21,
+      13,
+      21,
+      21,
+      3,
+      21,
+      21,
+      21,
+      21,
+      21,
+      23,
+      8,
+      8,
+      8,
+      8,
+      8,
+      22,
+      8,
+      8,
+      8,
+      8,
+      8,
+      12,
+      21,
+      21,
+      21,
+      21,
+      21,
+      25,
+      21,
+      21,
+      21,
+      21,
+      21,
+      12,
+      21,
+      21,
+      21,
+      21,
+      21,
+      25,
+      21,
+      21,
+      21,
+      21,
+      21,
+      25,
+      21,
+      21,
+      21,
+      21,
+      21,
+      23,
+      11,
+      11,
+      11,
+      11,
+      11,
+      22,
+      11,
+      11,
+      11,
+      11,
+      11,
+      3,
+      21,
+      21,
+      21,
+      21,
+      21,
+      3,
+      21,
+      21,
+      21,
+      21,
+      21,
+      0,
+      21,
+      21,
+      21,
+      21,
+      21,
+      3,
+      21,
+      21,
+      21,
+      21,
+      21,
+      3,
+      21,
+      21,
+      21,
+      21,
+      21,
+      19,
+      18,
+      2,
+      18,
+      2,
+      2,
+      19,
+      16,
+      2,
+      16,
+      2,
+      2,
+      20,
+      2,
+      2,
+      2,
+      2,
+      2,
+      20,
+      2,
+      2,
+      2,
+      2,
+      2,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      20,
+      2,
+      2,
+      2,
+      2,
+      2,
+      19,
+      1,
+      2,
+      1,
+      2,
+      2,
+      20,
+      2,
+      2,
+      2,
+      2,
+      2,
+      19,
+      7,
+      2,
+      7,
+      2,
+      2,
+      20,
+      2,
+      2,
+      2,
+      2,
+      2,
+      19,
+      2,
+      2,
+      2,
+      2,
+      2,
+      19,
+      14,
+      2,
+      14,
+      2,
+      2,
+      20,
+      2,
+      2,
+      2,
+      2,
+      2,
+      19,
+      15,
+      2,
+      15,
+      2,
+      2,
+      2,
+      2,
+      17
+    ]
+  ],
+  "edge_device_index": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    23,
+    23,
+    23,
+    23,
+    23,
+    23,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    33,
+    33,
+    33,
+    33,
+    33,
+    33,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    35,
+    35,
+    35,
+    35,
+    35,
+    35,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    37,
+    38,
+    39
+  ],
+  "device_terminals": [
+    {
+      "device": 0,
+      "net": 10,
+      "port": "D"
+    },
+    {
+      "device": 0,
+      "net": 17,
+      "port": "G"
+    },
+    {
+      "device": 0,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 0,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 1,
+      "net": 9,
+      "port": "D"
+    },
+    {
+      "device": 1,
+      "net": 17,
+      "port": "G"
+    },
+    {
+      "device": 1,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 1,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 2,
+      "net": 17,
+      "port": "D"
+    },
+    {
+      "device": 2,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 2,
+      "net": 9,
+      "port": "S"
+    },
+    {
+      "device": 2,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 3,
+      "net": 25,
+      "port": "D"
+    },
+    {
+      "device": 3,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 3,
+      "net": 10,
+      "port": "S"
+    },
+    {
+      "device": 3,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 4,
+      "net": 12,
+      "port": "D"
+    },
+    {
+      "device": 4,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 4,
+      "net": 6,
+      "port": "S"
+    },
+    {
+      "device": 4,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 5,
+      "net": 25,
+      "port": "D"
+    },
+    {
+      "device": 5,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 5,
+      "net": 13,
+      "port": "S"
+    },
+    {
+      "device": 5,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 6,
+      "net": 8,
+      "port": "D"
+    },
+    {
+      "device": 6,
+      "net": 3,
+      "port": "G"
+    },
+    {
+      "device": 6,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 6,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 7,
+      "net": 5,
+      "port": "D"
+    },
+    {
+      "device": 7,
+      "net": 23,
+      "port": "G"
+    },
+    {
+      "device": 7,
+      "net": 8,
+      "port": "S"
+    },
+    {
+      "device": 7,
+      "net": 8,
+      "port": "B"
+    },
+    {
+      "device": 8,
+      "net": 4,
+      "port": "D"
+    },
+    {
+      "device": 8,
+      "net": 22,
+      "port": "G"
+    },
+    {
+      "device": 8,
+      "net": 8,
+      "port": "S"
+    },
+    {
+      "device": 8,
+      "net": 8,
+      "port": "B"
+    },
+    {
+      "device": 9,
+      "net": 24,
+      "port": "D"
+    },
+    {
+      "device": 9,
+      "net": 12,
+      "port": "G"
+    },
+    {
+      "device": 9,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 9,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 10,
+      "net": 5,
+      "port": "D"
+    },
+    {
+      "device": 10,
+      "net": 25,
+      "port": "G"
+    },
+    {
+      "device": 10,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 10,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 11,
+      "net": 4,
+      "port": "D"
+    },
+    {
+      "device": 11,
+      "net": 12,
+      "port": "G"
+    },
+    {
+      "device": 11,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 11,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 12,
+      "net": 6,
+      "port": "D"
+    },
+    {
+      "device": 12,
+      "net": 25,
+      "port": "G"
+    },
+    {
+      "device": 12,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 12,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 13,
+      "net": 13,
+      "port": "D"
+    },
+    {
+      "device": 13,
+      "net": 25,
+      "port": "G"
+    },
+    {
+      "device": 13,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 13,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 14,
+      "net": 7,
+      "port": "D"
+    },
+    {
+      "device": 14,
+      "net": 23,
+      "port": "G"
+    },
+    {
+      "device": 14,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 14,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 15,
+      "net": 1,
+      "port": "D"
+    },
+    {
+      "device": 15,
+      "net": 22,
+      "port": "G"
+    },
+    {
+      "device": 15,
+      "net": 11,
+      "port": "S"
+    },
+    {
+      "device": 15,
+      "net": 11,
+      "port": "B"
+    },
+    {
+      "device": 16,
+      "net": 11,
+      "port": "D"
+    },
+    {
+      "device": 16,
+      "net": 3,
+      "port": "G"
+    },
+    {
+      "device": 16,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 16,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 17,
+      "net": 19,
+      "port": "D"
+    },
+    {
+      "device": 17,
+      "net": 3,
+      "port": "G"
+    },
+    {
+      "device": 17,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 17,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 18,
+      "net": 0,
+      "port": "D"
+    },
+    {
+      "device": 18,
+      "net": 0,
+      "port": "G"
+    },
+    {
+      "device": 18,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 18,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 19,
+      "net": 20,
+      "port": "D"
+    },
+    {
+      "device": 19,
+      "net": 3,
+      "port": "G"
+    },
+    {
+      "device": 19,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 19,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 20,
+      "net": 3,
+      "port": "D"
+    },
+    {
+      "device": 20,
+      "net": 3,
+      "port": "G"
+    },
+    {
+      "device": 20,
+      "net": 21,
+      "port": "S"
+    },
+    {
+      "device": 20,
+      "net": 21,
+      "port": "B"
+    },
+    {
+      "device": 21,
+      "net": 25,
+      "port": "D"
+    },
+    {
+      "device": 21,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 21,
+      "net": 18,
+      "port": "S"
+    },
+    {
+      "device": 21,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 22,
+      "net": 17,
+      "port": "D"
+    },
+    {
+      "device": 22,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 22,
+      "net": 16,
+      "port": "S"
+    },
+    {
+      "device": 22,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 23,
+      "net": 16,
+      "port": "D"
+    },
+    {
+      "device": 23,
+      "net": 20,
+      "port": "G"
+    },
+    {
+      "device": 23,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 23,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 24,
+      "net": 18,
+      "port": "D"
+    },
+    {
+      "device": 24,
+      "net": 20,
+      "port": "G"
+    },
+    {
+      "device": 24,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 24,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 25,
+      "net": 24,
+      "port": "D"
+    },
+    {
+      "device": 25,
+      "net": 5,
+      "port": "G"
+    },
+    {
+      "device": 25,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 25,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 26,
+      "net": 5,
+      "port": "D"
+    },
+    {
+      "device": 26,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 26,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 26,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 27,
+      "net": 4,
+      "port": "D"
+    },
+    {
+      "device": 27,
+      "net": 4,
+      "port": "G"
+    },
+    {
+      "device": 27,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 27,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 28,
+      "net": 1,
+      "port": "D"
+    },
+    {
+      "device": 28,
+      "net": 20,
+      "port": "G"
+    },
+    {
+      "device": 28,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 28,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 29,
+      "net": 25,
+      "port": "D"
+    },
+    {
+      "device": 29,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 29,
+      "net": 1,
+      "port": "S"
+    },
+    {
+      "device": 29,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 30,
+      "net": 7,
+      "port": "D"
+    },
+    {
+      "device": 30,
+      "net": 20,
+      "port": "G"
+    },
+    {
+      "device": 30,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 30,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 31,
+      "net": 12,
+      "port": "D"
+    },
+    {
+      "device": 31,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 31,
+      "net": 7,
+      "port": "S"
+    },
+    {
+      "device": 31,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 32,
+      "net": 14,
+      "port": "D"
+    },
+    {
+      "device": 32,
+      "net": 20,
+      "port": "G"
+    },
+    {
+      "device": 32,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 32,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 33,
+      "net": 19,
+      "port": "D"
+    },
+    {
+      "device": 33,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 33,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 33,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 34,
+      "net": 20,
+      "port": "D"
+    },
+    {
+      "device": 34,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 34,
+      "net": 14,
+      "port": "S"
+    },
+    {
+      "device": 34,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 35,
+      "net": 15,
+      "port": "D"
+    },
+    {
+      "device": 35,
+      "net": 20,
+      "port": "G"
+    },
+    {
+      "device": 35,
+      "net": 2,
+      "port": "S"
+    },
+    {
+      "device": 35,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 36,
+      "net": 0,
+      "port": "D"
+    },
+    {
+      "device": 36,
+      "net": 19,
+      "port": "G"
+    },
+    {
+      "device": 36,
+      "net": 15,
+      "port": "S"
+    },
+    {
+      "device": 36,
+      "net": 2,
+      "port": "B"
+    },
+    {
+      "device": 37,
+      "net": 3,
+      "port": "P"
+    },
+    {
+      "device": 37,
+      "net": 2,
+      "port": "N"
+    },
+    {
+      "device": 38,
+      "net": 12,
+      "port": "P"
+    },
+    {
+      "device": 38,
+      "net": 2,
+      "port": "N"
+    },
+    {
+      "device": 39,
+      "net": 24,
+      "port": "P"
+    },
+    {
+      "device": 39,
+      "net": 17,
+      "port": "N"
+    }
+  ],
+  "device_references": [],
+  "num_nets": 26,
+  "num_devices": 40,
+  "num_nodes": 26,
+  "num_terminals": 154,
+  "num_edges": 225,
+  "num_device_references": 0,
+  "source_netlist": "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Song_DACFC_Pin_3",
+  "netlist_sha256": "3bd48c33cd526a33ba79d59137e230bcbc84ccb846c15de323b16c9e48b539d0",
+  "external_ports": [
+    "gnda",
+    "vdda",
+    "vinn",
+    "vinp",
+    "vout"
+  ],
+  "subcircuit_name": "song_dacfc_pin_3",
+  "feature_names": [
+    "width_m",
+    "length_m",
+    "multiplicity",
+    "resistance_ohm",
+    "capacitance_F",
+    "inductance_H",
+    "dc_voltage_V",
+    "dc_current_A",
+    "ac_magnitude",
+    "frequency_Hz",
+    "area_source_m2",
+    "area_drain_m2",
+    "perimeter_source_m",
+    "perimeter_drain_m",
+    "quality_factor",
+    "phase_degree",
+    "coupling_coefficient",
+    "finger_count",
+    "width_length_ratio",
+    "hierarchy_depth",
+    "device_type:balun",
+    "device_type:capacitor",
+    "device_type:inductor",
+    "device_type:isource",
+    "device_type:mutual_inductor",
+    "device_type:nmos",
+    "device_type:pmos",
+    "device_type:port",
+    "device_type:resistor",
+    "device_type:vsource"
+  ],
+  "feature_expressions": [
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "2*mosfet_0_8_m_biascm_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_58_2_w_gmf1_pmos*1)*1e-6",
+      "(mosfet_58_2_l_gmf1_pmos)*1e-6",
+      "mosfet_58_2_m_gmf1_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_58_2_w_gmf1_pmos*1)*1e-6)/((mosfet_58_2_l_gmf1_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_58_2_w_gmf1_pmos*1)*1e-6",
+      "(mosfet_58_2_l_gmf1_pmos)*1e-6",
+      "mosfet_58_2_m_gmf1_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_58_2_w_gmf1_pmos*1)*1e-6)/((mosfet_58_2_l_gmf1_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_11_1_w_gmf2_pmos*1)*1e-6",
+      "(mosfet_11_1_l_gmf2_pmos)*1e-6",
+      "mosfet_11_1_m_gmf2_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_11_1_w_gmf2_pmos*1)*1e-6)/((mosfet_11_1_l_gmf2_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_7_1_w_gma2_pmos*1)*1e-6",
+      "(mosfet_7_1_l_gma2_pmos)*1e-6",
+      "mosfet_7_1_m_gma2_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_7_1_w_gma2_pmos*1)*1e-6)/((mosfet_7_1_l_gma2_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_10_1_w_gm2_pmos*1)*1e-6",
+      "(mosfet_10_1_l_gm2_pmos)*1e-6",
+      "mosfet_10_1_m_gm2_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_10_1_w_gm2_pmos*1)*1e-6)/((mosfet_10_1_l_gm2_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_5_2_w_gma1_pmos*1)*1e-6",
+      "(mosfet_5_2_l_gma1_pmos)*1e-6",
+      "mosfet_5_2_m_gma1_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_5_2_w_gma1_pmos*1)*1e-6)/((mosfet_5_2_l_gma1_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_5_2_w_gma1_pmos*1)*1e-6",
+      "(mosfet_5_2_l_gma1_pmos)*1e-6",
+      "mosfet_5_2_m_gma1_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_5_2_w_gma1_pmos*1)*1e-6)/((mosfet_5_2_l_gma1_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_8_2_w_gm1_pmos*1)*1e-6",
+      "(mosfet_8_2_l_gm1_pmos)*1e-6",
+      "mosfet_8_2_m_gm1_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_8_2_w_gm1_pmos*1)*1e-6)/((mosfet_8_2_l_gm1_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_8_2_w_gm1_pmos*1)*1e-6",
+      "(mosfet_8_2_l_gm1_pmos)*1e-6",
+      "mosfet_8_2_m_gm1_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_8_2_w_gm1_pmos*1)*1e-6)/((mosfet_8_2_l_gm1_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "2*mosfet_0_8_m_biascm_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_0_8_w_biascm_pmos*1)*1e-6",
+      "(mosfet_0_8_l_biascm_pmos)*1e-6",
+      "mosfet_0_8_m_biascm_pmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_0_8_w_biascm_pmos*1)*1e-6)/((mosfet_0_8_l_biascm_pmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*8",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*8",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_23_1_w_gm3_nmos*1)*1e-6",
+      "(mosfet_23_1_l_gm3_nmos)*1e-6",
+      "mosfet_23_1_m_gm3_nmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_23_1_w_gm3_nmos*1)*1e-6)/((mosfet_23_1_l_gm3_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_21_2_w_load2_nmos*1)*1e-6",
+      "(mosfet_21_2_l_load2_nmos)*1e-6",
+      "mosfet_21_2_m_load2_nmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_21_2_w_load2_nmos*1)*1e-6)/((mosfet_21_2_l_load2_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_21_2_w_load2_nmos*1)*1e-6",
+      "(mosfet_21_2_l_load2_nmos)*1e-6",
+      "mosfet_21_2_m_load2_nmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_21_2_w_load2_nmos*1)*1e-6)/((mosfet_21_2_l_load2_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*8",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*8",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(mosfet_17_7_w_biascm_nmos*1)*1e-6",
+      "(mosfet_17_7_l_biascm_nmos)*1e-6",
+      "mosfet_17_7_m_biascm_nmos*4",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "((mosfet_17_7_w_biascm_nmos*1)*1e-6)/((mosfet_17_7_l_biascm_nmos)*1e-6)",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "current_0_bias",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "capacitor_1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "capacitor_0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "graph_scope": "DUT primitives; external fixture/load/feedback bindings recorded explicitly, not merged into DUT nets",
+  "topology_hash": "7159f20d9fc88b82291991cc23dddb1e",
+  "device_hierarchy_depth": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "node_feature_names": [
+    "connected_device_count",
+    "is_supply",
+    "is_positive_supply",
+    "is_negative_supply",
+    "is_ground",
+    "is_input",
+    "is_output",
+    "is_bias",
+    "role_unassigned",
+    "has_verified_role_evidence",
+    "role_evidence_convention_only",
+    "terminal_count:balun:P1",
+    "terminal_count:balun:P2",
+    "terminal_count:balun:P3",
+    "terminal_count:capacitor:N",
+    "terminal_count:capacitor:P",
+    "terminal_count:inductor:N",
+    "terminal_count:inductor:P",
+    "terminal_count:isource:N",
+    "terminal_count:isource:P",
+    "terminal_count:nmos:B",
+    "terminal_count:nmos:D",
+    "terminal_count:nmos:G",
+    "terminal_count:nmos:S",
+    "terminal_count:pmos:B",
+    "terminal_count:pmos:D",
+    "terminal_count:pmos:G",
+    "terminal_count:pmos:S",
+    "terminal_count:port:N",
+    "terminal_count:port:P",
+    "terminal_count:resistor:B",
+    "terminal_count:resistor:N",
+    "terminal_count:resistor:P",
+    "terminal_count:vsource:N",
+    "terminal_count:vsource:P"
+  ],
+  "node_features": [
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      16,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      7,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      6,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      17,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      17,
+      0,
+      0,
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "node_annotations": [
+    {
+      "net": "dm_1",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "dm_2",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "gnda",
+      "roles": [
+        "ground"
+      ],
+      "has_verified_evidence": true,
+      "evidence": [
+        {
+          "basis": "frozen_testbench_positional_binding",
+          "actual_net": "0"
+        }
+      ]
+    },
+    {
+      "net": "net013",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net043",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net049",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net050",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net063",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net1",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net2",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net3",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net31",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net4",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net5",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net54",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net56",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net69",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net70",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "net85",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "vb3",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "vb4",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    },
+    {
+      "net": "vdda",
+      "roles": [
+        "positive_supply"
+      ],
+      "has_verified_evidence": true,
+      "evidence": [
+        {
+          "basis": "frozen_testbench_positional_binding",
+          "actual_net": "vdd"
+        }
+      ]
+    },
+    {
+      "net": "vinn",
+      "roles": [
+        "input"
+      ],
+      "has_verified_evidence": true,
+      "evidence": [
+        {
+          "basis": "frozen_testbench_positional_binding",
+          "actual_net": "opout_dc"
+        }
+      ]
+    },
+    {
+      "net": "vinp",
+      "roles": [
+        "input"
+      ],
+      "has_verified_evidence": true,
+      "evidence": [
+        {
+          "basis": "frozen_testbench_positional_binding",
+          "actual_net": "opin"
+        }
+      ]
+    },
+    {
+      "net": "vout",
+      "roles": [
+        "output"
+      ],
+      "has_verified_evidence": true,
+      "evidence": [
+        {
+          "basis": "frozen_testbench_positional_binding",
+          "actual_net": "opout"
+        }
+      ]
+    },
+    {
+      "net": "voutn",
+      "roles": [],
+      "has_verified_evidence": false,
+      "evidence": []
+    }
+  ],
+  "annotation_version": "lecture12_features_v1",
+  "feature_vocabulary": {
+    "relations": [
+      "balun:P1>P2",
+      "balun:P1>P3",
+      "balun:P2>P1",
+      "balun:P3>P1",
+      "capacitor:N>P",
+      "capacitor:P>N",
+      "inductor:N>P",
+      "inductor:P>N",
+      "isource:N>P",
+      "isource:P>N",
+      "nmos:B>D",
+      "nmos:B>G",
+      "nmos:B>S",
+      "nmos:D>B",
+      "nmos:D>G",
+      "nmos:D>S",
+      "nmos:G>B",
+      "nmos:G>D",
+      "nmos:G>S",
+      "nmos:S>B",
+      "nmos:S>D",
+      "nmos:S>G",
+      "pmos:B>D",
+      "pmos:B>G",
+      "pmos:B>S",
+      "pmos:D>B",
+      "pmos:D>G",
+      "pmos:D>S",
+      "pmos:G>B",
+      "pmos:G>D",
+      "pmos:G>S",
+      "pmos:S>B",
+      "pmos:S>D",
+      "pmos:S>G",
+      "port:N>P",
+      "port:P>N",
+      "resistor:B>N",
+      "resistor:B>P",
+      "resistor:N>B",
+      "resistor:N>P",
+      "resistor:P>B",
+      "resistor:P>N",
+      "vsource:N>P",
+      "vsource:P>N"
+    ],
+    "terminal_types": [
+      "balun:P1",
+      "balun:P2",
+      "balun:P3",
+      "capacitor:N",
+      "capacitor:P",
+      "inductor:N",
+      "inductor:P",
+      "isource:N",
+      "isource:P",
+      "nmos:B",
+      "nmos:D",
+      "nmos:G",
+      "nmos:S",
+      "pmos:B",
+      "pmos:D",
+      "pmos:G",
+      "pmos:S",
+      "port:N",
+      "port:P",
+      "resistor:B",
+      "resistor:N",
+      "resistor:P",
+      "vsource:N",
+      "vsource:P"
+    ],
+    "device_types": [
+      "balun",
+      "capacitor",
+      "inductor",
+      "isource",
+      "mutual_inductor",
+      "nmos",
+      "pmos",
+      "port",
+      "resistor",
+      "vsource"
+    ]
+  },
+  "message_passing": {
+    "edge_index": [
+      [
+        10,
+        17,
+        10,
+        21,
+        10,
+        21,
+        17,
+        21,
+        17,
+        21,
+        21,
+        21,
+        9,
+        17,
+        9,
+        21,
+        9,
+        21,
+        17,
+        21,
+        17,
+        21,
+        21,
+        21,
+        17,
+        0,
+        17,
+        9,
+        17,
+        21,
+        0,
+        9,
+        0,
+        21,
+        9,
+        21,
+        25,
+        0,
+        25,
+        10,
+        25,
+        21,
+        0,
+        10,
+        0,
+        21,
+        10,
+        21,
+        12,
+        0,
+        12,
+        6,
+        12,
+        21,
+        0,
+        6,
+        0,
+        21,
+        6,
+        21,
+        25,
+        0,
+        25,
+        13,
+        25,
+        21,
+        0,
+        13,
+        0,
+        21,
+        13,
+        21,
+        8,
+        3,
+        8,
+        21,
+        8,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        21,
+        5,
+        23,
+        5,
+        8,
+        5,
+        8,
+        23,
+        8,
+        23,
+        8,
+        8,
+        8,
+        4,
+        22,
+        4,
+        8,
+        4,
+        8,
+        22,
+        8,
+        22,
+        8,
+        8,
+        8,
+        24,
+        12,
+        24,
+        21,
+        24,
+        21,
+        12,
+        21,
+        12,
+        21,
+        21,
+        21,
+        5,
+        25,
+        5,
+        21,
+        5,
+        21,
+        25,
+        21,
+        25,
+        21,
+        21,
+        21,
+        4,
+        12,
+        4,
+        21,
+        4,
+        21,
+        12,
+        21,
+        12,
+        21,
+        21,
+        21,
+        6,
+        25,
+        6,
+        21,
+        6,
+        21,
+        25,
+        21,
+        25,
+        21,
+        21,
+        21,
+        13,
+        25,
+        13,
+        21,
+        13,
+        21,
+        25,
+        21,
+        25,
+        21,
+        21,
+        21,
+        7,
+        23,
+        7,
+        11,
+        7,
+        11,
+        23,
+        11,
+        23,
+        11,
+        11,
+        11,
+        1,
+        22,
+        1,
+        11,
+        1,
+        11,
+        22,
+        11,
+        22,
+        11,
+        11,
+        11,
+        11,
+        3,
+        11,
+        21,
+        11,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        21,
+        19,
+        3,
+        19,
+        21,
+        19,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        21,
+        0,
+        0,
+        0,
+        21,
+        0,
+        21,
+        0,
+        21,
+        0,
+        21,
+        21,
+        21,
+        20,
+        3,
+        20,
+        21,
+        20,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        21,
+        3,
+        3,
+        3,
+        21,
+        3,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        21,
+        25,
+        19,
+        25,
+        18,
+        25,
+        2,
+        19,
+        18,
+        19,
+        2,
+        18,
+        2,
+        17,
+        19,
+        17,
+        16,
+        17,
+        2,
+        19,
+        16,
+        19,
+        2,
+        16,
+        2,
+        16,
+        20,
+        16,
+        2,
+        16,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        2,
+        18,
+        20,
+        18,
+        2,
+        18,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        2,
+        24,
+        5,
+        24,
+        2,
+        24,
+        2,
+        5,
+        2,
+        5,
+        2,
+        2,
+        2,
+        5,
+        4,
+        5,
+        2,
+        5,
+        2,
+        4,
+        2,
+        4,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        2,
+        2,
+        1,
+        20,
+        1,
+        2,
+        1,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        2,
+        25,
+        19,
+        25,
+        1,
+        25,
+        2,
+        19,
+        1,
+        19,
+        2,
+        1,
+        2,
+        7,
+        20,
+        7,
+        2,
+        7,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        2,
+        12,
+        19,
+        12,
+        7,
+        12,
+        2,
+        19,
+        7,
+        19,
+        2,
+        7,
+        2,
+        14,
+        20,
+        14,
+        2,
+        14,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        2,
+        19,
+        19,
+        19,
+        2,
+        19,
+        2,
+        19,
+        2,
+        19,
+        2,
+        2,
+        2,
+        20,
+        19,
+        20,
+        14,
+        20,
+        2,
+        19,
+        14,
+        19,
+        2,
+        14,
+        2,
+        15,
+        20,
+        15,
+        2,
+        15,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        2,
+        0,
+        19,
+        0,
+        15,
+        0,
+        2,
+        19,
+        15,
+        19,
+        2,
+        15,
+        2,
+        3,
+        2,
+        12,
+        2,
+        24,
+        17
+      ],
+      [
+        17,
+        10,
+        21,
+        10,
+        21,
+        10,
+        21,
+        17,
+        21,
+        17,
+        21,
+        21,
+        17,
+        9,
+        21,
+        9,
+        21,
+        9,
+        21,
+        17,
+        21,
+        17,
+        21,
+        21,
+        0,
+        17,
+        9,
+        17,
+        21,
+        17,
+        9,
+        0,
+        21,
+        0,
+        21,
+        9,
+        0,
+        25,
+        10,
+        25,
+        21,
+        25,
+        10,
+        0,
+        21,
+        0,
+        21,
+        10,
+        0,
+        12,
+        6,
+        12,
+        21,
+        12,
+        6,
+        0,
+        21,
+        0,
+        21,
+        6,
+        0,
+        25,
+        13,
+        25,
+        21,
+        25,
+        13,
+        0,
+        21,
+        0,
+        21,
+        13,
+        3,
+        8,
+        21,
+        8,
+        21,
+        8,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        23,
+        5,
+        8,
+        5,
+        8,
+        5,
+        8,
+        23,
+        8,
+        23,
+        8,
+        8,
+        22,
+        4,
+        8,
+        4,
+        8,
+        4,
+        8,
+        22,
+        8,
+        22,
+        8,
+        8,
+        12,
+        24,
+        21,
+        24,
+        21,
+        24,
+        21,
+        12,
+        21,
+        12,
+        21,
+        21,
+        25,
+        5,
+        21,
+        5,
+        21,
+        5,
+        21,
+        25,
+        21,
+        25,
+        21,
+        21,
+        12,
+        4,
+        21,
+        4,
+        21,
+        4,
+        21,
+        12,
+        21,
+        12,
+        21,
+        21,
+        25,
+        6,
+        21,
+        6,
+        21,
+        6,
+        21,
+        25,
+        21,
+        25,
+        21,
+        21,
+        25,
+        13,
+        21,
+        13,
+        21,
+        13,
+        21,
+        25,
+        21,
+        25,
+        21,
+        21,
+        23,
+        7,
+        11,
+        7,
+        11,
+        7,
+        11,
+        23,
+        11,
+        23,
+        11,
+        11,
+        22,
+        1,
+        11,
+        1,
+        11,
+        1,
+        11,
+        22,
+        11,
+        22,
+        11,
+        11,
+        3,
+        11,
+        21,
+        11,
+        21,
+        11,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        3,
+        19,
+        21,
+        19,
+        21,
+        19,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        0,
+        0,
+        21,
+        0,
+        21,
+        0,
+        21,
+        0,
+        21,
+        0,
+        21,
+        21,
+        3,
+        20,
+        21,
+        20,
+        21,
+        20,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        3,
+        3,
+        21,
+        3,
+        21,
+        3,
+        21,
+        3,
+        21,
+        3,
+        21,
+        21,
+        19,
+        25,
+        18,
+        25,
+        2,
+        25,
+        18,
+        19,
+        2,
+        19,
+        2,
+        18,
+        19,
+        17,
+        16,
+        17,
+        2,
+        17,
+        16,
+        19,
+        2,
+        19,
+        2,
+        16,
+        20,
+        16,
+        2,
+        16,
+        2,
+        16,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        20,
+        18,
+        2,
+        18,
+        2,
+        18,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        5,
+        24,
+        2,
+        24,
+        2,
+        24,
+        2,
+        5,
+        2,
+        5,
+        2,
+        2,
+        4,
+        5,
+        2,
+        5,
+        2,
+        5,
+        2,
+        4,
+        2,
+        4,
+        2,
+        2,
+        4,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        2,
+        20,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        19,
+        25,
+        1,
+        25,
+        2,
+        25,
+        1,
+        19,
+        2,
+        19,
+        2,
+        1,
+        20,
+        7,
+        2,
+        7,
+        2,
+        7,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        19,
+        12,
+        7,
+        12,
+        2,
+        12,
+        7,
+        19,
+        2,
+        19,
+        2,
+        7,
+        20,
+        14,
+        2,
+        14,
+        2,
+        14,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        19,
+        19,
+        2,
+        19,
+        2,
+        19,
+        2,
+        19,
+        2,
+        19,
+        2,
+        2,
+        19,
+        20,
+        14,
+        20,
+        2,
+        20,
+        14,
+        19,
+        2,
+        19,
+        2,
+        14,
+        20,
+        15,
+        2,
+        15,
+        2,
+        15,
+        2,
+        20,
+        2,
+        20,
+        2,
+        2,
+        19,
+        0,
+        15,
+        0,
+        2,
+        0,
+        15,
+        19,
+        2,
+        19,
+        2,
+        15,
+        2,
+        3,
+        2,
+        12,
+        17,
+        24
+      ]
+    ],
+    "edge_device_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      37,
+      37,
+      38,
+      38,
+      39,
+      39
+    ],
+    "edge_base_index": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22,
+      22,
+      23,
+      23,
+      24,
+      24,
+      25,
+      25,
+      26,
+      26,
+      27,
+      27,
+      28,
+      28,
+      29,
+      29,
+      30,
+      30,
+      31,
+      31,
+      32,
+      32,
+      33,
+      33,
+      34,
+      34,
+      35,
+      35,
+      36,
+      36,
+      37,
+      37,
+      38,
+      38,
+      39,
+      39,
+      40,
+      40,
+      41,
+      41,
+      42,
+      42,
+      43,
+      43,
+      44,
+      44,
+      45,
+      45,
+      46,
+      46,
+      47,
+      47,
+      48,
+      48,
+      49,
+      49,
+      50,
+      50,
+      51,
+      51,
+      52,
+      52,
+      53,
+      53,
+      54,
+      54,
+      55,
+      55,
+      56,
+      56,
+      57,
+      57,
+      58,
+      58,
+      59,
+      59,
+      60,
+      60,
+      61,
+      61,
+      62,
+      62,
+      63,
+      63,
+      64,
+      64,
+      65,
+      65,
+      66,
+      66,
+      67,
+      67,
+      68,
+      68,
+      69,
+      69,
+      70,
+      70,
+      71,
+      71,
+      72,
+      72,
+      73,
+      73,
+      74,
+      74,
+      75,
+      75,
+      76,
+      76,
+      77,
+      77,
+      78,
+      78,
+      79,
+      79,
+      80,
+      80,
+      81,
+      81,
+      82,
+      82,
+      83,
+      83,
+      84,
+      84,
+      85,
+      85,
+      86,
+      86,
+      87,
+      87,
+      88,
+      88,
+      89,
+      89,
+      90,
+      90,
+      91,
+      91,
+      92,
+      92,
+      93,
+      93,
+      94,
+      94,
+      95,
+      95,
+      96,
+      96,
+      97,
+      97,
+      98,
+      98,
+      99,
+      99,
+      100,
+      100,
+      101,
+      101,
+      102,
+      102,
+      103,
+      103,
+      104,
+      104,
+      105,
+      105,
+      106,
+      106,
+      107,
+      107,
+      108,
+      108,
+      109,
+      109,
+      110,
+      110,
+      111,
+      111,
+      112,
+      112,
+      113,
+      113,
+      114,
+      114,
+      115,
+      115,
+      116,
+      116,
+      117,
+      117,
+      118,
+      118,
+      119,
+      119,
+      120,
+      120,
+      121,
+      121,
+      122,
+      122,
+      123,
+      123,
+      124,
+      124,
+      125,
+      125,
+      126,
+      126,
+      127,
+      127,
+      128,
+      128,
+      129,
+      129,
+      130,
+      130,
+      131,
+      131,
+      132,
+      132,
+      133,
+      133,
+      134,
+      134,
+      135,
+      135,
+      136,
+      136,
+      137,
+      137,
+      138,
+      138,
+      139,
+      139,
+      140,
+      140,
+      141,
+      141,
+      142,
+      142,
+      143,
+      143,
+      144,
+      144,
+      145,
+      145,
+      146,
+      146,
+      147,
+      147,
+      148,
+      148,
+      149,
+      149,
+      150,
+      150,
+      151,
+      151,
+      152,
+      152,
+      153,
+      153,
+      154,
+      154,
+      155,
+      155,
+      156,
+      156,
+      157,
+      157,
+      158,
+      158,
+      159,
+      159,
+      160,
+      160,
+      161,
+      161,
+      162,
+      162,
+      163,
+      163,
+      164,
+      164,
+      165,
+      165,
+      166,
+      166,
+      167,
+      167,
+      168,
+      168,
+      169,
+      169,
+      170,
+      170,
+      171,
+      171,
+      172,
+      172,
+      173,
+      173,
+      174,
+      174,
+      175,
+      175,
+      176,
+      176,
+      177,
+      177,
+      178,
+      178,
+      179,
+      179,
+      180,
+      180,
+      181,
+      181,
+      182,
+      182,
+      183,
+      183,
+      184,
+      184,
+      185,
+      185,
+      186,
+      186,
+      187,
+      187,
+      188,
+      188,
+      189,
+      189,
+      190,
+      190,
+      191,
+      191,
+      192,
+      192,
+      193,
+      193,
+      194,
+      194,
+      195,
+      195,
+      196,
+      196,
+      197,
+      197,
+      198,
+      198,
+      199,
+      199,
+      200,
+      200,
+      201,
+      201,
+      202,
+      202,
+      203,
+      203,
+      204,
+      204,
+      205,
+      205,
+      206,
+      206,
+      207,
+      207,
+      208,
+      208,
+      209,
+      209,
+      210,
+      210,
+      211,
+      211,
+      212,
+      212,
+      213,
+      213,
+      214,
+      214,
+      215,
+      215,
+      216,
+      216,
+      217,
+      217,
+      218,
+      218,
+      219,
+      219,
+      220,
+      220,
+      221,
+      221,
+      222,
+      222,
+      223,
+      223,
+      224,
+      224
+    ],
+    "edge_port_pairs": [
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "G",
+        "S"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "S",
+        "B"
+      ],
+      [
+        "B",
+        "S"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "P",
+        "N"
+      ],
+      [
+        "N",
+        "P"
+      ]
+    ],
+    "edge_type": [
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      26,
+      29,
+      27,
+      32,
+      25,
+      22,
+      30,
+      33,
+      28,
+      23,
+      31,
+      24,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      14,
+      17,
+      15,
+      20,
+      13,
+      10,
+      18,
+      21,
+      16,
+      11,
+      19,
+      12,
+      9,
+      8,
+      5,
+      4,
+      5,
+      4
+    ],
+    "reverse_edge_index": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6,
+      9,
+      8,
+      11,
+      10,
+      13,
+      12,
+      15,
+      14,
+      17,
+      16,
+      19,
+      18,
+      21,
+      20,
+      23,
+      22,
+      25,
+      24,
+      27,
+      26,
+      29,
+      28,
+      31,
+      30,
+      33,
+      32,
+      35,
+      34,
+      37,
+      36,
+      39,
+      38,
+      41,
+      40,
+      43,
+      42,
+      45,
+      44,
+      47,
+      46,
+      49,
+      48,
+      51,
+      50,
+      53,
+      52,
+      55,
+      54,
+      57,
+      56,
+      59,
+      58,
+      61,
+      60,
+      63,
+      62,
+      65,
+      64,
+      67,
+      66,
+      69,
+      68,
+      71,
+      70,
+      73,
+      72,
+      75,
+      74,
+      77,
+      76,
+      79,
+      78,
+      81,
+      80,
+      83,
+      82,
+      85,
+      84,
+      87,
+      86,
+      89,
+      88,
+      91,
+      90,
+      93,
+      92,
+      95,
+      94,
+      97,
+      96,
+      99,
+      98,
+      101,
+      100,
+      103,
+      102,
+      105,
+      104,
+      107,
+      106,
+      109,
+      108,
+      111,
+      110,
+      113,
+      112,
+      115,
+      114,
+      117,
+      116,
+      119,
+      118,
+      121,
+      120,
+      123,
+      122,
+      125,
+      124,
+      127,
+      126,
+      129,
+      128,
+      131,
+      130,
+      133,
+      132,
+      135,
+      134,
+      137,
+      136,
+      139,
+      138,
+      141,
+      140,
+      143,
+      142,
+      145,
+      144,
+      147,
+      146,
+      149,
+      148,
+      151,
+      150,
+      153,
+      152,
+      155,
+      154,
+      157,
+      156,
+      159,
+      158,
+      161,
+      160,
+      163,
+      162,
+      165,
+      164,
+      167,
+      166,
+      169,
+      168,
+      171,
+      170,
+      173,
+      172,
+      175,
+      174,
+      177,
+      176,
+      179,
+      178,
+      181,
+      180,
+      183,
+      182,
+      185,
+      184,
+      187,
+      186,
+      189,
+      188,
+      191,
+      190,
+      193,
+      192,
+      195,
+      194,
+      197,
+      196,
+      199,
+      198,
+      201,
+      200,
+      203,
+      202,
+      205,
+      204,
+      207,
+      206,
+      209,
+      208,
+      211,
+      210,
+      213,
+      212,
+      215,
+      214,
+      217,
+      216,
+      219,
+      218,
+      221,
+      220,
+      223,
+      222,
+      225,
+      224,
+      227,
+      226,
+      229,
+      228,
+      231,
+      230,
+      233,
+      232,
+      235,
+      234,
+      237,
+      236,
+      239,
+      238,
+      241,
+      240,
+      243,
+      242,
+      245,
+      244,
+      247,
+      246,
+      249,
+      248,
+      251,
+      250,
+      253,
+      252,
+      255,
+      254,
+      257,
+      256,
+      259,
+      258,
+      261,
+      260,
+      263,
+      262,
+      265,
+      264,
+      267,
+      266,
+      269,
+      268,
+      271,
+      270,
+      273,
+      272,
+      275,
+      274,
+      277,
+      276,
+      279,
+      278,
+      281,
+      280,
+      283,
+      282,
+      285,
+      284,
+      287,
+      286,
+      289,
+      288,
+      291,
+      290,
+      293,
+      292,
+      295,
+      294,
+      297,
+      296,
+      299,
+      298,
+      301,
+      300,
+      303,
+      302,
+      305,
+      304,
+      307,
+      306,
+      309,
+      308,
+      311,
+      310,
+      313,
+      312,
+      315,
+      314,
+      317,
+      316,
+      319,
+      318,
+      321,
+      320,
+      323,
+      322,
+      325,
+      324,
+      327,
+      326,
+      329,
+      328,
+      331,
+      330,
+      333,
+      332,
+      335,
+      334,
+      337,
+      336,
+      339,
+      338,
+      341,
+      340,
+      343,
+      342,
+      345,
+      344,
+      347,
+      346,
+      349,
+      348,
+      351,
+      350,
+      353,
+      352,
+      355,
+      354,
+      357,
+      356,
+      359,
+      358,
+      361,
+      360,
+      363,
+      362,
+      365,
+      364,
+      367,
+      366,
+      369,
+      368,
+      371,
+      370,
+      373,
+      372,
+      375,
+      374,
+      377,
+      376,
+      379,
+      378,
+      381,
+      380,
+      383,
+      382,
+      385,
+      384,
+      387,
+      386,
+      389,
+      388,
+      391,
+      390,
+      393,
+      392,
+      395,
+      394,
+      397,
+      396,
+      399,
+      398,
+      401,
+      400,
+      403,
+      402,
+      405,
+      404,
+      407,
+      406,
+      409,
+      408,
+      411,
+      410,
+      413,
+      412,
+      415,
+      414,
+      417,
+      416,
+      419,
+      418,
+      421,
+      420,
+      423,
+      422,
+      425,
+      424,
+      427,
+      426,
+      429,
+      428,
+      431,
+      430,
+      433,
+      432,
+      435,
+      434,
+      437,
+      436,
+      439,
+      438,
+      441,
+      440,
+      443,
+      442,
+      445,
+      444,
+      447,
+      446,
+      449,
+      448
+    ],
+    "edge_direction": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "symmetric_norm_weight": [
+      0.11322770341445956,
+      0.11322770341445956,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.11322770341445956,
+      0.11322770341445956,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.060522753266880246,
+      0.060522753266880246,
+      0.11322770341445956,
+      0.11322770341445956,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.047619047619047616,
+      0.047619047619047616,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.060522753266880246,
+      0.060522753266880246,
+      0.11322770341445956,
+      0.11322770341445956,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.047619047619047616,
+      0.047619047619047616,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.05923488777590923,
+      0.05923488777590923,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.11785113019775793,
+      0.11785113019775793,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.10482848367219183,
+      0.10482848367219183,
+      0.03984095364447979,
+      0.03984095364447979,
+      0.03984095364447979,
+      0.03984095364447979,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.0629940788348712,
+      0.0629940788348712,
+      0.03042903097250923,
+      0.03042903097250923,
+      0.03042903097250923,
+      0.03042903097250923,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.0716114874039433,
+      0.0716114874039433,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.029235267310234306,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.04303314829119352,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.13608276348795434,
+      0.13608276348795434,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.08606629658238704,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.10540925533894598,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.05923488777590923,
+      0.05923488777590923,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.027216552697590865,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.044151078568834795,
+      0.044151078568834795,
+      0.020286020648339485,
+      0.020286020648339485,
+      0.020286020648339485,
+      0.020286020648339485,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.047619047619047616,
+      0.047619047619047616,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.023002185311411807,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.0468292905790847,
+      0.0468292905790847,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.05263157894736842,
+      0.05263157894736842,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.024182541670333724,
+      0.011111111111111112,
+      0.011111111111111112,
+      0.0419960525565808,
+      0.0419960525565808,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.024397501823713332,
+      0.024397501823713332,
+      0.07856742013183861,
+      0.07856742013183861,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.05337605126836238,
+      0.05337605126836238,
+      0.11322770341445956,
+      0.11322770341445956,
+      0.031008683647302117,
+      0.031008683647302117,
+      0.07856742013183861,
+      0.07856742013183861,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.0125,
+      0.0125,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.0125,
+      0.0125,
+      0.1091089451179962,
+      0.1091089451179962,
+      0.042257712736425826,
+      0.042257712736425826,
+      0.042257712736425826,
+      0.042257712736425826,
+      0.03227486121839514,
+      0.03227486121839514,
+      0.03227486121839514,
+      0.03227486121839514,
+      0.0125,
+      0.0125,
+      0.07453559924999299,
+      0.07453559924999299,
+      0.03227486121839514,
+      0.03227486121839514,
+      0.03227486121839514,
+      0.03227486121839514,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.0125,
+      0.0125,
+      0.06666666666666667,
+      0.06666666666666667,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.028867513459481284,
+      0.0125,
+      0.0125,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.0125,
+      0.0125,
+      0.0419960525565808,
+      0.0419960525565808,
+      0.07273929674533079,
+      0.07273929674533079,
+      0.024397501823713332,
+      0.024397501823713332,
+      0.06415002990995841,
+      0.06415002990995841,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.06804138174397717,
+      0.06804138174397717,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.0125,
+      0.0125,
+      0.05337605126836238,
+      0.05337605126836238,
+      0.09245003270420485,
+      0.09245003270420485,
+      0.031008683647302117,
+      0.031008683647302117,
+      0.06415002990995841,
+      0.06415002990995841,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.037267799624996496,
+      0.037267799624996496,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.0125,
+      0.0125,
+      0.037037037037037035,
+      0.037037037037037035,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.0125,
+      0.0125,
+      0.039283710065919304,
+      0.039283710065919304,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.07856742013183861,
+      0.07856742013183861,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.02282177322938192,
+      0.0125,
+      0.0125,
+      0.0419960525565808,
+      0.0419960525565808,
+      0.0890870806374748,
+      0.0890870806374748,
+      0.024397501823713332,
+      0.024397501823713332,
+      0.07856742013183861,
+      0.07856742013183861,
+      0.02151657414559676,
+      0.02151657414559676,
+      0.04564354645876384,
+      0.04564354645876384,
+      0.025649458802128853,
+      0.025649458802128853,
+      0.031008683647302117,
+      0.031008683647302117,
+      0.10482848367219183,
+      0.10482848367219183
+    ],
+    "normalization_note": "Optional structural weights, including retained typed self-loops. Not automatically applied by a model."
+  },
+  "hierarchy_scope": "flattened source netlist; top-level depth zero",
+  "num_message_edges": 450,
+  "message_edge_policy": "Two typed orientations per physical port pair, including tied-port self-loops; not an inferred signal-flow direction",
+  "feature_transform_policy": "Raw SI retained; log10 positive W/L/R/C/L/ratio, log2 positive m/nf; zero gets a separate flag; no fitted normalization",
+  "fixture_port_bindings": {
+    "gnda": "0",
+    "vdda": "vdd",
+    "vinn": "opout_dc",
+    "vinp": "opin",
+    "vout": "opout"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "extreme_130": {
+    "status": "no_measured_descending_crossing",
+    "crossings": [],
+    "single_crossing": false,
+    "phase_definition_verified": false,
+    "extrapolation_used": false,
+    "raw_sha256": "0af14ed2d7e28f3d06fa03a7337a9ccdcd077a26e79707c42bbb0ff6af93ec21",
+    "archived": {
+      "dc_gain": -4.996,
+      "ft": 410600000000.0,
+      "phasemargin": -34210000.0
+    },
+    "legacy_replay": {
+      "dc_gain": -4.996014563861296,
+      "ft": 563973139018.6613,
+      "phasemargin": -46991959.890500955
+    }
+  },
+  "normal_final_130": {
+    "status": "measured_crossing",
+    "crossings": [
+      {
+        "frequency_Hz": 2218702.3050259845,
+        "phase_margin_degree": null,
+        "bracket_Hz": [
+          1995262.3149688598,
+          2238721.138568317
+        ]
+      }
+    ],
+    "single_crossing": true,
+    "phase_definition_verified": false,
+    "extrapolation_used": false,
+    "raw_sha256": "1f0d75cd114b8bf059d7f80d1b3372d67501afa5d4319480b1df48c701a50931",
+    "archived": {
+      "dc_gain": 51.7123508658478,
+      "ft": 2219726.648838965,
+      "phasemargin": 57.29504732828859
+    },
+    "legacy_replay": {
+      "dc_gain": 51.71235087727688,
+      "ft": 2219726.6494440916,
+      "phasemargin": 57.295047326223695
+    }
+  },
+  "normal_final_4": {
+    "status": "measured_crossing",
+    "crossings": [
+      {
+        "frequency_Hz": 1754360.2441150006,
+        "phase_margin_degree": null,
+        "bracket_Hz": [
+          1584893.1924610978,
+          1778279.4100389052
+        ]
+      }
+    ],
+    "single_crossing": true,
+    "phase_definition_verified": false,
+    "extrapolation_used": false,
+    "raw_sha256": "7fadeaf788ecc8315d239adf76aa161c79c69f07f6febb2d77ddfa348b235ecb",
+    "archived": {
+      "dc_gain": 52.29153427262308,
+      "ft": 1755532.4612152854,
+      "phasemargin": 60.2876948396854
+    },
+    "legacy_replay": {
+      "dc_gain": 52.29153427262304,
+      "ft": 1755532.4612152856,
+      "phasemargin": 60.28769483968543
+    }
+  },
+  "normal_history_130": {
+    "status": "measured_crossing",
+    "crossings": [
+      {
+        "frequency_Hz": 3810394.8448949056,
+        "phase_margin_degree": null,
+        "bracket_Hz": [
+          3548133.8923357176,
+          3981071.705534931
+        ]
+      }
+    ],
+    "single_crossing": true,
+    "phase_definition_verified": false,
+    "extrapolation_used": false,
+    "raw_sha256": "6cdd7ca77378e0e3c5622dc5da947870412e50a05529316e017711dfa56ab146",
+    "archived": {
+      "dc_gain": 52.2,
+      "ft": 3816000.0,
+      "phasemargin": 61.73
+    },
+    "legacy_replay": {
+      "dc_gain": 52.19666777812759,
+      "ft": 3816295.408833813,
+      "phasemargin": 61.7260666287366
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "source_dataset": "AnalogGym",
+  "status": "replay_recovered_but_quarantined",
+  "accepted_samples": 0,
+  "netlist_files": [
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Alfio_RAFFC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Fan_SMC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/HoiLee_AFFC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Leung_DFCFC1_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Leung_DFCFC2_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Leung_NMCF_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Leung_NMCNR_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Peng_ACBC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Peng_IAC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Peng_TCFC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Qu2017_AZC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Qu_LEC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Ramos_PFC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Sau_CFCC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Song_DACFC_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Tan_CLIA_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Amplifier/spice_netlist/Yan_AZ_Pin_3",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_1_dev_params.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_1_vars.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_2_dev_params.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_2_vars.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_folded_cascode_dev_params.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_folded_cascode_vars.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/LDO_netlist.txt",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_simple_dev_params.spice",
+    "third_party/AnalogGym/AnalogGym/Low Dropout Regulator/spice_netlist/ldo_simple_vars.spice",
+    "third_party/AnalogGym/AnalogGym/Sensing Front End/topology.txt"
+  ],
+  "reason": "20 stored transitions; constant AMP labels, stale LDO DC evidence, fallback ambiguity and archived action ranges differ from current source.",
+  "replay_evidence": [
+    "third_party/AnalogGym/RGNN_RL/ddpg.py",
+    "third_party/AnalogGym/RGNN_RL/AMP_NMCF.py",
+    "third_party/AnalogGym/RGNN_RL/LDO_TB.py"
+  ],
+  "archives_policy": "allowlisted numpy reconstruction plus inert ReplayState; agent inspected only with pickletools",
+  "written_replay_transitions": 20,
+  "detailed_replay_audit": "reports/analoggym_replay_audit.json"
+}

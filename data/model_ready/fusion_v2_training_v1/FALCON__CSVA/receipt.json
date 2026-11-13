@@ -1,0 +1,165 @@
+{
+  "rows": 10000,
+  "folder": "data/model_ready/fusion_v2_training_v1/FALCON__CSVA",
+  "inputs": {
+    "source": "fabeac741c728a4900e807b392775f0eaed93bdf5b9d8bafe570c4ba13c6e2e4",
+    "graph": "069bfdfd721e10047f4c782aed9a115cdbb711aef90cdbc48696c5128ca279d9",
+    "split": "c24372679ff6da54a39d5cd89452ec0b89e5b7630f91764c86c492d37d4b39fb",
+    "producer": "febd883c05e9a782f61f71012429e062d4292fa2482da36ccc16f210ec42decb"
+  },
+  "cache_sha256": {
+    "domain.npy": "f4399f9088e3bf0481b60785ed4b8e060fc462ed926265b910a9ba1ebe107f3c",
+    "group.npy": "daa67b56f62fc1741895a341dcfc8e2fbaaf20f04c4a68237e384d824ae835c7",
+    "known.npy": "8f2c7f6f53e091d03c0206e934d8ac95af9c413a5842896aecadb5ce0250c1ba",
+    "mask.npy": "75d00a731d8ad7bafe92eab00ff354961ecd4669ec1b1d02d15d6c52b5431f79",
+    "role.npy": "9cb56c4cd494b36b5f05b34d458cae40b9a558dbae04d8148665a543c0f1b773",
+    "sample_ids.npy": "0be56a7d5e7fe7cc79d344c7c5e65b39abcdb3f5f0bc370c13844d729b4b6a46",
+    "target.npy": "7f7ae5fde6d4ca842abd1984bbda1a074359c4b003c5c48f812a02122534f067",
+    "values.npy": "f4910bfd345e8fafcce1a8defe7620253a36e47c6853a36a0377b9533101b958",
+    "zero.npy": "e8c39c3a9522dc0809ec0c6cada07d97d36cb0a105c14ddf97fa503c1ba640c4"
+  },
+  "coverage": {
+    "0": {
+      "1b536d53dabd3d9c573170ad0fff491149ea237ee4cd253d9e7621ca87784099": [
+        0,
+        1,
+        2
+      ],
+      "369417a9cebd54f238bf3c11f2558a8588edd7bfef275b612a9b63e13bf97faf": [
+        0,
+        1,
+        2
+      ],
+      "c419d35a7f6b8c1152c6178b7d378889e5d69e2b4a2a1631705c9066904502cc": [
+        0,
+        1,
+        2
+      ],
+      "4d003df5905879ae74df6701e905930a501abb05b6f7e78c18d1aac986d0fa03": [
+        0,
+        1,
+        2
+      ],
+      "3da61e4ec0d2f0e01d0f98c55863b9f5f8946aa6ef522ea9d0d3694047dc0737": [
+        0,
+        1,
+        2
+      ],
+      "3200f5d86201f59bde0e31d79e8e1d131f1d10132a7a6c2843ce2a6ad3936f8a": [
+        0,
+        1,
+        2
+      ],
+      "6517d117e4864ff926e5ac919d86be8002fba183ab16e435070d35380d616e36": [
+        0,
+        1,
+        2
+      ],
+      "f1a621254beccc3682de69e99ba4d91a682d55ce2e644b9a7de0cc38da3cf23f": [
+        0,
+        1,
+        2
+      ],
+      "bf5b1a5610125b30bc56d6e273493cdcc46cc085818ef56852d09c1105d0ee6f": [
+        0,
+        1,
+        2
+      ]
+    },
+    "1": {
+      "1b536d53dabd3d9c573170ad0fff491149ea237ee4cd253d9e7621ca87784099": [
+        0,
+        1,
+        2
+      ],
+      "369417a9cebd54f238bf3c11f2558a8588edd7bfef275b612a9b63e13bf97faf": [
+        0,
+        1,
+        2
+      ],
+      "c419d35a7f6b8c1152c6178b7d378889e5d69e2b4a2a1631705c9066904502cc": [
+        0,
+        1,
+        2
+      ],
+      "4d003df5905879ae74df6701e905930a501abb05b6f7e78c18d1aac986d0fa03": [
+        0,
+        1,
+        2
+      ],
+      "3da61e4ec0d2f0e01d0f98c55863b9f5f8946aa6ef522ea9d0d3694047dc0737": [
+        0,
+        1,
+        2
+      ],
+      "3200f5d86201f59bde0e31d79e8e1d131f1d10132a7a6c2843ce2a6ad3936f8a": [
+        0,
+        1,
+        2
+      ],
+      "6517d117e4864ff926e5ac919d86be8002fba183ab16e435070d35380d616e36": [
+        0,
+        1,
+        2
+      ],
+      "f1a621254beccc3682de69e99ba4d91a682d55ce2e644b9a7de0cc38da3cf23f": [
+        0,
+        1,
+        2
+      ],
+      "bf5b1a5610125b30bc56d6e273493cdcc46cc085818ef56852d09c1105d0ee6f": [
+        0,
+        1,
+        2
+      ]
+    },
+    "2": {
+      "1b536d53dabd3d9c573170ad0fff491149ea237ee4cd253d9e7621ca87784099": [
+        0,
+        1,
+        2
+      ],
+      "369417a9cebd54f238bf3c11f2558a8588edd7bfef275b612a9b63e13bf97faf": [
+        0,
+        1,
+        2
+      ],
+      "c419d35a7f6b8c1152c6178b7d378889e5d69e2b4a2a1631705c9066904502cc": [
+        0,
+        1,
+        2
+      ],
+      "4d003df5905879ae74df6701e905930a501abb05b6f7e78c18d1aac986d0fa03": [
+        0,
+        1,
+        2
+      ],
+      "3da61e4ec0d2f0e01d0f98c55863b9f5f8946aa6ef522ea9d0d3694047dc0737": [
+        0,
+        1,
+        2
+      ],
+      "3200f5d86201f59bde0e31d79e8e1d131f1d10132a7a6c2843ce2a6ad3936f8a": [
+        0,
+        1,
+        2
+      ],
+      "6517d117e4864ff926e5ac919d86be8002fba183ab16e435070d35380d616e36": [
+        0,
+        1,
+        2
+      ],
+      "f1a621254beccc3682de69e99ba4d91a682d55ce2e644b9a7de0cc38da3cf23f": [
+        0,
+        1,
+        2
+      ],
+      "bf5b1a5610125b30bc56d6e273493cdcc46cc085818ef56852d09c1105d0ee6f": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "reference_checks": 3
+}

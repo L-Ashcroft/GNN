@@ -1,0 +1,11 @@
+{
+  "bundle_sha256": "514cdc204190681790cd3388cde4cc4b820d24fdefa6f6b3d90be562aadae4b0",
+  "evaluation_code_sha256": "177d1fd0538cdba4e25de0e4202f74041a6df65cea6d9d5d04748d1cff2b6127",
+  "probe": true,
+  "batch": 32,
+  "device": "cpu",
+  "torch_threads": 1,
+  "deterministic": true,
+  "test_is_previous_fixed_holdout_not_new_blind_data": true,
+  "fit_or_selection_allowed": false
+}

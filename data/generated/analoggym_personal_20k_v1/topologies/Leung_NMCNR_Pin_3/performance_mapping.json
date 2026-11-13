@@ -1,0 +1,143 @@
+{
+  "group_id": "aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf",
+  "max_dimensions": 16,
+  "conditions": {
+    "PDK": "SKY130 AnalogGym pinned bundle",
+    "corner": "tt",
+    "supply_voltage_V": 1.8,
+    "temperature_C": 27,
+    "normalization_fitted": false,
+    "load_capacitance_F": 5e-10,
+    "common_mode_V": 0.45,
+    "dc_temperature_sweep_C": [
+      -40,
+      125,
+      1
+    ],
+    "power_offset_temperature_C": 25,
+    "ac_frequency_Hz": [
+      0.1,
+      1000000000.0
+    ],
+    "ac_points_per_decade": 100,
+    "transient_levels_V": [
+      0.3,
+      0.5
+    ],
+    "transient_edges_s": [
+      1e-06,
+      0.000201001
+    ],
+    "transient_input_transition_s": 1e-09,
+    "transient_stop_s": 0.000401,
+    "transient_maxstep_s": 2.5e-08
+  },
+  "mask_policy": "only unused vector slots are missing; measurement failures quarantine entire candidate",
+  "metrics": [
+    {
+      "slot": 0,
+      "name": "temperature_coefficient_per_K",
+      "unit": "1/K",
+      "definition": "peak-to-peak follower output / mean output / 165 K; -40..125 C",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::temperature_coefficient_per_K"
+    },
+    {
+      "slot": 1,
+      "name": "supply_power_25C_W",
+      "unit": "W",
+      "definition": "-I(VVDDdc)*1.8 at 25 C in DC follower fixture",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::supply_power_25C_W"
+    },
+    {
+      "slot": 2,
+      "name": "follower_output_offset_25C_V",
+      "unit": "V",
+      "definition": "V(vout6)-0.45 at 25 C; signed output error, not input offset",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::follower_output_offset_25C_V"
+    },
+    {
+      "slot": 3,
+      "name": "gain_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(opout))) at 0.1 Hz, 1 V AC in inverting fixture, 27 C",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::gain_at_0p1Hz_dB"
+    },
+    {
+      "slot": 4,
+      "name": "common_mode_transfer_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(cm3))) at 0.1 Hz; not generic positive CMRR",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::common_mode_transfer_at_0p1Hz_dB"
+    },
+    {
+      "slot": 5,
+      "name": "positive_supply_transfer_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(ppsr1))) at 0.1 Hz; 1 V supply excitation",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::positive_supply_transfer_at_0p1Hz_dB"
+    },
+    {
+      "slot": 6,
+      "name": "negative_supply_transfer_at_0p1Hz_dB",
+      "unit": "dB",
+      "definition": "20*log10(abs(V(npsr1))) at 0.1 Hz; 1 V ground excitation",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::negative_supply_transfer_at_0p1Hz_dB"
+    },
+    {
+      "slot": 7,
+      "name": "unity_gain_frequency_Hz",
+      "unit": "Hz",
+      "definition": "first descending 0 dB crossing; log-frequency interpolation",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::unity_gain_frequency_Hz"
+    },
+    {
+      "slot": 8,
+      "name": "phase_at_unity_deg",
+      "unit": "degree",
+      "definition": "unwrapped phase of V(opout) at that crossing; not automatically phase margin",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::phase_at_unity_deg"
+    },
+    {
+      "slot": 9,
+      "name": "rising_slew_observed_10_90_V_per_s",
+      "unit": "V/s",
+      "definition": "80% of observed output transition / interpolated 10-to-90% interval",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::rising_slew_observed_10_90_V_per_s"
+    },
+    {
+      "slot": 10,
+      "name": "falling_slew_observed_90_10_V_per_s",
+      "unit": "V/s",
+      "definition": "Positive 80% of observed output transition / interpolated 90-to-10% interval",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::falling_slew_observed_90_10_V_per_s"
+    },
+    {
+      "slot": 11,
+      "name": "rising_settling_observed_1pct_s",
+      "unit": "s",
+      "definition": "First time after last exit of 1% observed amplitude band about final measured high output; finite window",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::rising_settling_observed_1pct_s"
+    },
+    {
+      "slot": 12,
+      "name": "falling_settling_observed_1pct_s",
+      "unit": "s",
+      "definition": "First time after last exit of 1% observed amplitude band about final measured low output; finite window",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::falling_settling_observed_1pct_s"
+    },
+    {
+      "slot": 13,
+      "name": "high_final_tracking_error_V",
+      "unit": "V",
+      "definition": "Time-weighted final output mean over 180..200 us minus ideal 0.5 V",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::high_final_tracking_error_V"
+    },
+    {
+      "slot": 14,
+      "name": "low_final_tracking_error_V",
+      "unit": "V",
+      "definition": "Time-weighted final output mean over 380..400 us minus ideal 0.3 V",
+      "semantic_id": "AnalogGym_generated::aff2bf662c6b08cd6a4d52b9f0e5524890c5deaf11dcf48e61e8928764acbcaf::low_final_tracking_error_V"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "recipe_hash": "cafc175f8645beefbe37d0a49beab2b0a35e2b907fce1f6464f915f2281d52e2",
+  "sample_count": 1348,
+  "topologies": 10,
+  "shards": [
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00000.parquet",
+      "rows": 134
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00000.parquet",
+      "rows": 135
+    },
+    {
+      "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00000.parquet",
+      "index": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00000.parquet",
+      "rows": 134
+    }
+  ],
+  "updated_at": "2026-10-28T08:51:43.550045+00:00",
+  "merged_with_historical": false
+}

@@ -1,0 +1,1312 @@
+[
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/README.md",
+    "bytes": 8027,
+    "sha256": "b29be65ba5b71ba733b25a1235f4c1d6baf0f3ab2d760086c23d6de45f641196"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/dataset.json",
+    "bytes": 19465,
+    "sha256": "9e800fb5d70753e93d85a42c491a71c6f1b499d2741771cd9c22bb08be82575b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00000.parquet",
+    "bytes": 22889,
+    "sha256": "fe4274e496e20906a380272a7dd9d1b1806c7a719d6bc965d9f2532d0ab865fd"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00001.parquet",
+    "bytes": 22792,
+    "sha256": "a8f227f2d3a284af70606631747c983a3bb314596cd7b12a44599c8107774345"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00002.parquet",
+    "bytes": 22676,
+    "sha256": "794f9e66d798c35161115a0a7c73bc1ac4eb5ad806a93fdfb8e4ede24c0a9922"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00003.parquet",
+    "bytes": 23161,
+    "sha256": "219e2a34764eb43891b965466d6f29fc38aed644ced803690815987811a63986"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00004.parquet",
+    "bytes": 22871,
+    "sha256": "36114f0ea946727900a814162f4d2cc8e28b33a73a2403146005f80244db6172"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00005.parquet",
+    "bytes": 22794,
+    "sha256": "8d0a378b07544df756253e6cdb269a44235efba9edb343d4774601c136e59b93"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00006.parquet",
+    "bytes": 23148,
+    "sha256": "5a2d9cf587f132f64bd3adfca5537524f3ffb329f9c57811488668f97547b75c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Alfio_RAFFC_Pin_3/part-00007.parquet",
+    "bytes": 19272,
+    "sha256": "2e84a9c39792682204170586b24365a62f67c3d6f4b9fa8b394cce52aefb9ec9"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00000.parquet",
+    "bytes": 22850,
+    "sha256": "80f60a6fedad6a49a80072c75bb893a0ef85902d75c208debd3e4e2d1ead5d17"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00001.parquet",
+    "bytes": 22862,
+    "sha256": "0af1badabdfbb00e38a48fc96328b56988767a5339b6a63a57c6e61d49c9c563"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00002.parquet",
+    "bytes": 22702,
+    "sha256": "b245cfcd0a4401c19303b40e5061c7cece71b83cbe4284d69e3e5feb90f5e854"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00003.parquet",
+    "bytes": 22652,
+    "sha256": "13913a4dcd8d989e879cae19682060ef570537c3eaab6d1f1eabfbb14026e1c5"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00004.parquet",
+    "bytes": 22643,
+    "sha256": "cda93d6255de2f90f719d3534ce6c20da3db2a353fd8a817c93ebcf13f1cfa9b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00005.parquet",
+    "bytes": 23024,
+    "sha256": "71598b7dc680794dcd65899449ad23f347c4b6d6e501cf07c0f4b57ad792f3a0"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00006.parquet",
+    "bytes": 22732,
+    "sha256": "291c5a4331d2fe5bdd635d7219ca01c4dc9000b4624a5fe0062175e2d645df10"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Fan_SMC_Pin_3/part-00007.parquet",
+    "bytes": 19217,
+    "sha256": "4809cfc38e840de66b45c84847df09a744cca451b288c73fc347503911ca0011"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00000.parquet",
+    "bytes": 22944,
+    "sha256": "8266683e59ee0d83cbc177e2a02a31c2e967554f7d15bff996b8d1a9397fb5cf"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00001.parquet",
+    "bytes": 23176,
+    "sha256": "b4ed096793e9bb8f05f2a31cedb11be1336219247b797f8ce52712d40ecfca4b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00002.parquet",
+    "bytes": 22910,
+    "sha256": "593443337f1c2ab1949b3e05de6418e7ee5e9777e8457b0962a13c9b6a5cd461"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00003.parquet",
+    "bytes": 22739,
+    "sha256": "e72f78ba7558cba1c384ed7cdf52fb363a7b77495ca0694558f0043f02a231e3"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00004.parquet",
+    "bytes": 22864,
+    "sha256": "4bcf650cac9ca59757ed2caaf2fd4f1977ed8aadf5282118adf1af1598659fde"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00005.parquet",
+    "bytes": 22926,
+    "sha256": "2513ae038ec34de852efcc06d6521863fcf1a09b32f8c221311a7b10e8dddd9e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00006.parquet",
+    "bytes": 22765,
+    "sha256": "bba20aa32f48b3aa2694bb91f121a36b694515c9fa080ee8c43e721afaf780ed"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/HoiLee_AFFC_Pin_3/part-00007.parquet",
+    "bytes": 19282,
+    "sha256": "0eaf7d65690b902f914ad3ae97bee1ae5e06688962304c0f8bfde95f256badd8"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00000.parquet",
+    "bytes": 23257,
+    "sha256": "cf0b523355487dd0df605935638180ed69f9254725f8331943b24e2d03ad93b5"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00001.parquet",
+    "bytes": 23151,
+    "sha256": "68b2b1201da03351d5609fec920530070b0732b054772f65ed3a8d612fe0cfa4"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00002.parquet",
+    "bytes": 22765,
+    "sha256": "e0008634593e701335bfccab400a59a0d1dad1f0d8cfd258174b9658f3057361"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00003.parquet",
+    "bytes": 22636,
+    "sha256": "12d3dad64f8813c14eb068ed64c5fe9e4f53b3706e9bb7e8c0bc888522463dc1"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00004.parquet",
+    "bytes": 22738,
+    "sha256": "968b8d85afcc78b363a5fefe7a784abc2ca25a9b1dcb4629914c236ed7659ed6"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00005.parquet",
+    "bytes": 22731,
+    "sha256": "69d1ea7387ea292c0db62bf4ef454c4b86379ba31dfac3c80ee956e7e4d8f7e2"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00006.parquet",
+    "bytes": 22689,
+    "sha256": "2cd992501ad481606f2098f026849eac5d0680caceb04c71a95da8e617fe505e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_DFCFC1_Pin_3/part-00007.parquet",
+    "bytes": 19203,
+    "sha256": "0da7d8d9e59389d72352586d5b67eed12f7a71a9fdf0ecb6a7e9272211286c18"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00000.parquet",
+    "bytes": 23191,
+    "sha256": "a3af5e711f988db56d4b234b6ce799d562c29d33ea30d1baa5241cdd6f48cf3a"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00001.parquet",
+    "bytes": 22656,
+    "sha256": "dcf8c888d09d5afa8dc1b62ba96c5bb64764a410d3e19437604509e038424640"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00002.parquet",
+    "bytes": 22733,
+    "sha256": "329592bdf41c311074a7be8c966ef416309ea704c6bd2d170f8870185c18b228"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00003.parquet",
+    "bytes": 23019,
+    "sha256": "d971221b8c2f160cfc4ba2d672913b6da3788af4a338002834a7127b3f968bd9"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00004.parquet",
+    "bytes": 23012,
+    "sha256": "12b9484334f54ced470cf1593719819b3bd1bd1dfdbe2a00aafd553fddfdcdc9"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00005.parquet",
+    "bytes": 23089,
+    "sha256": "5ed89f3c62305480802b7b26e2ae0d855f1781b57e74603b9f0476655e0b0a20"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00006.parquet",
+    "bytes": 23090,
+    "sha256": "db4a05e35f2af82671d14a69a472bcba2f9c72654d8ff7a7938ed63c497b6c6d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Leung_NMCNR_Pin_3/part-00007.parquet",
+    "bytes": 19198,
+    "sha256": "5dea6d45892f1579b036d3fba92c3f7218e9c127cc1141864523f5da94fce6c1"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00000.parquet",
+    "bytes": 22599,
+    "sha256": "e202d9be045b2a55c68f60522a17f35c6f604df383ac7b9711f0b9e54f44f023"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00001.parquet",
+    "bytes": 22563,
+    "sha256": "67af25c7548097fd9ed499efa0febaecfd577fc4ce44bbeb46f528e542709b15"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00002.parquet",
+    "bytes": 22966,
+    "sha256": "57282427c7c70c42af4536cb0cf79da6d177448edb481b5a4a2d8287c2ee96cd"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00003.parquet",
+    "bytes": 23086,
+    "sha256": "8e4ed5ab68d1b141a8305b988bd95de7a637202d694d7c28eb0862167d009951"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00004.parquet",
+    "bytes": 22954,
+    "sha256": "e6e38f1bf866eae2575376384dad0478430f91e58b93adada5c801b6fa4a703f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00005.parquet",
+    "bytes": 22999,
+    "sha256": "13b8df6f7ec2a81f88308c51d8e70fa6b5de65c3faeb1958d3bda2a9af9afc07"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00006.parquet",
+    "bytes": 22628,
+    "sha256": "b8b4ffd48c02d45ed093b13b8c83a2c4511e6a7a9385b7471a8c5711a2fddd01"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Peng_TCFC_Pin_3/part-00007.parquet",
+    "bytes": 19142,
+    "sha256": "4b39bb908f1e4bd6abca9f40699298fdc74a7f7b00c37c39e294ab4685e77d25"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00000.parquet",
+    "bytes": 23286,
+    "sha256": "50465ce8bed4f96fa50ada35de34aa15a6fee090d4d49702ce7fa807ff083f58"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00001.parquet",
+    "bytes": 22957,
+    "sha256": "72b90f2b17674d4ae295fd596c68b8e06867048c8866874b9ab7d93ffd456d79"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00002.parquet",
+    "bytes": 22859,
+    "sha256": "505e97a7e33903ec1f4a8b3488b0be7e3760677d8b7029ba1027bf9c1da2c92e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00003.parquet",
+    "bytes": 22702,
+    "sha256": "eaa92f3cb38bae5e04178995ae689bb1bf8172609ce10c470a78d0be29414e79"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00004.parquet",
+    "bytes": 22710,
+    "sha256": "1179d455a38e920821850604b37c24d97c939a89e94bfd6d5c337ed1efd0808b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00005.parquet",
+    "bytes": 22813,
+    "sha256": "4be95bce2129ebd6cdf61dd9b65d6907aa014346c76a886e8de401949515860c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00006.parquet",
+    "bytes": 22687,
+    "sha256": "11b0fef6c3f83e9081342646128a139e0e41f1536340393649137d9875b61ae6"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Qu2017_AZC_Pin_3/part-00007.parquet",
+    "bytes": 19224,
+    "sha256": "f375902c788156bcd3f90711b21aad2463633cc9a69b5b1082f37377b800b9f8"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00000.parquet",
+    "bytes": 22705,
+    "sha256": "e5947c2c443de6c21855d9e5c3ff565ceb5a07c362818e248cddb0de9daca210"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00001.parquet",
+    "bytes": 23074,
+    "sha256": "6d72a952e4b353f3c071ca0f4fe6d22fdff9db9912bac15d0e464859a77d0b36"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00002.parquet",
+    "bytes": 22612,
+    "sha256": "57673f8e988fe318408fb8b967b8f5881fd39e59a552fcaebe6ed69c558a7ab0"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00003.parquet",
+    "bytes": 23136,
+    "sha256": "dba458e84e21e5c231cf2844c3f281ea6c25ca7e3fb239f67fa362afa7b82ad4"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00004.parquet",
+    "bytes": 22624,
+    "sha256": "547ec56e173c8a62f6565be8743c11710e87cf89aecf4367c6a8b7dc04321b31"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00005.parquet",
+    "bytes": 22671,
+    "sha256": "824c6acaf8c5223b4fa61389f99083ffa2e80490e97b821e1bbc298b9807e4b6"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00006.parquet",
+    "bytes": 22653,
+    "sha256": "fbd064b577ac4ef36d8d77ca46487ad73815e39f9e2ab5e5470124adf2ba67e4"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/Song_DACFC_Pin_3/part-00007.parquet",
+    "bytes": 19154,
+    "sha256": "dcbce4b5e00f461c220ae4ccbdecf914bb29f79d915720beb464f9a6e1b15a3d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00000.parquet",
+    "bytes": 22881,
+    "sha256": "c3a7ec6a37aeb3e7ef5ff816b2dfebea007e7e1e19739ec3705dc6e629dc8eba"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00001.parquet",
+    "bytes": 22818,
+    "sha256": "865ce102b60559e58bb0c18d28e8317dd2f44a804d55e9c386162d8455df51c8"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00002.parquet",
+    "bytes": 22660,
+    "sha256": "d2a84a2e0c0e29f1123bd417997e33e66ccb5fc35bdafaa2270f0faa0e33a99d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00003.parquet",
+    "bytes": 22691,
+    "sha256": "c155471c0a6d22373d193f5397dcb8337ae6e5cd9d5bea79a2acb4e708cd6d76"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00004.parquet",
+    "bytes": 22639,
+    "sha256": "b533da01215519360e89d1c0ef8ee9f2abfc79e63e3330ea1d1f7238e9ceb01e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00005.parquet",
+    "bytes": 23093,
+    "sha256": "8402fee9c5225f35d4c4b1ab8fd89467602da3b61a8a09c7fd0233f0ec468707"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00006.parquet",
+    "bytes": 22792,
+    "sha256": "54f7b559232247846c3a1fb538a95a7ff02c6051542b857984e19e07994088dc"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_folded_cascode/part-00007.parquet",
+    "bytes": 19246,
+    "sha256": "f6a2c6e35805e2a58fa272c2cff8d8023759dfee22d73c06de3ef5ddf6ab7dc5"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00000.parquet",
+    "bytes": 22474,
+    "sha256": "edd022887d393008324b287d5780f97d2e4c624bae0e417369ad20525a7fb26c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00001.parquet",
+    "bytes": 22477,
+    "sha256": "d32ef3fa1abfd4ac64acd6b5904249ad56de80bdf9db59d73abbcb5cfcd62e04"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00002.parquet",
+    "bytes": 22866,
+    "sha256": "e9b94c0d38002e7af948fe396baa02953bd0dbbe740f80c6fb8fe619df21db1d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00003.parquet",
+    "bytes": 22900,
+    "sha256": "5564badb605dbf4d52cf814d19db696f8bc244cf6078cc88b2b988b2a07a3590"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00004.parquet",
+    "bytes": 22417,
+    "sha256": "33aadbb66119cabafb61492d75c38efb108fbc83650157576e2c9b187a0af52c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00005.parquet",
+    "bytes": 22509,
+    "sha256": "4d25ed013a14cdde85cc8982ac82b0c72832b92e94ca12bdfab0f8cd4eeb2316"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00006.parquet",
+    "bytes": 22886,
+    "sha256": "36354ad28c86253baef9105886ebe3a7511e9bdc25907343d2b10918aa06f01c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/index/ldo_simple/part-00007.parquet",
+    "bytes": 19006,
+    "sha256": "48c9f014099e1339ec605cd0ca3b6062575fa35ffd0ceb9e90f5e80835023791"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/last_error.json",
+    "bytes": 494,
+    "sha256": "5dc9bcfc245a89fa2393473ac73271373c03f342b9a9a5b99ed38e26b725a345"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/launch_io_repair.json",
+    "bytes": 271,
+    "sha256": "f8f1877184359ae6d0ef3f24eebba9427d662f9727f70424a0dc24db6e8ff2cc"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/launch_quality.json",
+    "bytes": 286,
+    "sha256": "997cac800e99c54be7d04f5dea5cf363ca2c2c7f84a45e9d396ccf1823a793e7"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/launch_receipt.json",
+    "bytes": 196,
+    "sha256": "8892da2dc4279b4c5ac35085eb2de23be98dc73b4432c462e5a3fc067cfa96d3"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/launch_receipt_supervisor.json",
+    "bytes": 268,
+    "sha256": "509091ca0bcf508125e30efc4f0ce8c6250a86212eb0aaa29502818b9dafc24e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/launch_v2.json",
+    "bytes": 172,
+    "sha256": "c583fa34551ce67ab6bcea17ae3147ae477d127000d09930af3767498d465907"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/manifest.json",
+    "bytes": 1858,
+    "sha256": "4b3193f6cdee6019ef2b63c035ed06823e9d003ee713cb4efa4237da5f79cef6"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/monitor_events.jsonl",
+    "bytes": 50154,
+    "sha256": "306d15bd44e9c739c7931366e57b98b5a95d10418b87ce9385c3b3bb81cfa526"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/monitor_launch.json",
+    "bytes": 115,
+    "sha256": "6b4157a963c18d05d0cea816b967c95ee573bf84fdb92e305b4cae27e333a5a1"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/monitor_status.json",
+    "bytes": 3812,
+    "sha256": "6a2ac7ac3648e018944eb6363a23a970f06ad4adf72e77a777526db9cfa45c88"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/orchestration_recipe.json",
+    "bytes": 1258,
+    "sha256": "460f0e5bef713471e45fc81a7bf31c5d1b30e37c909a2048f79804e52e179799"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/parameter_anchor_audit.json",
+    "bytes": 91348,
+    "sha256": "51a4d0b24a783682a025f11f0a6d2d75e28f157844d8427d8d81423c25dbf5b7"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/personal_index.parquet",
+    "bytes": 1470282,
+    "sha256": "498ad6dbe64a1b27382f51e217658053d45f023e54d013231c4c33aaac313417"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/personal_statistics.json",
+    "bytes": 579,
+    "sha256": "044e31eab354f68a5cab9e76305b7d8d38381e3cf591ba93974addfb9ba03eec"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/pilot_quality_checks.json",
+    "bytes": 909,
+    "sha256": "aa401b064eeb5ccc6f24d1b07e1dc3baed9b0b05739733db0169680e4f38a999"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/pilot_status.json",
+    "bytes": 1318,
+    "sha256": "9634a8c5dfa000c3e9cbd32e4b90195ce5c5257314ba978509f7cf7ef1e7c959"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/qualification/summary.json",
+    "bytes": 141416,
+    "sha256": "de660a2f055a842942a383ffe03de9f8c44bd5276048cd3b25c3708cf2c7e07b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/quality_checks.json",
+    "bytes": 972,
+    "sha256": "b9fe410d98986cc07c5ee4af5d0f1947c880d98b7ed9ebf3e510b3e810d997ae"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/quality_gate_checks.json",
+    "bytes": 577,
+    "sha256": "5bbef83797512eecb1541ccece793f187947b9776c50f0efc84dfdae7e120f17"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/quality_policy_v1.json",
+    "bytes": 1829,
+    "sha256": "b1c0ad5ba3cdf0b71d0b50bc89b8332f04acaaef7d61ee80333f18e85e8eabb6"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/recipe.json",
+    "bytes": 1004349,
+    "sha256": "838c346f4729596dd0ac5bf56f700d5899df52579a79c97faa270f67d0703480"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/resource_stop.json",
+    "bytes": 95,
+    "sha256": "e4dc895a5d02bf23d087707aa53f1e734218db096270c6d202837bca987d0254"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/ac_quality_v1/dataset.json",
+    "bytes": 5002,
+    "sha256": "c565196a7f2a67d5c2ae5df187d429b66f5b8668aab8baa72079bff61eb4465c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/ac_quality_v1/ledger_hashes_before.json",
+    "bytes": 301312,
+    "sha256": "9f139c7142542336dc034689bfa97d79c6df5ef9b20d60856092dd0469c2fe64"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/ac_quality_v1/manifest.json",
+    "bytes": 1705,
+    "sha256": "b3bf6a767edb82e2810ae0ed62835aa57aa93d09b19ede063e02802783c1099d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/ac_quality_v1/orchestration_recipe.json",
+    "bytes": 924,
+    "sha256": "1b3f32b3c6c53e67378dcbc477dd1ffd922151ec76d13a0eee160b2c8c00c40d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/ac_quality_v1/sampling_policy_v2.json",
+    "bytes": 6727,
+    "sha256": "8de403302084e52cc313c44ac0ac809db30b59838f499a40969efde594b65f92"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/ac_quality_v1/status.json",
+    "bytes": 1411,
+    "sha256": "87b43e82178a7bf79d424f6752feced34942502c42ccc7a030814019e049e603"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/sampler_v1_before_v2/dataset.json",
+    "bytes": 2617,
+    "sha256": "a06873f1ca6e6d8c47802ebc90fc8a8efb34c80cbf244fe4e04e452d3a0f6514"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/sampler_v1_before_v2/manifest.json",
+    "bytes": 1487,
+    "sha256": "cb4c2c06d88fe96f20bebd194d3a07409f958c2c44e71af9b269cf0018902527"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/sampler_v1_before_v2/orchestration_recipe.json",
+    "bytes": 488,
+    "sha256": "022d22ca26807955a1755a0ed05133f0234d7dd2580c64aadcce4049df4d868e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/sampler_v1_before_v2/preserved_row_hashes.json",
+    "bytes": 51571,
+    "sha256": "a83962093c6505d1792a9ddc87f6d13d07d77b8149ab3dd79bf48e21680c5253"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/sampler_v1_before_v2/status.json",
+    "bytes": 1386,
+    "sha256": "efa6e2ad9f90778c45bc56b918c723d81e6fdf636bb8e72ea5adbd87987ee03d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/analoggym_personal_engine_before.py",
+    "bytes": 6687,
+    "sha256": "6c0317889a6cea69179fd2b0836c2e0de42319cb35184e4a8c6545849695c72f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/analoggym_personal_runner_before.py",
+    "bytes": 9423,
+    "sha256": "c01217f8a2194c5d46280e45938004ada678ca95ed94e3fdd59767f587583740"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/dataset.json",
+    "bytes": 2628,
+    "sha256": "e2cab6399cd9c7978345f4bc55b59c865a604b98c82a5425597ef646b07ff07b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/last_error.json",
+    "bytes": 288,
+    "sha256": "7f2c353d3849478636e5658ebe833f6b1f2abcfcff0cf864824577a3007dba03"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/manifest.json",
+    "bytes": 1705,
+    "sha256": "def6ec06591fbb3f3f9459e3a9469d4c6a8e6b6f0a2fcd571805d62f7e779076"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/monitor_analoggym_personal_before.py",
+    "bytes": 8989,
+    "sha256": "120e1c9b0033e9c35e100eee8ac3bafbf3f55e8965ed478e38b3eb51e25a879f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/orchestration_recipe.json",
+    "bytes": 821,
+    "sha256": "b18f9c83547b48f123ae9ad1de842b0df9f3831f4f9aaaa0030ba09b5f190f6e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/preserved_ledger_hashes.json",
+    "bytes": 151161,
+    "sha256": "c754b53c1d133b6f81918dc1f661bf2a764b7989845ed52f275694215fd81a9d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/repair_receipt.json",
+    "bytes": 969,
+    "sha256": "5f8f7b3ab3f2352dacf4e68481af3cbdf8fa54e99772605b1ec2912cc14af02d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/sampling_policy_v2.json",
+    "bytes": 6624,
+    "sha256": "944f3ccd56552e78c71c745edce00a37202925a2432cbd8846bf7d3bb77d6092"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/status.json",
+    "bytes": 1397,
+    "sha256": "5a483796c7118c64d9cc5420449d96afd9741c25c5e95d6c9d2590f994bfc977"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/revisions/windows_io_retry_v1/supervise_analoggym_personal_before.py",
+    "bytes": 3207,
+    "sha256": "d4857e2d1afb1c741461af7a26bca1145160f1cc4bdcdf40fcb34c906dabdf38"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/runtime_check.json",
+    "bytes": 1145,
+    "sha256": "1af0dd2e6e5fa64c913f3567eda582509cd7a86f3585dd7d511e7334824d5a55"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00000.parquet",
+    "bytes": 192982,
+    "sha256": "877a2b19f7a1f1f298c53e3515511bae30f3bb5cfdabdf5f97d2ab2e67d51bee"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00001.parquet",
+    "bytes": 192827,
+    "sha256": "72c6f5baac53c750e0ff2a64e6d8d90101fa9cb1299df9b27f957a798b7023fa"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00002.parquet",
+    "bytes": 192416,
+    "sha256": "9718d5c35dcdeb09636f8e42971d0a7a70e1b24b806a23a830cd0b0d2479a19c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00003.parquet",
+    "bytes": 192872,
+    "sha256": "1b919007c10b9695c6d4e38e619e5aff3ff115b2c1924978144fcd4c4391d5d0"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00004.parquet",
+    "bytes": 192588,
+    "sha256": "fd4191882c53210fad294e51b2681f2a5aa7164e952859372f201c31f214aaff"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00005.parquet",
+    "bytes": 192779,
+    "sha256": "657dcf728fa450aa79e8359a049434ad93793ab6c1dfb1ab24cfdf84ffa47ce9"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00006.parquet",
+    "bytes": 192900,
+    "sha256": "0696c6548e03574b5885c2547426902a30ef56fa161c24535c66e113d9493c41"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Alfio_RAFFC_Pin_3/part-00007.parquet",
+    "bytes": 150275,
+    "sha256": "3124e7f31388536b1474f1a3a11637b89aec832d7c72e23d907907723050824a"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00000.parquet",
+    "bytes": 178168,
+    "sha256": "ffd071fc296bd5b2dc1275d7754226204b7a62c3d1cef4b72411099369f0b63b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00001.parquet",
+    "bytes": 180704,
+    "sha256": "8669573762b50f48becbeea89c25c9b2c515974c5030a3ec4d46cd8402ec53d5"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00002.parquet",
+    "bytes": 180513,
+    "sha256": "82efcadd66c3a76004bbb3b8445a96c1ab909587ffe6ebc1cf847ee7452bfed1"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00003.parquet",
+    "bytes": 178468,
+    "sha256": "0e3cc27ecc9a9fb833a4b7b5c99602b4b15b6b633852266994747a04a9f03159"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00004.parquet",
+    "bytes": 178305,
+    "sha256": "0b6c6b5e61a7d1d6b7e5b8757048d244d48b36a8c92f7f348b45e721aa10c799"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00005.parquet",
+    "bytes": 178748,
+    "sha256": "dded9f7a989c01d26b32c045d469966a431b18c1ec5240473ee144d72865f807"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00006.parquet",
+    "bytes": 180239,
+    "sha256": "0f616b8cc9aa50c4a9e65ae2543b5294b97979dcedd8c5a1ccca3f2b7298c296"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Fan_SMC_Pin_3/part-00007.parquet",
+    "bytes": 140308,
+    "sha256": "85f7d3dd75b0ed01ebe999a3a02d9ef65ea69e2822258061527b07641c878a72"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00000.parquet",
+    "bytes": 215483,
+    "sha256": "a4e8f163f73f2fcdd9500d6d221308b7697210fc73e0119b184adb8322526b57"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00001.parquet",
+    "bytes": 216181,
+    "sha256": "daaf420c9af30cdc0c81bf4ae4b7db9741d34db37b844f6e92f0ab7cca7eb1f2"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00002.parquet",
+    "bytes": 216859,
+    "sha256": "739328a8bc500de1f6c58c552894d1f41d572255e0006518876c3ae1e3029e12"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00003.parquet",
+    "bytes": 215896,
+    "sha256": "754801d2a0fb7d9419cb349a6b69efaa1ddc130c4730c61f49959ae17ef343ce"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00004.parquet",
+    "bytes": 216855,
+    "sha256": "3424f5c9fc42adca3d645511fc83f771cac1cc6099fcb0cc2971a05d5bee54bf"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00005.parquet",
+    "bytes": 215352,
+    "sha256": "a5be5aa4180b67462018a10b5497a070035df705a1668a629e6e64a8972e35f9"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00006.parquet",
+    "bytes": 216439,
+    "sha256": "c44e6605f1658a6c66988152ba71f0c4fe794c83aeaeb22e43a85b18f4ccdba7"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/HoiLee_AFFC_Pin_3/part-00007.parquet",
+    "bytes": 178142,
+    "sha256": "113150a2b9bab91ccf51e963086f6e63f04969982c05785fc6bd2f3d36ba444d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00000.parquet",
+    "bytes": 207555,
+    "sha256": "679e689578eefa7a4a0a7985ea93ba5253bf78b686888e92f9278ba07446c02d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00001.parquet",
+    "bytes": 207376,
+    "sha256": "e7127807ab8de0f1a3b27c7ea51a0951682ae9888d2dbc427188484d7f6df8f2"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00002.parquet",
+    "bytes": 207095,
+    "sha256": "f1611173a3df777dc39736725e7f5585996ea40069f301338b25af57a48652f9"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00003.parquet",
+    "bytes": 206536,
+    "sha256": "7600b668e87dc49e418242749f67f738b28e6bcd0e5e932b87548029b251a0e0"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00004.parquet",
+    "bytes": 206601,
+    "sha256": "0cded855757201ec0e4f20a555aea77d1fd8d4b39eccb4f035bc6b1f6623fb85"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00005.parquet",
+    "bytes": 207191,
+    "sha256": "f7319d08d76903d4e986bcdfbc87b06b57199a586539f30ec77996a2d29b8ee2"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00006.parquet",
+    "bytes": 207155,
+    "sha256": "7d476855ebd25daffddabbbf9c8de7bd0e185f53127de60d7259880723e479eb"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_DFCFC1_Pin_3/part-00007.parquet",
+    "bytes": 171254,
+    "sha256": "0b697013f1e9b1cffa32809ce935cf0dd6eaa1a26c43137388c3d52ab99aa518"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00000.parquet",
+    "bytes": 179044,
+    "sha256": "015b8801db16e830b3b7d02099275864a8747b3d7fa5be7bd73d59fdb29f3f03"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00001.parquet",
+    "bytes": 178812,
+    "sha256": "152b5c5ae7805dd9c311a167270970a4a9205dbd9f6f427320fb62ef77a2fa7a"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00002.parquet",
+    "bytes": 178209,
+    "sha256": "7e94ee0f2fde149eefeb56dbbb214acabfd29d98a45ff8a958d30987cf4825d8"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00003.parquet",
+    "bytes": 178334,
+    "sha256": "1cb4ac14db7de757fdedfd5d06f4fc04b6cb7cc24fb0977333084d41a0163f76"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00004.parquet",
+    "bytes": 178783,
+    "sha256": "0acae595afe8096936b8c0ee5aff56287eca45329385a22a391724687edb4305"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00005.parquet",
+    "bytes": 178317,
+    "sha256": "77b70936ffec7f63ee7e2663b422f6a36ee572be3eeeb661715dc261cb358011"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00006.parquet",
+    "bytes": 178417,
+    "sha256": "c0a2667009a9a2aef6c363f012e152d2311d853f815de5a71cafa1ee7d49625f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Leung_NMCNR_Pin_3/part-00007.parquet",
+    "bytes": 139739,
+    "sha256": "410bffde5fccf1cf086621f6a818daf602e34e407af965d1f76d46921559e2e1"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00000.parquet",
+    "bytes": 189357,
+    "sha256": "89430ff528525340a4eaac1c3fa89e5a876ff067b359ae0064565d69e08095e4"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00001.parquet",
+    "bytes": 188688,
+    "sha256": "1e7edd311677dc53955b6ee682bd3cdc99ffe1f42209ee32374660d83860547d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00002.parquet",
+    "bytes": 189018,
+    "sha256": "fe853c9760eb1143f4015d0da46a947834f454e96f0b78dffc2dbe94e8a2e203"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00003.parquet",
+    "bytes": 189341,
+    "sha256": "32b5ff8546cf734258bdb1a5cf8eea19fcbaf79ee352c082536af81357ebc316"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00004.parquet",
+    "bytes": 188793,
+    "sha256": "81e7b23fe0c3efe3484303ca877f68362055be7e429d3f1f876fcf5730599e55"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00005.parquet",
+    "bytes": 189255,
+    "sha256": "cb794bc638477f3b11a701ec1de1e017229a89efdb45ce2fb24578caa57b06a1"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00006.parquet",
+    "bytes": 189486,
+    "sha256": "a65647ea7bd256a0a1dd9c5ff5cb2467171d1d1c94ea8bf3f9f19b3ac9b65508"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Peng_TCFC_Pin_3/part-00007.parquet",
+    "bytes": 144032,
+    "sha256": "592710b4d64d23b50b727928c4ad5ed7fe7bf07cefc74891ad59c971c8eccc66"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00000.parquet",
+    "bytes": 237774,
+    "sha256": "b28e9fd57c38f6e95f7913f0fbd4866ded4e760df02f121cfea4aab57f28f88a"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00001.parquet",
+    "bytes": 237816,
+    "sha256": "140457316f251c01162ba3068994ec95e84ea44cd6806fccda92bfacb1b4a227"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00002.parquet",
+    "bytes": 236827,
+    "sha256": "35eddb33ee6ce4571db92cea505ba3a1835c05b8b9cad5595e2f99fce6a77576"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00003.parquet",
+    "bytes": 236453,
+    "sha256": "efe6f7e0bd0198ddcb51fa37852721aaa3b8452693a541d177be5f9b1c29b77d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00004.parquet",
+    "bytes": 236707,
+    "sha256": "05bf87d578c95334ddbcd45cf8b80ebe3891118602342a79e0032cca44679e6d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00005.parquet",
+    "bytes": 237007,
+    "sha256": "3add1adaea5fddaa7882fde3e080b606fe6e043e5cfacf7f69c845d0a77ee635"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00006.parquet",
+    "bytes": 237454,
+    "sha256": "7f4b4c1e4ca9f83255bb9a0617253bc05e2071b2183cfa8935dde6ac4708826c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Qu2017_AZC_Pin_3/part-00007.parquet",
+    "bytes": 195621,
+    "sha256": "faf8a8f77c6a37a93b7545c29d040125ee7985fff0d43ff7784e91b1b49afe22"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00000.parquet",
+    "bytes": 219821,
+    "sha256": "8b30f08c68ba833e8cf56060e5fe527c7d0a90b1ab235bde6d21fccbbaa8929e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00001.parquet",
+    "bytes": 221023,
+    "sha256": "3fe8d3d7818a21911439333e37a5a308b251334e3c7eec9ca0f78643071fc842"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00002.parquet",
+    "bytes": 220349,
+    "sha256": "224dc8f3ef3b193f5b9556e5724e83412fef40aed25deab77f0dd55db635bff6"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00003.parquet",
+    "bytes": 220746,
+    "sha256": "6454757a01bce1a4ce3f7a5d4f101e3eda11272dc10fbefdd14ad798a9f9a81b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00004.parquet",
+    "bytes": 220666,
+    "sha256": "6f7f1b7fd2b719f71544e8ec4d25ca1f5ed5d5f214135cdf5dba06051216e885"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00005.parquet",
+    "bytes": 220183,
+    "sha256": "bf588099e9396a2a15f5117ef46b70bc03a6295261482f7b6070f83933cdd364"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00006.parquet",
+    "bytes": 220787,
+    "sha256": "5fa088e12eb879002a380888b1727ae0dd6affb6c3b61d1bf3ea0a50df708ee3"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/Song_DACFC_Pin_3/part-00007.parquet",
+    "bytes": 182083,
+    "sha256": "c8c9453c7fbc00cce0bd7301468fe844ac36c54de658b4b18ad5bf2948fadf0c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00000.parquet",
+    "bytes": 142619,
+    "sha256": "7524a6f31232084554b49529d8d555be38875e750ece502dd33c4bc6072165ae"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00001.parquet",
+    "bytes": 142253,
+    "sha256": "bf30c50b9923b959aada7997570083a5e85ab569b1a7c0926fc0acbd6bc2f731"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00002.parquet",
+    "bytes": 141650,
+    "sha256": "44697453fdb1a47cad427f83617b0decb65fe29c2c270852f43924e1713f63d4"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00003.parquet",
+    "bytes": 141687,
+    "sha256": "2249cdc758627232c532f1c0ebd7d8d2a0595be6a96a64dbab6e67a755a6ea49"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00004.parquet",
+    "bytes": 141653,
+    "sha256": "834766173d2b8c51d1c78a1a4d23996677aefcaa66de4e5e9aa32103c9580ace"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00005.parquet",
+    "bytes": 142507,
+    "sha256": "793eb97961769c5fee1b17f9d43cfe96aeb5ae0bc5d0ef72435706f68427ea19"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00006.parquet",
+    "bytes": 142144,
+    "sha256": "fcd33131a03272249135eb55c7bd4457e0487d1eaea9ceb069bf43f2804bc4c5"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_folded_cascode/part-00007.parquet",
+    "bytes": 118134,
+    "sha256": "601da2e51f3147150bd1111036b7199756172f507274d069a11e801710a6bccf"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00000.parquet",
+    "bytes": 117698,
+    "sha256": "c979ae52c531c1347891c4fefd5ae8b578a67734841d4072a8bf18645385277b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00001.parquet",
+    "bytes": 118304,
+    "sha256": "6751d8084ba4780fddab80dd11956f644ddac80550b5c204cf212612acb6f3b5"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00002.parquet",
+    "bytes": 118386,
+    "sha256": "cdb86baa816eaed4d56ad718a21e81f292454a00f7a16b46027709c36e6de6ea"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00003.parquet",
+    "bytes": 118636,
+    "sha256": "d088b741e402e627a5cef39a5c3d3db28116bc3b3925cbfdfce0ac09149574da"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00004.parquet",
+    "bytes": 118107,
+    "sha256": "767bfbe9158f873401bd41a58c8950133ed30524dc9d85f2a9ad360899d20633"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00005.parquet",
+    "bytes": 118104,
+    "sha256": "ae9da431bf38cdfae893af5dd38df0849954d569d58dc2bc0f8718d3cb0a9b6f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00006.parquet",
+    "bytes": 118748,
+    "sha256": "ff86e27f89e4301ddd026bf95b1a003c0f4e3c3c1bdc7ee12d5ec21b1d785690"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/samples/ldo_simple/part-00007.parquet",
+    "bytes": 98826,
+    "sha256": "912e85b11bd69858ff3c0c6291881c22c8c6dd66eb45399bad85c25b203223ee"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/sampling_policy_v2.json",
+    "bytes": 6947,
+    "sha256": "4d15adda448c56e5dff0d72f0d138150b451f841264ac97c0e827981bd90523f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/sampling_revision_checks.json",
+    "bytes": 284,
+    "sha256": "6ec8e7268035039d701577fbacbab648eee78516b80890f40a321a6cc74f5e7d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/anchor_safe_v1/audit.json",
+    "bytes": 1973,
+    "sha256": "0c851cad763520cd8a1dcea2a717104bf3c962473dc282ab6843c0f84579201d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/anchor_safe_v1/few_shot_global.json",
+    "bytes": 218510,
+    "sha256": "991556c06d2cbc5bbd1b92359ea04937bdb0e320aba93fd9481669dfaf79030a"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/anchor_safe_v1/few_shot_per_topology.json",
+    "bytes": 211622,
+    "sha256": "5f2a414d9952683a0cd11d4346cb36cc1ec305866587abb66a2580b9e9165c83"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/anchor_safe_v1/id.parquet",
+    "bytes": 1535789,
+    "sha256": "64a8fc1fca01388f92ced26029b0de8245e83ba7beb2893fad8afffdb5791887"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/few_shot_global.json",
+    "bytes": 218594,
+    "sha256": "9edb9e13bab311c85a071038681e830e3eb42171577177112a876ee9007eec11"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/few_shot_per_topology.json",
+    "bytes": 211588,
+    "sha256": "d52da9c0d28a52b9e9b751a1a9c291edf1e035ae76d84f1af49cadacc602013c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/id.parquet",
+    "bytes": 1535771,
+    "sha256": "7f9aa0c24743ff303e0a10f98d1011c5b7b93ab147e6cd09692232b9c4d7f619"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/splits/protocols.json",
+    "bytes": 1089,
+    "sha256": "c75c9a55afc517ea66b522e9c33166b28275eab978500a6264ed581a32d14362"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/startup_notes.json",
+    "bytes": 597,
+    "sha256": "59893dffc7b47b2cf84793bb18f1c0ad6187bd0f821107088218b0ac1c298f0b"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/status.json",
+    "bytes": 1423,
+    "sha256": "6206d0efa76c2897a19b83a76a1aa5f0968c4f3100d47570f90c0991d22321b2"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/supervisor_status.json",
+    "bytes": 49,
+    "sha256": "4229439e091c2e8240f1f3c141241894c4c96ecb7d63d5a639be80a093175376"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Alfio_RAFFC_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Alfio_RAFFC_Pin_3/graph.json",
+    "bytes": 61467,
+    "sha256": "8d8966a62500297b29ab0c416c30c7d5466b8960a589d975b2733edc96a253f2"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Alfio_RAFFC_Pin_3/parameter_sampling.json",
+    "bytes": 7986,
+    "sha256": "5c958a500df2881798fe09b844002bceba1e01628e18e783ff9764ef9b651737"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Alfio_RAFFC_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Fan_SMC_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Fan_SMC_Pin_3/graph.json",
+    "bytes": 60595,
+    "sha256": "9823114371ff1c3a65b0ca457b22313fedacf346acd052b42cf7ac31ff1784ed"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Fan_SMC_Pin_3/parameter_sampling.json",
+    "bytes": 9628,
+    "sha256": "bf69b8e8d973bf998b40e831c9e0575b6c7a2f53856567ccf3e8c813baefdd24"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Fan_SMC_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/HoiLee_AFFC_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/HoiLee_AFFC_Pin_3/graph.json",
+    "bytes": 75913,
+    "sha256": "bb0c8398b953b978a823a347e47e4eafb27887c405314fc096e8aa8a3faa1325"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/HoiLee_AFFC_Pin_3/parameter_sampling.json",
+    "bytes": 9277,
+    "sha256": "fd8f13eb640979d85a7ce978544600db57d353d2855031f6dca79cc4a7812641"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/HoiLee_AFFC_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_DFCFC1_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_DFCFC1_Pin_3/graph.json",
+    "bytes": 66290,
+    "sha256": "96ce47eb5d4cd2d4bb94e791bc60e0595e48aa2d021d1075d777a168edd744f7"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_DFCFC1_Pin_3/parameter_sampling.json",
+    "bytes": 10621,
+    "sha256": "a4df91efe685f8ed2a5ebd18d894616f33fb228e7ac272a500a5fa19e56fd3df"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_DFCFC1_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_NMCNR_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_NMCNR_Pin_3/graph.json",
+    "bytes": 62452,
+    "sha256": "2748ea9504804d4e5b32d538f14178600286bbf013ac545c8b6fed8cdb6f2f0a"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_NMCNR_Pin_3/parameter_sampling.json",
+    "bytes": 7996,
+    "sha256": "1d3c0ef0acf41ccde8f762d9c09035ff0aeb39747ce18c9ffc7ec1bf93eaa37f"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Leung_NMCNR_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Peng_TCFC_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Peng_TCFC_Pin_3/graph.json",
+    "bytes": 80883,
+    "sha256": "db2b364803b17761295ad170f4a35ae17ea830274fe55525cac7174c3e9c87aa"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Peng_TCFC_Pin_3/parameter_sampling.json",
+    "bytes": 8731,
+    "sha256": "85eafcdd49a6b6db6193569ce8a998ceb3c4c982630389efd668f9519f708a65"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Peng_TCFC_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Qu2017_AZC_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Qu2017_AZC_Pin_3/graph.json",
+    "bytes": 68476,
+    "sha256": "ccd99050798c1cc59ae7c89a698c9e44e7ef50444926548355417def33e49880"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Qu2017_AZC_Pin_3/parameter_sampling.json",
+    "bytes": 14504,
+    "sha256": "b0a89c94146ab0e63d796a37c5c76276b42f9fd74e28cbf4bd70f6fd9df52428"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Qu2017_AZC_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Song_DACFC_Pin_3/conditions.json",
+    "bytes": 624,
+    "sha256": "451f9178acc1f86f42fe60263c2b79ff8b07b2975cc705a4cc8e152de6ddef46"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Song_DACFC_Pin_3/graph.json",
+    "bytes": 92808,
+    "sha256": "277ac5b669f0465e45ae17272dbb38487799ee4deea549eca19af5185e4a2e64"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Song_DACFC_Pin_3/parameter_sampling.json",
+    "bytes": 11128,
+    "sha256": "a6beadf00160b28f1a47d8dc7527aa282c73bcafb63ee403875a5572bd81a7be"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/Song_DACFC_Pin_3/performance_mapping.json",
+    "bytes": 5963,
+    "sha256": "062c615d2be7b5e8f70c35c7407b01e17474f9d708ce3d65442d07ce4cb204af"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_folded_cascode/conditions.json",
+    "bytes": 714,
+    "sha256": "c16acf7fcaada191524198ae45446408a65b7aac8da08e3726c356ece073d2b7"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_folded_cascode/graph.json",
+    "bytes": 26607,
+    "sha256": "86a52fa78540fd2048d1148c1cb0d19bde73aece1c1c50117b5819139b10f11d"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_folded_cascode/parameter_sampling.json",
+    "bytes": 6000,
+    "sha256": "2f305cac5ccc648ff0c3347739a79833c607a6aec0db3e4c6e7cfb73b763274c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_folded_cascode/performance_mapping.json",
+    "bytes": 4920,
+    "sha256": "ee3cce4fea18a957d878722d3f826174d52726117ccc05f719b6f539fc66b44c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_simple/conditions.json",
+    "bytes": 714,
+    "sha256": "c16acf7fcaada191524198ae45446408a65b7aac8da08e3726c356ece073d2b7"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_simple/graph.json",
+    "bytes": 17558,
+    "sha256": "4e6af892a06a64dd963a7d1a935e1c6467305f09fb9e5aaa72a62a4cbf222bd4"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_simple/parameter_sampling.json",
+    "bytes": 5550,
+    "sha256": "7a10f834b1e7b7d5e5d8c182a5f9a4c46b138b00b36a19a7e9a1acbc63c2d57e"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/topologies/ldo_simple/performance_mapping.json",
+    "bytes": 4920,
+    "sha256": "ee3cce4fea18a957d878722d3f826174d52726117ccc05f719b6f539fc66b44c"
+  },
+  {
+    "path": "data/generated/analoggym_personal_20k_v1/worker.json",
+    "bytes": 130,
+    "sha256": "a3d86b86b8f89c05c4dfaaaad5707d2981c6fdf46fb8415dbeb39febf0e6908b"
+  }
+]
