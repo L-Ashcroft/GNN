@@ -1,1 +1,0 @@
-{"status": "passed", "checks": [{"kind": "node", "buckets": 21, "pooled_max_abs": 0.0, "attention_max_abs": 0.0, "input_gradient_max_abs": 0.0}, {"kind": "edge", "buckets": 47, "pooled_max_abs": 0.0, "attention_max_abs": 0.0, "input_gradient_max_abs": 0.0}], "scope": "CPU isolated pooling on real graph memberships, synthetic hidden-state unit-test input; no full GNN"}

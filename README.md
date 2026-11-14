@@ -15,7 +15,7 @@
 | `versions/` | 与已有模型配套的固定版本代码。当前RGCN主要在`versions/rgcn_calibrated_head_v1/src/` |
 | `worktrees/` | 各项实验的训练程序和配置，包括ID、LOTO、消融、单／多源以及MLP、GCN |
 | `scripts/` | 数据下载、完整性检查、实验启动与状态查询脚本 |
-| `reports/` | 实验进度、结果分析及适用范围说明 |
+| `reports/` | 仅保留数据处理脚本需要的3份审计JSON；旧报告和进度说明已从主分支移除 |
 | `distribution/` | 发布文件清单与校验值，用于检查下载完整性 |
 | `reproducibility/` | 数据来源版本、代码指纹和环境记录，用于核对复现条件 |
 | `third_party/` | 对官方项目的引用，需要时可通过Git子模块下载 |
@@ -84,7 +84,7 @@ python scripts/download_release.py --components experiment-results
 | 少样本实验及不同随机种子 | `artifacts/experiment4_personal_transfer_v1/`、`artifacts/research_repair_personal_repeats_v1/` |
 | 自建集全量混合读出结果 | `artifacts/research_repair_v1/personal_test/full_joint/metrics.json` |
 | MRE和逐指标误差 | `artifacts/falcon_reference_eval_v1/` |
-| 受控实验完成情况 | [受控实验结果说明](reports/controlled_experiment_results.md) |
+| 受控实验程序与配置 | [`worktrees/controlled_evidence_v1/`](worktrees/controlled_evidence_v1/) |
 
 主要文件格式：
 

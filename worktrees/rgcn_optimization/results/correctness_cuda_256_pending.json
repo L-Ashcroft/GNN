@@ -1,5 +1,0 @@
-{
-  "status": "deferred",
-  "device": "cuda",
-  "reason": "Live production PID or less than 4 GiB host RAM; no torch/CUDA imported"
-}
